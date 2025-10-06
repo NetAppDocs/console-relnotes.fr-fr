@@ -1,0 +1,7 @@
+= 
+:allow-uri-read: 
+
+
+* Vous pouvez accéder à la page Upgrade Advisor pour votre liste de surveillance par défaut en utilisant lelink:https://activeiq.netapp.com/redirect/upgrade-advisor["Conseiller de mise à niveau"^] lien.
+* Le plan de mise à niveau est optimisé pour supprimer les étapes de mise à niveau redondantes et simplifier le plan de sauvegarde.  Les étapes communes à tous les nœuds d’un cluster sont consolidées et disponibles dans la section Informations générales du plan de mise à niveau. link:https://docs.netapp.com/us-en/active-iq/task_view_upgrade.html["Apprenez à générer et à afficher le plan de mise à niveau"] .
+

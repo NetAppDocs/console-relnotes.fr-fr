@@ -1,0 +1,37 @@
+= Prise en charge du cache Flash et de la vitesse d'écriture élevée dans Google Cloud
+:allow-uri-read: 
+
+
+Les modifications suivantes ont été introduites avec la version 3.9.32 du connecteur.
+
+
+
+=== Prise en charge du cache Flash et de la vitesse d'écriture élevée dans Google Cloud
+
+Le cache Flash et la vitesse d'écriture élevée peuvent être activés séparément dans Google Cloud pour Cloud Volumes ONTAP 9.13.1 et versions ultérieures.  Une vitesse d'écriture élevée est disponible sur tous les types d'instances pris en charge.  Flash Cache est pris en charge sur les types d’instances suivants :
+
+* n2-standard-16
+* n2-standard-32
+* n2-standard-48
+* n2-standard-64
+
+
+Vous pouvez utiliser ces fonctionnalités séparément ou ensemble sur des déploiements à nœud unique et à paires haute disponibilité.
+
+link:https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-deploying-gcp.html["Lancer Cloud Volumes ONTAP dans Google Cloud"^]
+
+
+
+=== Améliorations des rapports d'utilisation
+
+Diverses améliorations des informations affichées dans les rapports d’utilisation sont désormais disponibles.  Voici les améliorations apportées aux rapports d’utilisation :
+
+* L'unité TiB est désormais incluse dans le nom des colonnes.
+* Un nouveau champ « nœud(s) » pour les numéros de série est désormais inclus.
+* Une nouvelle colonne « Type de charge de travail » est désormais incluse dans le rapport d’utilisation des machines virtuelles de stockage.
+* Les noms d’environnement de travail sont désormais inclus dans les rapports d’utilisation des machines virtuelles de stockage et des volumes.
+* Le type de volume « fichier » est désormais étiqueté « Principal (lecture/écriture) ».
+* Le type de volume « secondaire » est désormais étiqueté « Secondaire (DP) ».
+
+
+Pour plus d'informations sur les rapports d'utilisation, voirlink:https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-manage-capacity-licenses.html#download-usage-reports["Télécharger les rapports d'utilisation"^] .

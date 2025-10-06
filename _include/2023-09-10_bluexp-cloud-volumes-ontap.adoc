@@ -1,0 +1,13 @@
+= Prise en charge des machines virtuelles de la série Lsv3 dans Azure
+:allow-uri-read: 
+
+
+Les modifications suivantes ont été introduites avec la version 3.9.33 du connecteur.
+
+
+
+=== Prise en charge des machines virtuelles de la série Lsv3 dans Azure
+
+Les types d’instances L48s_v3 et L64s_v3 sont désormais pris en charge avec Cloud Volumes ONTAP dans Azure pour les déploiements à nœud unique et à paires haute disponibilité avec des disques gérés partagés dans des zones de disponibilité uniques et multiples, à partir de la version 9.13.1.  Ces types d’instances prennent en charge Flash Cache.
+
+link:https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/reference-configs-azure.html["Afficher les configurations prises en charge pour Cloud Volumes ONTAP dans Azure"^] link:https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/reference-limits-azure.html["Afficher les limites de stockage pour Cloud Volumes ONTAP dans Azure"^]
