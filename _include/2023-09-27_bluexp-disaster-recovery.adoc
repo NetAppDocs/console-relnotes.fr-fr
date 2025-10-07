@@ -10,7 +10,7 @@ Se référer à https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/dashb
 
 * *Mises à jour du plan de réplication*:
 +
-** *RPO* : vous pouvez désormais saisir l’objectif de point de récupération (RPO) et le nombre de rétentions dans la section Banques de données du plan de réplication.  Cela indique la quantité de données qui doivent exister et qui ne sont pas plus anciennes que l'heure définie.  Si, par exemple, vous le définissez à 5 minutes, le système peut perdre jusqu'à 5 minutes de données en cas de sinistre sans impact sur les besoins critiques de l'entreprise.
+** *RPO* : vous pouvez désormais saisir l’objectif de point de récupération (RPO) et le nombre de rétentions dans la section Banques de données du plan de réplication.  Cela indique la quantité de données qui doivent exister et qui ne sont pas plus anciennes que l'heure définie.  Si, par exemple, vous le définissez à 5 minutes, le système peut perdre jusqu'à 5 minutes de données en cas de sinistre sans impacter les besoins critiques de l'entreprise.
 +
 Se référer à https://docs.netapp.com/us-en/bluexp-disaster-recovery/use/drplan-create.html["Créer un plan de réplication"] .
 

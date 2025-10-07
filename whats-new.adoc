@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: whats-new.html 
 keywords: 'what"s new, features, new, release notes, enhancements, fixes, new features, bluexp, cloud volumes ontap, licenses, digital wallet, subscriptions, cloud backup, cloud tiering, data sense, ransomware, connector, agent, amazon fsx for ontap, azure netapp files, cloud sync, e-series, global file cache, google cloud, disaster recovery, backup and recovery, classification, copy and sync, edge cache, edge caching, volume caching, ontap clusters, alerts, identity and access management, iam, recovery, netapp console, console' 
-summary: Découvrez les modifications les plus récentes apportées aux fonctionnalités et aux services de données qui font partie de la console NetApp . 
+summary: Découvrez les modifications les plus récentes apportées aux fonctionnalités et aux services de données qui font partie de la NetApp Console. 
 ---
-= Modifications récentes dans la console NetApp
+= Modifications récentes dans la NetApp Console
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,13 +14,13 @@ summary: Découvrez les modifications les plus récentes apportées aux fonction
 
 
 [role="lead"]
-Découvrez les modifications les plus récentes apportées aux fonctionnalités et aux services de données qui font partie de la console NetApp .  Pour un historique complet des versions, accédez aulink:release-notes-index.html["ensemble complet de notes de version"] pour chaque service individuel.
+Découvrez les modifications les plus récentes apportées aux fonctionnalités et aux services de données qui font partie de la NetApp Console.  Pour un historique complet des versions, accédez aulink:release-notes-index.html["ensemble complet de notes de version"] pour chaque service individuel.
 
 
 
 == Caractéristiques administratives
 
-Cette section décrit les nouvelles fonctionnalités liées aux fonctionnalités d'administration de la console NetApp : organisations, identification et accès, agents de console, informations d'identification du fournisseur de cloud, etc.
+Cette section décrit les nouvelles fonctionnalités liées aux fonctionnalités d'administration de la NetApp Console : organisations, identification et accès, agents de console, informations d'identification du fournisseur de cloud, etc.
 
 
 
@@ -30,13 +30,13 @@ Cette section décrit les nouvelles fonctionnalités liées aux fonctionnalités
 
 === BlueXP est désormais NetApp Console
 
-La console NetApp , construite sur la base BlueXP améliorée et restructurée, fournit une gestion centralisée du stockage NetApp et des services de données NetApp dans les environnements sur site et cloud à l'échelle de l'entreprise, offrant des informations en temps réel, des flux de travail plus rapides et une administration simplifiée, hautement sécurisée et conforme.
+La NetApp Console, construite sur la base BlueXP améliorée et restructurée, fournit une gestion centralisée du stockage NetApp et des NetApp Data Services dans les environnements sur site et dans le cloud à l'échelle de l'entreprise, offrant des informations en temps réel, des flux de travail plus rapides et une administration simplifiée, hautement sécurisée et conforme.
 
 
 
 ==== Menus et pages de navigation
 
-NetApp a déplacé la plupart des options de menu vers le volet de navigation de gauche et a réorganisé les menus pour faciliter la navigation dans la console NetApp .
+NetApp a déplacé la plupart des options de menu vers le volet de navigation de gauche et a réorganisé les menus pour faciliter la navigation dans la NetApp Console.
 
 
 
@@ -60,7 +60,7 @@ image:https://docs.netapp.com/us-en/console-setup-admin/media/screenshot-storage
 
 ===== Menu d'administration
 
-Utilisez le menu *Administration* centralisé pour gérer la console NetApp , les cas d'assistance, les licences et les abonnements (anciennement appelé portefeuille numérique).
+Utilisez le menu *Administration* centralisé pour gérer la NetApp Console, les cas d'assistance, les licences et les abonnements (anciennement appelé portefeuille numérique).
 
 image:https://docs.netapp.com/us-en/console-setup-admin/media/screenshot-admin-menu.png["Une capture d'écran du menu Administration."]
 
@@ -88,7 +88,7 @@ NetApp a renommé plusieurs éléments, services de données et fonctionnalités
 
 [cols="10,24"]
 |===
-| *Nom précédent* | * Nom de la console NetApp * 
+| *Nom précédent* | * Nom de la NetApp Console * 
 
 
 | Connecteurs  a| 
@@ -113,7 +113,7 @@ Affichez, ajoutez et gérez vos systèmes à partir du menu *Stockage > Gestion*
 
 
 | Protection contre les ransomwares BlueXP  a| 
-Résilience aux ransomwares NetApp .
+NetApp Ransomware Resilience.
 
 Ransomware Resilience vous aide à protéger vos données et à récupérer rapidement après une attaque de ransomware.
 
@@ -129,9 +129,9 @@ Accédez à la planification du cycle de vie à partir du menu *Stockage > Plani
 
 
 | BlueXP digital wallet  a| 
-Licences et abonnements
+Licenses and subscriptions
 
-Accédez à vos licences et abonnements depuis le menu *Administration > Licences et abonnements*.
+Accédez à vos licences et abonnements depuis le menu *Administration > Licenses and subscriptions*.
 
 |===
 
@@ -166,7 +166,7 @@ NetApp a réduit les points de terminaison réseau requis pour la console et les
 
 ==== Prise en charge du déploiement VCenter des agents de console
 
-Vous pouvez déployer des agents de console dans des environnements VMware à l’aide d’un fichier OVA. Le fichier OVA inclut une image de machine virtuelle préconfigurée avec un logiciel d'agent de console et des paramètres pour se connecter à la console NetApp . Un téléchargement de fichier ou un déploiement d'URL est disponible directement depuis la console NetApp .link:https://docs.netapp.com/us-en/console-setup-admin/task-install-agent-on-prem-ova.html["Découvrez comment déployer un agent de console dans les environnements VMware."]
+Vous pouvez déployer des agents de console dans des environnements VMware à l’aide d’un fichier OVA. Le fichier OVA inclut une image VM préconfigurée avec le logiciel agent de console et les paramètres pour se connecter à la NetApp Console. Un téléchargement de fichier ou un déploiement d'URL est disponible directement depuis la NetApp Console.link:https://docs.netapp.com/us-en/console-setup-admin/task-install-agent-on-prem-ova.html["Découvrez comment déployer un agent de console dans les environnements VMware."]
 
 L'agent de console OVA pour VMware offre une image VM préconfigurée pour un déploiement rapide.
 
@@ -174,7 +174,7 @@ L'agent de console OVA pour VMware offre une image VM préconfigurée pour un d�
 
 ==== Rapports de validation pour les déploiements d'agents ayant échoué
 
-Lorsque vous déployez un agent de console à partir de la console NetApp , vous avez désormais la possibilité de valider la configuration de l'agent. Si la console ne parvient pas à déployer l’agent, elle fournit un rapport téléchargeable pour vous aider à résoudre le problème.
+Lorsque vous déployez un agent de console à partir de la NetApp Console, vous avez désormais la possibilité de valider la configuration de l'agent. Si la console ne parvient pas à déployer l’agent, elle fournit un rapport téléchargeable pour vous aider à résoudre le problème.
 
 
 
@@ -184,9 +184,9 @@ L'agent de console a amélioré les messages d'erreur qui vous aident à mieux c
 
 
 
-=== Console NetApp
+=== NetApp Console
 
-L’administration de la console NetApp inclut les nouvelles fonctionnalités suivantes :
+L’administration de la NetApp Console inclut les nouvelles fonctionnalités suivantes :
 
 
 
@@ -198,13 +198,13 @@ Le tableau de bord de la page d'accueil de la console NetApp offre une visibilit
 
 ==== Assistant NetApp
 
-Les nouveaux utilisateurs dotés du rôle d'administrateur d'organisation peuvent utiliser l'assistant NetApp pour configurer la console, notamment pour ajouter un agent, lier un compte de support NetApp et ajouter un système de stockage.link:https://docs.netapp.com/us-en/console-setup-admin/task-console-assistant.html["En savoir plus sur l'assistant NetApp ."]
+Les nouveaux utilisateurs dotés du rôle d'administrateur d'organisation peuvent utiliser l'assistant NetApp pour configurer la console, notamment en ajoutant un agent, en associant un compte de support NetApp et en ajoutant un système de stockage.link:https://docs.netapp.com/us-en/console-setup-admin/task-console-assistant.html["En savoir plus sur l'assistant NetApp ."]
 
 
 
 ==== Authentification du compte de service
 
-La console NetApp prend en charge l'authentification du compte de service à l'aide d'un ID client généré par le système et d'un secret ou de JWT gérés par le client, permettant aux organisations de sélectionner l'approche la mieux adaptée à leurs exigences de sécurité et à leurs flux de travail d'intégration. L'authentification client JWT par clé privée utilise une cryptographie asymétrique, offrant une sécurité plus forte que l'ID client traditionnel et les méthodes secrètes. L'authentification client JWT par clé privée utilise une cryptographie asymétrique, gardant la clé privée sécurisée dans l'environnement du client, réduisant les risques de vol d'informations d'identification et améliorant la sécurité de votre pile d'automatisation et de vos applications clientes.link:https://docs.netapp.com/us-en/console-setup-admin/task-iam-manage-members-permissions.html#service-account["Découvrez comment ajouter un compte de service."]
+La NetApp Console prend en charge l'authentification du compte de service à l'aide d'un ID client généré par le système et d'un secret ou de JWT gérés par le client, permettant aux organisations de sélectionner l'approche la mieux adaptée à leurs exigences de sécurité et à leurs flux de travail d'intégration. L'authentification client JWT par clé privée utilise une cryptographie asymétrique, offrant une sécurité plus forte que l'ID client traditionnel et les méthodes secrètes. L'authentification client JWT par clé privée utilise la cryptographie asymétrique, gardant la clé privée sécurisée dans l'environnement du client, réduisant les risques de vol d'informations d'identification et améliorant la sécurité de votre pile d'automatisation et de vos applications clientes.link:https://docs.netapp.com/us-en/console-setup-admin/task-iam-manage-members-permissions.html#service-account["Découvrez comment ajouter un compte de service."]
 
 
 
@@ -216,7 +216,7 @@ Le système déconnecte les utilisateurs après 24 heures ou lorsqu'ils ferment 
 
 ==== Soutien aux partenariats entre organisations
 
-Vous pouvez créer des partenariats dans la console NetApp qui permettent aux partenaires de gérer en toute sécurité les ressources NetApp au-delà des frontières organisationnelles, ce qui facilite la collaboration et renforce la sécurité. link:https://docs.netapp.com/us-en/console-setup-admin/task-partnerships-create.html["Apprenez à gérer les partenariats"] .
+Vous pouvez créer des partenariats dans la NetApp Console qui permettent aux partenaires de gérer en toute sécurité les ressources NetApp au-delà des frontières organisationnelles, ce qui facilite la collaboration et renforce la sécurité. link:https://docs.netapp.com/us-en/console-setup-admin/task-partnerships-create.html["Apprenez à gérer les partenariats"] .
 
 
 
@@ -234,7 +234,7 @@ Ajout du rôle *Administrateur du comportement utilisateur de Ransomware Resilie
 
 ==== Chat d'assistance supprimé
 
-NetApp a supprimé la fonctionnalité de chat d’assistance de la console NetApp . Utilisez la page *Administration > Support* pour créer et gérer des cas d'assistance.
+NetApp a supprimé la fonctionnalité de chat d'assistance de la NetApp Console. Utilisez la page *Administration > Support* pour créer et gérer des cas d'assistance.
 
 
 
@@ -320,15 +320,15 @@ Pour plus de détails sur le mode privé, y compris comment effectuer une mise �
 
 Les BlueXP alerts ont été renommées en alertes ONTAP .
 
-Vous pouvez y accéder à partir de la barre de navigation de gauche de la console NetApp en sélectionnant *Stockage* > *Alertes*.
+Vous pouvez y accéder à partir de la barre de navigation de gauche de la NetApp Console en sélectionnant *Stockage* > *Alertes*.
 
 
 
 ==== BlueXP est désormais NetApp Console
 
-La console NetApp , construite sur la base BlueXP améliorée et restructurée, fournit une gestion centralisée du stockage NetApp et des services de données NetApp dans les environnements sur site et cloud à l'échelle de l'entreprise, offrant des informations en temps réel, des flux de travail plus rapides et une administration simplifiée, hautement sécurisée et conforme.
+La NetApp Console, construite sur la base BlueXP améliorée et restructurée, fournit une gestion centralisée du stockage NetApp et des NetApp Data Services dans les environnements sur site et cloud à l'échelle de l'entreprise, offrant des informations en temps réel, des flux de travail plus rapides et une administration simplifiée, hautement sécurisée et conforme.
 
-Pour plus de détails sur ce qui a changé, consultez lelink:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["Notes de version de la console NetApp"] .
+Pour plus de détails sur ce qui a changé, consultez lelink:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["Notes de version de la NetApp Console"] .
 
 
 
@@ -366,9 +366,9 @@ https://docs.netapp.com/us-en/bluexp-alerts/concept-alerts.html["En savoir plus 
 
 ==== BlueXP est désormais NetApp Console
 
-La console NetApp , construite sur la base BlueXP améliorée et restructurée, fournit une gestion centralisée du stockage NetApp et des services de données NetApp dans les environnements sur site et cloud à l'échelle de l'entreprise, offrant des informations en temps réel, des flux de travail plus rapides et une administration simplifiée, hautement sécurisée et conforme.
+La NetApp Console, construite sur la base BlueXP améliorée et restructurée, fournit une gestion centralisée du stockage NetApp et des NetApp Data Services dans les environnements sur site et cloud à l'échelle de l'entreprise, offrant des informations en temps réel, des flux de travail plus rapides et une administration simplifiée, hautement sécurisée et conforme.
 
-Pour plus de détails sur ce qui a changé, consultez lelink:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["Notes de version de la console NetApp ."^]
+Pour plus de détails sur ce qui a changé, consultez lelink:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["Notes de version de la NetApp Console ."^]
 
 
 
@@ -411,9 +411,9 @@ link:https://docs.netapp.com/us-en/bluexp-fsx-ontap/use/task-manage-working-envi
 
 ==== BlueXP est désormais NetApp Console
 
-La console NetApp , construite sur la base BlueXP améliorée et restructurée, fournit une gestion centralisée du stockage NetApp et des services de données NetApp dans les environnements sur site et cloud à l'échelle de l'entreprise, offrant des informations en temps réel, des flux de travail plus rapides et une administration simplifiée, hautement sécurisée et conforme.
+La NetApp Console, construite sur la base BlueXP améliorée et restructurée, fournit une gestion centralisée du stockage NetApp et des NetApp Data Services dans les environnements sur site et cloud à l'échelle de l'entreprise, offrant des informations en temps réel, des flux de travail plus rapides et une administration simplifiée, hautement sécurisée et conforme.
 
-Pour plus de détails sur ce qui a changé, consultez lelink:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["Notes de version de la console NetApp"] . == 05 mars 2023
+Pour plus de détails sur ce qui a changé, consultez lelink:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["Notes de version de la NetApp Console"] . == 05 mars 2023
 
 
 
@@ -435,9 +435,9 @@ Vous avez la possibilité d’afficher les buckets Amazon S3 sur BlueXP Canvas d
 
 BlueXP a été renommé et repensé pour mieux refléter son rôle dans la gestion de votre infrastructure de données.
 
-La console NetApp offre une gestion centralisée des services de stockage et de données dans les environnements sur site et dans le cloud à l'échelle de l'entreprise, offrant des informations en temps réel, des flux de travail plus rapides et une administration simplifiée.
+La NetApp Console offre une gestion centralisée des services de stockage et de données dans les environnements sur site et dans le cloud à l'échelle de l'entreprise, offrant des informations en temps réel, des flux de travail plus rapides et une administration simplifiée.
 
-Pour plus de détails sur ce qui a changé, consultez le https://docs.netapp.com/us-en/console-relnotes/index.html["Notes de version de la console NetApp"] .
+Pour plus de détails sur ce qui a changé, consultez le https://docs.netapp.com/us-en/console-relnotes/index.html["Notes de version de la NetApp Console"] .
 
 
 
@@ -463,9 +463,9 @@ Vous avez la possibilité d’afficher Azure Blob Storage sur BlueXP Canvas depu
 
 BlueXP a été renommé et repensé pour mieux refléter son rôle dans la gestion de votre infrastructure de données.
 
-La console NetApp offre une gestion centralisée des services de stockage et de données dans les environnements sur site et dans le cloud à l'échelle de l'entreprise, offrant des informations en temps réel, des flux de travail plus rapides et une administration simplifiée.
+La NetApp Console offre une gestion centralisée des services de stockage et de données dans les environnements sur site et dans le cloud à l'échelle de l'entreprise, offrant des informations en temps réel, des flux de travail plus rapides et une administration simplifiée.
 
-Pour plus de détails sur ce qui a changé, consultez le https://docs.netapp.com/us-en/bluexp-relnotes/index.html["Notes de version de la console NetApp"] .
+Pour plus de détails sur ce qui a changé, consultez le https://docs.netapp.com/us-en/bluexp-relnotes/index.html["Notes de version de la NetApp Console"] .
 
 
 
@@ -475,7 +475,7 @@ Pour plus de détails sur ce qui a changé, consultez le https://docs.netapp.com
 
 ==== Fonctionnalités réseau désormais prises en charge dans BlueXP
 
-Lors de la configuration d’un volume dans Azure NetApp Files à partir de BlueXP, vous pouvez désormais indiquer les fonctionnalités réseau. Cela correspond aux fonctionnalités disponibles dans Azure NetApp Files natif.
+Lors de la configuration d’un volume dans Azure NetApp Files à partir de BlueXP, vous pouvez désormais indiquer les fonctionnalités réseau.  Cela correspond aux fonctionnalités disponibles dans Azure NetApp Files natif.
 
 
 
@@ -525,9 +525,9 @@ La BlueXP backup and recovery ont été renommées NetApp Backup and Recovery.
 
 ==== BlueXP est désormais NetApp Console
 
-La console NetApp , construite sur la base BlueXP améliorée et restructurée, fournit une gestion centralisée du stockage NetApp et des services de données NetApp dans les environnements sur site et cloud à l'échelle de l'entreprise, offrant des informations en temps réel, des flux de travail plus rapides et une administration simplifiée, hautement sécurisée et conforme.
+La NetApp Console, construite sur la base BlueXP améliorée et restructurée, fournit une gestion centralisée du stockage NetApp et des NetApp Data Services dans les environnements sur site et dans le cloud à l'échelle de l'entreprise, offrant des informations en temps réel, des flux de travail plus rapides et une administration simplifiée, hautement sécurisée et conforme.
 
-Pour plus de détails sur ce qui a changé, consultez lelink:https://docs.netapp.com/us-en/console-relnotes/index.html["Notes de version de la console NetApp ."]
+Pour plus de détails sur ce qui a changé, consultez lelink:https://docs.netapp.com/us-en/console-relnotes/index.html["Notes de version de la NetApp Console ."]
 
 
 
@@ -565,7 +565,7 @@ Pour plus de détails sur la protection des charges de travail KVM, reportez-vou
 
 ==== Améliorations de l'aperçu de Kubernetes
 
-La version préliminaire des charges de travail Kubernetes introduit les améliorations suivantes :
+La version préliminaire des charges de travail Kubernetes introduit les fonctionnalités améliorées suivantes :
 
 * Prise en charge de l'architecture de sauvegarde en éventail 3-2-1
 * Prise en charge d' ONTAP S3 comme cible de sauvegarde
@@ -583,6 +583,24 @@ La version préliminaire des charges de travail Kubernetes introduit les amélio
 
 
 Pour plus de détails sur la protection des charges de travail Kubernetes, reportez-vous à  https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kubernetes-protect-overview.html["Présentation de la protection des charges de travail Kubernetes"] .
+
+
+
+==== Améliorations de l'aperçu de VMware
+
+La version préliminaire des charges de travail VMware introduit les fonctionnalités améliorées suivantes :
+
+* Prise en charge de la restauration à partir du stockage d'objets
+* Le tableau de bord de la NetApp Console affiche désormais les informations sur l'état de la charge de travail VMware
+* Prise en charge du mode démo : explorez les fonctionnalités des charges de travail VMware sans ajouter d'environnement VMware vCenter Server
+* Prise en charge du contrôle d'accès basé sur les rôles (RBAC)
+* Alerte par e-mail et prise en charge des notifications pour les événements professionnels
+* Prise en charge de la sauvegarde et de la restauration sur un stockage basé sur NVMe
+* Modifier les groupes de protection
+* Modifier les politiques de protection
+
+
+Pour plus de détails sur la protection des charges de travail VMware, reportez-vous à https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-protect-overview.html["Présentation de la protection des charges de travail VMware"] .
 
 
 
@@ -641,7 +659,7 @@ Cette version de NetApp Backup and Recovery inclut les mises à jour suivantes.
 
 ==== Charge de travail Microsoft SQL Server prise en charge en disponibilité générale (GA)
 
-La prise en charge de la charge de travail Microsoft SQL Server est désormais généralement disponible (GA) dans NetApp Backup and Recovery. Les organisations utilisant un environnement MSSQL sur ONTAP, Cloud Volumes ONTAP et Amazon FSx for NetApp ONTAP peuvent désormais profiter de ce nouveau service de sauvegarde et de récupération pour protéger leurs données.
+La prise en charge des charges de travail Microsoft SQL Server est désormais généralement disponible (GA) dans NetApp Backup and Recovery. Les organisations utilisant un environnement MSSQL sur ONTAP, Cloud Volumes ONTAP et Amazon FSx for NetApp ONTAP peuvent désormais profiter de ce nouveau service de sauvegarde et de récupération pour protéger leurs données.
 
 Cette version inclut les améliorations suivantes apportées à la prise en charge de la charge de travail Microsoft SQL Server par rapport à la version d'aperçu précédente :
 
@@ -659,7 +677,7 @@ Pour plus de détails, reportez-vous à https://docs.netapp.com/us-en/data-servi
 
 * *Nom d’instantané personnalisé* : vous pouvez désormais utiliser votre propre nom d’instantané dans une stratégie qui régit les sauvegardes des charges de travail Microsoft SQL Server. Saisissez ces informations dans la section *Paramètres avancés* de la page Politique.
 +
-image:../media/screen-br-sql-policy-create-advanced-snapmirror.png["Capture d'écran des paramètres de format SnapMirror et snapshot pour les stratégies de sauvegarde et de récupération NetApp"]
+image:../media/screen-br-sql-policy-create-advanced-snapmirror.png["Capture d'écran des paramètres de format SnapMirror et snapshot pour les stratégies de NetApp Backup and Recovery"]
 
 +
 Se référer à https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-policies-create.html["Utilisez des politiques pour protéger vos charges de travail"] .
@@ -667,13 +685,13 @@ Se référer à https://docs.netapp.com/us-en/data-services-backup-recovery/br-u
 * *Préfixe et suffixe du volume secondaire* : Vous pouvez saisir un préfixe et un suffixe personnalisés dans la section *Paramètres avancés* de la page Politique.
 * *Identité et accès* : Vous pouvez désormais contrôler l'accès des utilisateurs aux fonctionnalités.
 +
-Se référer à https://docs.netapp.com/us-en/data-services-backup-recovery/br-start-login.html["Connectez-vous à NetApp Backup and Recovery"] et https://docs.netapp.com/us-en/data-services-backup-recovery/reference-roles.html["Accès aux fonctionnalités de sauvegarde et de récupération NetApp"] .
+Se référer à https://docs.netapp.com/us-en/data-services-backup-recovery/br-start-login.html["Connectez-vous à NetApp Backup and Recovery"] et https://docs.netapp.com/us-en/data-services-backup-recovery/reference-roles.html["Accès aux fonctionnalités de NetApp Backup and Recovery"] .
 
 * *Restauration à partir du stockage d'objets vers un autre hôte* : vous pouvez désormais restaurer à partir du stockage d'objets vers un autre hôte même si le stockage principal est en panne.
 * *Données de sauvegarde du journal* : la page des détails de protection de la base de données affiche désormais les sauvegardes du journal. Vous pouvez voir la colonne Type de sauvegarde qui indique si la sauvegarde est une sauvegarde complète ou une sauvegarde de journal.
 * *Tableau de bord amélioré* : le tableau de bord affiche désormais les économies de stockage et de clonage.
 +
-image:../media/screen-br-dashboard3.png["Tableau de bord de sauvegarde et de récupération NetApp"]
+image:../media/screen-br-dashboard3.png["Tableau de bord de NetApp Backup and Recovery"]
 
 
 
@@ -682,7 +700,7 @@ image:../media/screen-br-dashboard3.png["Tableau de bord de sauvegarde et de ré
 ==== Améliorations de la charge de travail du volume ONTAP
 
 * *Restauration multi-dossiers pour les volumes ONTAP * : Jusqu'à présent, vous pouviez restaurer un dossier ou plusieurs fichiers à la fois à partir de la fonction Parcourir et restaurer. NetApp Backup and Recovery offre désormais la possibilité de sélectionner plusieurs dossiers à la fois à l'aide de la fonction Parcourir et restaurer.
-* *Afficher et gérer les sauvegardes des volumes supprimés* : le tableau de bord de sauvegarde et de récupération NetApp offre désormais une option permettant d'afficher et de gérer les volumes supprimés d' ONTAP. Avec cela, vous pouvez afficher et supprimer les sauvegardes des volumes qui n'existent plus dans ONTAP.
+* *Afficher et gérer les sauvegardes des volumes supprimés* : le tableau de bord de NetApp Backup and Recovery offre désormais une option permettant d'afficher et de gérer les volumes supprimés d' ONTAP. Avec cela, vous pouvez afficher et supprimer les sauvegardes des volumes qui n'existent plus dans ONTAP.
 * *Forcer la suppression des sauvegardes* : dans certains cas extrêmes, vous souhaiterez peut-être que NetApp Backup and Recovery n'ait plus accès aux sauvegardes. Cela peut se produire par exemple si le service n'a plus accès au bucket de sauvegarde ou si les sauvegardes sont protégées par DataLock mais que vous n'en voulez plus. Auparavant, vous ne pouviez pas les supprimer vous-même et deviez appeler le support NetApp . Avec cette version, vous pouvez utiliser l'option permettant de forcer la suppression des sauvegardes (au niveau du volume et de l'environnement de travail).
 
 
@@ -726,9 +744,9 @@ Cette version de NetApp Backup and Recovery inclut les mises à jour suivantes.
 
 En avril 2025, nous avons lancé un aperçu d'un tableau de bord de volume ONTAP amélioré, beaucoup plus rapide et plus efficace.
 
-Ce tableau de bord a été conçu pour aider les clients d’entreprise avec un nombre élevé de charges de travail. Même pour les clients disposant de 20 000 volumes, le nouveau tableau de bord se charge en moins de 10 secondes.
+Ce tableau de bord a été conçu pour aider les clients d’entreprise avec un nombre élevé de charges de travail.  Même pour les clients disposant de 20 000 volumes, le nouveau tableau de bord se charge en moins de 10 secondes.
 
-Après un aperçu réussi et de très bons retours de la part des clients, nous en faisons désormais l'expérience par défaut pour tous nos clients. Préparez-vous pour un tableau de bord incroyablement rapide.
+Après un aperçu réussi et de très bons retours de la part des clients, nous en faisons désormais l'expérience par défaut pour tous nos clients.  Préparez-vous pour un tableau de bord incroyablement rapide.
 
 Pour plus de détails, consultez la section link:br-use-dashboard.html["Afficher l'état de la protection dans le tableau de bord"] .
 
@@ -736,7 +754,7 @@ Pour plus de détails, consultez la section link:br-use-dashboard.html["Afficher
 
 ==== Prise en charge de la charge de travail Microsoft SQL Server en tant qu'aperçu technologique public
 
-Cette version de NetApp Backup and Recovery fournit une interface utilisateur mise à jour qui vous permet de gérer les charges de travail Microsoft SQL Server à l'aide d'une stratégie de protection 3-2-1, familière à NetApp Backup and Recovery. Avec cette nouvelle version, vous pouvez sauvegarder ces charges de travail sur le stockage principal, les répliquer sur le stockage secondaire et les sauvegarder sur le stockage d'objets cloud.
+Cette version de NetApp Backup and Recovery fournit une interface utilisateur mise à jour qui vous permet de gérer les charges de travail Microsoft SQL Server à l'aide d'une stratégie de protection 3-2-1, familière dans NetApp Backup and Recovery.  Avec cette nouvelle version, vous pouvez sauvegarder ces charges de travail sur le stockage principal, les répliquer sur le stockage secondaire et les sauvegarder sur le stockage d'objets cloud.
 
 Vous pouvez vous inscrire à l'aperçu en remplissant ce formulaire https://forms.office.com/pages/responsepage.aspx?id=oBEJS5uSFUeUS8A3RRZbOojtBW63mDRDv3ZK50MaTlJUNjdENllaVTRTVFJGSDQ2MFJIREcxN0EwQi4u&route=shorturl["Aperçu du formulaire d'inscription"^] .
 
@@ -745,11 +763,11 @@ NOTE: Cette documentation sur la protection des charges de travail Microsoft SQL
 
 Cette version de NetApp Backup and Recovery inclut les mises à jour suivantes :
 
-* *Fonctionnalité de sauvegarde 3-2-1* : cette version intègre les fonctionnalités de SnapCenter , vous permettant de gérer et de protéger vos ressources SnapCenter avec une stratégie de protection des données 3-2-1 à partir de l'interface utilisateur de NetApp Backup and Recovery.
+* *Fonctionnalité de sauvegarde 3-2-1* : cette version intègre les fonctionnalités de SnapCenter , vous permettant de gérer et de protéger vos ressources SnapCenter avec une stratégie de protection des données 3-2-1 à partir de l'interface utilisateur de NetApp Backup and Recovery .
 * *Importer depuis SnapCenter* : vous pouvez importer des données et des politiques de sauvegarde SnapCenter dans NetApp Backup and Recovery.
 * *Une interface utilisateur repensée* offre une expérience plus intuitive pour la gestion de vos tâches de sauvegarde et de récupération.
 * *Cibles de sauvegarde* : vous pouvez ajouter des buckets dans les environnements Amazon Web Services (AWS), Microsoft Azure Blob Storage, StorageGRID et ONTAP S3 à utiliser comme cibles de sauvegarde pour vos charges de travail Microsoft SQL Server.
-* *Prise en charge de la charge de travail* : cette version vous permet de sauvegarder, restaurer, vérifier et cloner des bases de données et des groupes de disponibilité Microsoft SQL Server. (La prise en charge d’autres charges de travail sera ajoutée dans les prochaines versions.)
+* *Prise en charge de la charge de travail* : cette version vous permet de sauvegarder, restaurer, vérifier et cloner des bases de données et des groupes de disponibilité Microsoft SQL Server.  (La prise en charge d’autres charges de travail sera ajoutée dans les prochaines versions.)
 * *Options de restauration flexibles* : Cette version vous permet de restaurer les bases de données vers leurs emplacements d'origine et alternatifs en cas de corruption ou de perte accidentelle de données.
 * *Copies de production instantanées* : générez des copies de production peu encombrantes pour le développement, les tests ou les analyses en quelques minutes au lieu de plusieurs heures ou jours.
 * Cette version inclut la possibilité de créer des rapports détaillés.
@@ -767,12 +785,12 @@ Cette version de NetApp Backup and Recovery inclut les mises à jour suivantes.
 
 ==== Mises à jour du support du catalogue indexé
 
-En février 2025, nous avons introduit la fonctionnalité d'indexation mise à jour (Catalogue indexé v2) que vous utilisez pendant la méthode de recherche et de restauration des données. La version précédente a considérablement amélioré les performances d’indexation des données dans les environnements sur site. Avec cette version, le catalogue d'indexation est désormais disponible avec les environnements Amazon Web Services, Microsoft Azure et Google Cloud Platform (GCP).
+En février 2025, nous avons introduit la fonctionnalité d'indexation mise à jour (Catalogue indexé v2) que vous utilisez pendant la méthode de recherche et de restauration des données.  La version précédente a considérablement amélioré les performances d’indexation des données dans les environnements sur site.  Avec cette version, le catalogue d'indexation est désormais disponible avec les environnements Amazon Web Services, Microsoft Azure et Google Cloud Platform (GCP).
 
-Si vous êtes un nouveau client, le catalogue indexé v2 est activé par défaut pour tous les nouveaux environnements. Si vous êtes un client existant, vous pouvez réindexer votre environnement pour tirer parti du catalogue indexé v2.
+Si vous êtes un nouveau client, le catalogue indexé v2 est activé par défaut pour tous les nouveaux environnements.  Si vous êtes un client existant, vous pouvez réindexer votre environnement pour tirer parti du catalogue indexé v2.
 
 .Comment activer l'indexation ?
-Avant de pouvoir utiliser la méthode de recherche et de restauration des données, vous devez activer « Indexation » sur chaque environnement de travail source à partir duquel vous prévoyez de restaurer des volumes ou des fichiers. Sélectionnez l'option *Activer l'indexation* lorsque vous effectuez une recherche et une restauration.
+Avant de pouvoir utiliser la méthode de recherche et de restauration des données, vous devez activer « Indexation » sur chaque environnement de travail source à partir duquel vous prévoyez de restaurer des volumes ou des fichiers.  Sélectionnez l'option *Activer l'indexation* lorsque vous effectuez une recherche et une restauration.
 
 Le catalogue indexé peut ensuite suivre chaque volume et fichier de sauvegarde, rendant vos recherches rapides et efficaces.
 
@@ -782,23 +800,23 @@ Pour plus d'informations, consultez  https://docs.netapp.com/us-en/data-services
 
 ==== Points de terminaison de liaison privée Azure et points de terminaison de service
 
-En règle générale, NetApp Backup and Recovery établit un point de terminaison privé avec le fournisseur de cloud pour gérer les tâches de protection. Cette version introduit un paramètre facultatif qui vous permet d'activer ou de désactiver la création automatique d'un point de terminaison privé par NetApp Backup and Recovery. Cela peut vous être utile si vous souhaitez davantage de contrôle sur le processus de création de points de terminaison privés.
+En règle générale, NetApp Backup and Recovery établit un point de terminaison privé avec le fournisseur de cloud pour gérer les tâches de protection.  Cette version introduit un paramètre facultatif qui vous permet d'activer ou de désactiver la création automatique d'un point de terminaison privé par NetApp Backup and Recovery .  Cela peut vous être utile si vous souhaitez davantage de contrôle sur le processus de création de points de terminaison privés.
 
 Vous pouvez activer ou désactiver cette option lorsque vous activez la protection ou démarrez le processus de restauration.
 
-Si vous désactivez ce paramètre, vous devez créer manuellement le point de terminaison privé pour que NetApp Backup and Recovery fonctionne correctement. Sans connectivité appropriée, vous risquez de ne pas être en mesure d’effectuer correctement les tâches de sauvegarde et de récupération.
+Si vous désactivez ce paramètre, vous devez créer manuellement le point de terminaison privé pour que NetApp Backup and Recovery fonctionne correctement.  Sans connectivité appropriée, vous risquez de ne pas être en mesure d’effectuer correctement les tâches de sauvegarde et de récupération.
 
 
 
 ==== Prise en charge de SnapMirror vers Cloud Resync sur ONTAP S3
 
-La version précédente a introduit la prise en charge de SnapMirror vers Cloud Resync (SM-C Resync). Cette fonctionnalité rationalise la protection des données lors de la migration de volumes dans les environnements NetApp . Cette version ajoute la prise en charge de SM-C Resync sur ONTAP S3 ainsi que d'autres fournisseurs compatibles S3 tels que Wasabi et MinIO.
+La version précédente a introduit la prise en charge de SnapMirror vers Cloud Resync (SM-C Resync).  Cette fonctionnalité rationalise la protection des données lors de la migration de volumes dans les environnements NetApp .  Cette version ajoute la prise en charge de SM-C Resync sur ONTAP S3 ainsi que d'autres fournisseurs compatibles S3 tels que Wasabi et MinIO.
 
 
 
 ==== Apportez votre propre bucket pour StorageGRID
 
-Lorsque vous créez des fichiers de sauvegarde dans le stockage d'objets pour un environnement de travail, par défaut, NetApp Backup and Recovery crée le conteneur (bucket ou compte de stockage) pour les fichiers de sauvegarde dans le compte de stockage d'objets que vous avez configuré. Auparavant, vous pouviez remplacer cela et spécifier votre propre conteneur pour Amazon S3, Azure Blob Storage et Google Cloud Storage. Avec cette version, vous pouvez désormais apporter votre propre conteneur de stockage d'objets StorageGRID .
+Lorsque vous créez des fichiers de sauvegarde dans le stockage d'objets pour un environnement de travail, par défaut, NetApp Backup and Recovery crée le conteneur (bucket ou compte de stockage) pour les fichiers de sauvegarde dans le compte de stockage d'objets que vous avez configuré.  Auparavant, vous pouviez remplacer cela et spécifier votre propre conteneur pour Amazon S3, Azure Blob Storage et Google Cloud Storage.  Avec cette version, vous pouvez désormais apporter votre propre conteneur de stockage d'objets StorageGRID .
 
 Voir https://docs.netapp.com/us-en/data-services-backup-recovery/prev-ontap-protect-journey.html["Créez votre propre conteneur de stockage d'objets"] .
 
@@ -814,15 +832,15 @@ Voir https://docs.netapp.com/us-en/data-services-backup-recovery/prev-ontap-prot
 
 ==== Version 1.47
 
-.La BlueXP classification est désormais la classification des données NetApp
-La BlueXP classification a été renommée Classification des données NetApp . En plus du changement de nom, l'interface utilisateur a été améliorée.
+.La BlueXP classification est désormais la NetApp Data Classification
+La BlueXP classification a été renommée NetApp Data Classification.  En plus du changement de nom, l'interface utilisateur a été améliorée.
 
 .BlueXP est désormais NetApp Console
 BlueXP a été renommé et repensé pour mieux refléter son rôle dans la gestion de votre infrastructure de données.
 
-La console NetApp offre une gestion centralisée des services de stockage et de données dans les environnements sur site et dans le cloud à l'échelle de l'entreprise, offrant des informations en temps réel, des flux de travail plus rapides et une administration simplifiée.
+La NetApp Console offre une gestion centralisée des services de stockage et de données dans les environnements sur site et dans le cloud à l'échelle de l'entreprise, offrant des informations en temps réel, des flux de travail plus rapides et une administration simplifiée.
 
-Pour plus de détails sur ce qui a changé, consultez le https://docs.netapp.com/us-en/console-relnotes/index.html["Notes de version de la console NetApp"] .
+Pour plus de détails sur ce qui a changé, consultez le https://docs.netapp.com/us-en/console-relnotes/index.html["Notes de version de la NetApp Console"] .
 
 .Expérience d'enquête améliorée
 Recherchez et comprenez vos données plus rapidement grâce à de nouveaux filtres consultables, des décomptes de résultats par valeur, des informations en temps réel résumant les principales conclusions et un tableau de résultats actualisé avec des colonnes personnalisables et un volet de détails coulissant.
@@ -833,7 +851,7 @@ Pour plus d'informations, consultez la section link:https://docs.netapp.com/us-e
 Obtenez des informations essentielles plus rapidement grâce à des widgets intuitifs, des visuels plus clairs et des performances de chargement améliorées. Pour plus d'informations, voirlink:https://docs.netapp.com/us-en/data-services-data-classification//task-controlling-governance-data.html["Consultez les informations de gouvernance sur vos données"] etlink:https://docs.netapp.com/us-en/data-services-data-classification/task-controlling-private-data.html["Afficher les informations de conformité concernant vos données"] .
 
 .Politiques pour les requêtes enregistrées (aperçu)
-La classification des données vous permet désormais d'automatiser la gouvernance avec des actions conditionnelles. Vous pouvez créer des règles de conservation avec suppression automatique, configurer des notifications par e-mail périodiques, le tout géré à partir d'une page de requêtes enregistrées mise à jour.
+La classification des données vous permet désormais d'automatiser la gouvernance avec des actions conditionnelles.  Vous pouvez créer des règles de conservation avec suppression automatique, configurer des notifications par e-mail périodiques, le tout géré à partir d'une page de requêtes enregistrées mise à jour.
 
 Pour plus d'informations, consultez la section link:https://docs.netapp.com/us-en/data-services-data-classification/task-using-policies.html["Créer des politiques"] .
 
@@ -843,7 +861,7 @@ Prenez le contrôle direct depuis la page Investigation : supprimez, déplacez, 
 Pour plus d'informations, consultez la section link:https://docs.netapp.com/us-en/data-services-data-classification/task-investigate-data.html#view-file-metada["Enquêter sur les données"] .
 
 .Prise en charge des Google Cloud NetApp Volumes
-La classification des données prend désormais en charge l'analyse sur les Google Cloud NetApp Volumes. Ajoutez facilement des Google Cloud NetApp Volumes à partir de la console NetApp pour une analyse et une classification transparentes des données.
+La classification des données prend désormais en charge l'analyse sur les Google Cloud NetApp Volumes.  Ajoutez facilement des Google Cloud NetApp Volumes à partir de la NetApp Console pour une analyse et une classification transparentes des données.
 
 
 
@@ -856,9 +874,9 @@ La classification des données prend désormais en charge l'analyse sur les Goog
 Cette version de classification des données inclut des corrections de bogues et les mises à jour suivantes :
 
 .Informations améliorées sur les événements d'analyse dans la page d'audit
-La page Audit prend désormais en charge des informations améliorées sur les événements d'analyse pour la BlueXP classification. La page Audit affiche désormais le moment où l'analyse d'un système commence, les statuts des systèmes et les problèmes éventuels. Les statuts des partages et des systèmes ne sont disponibles que pour les analyses de mappage.
+La page Audit prend désormais en charge des informations améliorées sur les événements d'analyse pour la BlueXP classification.  La page Audit affiche désormais le moment où l'analyse d'un système commence, les statuts des systèmes et les problèmes éventuels.  Les statuts des partages et des systèmes ne sont disponibles que pour les analyses de mappage.
 
-Pour plus d'informations sur la page Audit, voirlink:https://docs.netapp.com/us-en/console-setup-admin/task-monitor-cm-operations.html["Surveiller les opérations de la console NetApp"^] .
+Pour plus d'informations sur la page Audit, voirlink:https://docs.netapp.com/us-en/console-setup-admin/task-monitor-cm-operations.html["Surveiller les opérations de la NetApp Console"^] .
 
 .Prise en charge de RHEL 9.6
 Cette version ajoute la prise en charge de Red Hat Enterprise Linux v9.6 pour l'installation manuelle sur site de la BlueXP classification, y compris les déploiements de sites sombres.
@@ -876,12 +894,12 @@ Les systèmes d'exploitation suivants nécessitent l'utilisation du moteur de co
 Cette version de BlueXP classification inclut des modifications de code qui optimisent l'utilisation des ressources et :
 
 .Flux de travail amélioré pour ajouter des partages de fichiers pour la numérisation
-Le flux de travail permettant d’ajouter des partages de fichiers à un groupe de partage de fichiers a été simplifié. Le processus différencie désormais également la prise en charge du protocole CIFS en fonction du type d’authentification (Kerberos ou NTLM).
+Le flux de travail permettant d’ajouter des partages de fichiers à un groupe de partage de fichiers a été simplifié.  Le processus différencie désormais également la prise en charge du protocole CIFS en fonction du type d’authentification (Kerberos ou NTLM).
 
 Pour plus d'informations, consultez la section link:https://docs.netapp.com/us-en/data-services-data-classification/task-scanning-file-shares.html["Analyser les partages de fichiers"] .
 
 .Informations améliorées sur le propriétaire du fichier
-Vous pouvez désormais afficher plus d’informations sur les propriétaires de fichiers capturés dans l’onglet Enquête. Lorsque vous affichez les métadonnées d'un fichier dans l'onglet Enquête, recherchez le propriétaire du fichier, puis sélectionnez **Afficher les détails** pour voir le nom d'utilisateur, l'e-mail et le nom du compte SAM. Vous pouvez également afficher d’autres éléments appartenant à cet utilisateur. Cette fonctionnalité est uniquement disponible pour les environnements de travail avec Active Directory.
+Vous pouvez désormais afficher plus d’informations sur les propriétaires de fichiers capturés dans l’onglet Enquête.  Lorsque vous affichez les métadonnées d'un fichier dans l'onglet Enquête, recherchez le propriétaire du fichier, puis sélectionnez **Afficher les détails** pour voir le nom d'utilisateur, l'e-mail et le nom du compte SAM.  Vous pouvez également afficher d’autres éléments appartenant à cet utilisateur.  Cette fonctionnalité est uniquement disponible pour les environnements de travail avec Active Directory.
 
 Pour plus d'informations, consultez la section link:https://docs.netapp.com/us-en/data-services-data-classification/task-investigate-data.html["Examinez les données stockées dans votre organisation"] .
 
@@ -896,7 +914,7 @@ Pour plus d'informations, consultez la section link:https://docs.netapp.com/us-e
 Cette version de BlueXP classification comprend :
 
 .Amélioration des temps de mise à jour du tableau de bord de gouvernance
-Les temps de mise à jour des composants individuels du tableau de bord de gouvernance ont été améliorés. Le tableau suivant affiche la fréquence des mises à jour pour chaque composant.
+Les temps de mise à jour des composants individuels du tableau de bord de gouvernance ont été améliorés.  Le tableau suivant affiche la fréquence des mises à jour pour chaque composant.
 
 [cols="1,1"]
 |===
@@ -938,13 +956,13 @@ Les temps de mise à jour des composants individuels du tableau de bord de gouve
 
 | Principaux référentiels de données par niveau de sensibilité | 2 heures 
 |===
-Vous pouvez afficher l'heure de la dernière mise à jour et mettre à jour manuellement les composants Fichiers en double, Données non commerciales, Recherches enregistrées, Données obsolètes et Principaux référentiels de données par niveau de sensibilité. Pour plus d'informations sur le tableau de bord de gouvernance, voirlink:https://docs.netapp.com/us-en/data-services-data-classification/task-controlling-governance-data.html["Afficher les détails de gouvernance sur les données stockées dans votre organisation"] .
+Vous pouvez afficher l'heure de la dernière mise à jour et mettre à jour manuellement les composants Fichiers en double, Données non commerciales, Recherches enregistrées, Données obsolètes et Principaux référentiels de données par niveau de sensibilité.  Pour plus d'informations sur le tableau de bord de gouvernance, voirlink:https://docs.netapp.com/us-en/data-services-data-classification/task-controlling-governance-data.html["Afficher les détails de gouvernance sur les données stockées dans votre organisation"] .
 
 .Améliorations des performances et de la sécurité
 Des améliorations ont été apportées pour améliorer les performances, la consommation de mémoire et la sécurité de la classification BlueXP .
 
 .Corrections de bugs
-Redis a été mis à niveau pour améliorer la fiabilité de la BlueXP classification. La BlueXP classification utilise désormais Elasticsearch pour améliorer la précision des rapports sur le nombre de fichiers lors des analyses.
+Redis a été mis à niveau pour améliorer la fiabilité de la BlueXP classification.  La BlueXP classification utilise désormais Elasticsearch pour améliorer la précision des rapports sur le nombre de fichiers lors des analyses.
 
 
 
@@ -957,29 +975,29 @@ Redis a été mis à niveau pour améliorer la fiabilité de la BlueXP classific
 Cette version de classification des données comprend :
 
 .Prioriser les analyses de classification
-La classification des données prend en charge la possibilité de hiérarchiser les analyses de cartographie et de classification en plus des analyses de cartographie uniquement, vous permettant de sélectionner les analyses à effectuer en premier. La priorisation des analyses Map & Classify est prise en charge pendant et avant le début des analyses. Si vous choisissez de donner la priorité à une analyse pendant qu'elle est en cours, les analyses de mappage et de classification sont toutes deux prioritaires.
+La classification des données prend en charge la possibilité de hiérarchiser les analyses de cartographie et de classification en plus des analyses de cartographie uniquement, vous permettant de sélectionner les analyses à effectuer en premier.  La priorisation des analyses Map & Classify est prise en charge pendant et avant le début des analyses.  Si vous choisissez de donner la priorité à une analyse pendant qu'elle est en cours, les analyses de mappage et de classification sont toutes deux prioritaires.
 
 Pour plus d'informations, consultez la section link:https://docs.netapp.com/us-en/data-services-data-classification/task-managing-repo-scanning.html#prioritize-scans["Prioriser les analyses"] .
 
 .Prise en charge des catégories de données d'informations personnelles identifiables (PII) canadiennes
-Les analyses de classification des données identifient les catégories de données PII canadiennes. Ces catégories comprennent les renseignements bancaires, les numéros de passeport, les numéros d’assurance sociale, les numéros de permis de conduire et les numéros de carte d’assurance-maladie pour toutes les provinces et tous les territoires canadiens.
+Les analyses de classification des données identifient les catégories de données PII canadiennes.  Ces catégories comprennent les renseignements bancaires, les numéros de passeport, les numéros d’assurance sociale, les numéros de permis de conduire et les numéros de carte d’assurance-maladie pour toutes les provinces et tous les territoires canadiens.
 
 Pour plus d'informations, consultez la section link:https://docs.netapp.com/us-en/data-services-data-classification/reference-private-data-categories.html#types-of-personal-data["Catégories de données personnelles"] .
 
 .Classification personnalisée (aperçu)
-La classification des données prend en charge les classifications personnalisées pour les analyses Map & Classify. Grâce aux classifications personnalisées, vous pouvez personnaliser les analyses de classification des données pour capturer des données spécifiques à votre organisation à l'aide d'expressions régulières. Cette fonctionnalité est actuellement en version préliminaire.
+La classification des données prend en charge les classifications personnalisées pour les analyses Map & Classify.  Grâce aux classifications personnalisées, vous pouvez personnaliser les analyses de classification des données pour capturer des données spécifiques à votre organisation à l'aide d'expressions régulières.  Cette fonctionnalité est actuellement en version préliminaire.
 
 Pour plus d'informations, consultez la section link:https://docs.netapp.com/us-en/data-services-data-classification/task-custom-classification.html["Ajouter des classifications personnalisées"] .
 
 .Onglet Recherches enregistrées
-L'onglet **Politiques** a été renommélink:https://docs.netapp.com/us-en/data-services-data-classification/task-using-policies.html["**Recherches enregistrées**"] . La fonctionnalité reste inchangée.
+L'onglet **Politiques** a été renommélink:https://docs.netapp.com/us-en/data-services-data-classification/task-using-policies.html["**Recherches enregistrées**"] .  La fonctionnalité reste inchangée.
 
 .Envoyer les événements d'analyse à la page Audit
 La classification des données prend en charge l'envoi d'événements de classification (lorsqu'une analyse est lancée et lorsqu'elle se termine) aulink:https://docs.netapp.com/us-en/console-setup-admin/task-monitor-cm-operations.html#audit-user-activity-from-the-bluexp-timeline["Page d'audit du conseil NetApp"^] .
 
 .Mises à jour de sécurité
 * Le package Keras a été mis à jour, atténuant les vulnérabilités (BDSA-2025-0107 et BDSA-2025-1984).
-* La configuration des conteneurs Docker a été mise à jour. Le conteneur n'a plus accès aux interfaces réseau de l'hôte pour créer des paquets réseau bruts. En réduisant les accès inutiles, la mise à jour atténue les risques potentiels de sécurité.
+* La configuration des conteneurs Docker a été mise à jour.  Le conteneur n'a plus accès aux interfaces réseau de l'hôte pour créer des paquets réseau bruts.  En réduisant les accès inutiles, la mise à jour atténue les risques potentiels de sécurité.
 
 
 .Améliorations des performances
@@ -999,10 +1017,10 @@ Les bugs qui entraînaient l'échec des analyses StorageGRID , le non-chargement
 Cette version de BlueXP classification comprend :
 
 .Analyse en masse pour les environnements de travail
-La BlueXP classification prend en charge les opérations en masse pour les environnements de travail. Vous pouvez choisir d'activer les analyses de mappage, d'activer les analyses de mappage et de classification, de désactiver les analyses ou de créer une configuration personnalisée sur les volumes dans l'environnement de travail. Si vous effectuez une sélection pour un volume individuel, elle remplace la sélection en bloc. Pour effectuer une opération en masse, accédez à la page **Configuration** et faites votre sélection.
+La BlueXP classification prend en charge les opérations en masse pour les environnements de travail.  Vous pouvez choisir d'activer les analyses de mappage, d'activer les analyses de mappage et de classification, de désactiver les analyses ou de créer une configuration personnalisée sur les volumes dans l'environnement de travail.  Si vous effectuez une sélection pour un volume individuel, elle remplace la sélection en bloc.  Pour effectuer une opération en masse, accédez à la page **Configuration** et faites votre sélection.
 
 .Télécharger le rapport d'enquête localement
-La BlueXP classification prend en charge la possibilité de télécharger des rapports d'enquête sur les données localement pour les afficher dans le navigateur. Si vous choisissez l'option locale, l'enquête sur les données n'est disponible qu'au format CSV et n'affiche que les 10 000 premières lignes de données.
+La BlueXP classification prend en charge la possibilité de télécharger des rapports d'enquête sur les données localement pour les afficher dans le navigateur.  Si vous choisissez l'option locale, l'enquête sur les données n'est disponible qu'au format CSV et n'affiche que les 10 000 premières lignes de données.
 
 Pour plus d'informations, consultez la section link:https://docs.netapp.com/us-en/data-services-data-classification/task-investigate-data.html#create-the-data-investigation-report["Examinez les données stockées dans votre organisation avec la BlueXP classification"] .
 
@@ -1014,12 +1032,12 @@ Pour plus d'informations, consultez la section link:https://docs.netapp.com/us-e
 
 ==== Version 1.41
 
-Cette version de BlueXP classification inclut des améliorations générales et des corrections de bugs. Il comprend également :
+Cette version de BlueXP classification inclut des améliorations générales et des corrections de bugs.  Il comprend également :
 
 .État de l'analyse
-La BlueXP classification suit la progression en temps réel des analyses de mappage et de classification _initiales_ sur un volume. Des barres progressives distinctes suivent les analyses de cartographie et de classification, présentant un pourcentage du total des fichiers analysés. Vous pouvez également survoler une barre de progression pour afficher le nombre de fichiers analysés et le nombre total de fichiers. Le suivi de l'état de vos analyses crée des informations plus approfondies sur la progression de l'analyse, vous permettant de mieux planifier vos analyses et de comprendre l'allocation des ressources.
+La BlueXP classification suit la progression en temps réel des analyses de mappage et de classification _initiales_ sur un volume.  Des barres progressives distinctes suivent les analyses de cartographie et de classification, présentant un pourcentage du total des fichiers analysés.  Vous pouvez également survoler une barre de progression pour afficher le nombre de fichiers analysés et le nombre total de fichiers.  Le suivi de l'état de vos analyses crée des informations plus approfondies sur la progression de l'analyse, vous permettant de mieux planifier vos analyses et de comprendre l'allocation des ressources.
 
-Pour afficher l'état de vos analyses, accédez à **Configuration** dans la BlueXP classification puis sélectionnez la **Configuration de l'environnement de travail**. La progression est affichée en ligne pour chaque volume.
+Pour afficher l'état de vos analyses, accédez à **Configuration** dans la BlueXP classification puis sélectionnez la **Configuration de l'environnement de travail**.  La progression est affichée en ligne pour chaque volume.
 
 
 
@@ -1032,16 +1050,16 @@ Pour afficher l'état de vos analyses, accédez à **Configuration** dans la Blu
 Cette version de BlueXP classification inclut les mises à jour suivantes.
 
 .Prise en charge de RHEL 9.5
-Cette version prend en charge Red Hat Enterprise Linux v9.5 en plus des versions précédemment prises en charge. Ceci s’applique à toute installation manuelle sur site de la BlueXP classification, y compris les déploiements de sites sombres.
+Cette version prend en charge Red Hat Enterprise Linux v9.5 en plus des versions précédemment prises en charge.  Ceci s’applique à toute installation manuelle sur site de la BlueXP classification, y compris les déploiements de sites sombres.
 
 Les systèmes d'exploitation suivants nécessitent l'utilisation du moteur de conteneur Podman et nécessitent la version de BlueXP classification 1.30 ou supérieure : Red Hat Enterprise Linux versions 8.8, 8.10, 9.0, 9.1, 9.2, 9.3, 9.4 et 9.5.
 
 .Donner la priorité aux analyses de cartographie uniquement
-Lorsque vous effectuez des analyses de cartographie uniquement, vous pouvez prioriser les analyses les plus importantes. Cette fonctionnalité est utile lorsque vous disposez de nombreux environnements de travail et que vous souhaitez vous assurer que les analyses hautement prioritaires sont effectuées en premier.
+Lorsque vous effectuez des analyses de cartographie uniquement, vous pouvez prioriser les analyses les plus importantes.  Cette fonctionnalité est utile lorsque vous disposez de nombreux environnements de travail et que vous souhaitez vous assurer que les analyses hautement prioritaires sont effectuées en premier.
 
-Par défaut, les analyses sont mises en file d’attente en fonction de l’ordre dans lequel elles sont lancées. Grâce à la possibilité de hiérarchiser les analyses, vous pouvez déplacer les analyses vers l'avant de la file d'attente. Plusieurs analyses peuvent être priorisées. La priorité est désignée selon un ordre premier entré, premier sorti, ce qui signifie que la première analyse que vous priorisez passe en tête de la file d'attente ; la deuxième analyse que vous priorisez devient la deuxième dans la file d'attente, et ainsi de suite.
+Par défaut, les analyses sont mises en file d’attente en fonction de l’ordre dans lequel elles sont lancées.  Grâce à la possibilité de hiérarchiser les analyses, vous pouvez déplacer les analyses vers l'avant de la file d'attente.  Plusieurs analyses peuvent être priorisées.  La priorité est désignée selon un ordre premier entré, premier sorti, ce qui signifie que la première analyse que vous priorisez passe en tête de la file d'attente ; la deuxième analyse que vous priorisez devient la deuxième dans la file d'attente, et ainsi de suite.
 
-La priorité est accordée une seule fois. Les réanalyses automatiques des données de cartographie se produisent dans l'ordre par défaut.
+La priorité est accordée une seule fois.  Les réanalyses automatiques des données de cartographie se produisent dans l'ordre par défaut.
 
 La priorisation est limitée àlink:https://docs.netapp.com/us-en/data-services-data-classification/concept-classification.html["analyses de cartographie uniquement"^] ; il n'est pas disponible pour les analyses de cartographie et de classification.
 
@@ -1050,7 +1068,7 @@ Pour plus d'informations, consultez la section link:https://docs.netapp.com/us-e
 .Réessayer toutes les analyses
 La BlueXP classification prend en charge la possibilité de réessayer par lots toutes les analyses ayant échoué.
 
-Vous pouvez réessayer les analyses dans une opération par lots avec la fonction **Réessayer tout**. Si les analyses de classification échouent en raison d'un problème temporaire tel qu'une panne de réseau, vous pouvez réessayer toutes les analyses en même temps avec un seul bouton au lieu de les réessayer individuellement. Les analyses peuvent être relancées autant de fois que nécessaire.
+Vous pouvez réessayer les analyses dans une opération par lots avec la fonction **Réessayer tout**.  Si les analyses de classification échouent en raison d'un problème temporaire tel qu'une panne de réseau, vous pouvez réessayer toutes les analyses en même temps avec un seul bouton au lieu de les réessayer individuellement.  Les analyses peuvent être relancées autant de fois que nécessaire.
 
 Pour réessayer toutes les analyses :
 
@@ -1069,11 +1087,11 @@ La précision du modèle d'apprentissage automatique pourlink:https://docs.netap
 
 ==== Version 1.39
 
-Cette version de BlueXP classification met à jour le processus d'exportation du rapport d'enquête sur les données. Cette mise à jour d'exportation est utile pour effectuer des analyses supplémentaires sur vos données, créer des visualisations supplémentaires sur les données ou partager les résultats de votre enquête sur les données avec d'autres.
+Cette version de BlueXP classification met à jour le processus d'exportation du rapport d'enquête sur les données.  Cette mise à jour d'exportation est utile pour effectuer des analyses supplémentaires sur vos données, créer des visualisations supplémentaires sur les données ou partager les résultats de votre enquête sur les données avec d'autres.
 
-Auparavant, l’exportation du rapport d’enquête sur les données était limitée à 10 000 lignes. Avec cette version, la limite a été supprimée afin que vous puissiez exporter toutes vos données. Cette modification vous permet d'exporter davantage de données à partir de vos rapports d'investigation de données, vous offrant ainsi plus de flexibilité dans votre analyse de données.
+Auparavant, l’exportation du rapport d’enquête sur les données était limitée à 10 000 lignes.  Avec cette version, la limite a été supprimée afin que vous puissiez exporter toutes vos données.  Cette modification vous permet d'exporter davantage de données à partir de vos rapports d'investigation de données, vous offrant ainsi plus de flexibilité dans votre analyse de données.
 
-Vous pouvez choisir l'environnement de travail, les volumes, le dossier de destination et le format JSON ou CSV. Le nom du fichier exporté inclut un horodatage pour vous aider à identifier quand les données ont été exportées.
+Vous pouvez choisir l'environnement de travail, les volumes, le dossier de destination et le format JSON ou CSV.  Le nom du fichier exporté inclut un horodatage pour vous aider à identifier quand les données ont été exportées.
 
 Les environnements de travail pris en charge incluent :
 
@@ -1113,9 +1131,9 @@ Cette version de BlueXP classification inclut des améliorations générales et 
 
 ==== BlueXP est désormais NetApp Console
 
-La console NetApp , construite sur la base BlueXP améliorée et restructurée, fournit une gestion centralisée du stockage NetApp et des services de données NetApp dans les environnements sur site et cloud à l'échelle de l'entreprise, offrant des informations en temps réel, des flux de travail plus rapides et une administration simplifiée, hautement sécurisée et conforme.
+La NetApp Console, construite sur la base BlueXP améliorée et restructurée, fournit une gestion centralisée du stockage NetApp et des NetApp Data Services dans les environnements sur site et cloud à l'échelle de l'entreprise, offrant des informations en temps réel, des flux de travail plus rapides et une administration simplifiée, hautement sécurisée et conforme.
 
-Pour plus de détails sur ce qui a changé, consultez le https://docs.netapp.com/us-en/bluexp-relnotes/index.html["Notes de version de la console NetApp"^] .
+Pour plus de détails sur ce qui a changé, consultez le https://docs.netapp.com/us-en/bluexp-relnotes/index.html["Notes de version de la NetApp Console"^] .
 
 
 
@@ -1163,17 +1181,17 @@ Pour plus d'informations sur le passage à une autre méthode de charge, reporte
 
 
 
-==== La BlueXP copy and sync sont désormais la copie et la synchronisation NetApp
+==== La BlueXP copy and sync sont désormais la NetApp Copy and Sync
 
-La BlueXP copy and sync ont été renommées en copie et synchronisation NetApp .
+La BlueXP copy and sync ont été renommées en NetApp Copy and Sync.
 
 
 
 ==== BlueXP est désormais NetApp Console
 
-La console NetApp , construite sur la base BlueXP améliorée et restructurée, fournit une gestion centralisée du stockage NetApp et des services de données NetApp dans les environnements sur site et cloud à l'échelle de l'entreprise, offrant des informations en temps réel, des flux de travail plus rapides et une administration simplifiée, hautement sécurisée et conforme.
+La NetApp Console, construite sur la base BlueXP améliorée et restructurée, fournit une gestion centralisée du stockage NetApp et des NetApp Data Services dans les environnements sur site et cloud à l'échelle de l'entreprise, offrant des informations en temps réel, des flux de travail plus rapides et une administration simplifiée, hautement sécurisée et conforme.
 
-Pour plus de détails sur ce qui a changé, consultez lelink:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["Notes de version de la console NetApp"] .
+Pour plus de détails sur ce qui a changé, consultez lelink:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["Notes de version de la NetApp Console"] .
 
 
 
@@ -1195,7 +1213,7 @@ https://docs.netapp.com/us-en/bluexp-copy-sync/task-installing-linux.html#linux-
 
 ==== Corrections de bugs
 
-Nous avons mis à jour NetApp Copy and Sync et le courtier de données pour corriger quelques bugs. La nouvelle version du courtier de données est la 1.0.56.
+Nous avons mis à jour NetApp Copy and Sync et le courtier de données pour corriger quelques bugs.  La nouvelle version du courtier de données est la 1.0.56.
 
 
 
@@ -1209,9 +1227,9 @@ Nous avons mis à jour NetApp Copy and Sync et le courtier de données pour corr
 
 ==== BlueXP est désormais NetApp Console
 
-La console NetApp , construite sur la base BlueXP améliorée et restructurée, fournit une gestion centralisée du stockage NetApp et des services de données NetApp dans les environnements sur site et cloud à l'échelle de l'entreprise, offrant des informations en temps réel, des flux de travail plus rapides et une administration simplifiée, hautement sécurisée et conforme.
+La NetApp Console, construite sur la base BlueXP améliorée et restructurée, fournit une gestion centralisée du stockage NetApp et des NetApp Data Services dans les environnements sur site et cloud à l'échelle de l'entreprise, offrant des informations en temps réel, des flux de travail plus rapides et une administration simplifiée, hautement sécurisée et conforme.
 
-Pour plus de détails sur ce qui a changé, consultez le https://docs.netapp.com/us-en/bluexp-relnotes/index.html["Notes de version de la console NetApp"] .
+Pour plus de détails sur ce qui a changé, consultez le https://docs.netapp.com/us-en/bluexp-relnotes/index.html["Notes de version de la NetApp Console"] .
 
 
 
@@ -1261,7 +1279,7 @@ Les modules API de prévision de capacité V2 et de fin de support sont prévus 
 
 
 
-== Licences et abonnements
+== Licenses and subscriptions
 
 
 
@@ -1271,9 +1289,9 @@ Les modules API de prévision de capacité V2 et de fin de support sont prévus 
 
 ==== BlueXP est désormais NetApp Console
 
-La console NetApp , construite sur la base BlueXP améliorée et restructurée, fournit une gestion centralisée du stockage NetApp et des services de données NetApp dans les environnements sur site et cloud à l'échelle de l'entreprise, offrant des informations en temps réel, des flux de travail plus rapides et une administration simplifiée, hautement sécurisée et conforme.
+La NetApp Console, construite sur la base BlueXP améliorée et restructurée, fournit une gestion centralisée du stockage NetApp et des NetApp Data Services dans les environnements sur site et cloud à l'échelle de l'entreprise, offrant des informations en temps réel, des flux de travail plus rapides et une administration simplifiée, hautement sécurisée et conforme.
 
-Pour plus de détails sur ce qui a changé, consultez lelink:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["Notes de version de la console NetApp"] .
+Pour plus de détails sur ce qui a changé, consultez lelink:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["Notes de version de la NetApp Console"] .
 
 
 
@@ -1371,18 +1389,18 @@ La BlueXP disaster recovery a été renommée NetApp Disaster Recovery.
 
 ==== BlueXP est désormais NetApp Console
 
-La console NetApp , construite sur la base BlueXP améliorée et restructurée, fournit une gestion centralisée du stockage NetApp et des services de données NetApp dans les environnements sur site et cloud à l'échelle de l'entreprise, offrant des informations en temps réel, des flux de travail plus rapides et une administration simplifiée, hautement sécurisée et conforme.
+La NetApp Console, construite sur la base BlueXP améliorée et restructurée, fournit une gestion centralisée du stockage NetApp et des NetApp Data Services dans les environnements sur site et cloud à l'échelle de l'entreprise, offrant des informations en temps réel, des flux de travail plus rapides et une administration simplifiée, hautement sécurisée et conforme.
 
-Pour plus de détails sur ce qui a changé, consultez lelink:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["Notes de version de la console NetApp"] .
+Pour plus de détails sur ce qui a changé, consultez lelink:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["Notes de version de la NetApp Console"] .
 
 
 
 ==== Autres mises à jour
 
-* La prise en charge d'Amazon Elastic VMware Service (EVS) avec Amazon FSx for NetApp ONTAP était disponible en version préliminaire publique. Avec cette version, il est désormais généralement disponible. Pour plus de détails, reportez-vous àlink:../reference/evs-deploy-guide-introduction.html["Présentation de NetApp Disaster Recovery à l'aide d'Amazon Elastic VMware Service et Amazon FSx for NetApp ONTAP"] .
+* La prise en charge d'Amazon Elastic VMware Service (EVS) avec Amazon FSx for NetApp ONTAP était disponible en version préliminaire publique.  Avec cette version, il est désormais généralement disponible. Pour plus de détails, reportez-vous àlink:../reference/evs-deploy-guide-introduction.html["Présentation de NetApp Disaster Recovery à l'aide d'Amazon Elastic VMware Service et Amazon FSx for NetApp ONTAP"] .
 * Améliorations de la découverte du stockage, notamment des temps de découverte réduits pour les déploiements sur site
 * Prise en charge de la gestion des identités et des accès (IAM), y compris le contrôle d'accès basé sur les rôles (RBAC) et les autorisations utilisateur améliorées
-* Prise en charge de l'aperçu privé pour la solution Azure VMware et Cloud Volumes ONTAP. Grâce à cette prise en charge, vous pouvez désormais configurer la protection de reprise après sinistre sur site vers la solution Azure VMware à l’aide du stockage Cloud Volumes ONTAP .
+* Prise en charge de l'aperçu privé pour la solution Azure VMware et Cloud Volumes ONTAP.  Grâce à cette prise en charge, vous pouvez désormais configurer la protection de reprise après sinistre sur site vers la solution Azure VMware à l’aide du stockage Cloud Volumes ONTAP .
 
 
 
@@ -1404,7 +1422,7 @@ Cette version inclut les mises à jour suivantes :
 * Suppression d'une restriction empêchant le volume de destination d'être identique au volume source lors de la création du volume dans le cadre de la création du plan de réplication.
 * Ajout de la prise en charge d’un abonnement à la carte (PAYGO) aux services intelligents NetApp dans Azure Marketplace et ajout d’un lien vers Azure Marketplace dans la boîte de dialogue d’essai gratuit.
 +
-Pour plus de détails, voir https://docs.netapp.com/us-en/bluexp-disaster-recovery/get-started/dr-intro.html#licensing["Licences de reprise après sinistre NetApp"] et https://docs.netapp.com/us-en/bluexp-disaster-recovery/get-started/dr-licensing.html["Configurer les licences pour NetApp Disaster Recovery"] .
+Pour plus de détails, voir https://docs.netapp.com/us-en/bluexp-disaster-recovery/get-started/dr-intro.html#licensing["Licences de NetApp Disaster Recovery"] et https://docs.netapp.com/us-en/bluexp-disaster-recovery/get-started/dr-licensing.html["Configurer les licences pour NetApp Disaster Recovery"] .
 
 
 
@@ -1422,7 +1440,7 @@ NetApp Disaster Recovery utilise désormais des rôles pour gérer l’accès de
 
 Le service utilise les rôles suivants qui sont spécifiques à NetApp Disaster Recovery.
 
-* *Administrateur de récupération après sinistre* : effectuez toutes les actions dans NetApp Disaster Recovery.
+* *Administrateur de récupération après sinistre* : effectuez toutes les actions dans NetApp Disaster Recovery.
 * *Administrateur de basculement de reprise après sinistre* : effectuez des actions de basculement et de migration dans NetApp Disaster Recovery.
 * *Administrateur d'application de récupération après sinistre* : Créez et modifiez des plans de réplication et démarrez des tests de basculement.
 * *Visionneuse de récupération après sinistre* : affichez les informations dans NetApp Disaster Recovery, mais ne pouvez effectuer aucune action.
@@ -1454,9 +1472,9 @@ https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.
 ** Lorsqu'un cluster, un hôte ou un centre de données est supprimé dans vCenter, NetApp Disaster Recovery le supprime désormais du plan de réplication et du groupe de ressources.
 
 
-* Vous pouvez désormais accéder à la documentation Swagger dans le mode navigation privée de votre navigateur. Vous pouvez y accéder depuis NetApp Disaster Recovery à partir de l'option Paramètres > Documentation API ou directement à l'URL suivante dans le mode navigation privée de votre navigateur : https://snapcenter.cloudmanager.cloud.netapp.com/api/api-doc/draas["Documentation de Swagger"^] .
-* Dans certaines situations, après une opération de restauration automatique, l'iGroup a été laissé derrière une fois l'opération terminée. Cette mise à jour supprime l'iGroup s'il est obsolète.
-* Si le nom de domaine complet NFS a été utilisé dans le plan de réplication, NetApp Disaster Recovery le résout désormais en une adresse IP. Cette mise à jour est utile si le nom de domaine complet n’est pas résoluble sur le site de reprise après sinistre.
+* Vous pouvez désormais accéder à la documentation Swagger dans le mode navigation privée de votre navigateur.  Vous pouvez y accéder depuis NetApp Disaster Recovery à partir de l'option Paramètres > Documentation API ou directement à l'URL suivante dans le mode navigation privée de votre navigateur : https://snapcenter.cloudmanager.cloud.netapp.com/api/api-doc/draas["Documentation de Swagger"^] .
+* Dans certaines situations, après une opération de restauration automatique, l'iGroup a été laissé derrière une fois l'opération terminée.  Cette mise à jour supprime l'iGroup s'il est obsolète.
+* Si le nom de domaine complet NFS a été utilisé dans le plan de réplication, NetApp Disaster Recovery le résout désormais en une adresse IP.  Cette mise à jour est utile si le nom de domaine complet n’est pas résoluble sur le site de reprise après sinistre.
 * Améliorations de l'alignement de l'interface utilisateur
 * Améliorations du journal pour capturer les détails de dimensionnement de vCenter après la découverte réussie
 
@@ -1473,9 +1491,9 @@ https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.
 
 ==== BlueXP est désormais NetApp Console
 
-La console NetApp , construite sur la base BlueXP améliorée et restructurée, fournit une gestion centralisée du stockage NetApp et des services de données NetApp dans les environnements sur site et cloud à l'échelle de l'entreprise, offrant des informations en temps réel, des flux de travail plus rapides et une administration simplifiée, hautement sécurisée et conforme.
+La NetApp Console, construite sur la base BlueXP améliorée et restructurée, fournit une gestion centralisée du stockage NetApp et des NetApp Data Services dans les environnements sur site et cloud à l'échelle de l'entreprise, offrant des informations en temps réel, des flux de travail plus rapides et une administration simplifiée, hautement sécurisée et conforme.
 
-Pour plus de détails sur ce qui a changé, consultez lelink:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["Notes de version de la console NetApp"] .
+Pour plus de détails sur ce qui a changé, consultez lelink:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["Notes de version de la NetApp Console"] .
 
 
 
@@ -1511,15 +1529,15 @@ Vous pouvez désormais découvrir vos systèmes E-Series directement depuis Blue
 
 BlueXP economic efficiency a été renommée Planification du cycle de vie.
 
-Vous pouvez y accéder à partir de la barre de navigation de gauche de la console NetApp en sélectionnant *Stockage* > *Planification du cycle de vie*.
+Vous pouvez y accéder à partir de la barre de navigation de gauche de la NetApp Console en sélectionnant *Stockage* > *Planification du cycle de vie*.
 
 
 
 ==== BlueXP est désormais NetApp Console
 
-La console NetApp , construite sur la base BlueXP améliorée et restructurée, fournit une gestion centralisée du stockage NetApp et des services de données NetApp dans les environnements sur site et cloud à l'échelle de l'entreprise, offrant des informations en temps réel, des flux de travail plus rapides et une administration simplifiée, hautement sécurisée et conforme.
+La NetApp Console, construite sur la base BlueXP améliorée et restructurée, fournit une gestion centralisée du stockage NetApp et des NetApp Data Services dans les environnements sur site et cloud à l'échelle de l'entreprise, offrant des informations en temps réel, des flux de travail plus rapides et une administration simplifiée, hautement sécurisée et conforme.
 
-Pour plus de détails sur ce qui a changé, consultez lelink:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["Notes de version de la console NetApp"] .
+Pour plus de détails sur ce qui a changé, consultez lelink:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["Notes de version de la NetApp Console"] .
 
 
 
@@ -1571,9 +1589,9 @@ Le service de mise en cache de périphérie a été supprimé le 7 août 2024.
 
 ==== BlueXP est désormais NetApp Console
 
-La console NetApp , construite sur la base BlueXP améliorée et restructurée, fournit une gestion centralisée du stockage NetApp et des services de données NetApp dans les environnements sur site et cloud à l'échelle de l'entreprise, offrant des informations en temps réel, des flux de travail plus rapides et une administration simplifiée, hautement sécurisée et conforme.
+La NetApp Console, construite sur la base BlueXP améliorée et restructurée, fournit une gestion centralisée du stockage NetApp et des NetApp Data Services dans les environnements sur site et cloud à l'échelle de l'entreprise, offrant des informations en temps réel, des flux de travail plus rapides et une administration simplifiée, hautement sécurisée et conforme.
 
-Pour plus de détails sur ce qui a changé, consultez lelink:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["Notes de version de la console NetApp"] . == 21 juillet 2025
+Pour plus de détails sur ce qui a changé, consultez lelink:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["Notes de version de la NetApp Console"] . == 21 juillet 2025
 
 
 
@@ -1598,9 +1616,9 @@ Vous pouvez désormais gérer les Google Cloud NetApp Volumes directement depuis
 
 ==== BlueXP est désormais NetApp Console
 
-La console NetApp , construite sur la base BlueXP améliorée et restructurée, fournit une gestion centralisée du stockage NetApp et des services de données NetApp dans les environnements sur site et cloud à l'échelle de l'entreprise, offrant des informations en temps réel, des flux de travail plus rapides et une administration simplifiée, hautement sécurisée et conforme.
+La NetApp Console, construite sur la base BlueXP améliorée et restructurée, fournit une gestion centralisée du stockage NetApp et des NetApp Data Services dans les environnements sur site et cloud à l'échelle de l'entreprise, offrant des informations en temps réel, des flux de travail plus rapides et une administration simplifiée, hautement sécurisée et conforme.
 
-Pour plus de détails sur ce qui a changé, consultez lelink:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["Notes de version de la console NetApp"] . == 10 juillet 2023
+Pour plus de détails sur ce qui a changé, consultez lelink:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["Notes de version de la NetApp Console"] . == 10 juillet 2023
 
 
 
@@ -1620,9 +1638,9 @@ Vous pouvez afficher les buckets Google Cloud Storage sur le BlueXP Canvas penda
 
 ==== BlueXP est désormais NetApp Console
 
-La console NetApp , construite sur la base BlueXP améliorée et restructurée, fournit une gestion centralisée du stockage NetApp et des services de données NetApp dans les environnements sur site et cloud à l'échelle de l'entreprise, offrant des informations en temps réel, des flux de travail plus rapides et une administration simplifiée, hautement sécurisée et conforme.
+La NetApp Console, construite sur la base BlueXP améliorée et restructurée, fournit une gestion centralisée du stockage NetApp et des NetApp Data Services dans les environnements sur site et cloud à l'échelle de l'entreprise, offrant des informations en temps réel, des flux de travail plus rapides et une administration simplifiée, hautement sécurisée et conforme.
 
-Pour plus de détails sur ce qui a changé, consultez lelink:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["Notes de version de la console NetApp"^] .
+Pour plus de détails sur ce qui a changé, consultez lelink:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["Notes de version de la NetApp Console"^] .
 
 
 
@@ -1686,9 +1704,9 @@ Le service de rapports de migration a été supprimé le 7 août 2024.
 
 ==== BlueXP est désormais NetApp Console
 
-La console NetApp , construite sur la base BlueXP améliorée et restructurée, fournit une gestion centralisée du stockage NetApp et des services de données NetApp dans les environnements sur site et cloud à l'échelle de l'entreprise, offrant des informations en temps réel, des flux de travail plus rapides et une administration simplifiée, hautement sécurisée et conforme.
+La NetApp Console, construite sur la base BlueXP améliorée et restructurée, fournit une gestion centralisée du stockage NetApp et des NetApp Data Services dans les environnements sur site et cloud à l'échelle de l'entreprise, offrant des informations en temps réel, des flux de travail plus rapides et une administration simplifiée, hautement sécurisée et conforme.
 
-Pour plus de détails sur ce qui a changé, consultez lelink:https://docs.netapp.com/us-en/console-relnotes/index.html["Notes de version de la console NetApp"] .
+Pour plus de détails sur ce qui a changé, consultez lelink:https://docs.netapp.com/us-en/console-relnotes/index.html["Notes de version de la NetApp Console"] .
 
 
 
@@ -1738,9 +1756,9 @@ Le service de BlueXP ransomware protection a été renommé NetApp Ransomware Re
 
 ==== BlueXP est désormais NetApp Console
 
-La console NetApp offre une gestion centralisée des services de stockage et de données dans les environnements sur site et dans le cloud à l'échelle de l'entreprise, offrant des informations en temps réel, des flux de travail plus rapides et une administration simplifiée.
+La NetApp Console offre une gestion centralisée des services de stockage et de données dans les environnements sur site et dans le cloud à l'échelle de l'entreprise, offrant des informations en temps réel, des flux de travail plus rapides et une administration simplifiée.
 
-Pour plus de détails sur ce qui a changé, consultez le https://docs.netapp.com/us-en/console-relnotes/index.html["Notes de version de la console NetApp"] .
+Pour plus de détails sur ce qui a changé, consultez le https://docs.netapp.com/us-en/console-relnotes/index.html["Notes de version de la NetApp Console"] .
 
 
 
@@ -1749,6 +1767,9 @@ Pour plus de détails sur ce qui a changé, consultez le https://docs.netapp.com
 Ransomware Resilience inclut un nouveau mécanisme de détection qui peut être activé en quelques étapes pour détecter les lectures anormales des utilisateurs comme indicateur précoce d'une violation de données. La résilience des ransomwares collecte et analyse les événements de lecture des utilisateurs en créant une base de référence historique, qui est un profil du comportement normal attendu à partir des données passées. Lorsque l'activité d'un nouvel utilisateur s'écarte considérablement de cette norme établie (comme une augmentation inattendue des lectures associée à des modèles de lecture suspects), une alerte est générée. Ransomware Resilience inclut un modèle d'IA pour détecter les modèles de lecture suspects.
 
 Contrairement à la détection de chiffrement par ARP au niveau de la couche de stockage, la détection de l'anomalie de comportement de l'utilisateur est effectuée dans le service SaaS Ransomware Resilience en collectant les événements FPolicy.
+
+
+IMPORTANT: Vous devez utiliser le nouveaulink:#new-user-roles-for-data-breach-detection["Administrateur du comportement utilisateur de Ransomware Resilience et visualiseur du comportement utilisateur de Ransomware Resilience"] rôles pour accéder aux paramètres de détection des comportements suspects des utilisateurs.
 
 Pour plus d'informations, voirlink:https://docs.netapp.com/us-en/data-services-ransomware-resilience/suspicious-user-activity.html["Activer la détection des activités suspectes des utilisateurs"] etlink:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-use-alert.html#view-anomalous-user-behavior["Afficher le comportement anormal des utilisateurs"] .
 
@@ -1765,9 +1786,13 @@ En plus de la détection des violations de données, Ransomware Resilience déte
 
 
 
-===== Nouveau rôle d'utilisateur pour la détection des violations de données
+===== Nouveaux rôles d'utilisateur pour la détection des violations de données
 
-Pour gérer les alertes d'activité suspecte des utilisateurs, Ransomware Resilience a introduit deux nouveaux rôles pour fournir un accès granulaire aux données sensibles telles que l'activité des fichiers de l'utilisateur. Pour plus d'informations, consultez la section link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-reference-roles.html["Accès basé sur les rôles NetApp Ransomware Resilience"] .
+Pour gérer les alertes d'activité utilisateur suspecte, Ransomware Resilience a introduit deux nouveaux rôles pour les administrateurs de l'organisation de la console afin d'accorder l'accès à la détection d'activité utilisateur suspecte : administrateur du comportement utilisateur Ransomware Resilience et visualiseur du comportement utilisateur Ransomware Resilience.
+
+Vous devez être un administrateur du comportement utilisateur pour configurer les paramètres de comportement utilisateur suspect. Le rôle d’administrateur Ransomware Resilience n’est pas pris en charge pour la configuration des paramètres de comportement utilisateur suspect.
+
+Pour plus d'informations, consultez la section link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-ransomware-roles.html["Accès basé sur les rôles NetApp Ransomware Resilience"^] .
 
 
 
@@ -1783,7 +1808,7 @@ Cette version comprend des améliorations générales.
 
 ==== Prise en charge de la charge de travail SAN
 
-Cette version inclut la prise en charge des charges de travail SAN dans la BlueXP ransomware protection. Vous pouvez désormais protéger les charges de travail SAN en plus des charges de travail NFS et CIFS.
+Cette version inclut la prise en charge des charges de travail SAN dans la BlueXP ransomware protection.  Vous pouvez désormais protéger les charges de travail SAN en plus des charges de travail NFS et CIFS.
 
 Pour plus d'informations, reportez-vous à link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-start-prerequisites.html["Conditions préalables à la BlueXP ransomware protection"] .
 
@@ -1791,7 +1816,7 @@ Pour plus d'informations, reportez-vous à link:https://docs.netapp.com/us-en/da
 
 ==== Protection améliorée de la charge de travail
 
-Cette version améliore le processus de configuration des charges de travail avec des stratégies de snapshot et de sauvegarde provenant d'autres outils NetApp tels que SnapCenter ou BlueXP backup and recovery. Dans les versions précédentes, la BlueXP ransomware protection détectait les politiques d'autres outils, vous permettant uniquement de modifier la politique de détection. Avec cette version, vous pouvez désormais remplacer les politiques de snapshot et de sauvegarde par les politiques de BlueXP ransomware protection ou continuer à utiliser les politiques d'autres outils.
+Cette version améliore le processus de configuration des charges de travail avec des stratégies de snapshot et de sauvegarde provenant d'autres outils NetApp tels que SnapCenter ou BlueXP backup and recovery.  Dans les versions précédentes, la BlueXP ransomware protection détectait les politiques d'autres outils, vous permettant uniquement de modifier la politique de détection.  Avec cette version, vous pouvez désormais remplacer les politiques de snapshot et de sauvegarde par les politiques de BlueXP ransomware protection ou continuer à utiliser les politiques d'autres outils.
 
 Pour plus de détails, reportez-vous àlink:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-use-protect.html["Protéger les charges de travail"] .
 
@@ -1809,121 +1834,6 @@ Pour plus de détails, reportez-vous àlink:https://docs.netapp.com/us-en/data-s
 
 
 
-=== 9 juin 2025
-
-
-
-==== Mises à jour de la page de destination
-
-Cette version inclut des mises à jour de la page de destination pour la BlueXP ransomware protection qui facilitent le démarrage de l'essai gratuit et la découverte.
-
-
-
-==== Mises à jour sur les exercices de préparation
-
-Auparavant, vous pouviez exécuter un exercice de préparation aux ransomwares en simulant une attaque sur un nouvel exemple de charge de travail. Grâce à cette fonctionnalité, vous pouvez enquêter sur l’attaque simulée et récupérer la charge de travail. Utilisez cette fonctionnalité pour tester les notifications d’alerte, la réponse et la récupération. Exécutez et planifiez ces exercices aussi souvent que nécessaire.
-
-Avec cette version, vous pouvez utiliser un nouveau bouton sur le tableau de bord de BlueXP ransomware protection pour exécuter un exercice de préparation aux ransomwares sur une charge de travail de test, ce qui vous permet de simuler plus facilement des attaques de ransomwares, d'étudier leur impact et de récupérer efficacement les charges de travail, le tout dans un environnement contrôlé.
-
-Vous pouvez désormais exécuter des exercices de préparation sur les charges de travail CIFS (SMB) en plus des charges de travail NFS.
-
-Pour plus de détails, reportez-vous à https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-start-simulate.html["Effectuer un exercice de préparation aux attaques de ransomware"] .
-
-
-
-==== Activer les mises à jour de BlueXP classification
-
-Avant d’utiliser la BlueXP classification dans le service de BlueXP ransomware protection , vous devez activer la BlueXP classification pour analyser vos données. La classification des données vous aide à trouver des informations personnelles identifiables (PII), ce qui peut augmenter les risques de sécurité.
-
-Vous pouvez déployer la BlueXP classification sur une charge de travail de partage de fichiers à partir de la BlueXP ransomware protection. Dans la colonne *Exposition à la confidentialité*, sélectionnez l’option *Identifier l’exposition*. Si vous avez activé le service de classification, cette action identifie l'exposition. Sinon, avec cette version, une boîte de dialogue présente la possibilité de déployer la BlueXP classification. Sélectionnez *Déployer* pour accéder à la page de destination du service de BlueXP classification , où vous pouvez déployer ce service. W
-
-Pour plus de détails, reportez-vous à https://docs.netapp.com/us-en/data-services-data-classification/task-deploy-cloud-compliance.html["Déployer la BlueXP classification dans le cloud"^] et pour utiliser le service dans la BlueXP ransomware protection, reportez-vous à https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-use-protect-classify.html["Rechercher des informations personnelles identifiables avec la BlueXP classification"] .
-
-
-
-=== 13 mai 2025
-
-
-
-==== Signalement d'environnements de travail non pris en charge dans la BlueXP ransomware protection
-
-Pendant le flux de travail de découverte, la BlueXP ransomware protection signale plus de détails lorsque vous passez la souris sur les charges de travail prises en charge ou non prises en charge. Cela vous aidera à comprendre pourquoi certaines de vos charges de travail ne sont pas détectées par le service de BlueXP ransomware protection .
-
-Il existe de nombreuses raisons pour lesquelles le service ne prend pas en charge un environnement de travail. Par exemple, la version ONTAP de votre environnement de travail peut être inférieure à la version requise. Lorsque vous survolez un environnement de travail non pris en charge, une info-bulle affiche la raison.
-
-Vous pouvez afficher les environnements de travail non pris en charge lors de la découverte initiale, où vous pouvez également télécharger les résultats. Vous pouvez également afficher les résultats de la découverte à partir de l'option *Découverte de charge de travail* dans la page Paramètres.
-
-Pour plus de détails, reportez-vous à https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-start-discover.html["Découvrez les charges de travail dans la BlueXP ransomware protection"] .
-
-
-
-=== 29 avril 2025
-
-
-
-==== Prise en charge d' Amazon FSx for NetApp ONTAP
-
-Cette version prend en charge Amazon FSx for NetApp ONTAP. Cette fonctionnalité vous aide à protéger vos charges de travail FSx for ONTAP avec la BlueXP ransomware protection.
-
-FSx for ONTAP est un service entièrement géré qui fournit la puissance du stockage NetApp ONTAP dans le cloud. Il offre les mêmes fonctionnalités, performances et capacités administratives que celles que vous utilisez sur site avec l'agilité et l'évolutivité d'un service AWS natif.
-
-Les modifications suivantes ont été apportées au flux de travail de BlueXP ransomware protection :
-
-* Discovery inclut les charges de travail dans les environnements de travail FSx pour ONTAP 9.15.
-* L'onglet Protection affiche les charges de travail dans les environnements FSx for ONTAP . Dans cet environnement, vous devez effectuer des opérations de sauvegarde à l'aide du service de sauvegarde FSx for ONTAP . Vous pouvez restaurer ces charges de travail à l’aide des instantanés de BlueXP ransomware protection .
-+
-
-TIP: Les politiques de sauvegarde pour une charge de travail exécutée sur FSx pour ONTAP ne peuvent pas être définies dans BlueXP. Toutes les politiques de sauvegarde existantes définies dans Amazon FSx for NetApp ONTAP restent inchangées.
-
-* Les incidents d'alerte montrent le nouvel environnement de travail FSx pour ONTAP .
-
-
-Pour plus de détails, reportez-vous à https://docs.netapp.com/us-en/data-services-ransomware-resilience/concept-ransomware-resilience.html["En savoir plus sur la BlueXP ransomware protection"] .
-
-Pour plus d'informations sur les options prises en charge, reportez-vous à la https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-reference-limitations.html["Limitations de la BlueXP ransomware protection"] .
-
-
-
-==== Rôle d'accès BlueXP requis
-
-Vous avez désormais besoin de l’un des rôles d’accès suivants pour afficher, découvrir ou gérer la BlueXP ransomware protection: administrateur de l’organisation, administrateur de dossier ou de projet, administrateur de la protection contre les ransomwares ou visualiseur de protection contre les ransomwares.
-
-https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html["En savoir plus sur les rôles d'accès BlueXP pour tous les services"^] .
-
-
-
-=== 14 avril 2025
-
-
-
-==== Rapports d'exercices de préparation
-
-Avec cette version, vous pouvez consulter les rapports d’exercices de préparation aux attaques de ransomware. Un exercice de préparation vous permet de simuler une attaque de ransomware sur un échantillon de charge de travail nouvellement créé. Ensuite, examinez l’attaque simulée et récupérez l’exemple de charge de travail. Cette fonctionnalité vous aide à savoir que vous êtes préparé en cas d'attaque réelle de ransomware en testant les processus de notification d'alerte, de réponse et de récupération.
-
-Pour plus de détails, reportez-vous à https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-start-simulate.html["Effectuer un exercice de préparation aux attaques de ransomware"] .
-
-
-
-==== Nouveaux rôles et autorisations de contrôle d'accès basés sur les rôles
-
-Auparavant, vous pouviez attribuer des rôles et des autorisations aux utilisateurs en fonction de leurs responsabilités, ce qui vous aide à gérer l'accès des utilisateurs à la BlueXP ransomware protection. Avec cette version, il existe deux nouveaux rôles spécifiques à la BlueXP ransomware protection avec des autorisations mises à jour. Les nouveaux rôles sont :
-
-* Administrateur de la protection contre les ransomwares
-* Visionneuse de protection contre les ransomwares
-
-
-Pour plus de détails sur les autorisations, reportez-vous à https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-reference-roles.html["Accès aux fonctionnalités basé sur les rôles de BlueXP ransomware protection"] .
-
-
-
-==== Améliorations des paiements
-
-Cette version inclut plusieurs améliorations au processus de paiement.
-
-Pour plus de détails, reportez-vous à https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-start-licenses.html["Configurer les options de licence et de paiement"] .
-
-
-
 == Assainissement
 
 Le service de remédiation a été supprimé le 22 avril 2024.
@@ -1938,17 +1848,17 @@ Le service de remédiation a été supprimé le 22 avril 2024.
 
 
 
-==== La BlueXP replication est désormais la réplication NetApp
+==== La BlueXP replication est désormais la NetApp Replication
 
-La BlueXP replication a été renommée en réplication NetApp .
+La BlueXP replication a été renommée en NetApp Replication.
 
 
 
 ==== BlueXP est désormais NetApp Console
 
-La console NetApp , construite sur la base BlueXP améliorée et restructurée, fournit une gestion centralisée du stockage NetApp et des services de données NetApp dans les environnements sur site et cloud à l'échelle de l'entreprise, offrant des informations en temps réel, des flux de travail plus rapides et une administration simplifiée, hautement sécurisée et conforme.
+La NetApp Console, construite sur la base BlueXP améliorée et restructurée, fournit une gestion centralisée du stockage NetApp et des NetApp Data Services dans les environnements sur site et cloud à l'échelle de l'entreprise, offrant des informations en temps réel, des flux de travail plus rapides et une administration simplifiée, hautement sécurisée et conforme.
 
-Pour plus de détails sur ce qui a changé, consultez lelink:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["Notes de version de la console NetApp"] .
+Pour plus de détails sur ce qui a changé, consultez lelink:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["Notes de version de la NetApp Console"] .
 
 
 
@@ -2004,15 +1914,15 @@ https://docs.netapp.com/us-en/bluexp-replication/task-replicating-data.html["App
 
 Les BlueXP software updates ont été renommées mises à jour logicielles.
 
-Vous pouvez y accéder à partir de la barre de navigation de gauche de la console NetApp en sélectionnant *Santé* > *Mises à jour logicielles*.
+Vous pouvez y accéder à partir de la barre de navigation de gauche de la NetApp Console en sélectionnant *Santé* > *Mises à jour logicielles*.
 
 
 
 ==== BlueXP est désormais NetApp Console
 
-La console NetApp , construite sur la base BlueXP améliorée et restructurée, fournit une gestion centralisée du stockage NetApp et des services de données NetApp dans les environnements sur site et cloud à l'échelle de l'entreprise, offrant des informations en temps réel, des flux de travail plus rapides et une administration simplifiée, hautement sécurisée et conforme.
+La NetApp Console, construite sur la base BlueXP améliorée et restructurée, fournit une gestion centralisée du stockage NetApp et des NetApp Data Services dans les environnements sur site et cloud à l'échelle de l'entreprise, offrant des informations en temps réel, des flux de travail plus rapides et une administration simplifiée, hautement sécurisée et conforme.
 
-Pour plus de détails sur ce qui a changé, consultez le https://docs.netapp.com/us-en/bluexp-relnotes/index.html["Notes de version de la console NetApp"] .
+Pour plus de détails sur ce qui a changé, consultez le https://docs.netapp.com/us-en/bluexp-relnotes/index.html["Notes de version de la NetApp Console"] .
 
 
 
@@ -2022,7 +1932,7 @@ Pour plus de détails sur ce qui a changé, consultez le https://docs.netapp.com
 
 ==== Rôle d'accès BlueXP requis
 
-Vous avez désormais besoin de l'un des rôles d'accès suivants pour installer les mises à jour logicielles : *Administrateur de l'organisation*, *Administrateur de dossier ou de projet*, *Administrateur de stockage*, *Visionneur de stockage* ou *Spécialiste de l'état du stockage*. Les utilisateurs disposant du rôle de visualiseur de stockage disposent de diverses autorisations liées aux mises à jour logicielles, mais ne peuvent pas installer de mises à jour logicielles.link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["Découvrez les rôles d’accès BlueXP ."^]
+Vous avez désormais besoin de l'un des rôles d'accès suivants pour installer les mises à jour logicielles : *Administrateur de l'organisation*, *Administrateur de dossier ou de projet*, *Administrateur de stockage*, *Visionneur de stockage* ou *Spécialiste de l'état du stockage*.  Les utilisateurs disposant du rôle de visualiseur de stockage disposent de diverses autorisations liées aux mises à jour logicielles, mais ne peuvent pas installer de mises à jour logicielles.link:https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["Découvrez les rôles d’accès BlueXP ."^]
 
 
 
@@ -2032,7 +1942,7 @@ Vous avez désormais besoin de l'un des rôles d'accès suivants pour installer 
 
 ==== Risques atténués
 
-Dans la section récapitulative des BlueXP software updates, vous pouvez désormais afficher le nombre total de risques qui peuvent être atténués par la mise à jour du système d'exploitation. Cela permet aux utilisateurs d’évaluer les améliorations de sécurité et de stabilité sur leur base d’installation.
+Dans la section récapitulative des BlueXP software updates, vous pouvez désormais afficher le nombre total de risques qui peuvent être atténués par la mise à jour du système d'exploitation.  Cela permet aux utilisateurs d’évaluer les améliorations de sécurité et de stabilité sur leur base d’installation.
 
 
 
@@ -2046,9 +1956,9 @@ Dans la section récapitulative des BlueXP software updates, vous pouvez désorm
 
 ==== BlueXP est désormais NetApp Console
 
-La console NetApp , construite sur la base BlueXP améliorée et restructurée, fournit une gestion centralisée du stockage NetApp et des services de données NetApp dans les environnements sur site et cloud à l'échelle de l'entreprise, offrant des informations en temps réel, des flux de travail plus rapides et une administration simplifiée, hautement sécurisée et conforme.
+La NetApp Console, construite sur la base BlueXP améliorée et restructurée, fournit une gestion centralisée du stockage NetApp et des NetApp Data Services dans les environnements sur site et cloud à l'échelle de l'entreprise, offrant des informations en temps réel, des flux de travail plus rapides et une administration simplifiée, hautement sécurisée et conforme.
 
-Pour plus de détails sur ce qui a changé, consultez lelink:https://docs.netapp.com/us-en/console-relnotes/index.html["Notes de version de la console NetApp"] .
+Pour plus de détails sur ce qui a changé, consultez lelink:https://docs.netapp.com/us-en/console-relnotes/index.html["Notes de version de la NetApp Console"] .
 
 
 
@@ -2108,9 +2018,9 @@ La BlueXP tiering a été renommée NetApp Cloud Tiering.
 
 ==== BlueXP est désormais NetApp Console
 
-La console NetApp , construite sur la base BlueXP améliorée et restructurée, fournit une gestion centralisée du stockage NetApp et des services de données NetApp dans les environnements sur site et cloud à l'échelle de l'entreprise, offrant des informations en temps réel, des flux de travail plus rapides et une administration simplifiée, hautement sécurisée et conforme.
+La NetApp Console, construite sur la base BlueXP améliorée et restructurée, fournit une gestion centralisée du stockage NetApp et des NetApp Data Services dans les environnements sur site et cloud à l'échelle de l'entreprise, offrant des informations en temps réel, des flux de travail plus rapides et une administration simplifiée, hautement sécurisée et conforme.
 
-Pour plus de détails sur ce qui a changé, consultez lelink:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["Notes de version de la console NetApp"] .
+Pour plus de détails sur ce qui a changé, consultez lelink:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["Notes de version de la NetApp Console"] .
 
 
 
@@ -2126,7 +2036,7 @@ Auparavant, vous deviez utiliser le préfixe « fabric-pool » par défaut lors 
 
 ==== Rechercher un cluster sur tous les connecteurs BlueXP
 
-Si vous utilisez plusieurs connecteurs pour gérer tous les systèmes de stockage de votre environnement, certains clusters sur lesquels vous souhaitez implémenter la hiérarchisation peuvent se trouver dans des connecteurs différents. Si vous n'êtes pas sûr du connecteur qui gère un certain cluster, vous pouvez effectuer une recherche parmi tous les connecteurs à l'aide de Cloud Tiering. https://docs.netapp.com/us-en/bluexp-tiering/task-managing-tiering.html#search-for-a-cluster-across-all-bluexp-connectors["Apprendre encore plus"] .
+Si vous utilisez plusieurs connecteurs pour gérer tous les systèmes de stockage de votre environnement, certains clusters sur lesquels vous souhaitez implémenter la hiérarchisation peuvent se trouver dans des connecteurs différents.  Si vous n'êtes pas sûr du connecteur qui gère un certain cluster, vous pouvez effectuer une recherche parmi tous les connecteurs à l'aide de Cloud Tiering. https://docs.netapp.com/us-en/bluexp-tiering/task-managing-tiering.html#search-for-a-cluster-across-all-bluexp-connectors["Apprendre encore plus"] .
 
 
 
@@ -2136,7 +2046,7 @@ Si vous utilisez plusieurs connecteurs pour gérer tous les systèmes de stockag
 
 ==== Ajuster la bande passante pour transférer les données inactives
 
-Lorsque vous activez Cloud Tiering, ONTAP peut utiliser une quantité illimitée de bande passante réseau pour transférer les données inactives des volumes du cluster vers le stockage d'objets. Si vous remarquez que la hiérarchisation du trafic affecte les charges de travail normales des utilisateurs, vous pouvez limiter la quantité de bande passante pouvant être utilisée pendant le transfert. https://docs.netapp.com/us-en/bluexp-tiering/task-managing-tiering.html#changing-the-network-bandwidth-available-to-upload-inactive-data-to-object-storage["Apprendre encore plus"] .
+Lorsque vous activez Cloud Tiering, ONTAP peut utiliser une quantité illimitée de bande passante réseau pour transférer les données inactives des volumes du cluster vers le stockage d'objets.  Si vous remarquez que la hiérarchisation du trafic affecte les charges de travail normales des utilisateurs, vous pouvez limiter la quantité de bande passante pouvant être utilisée pendant le transfert. https://docs.netapp.com/us-en/bluexp-tiering/task-managing-tiering.html#changing-the-network-bandwidth-available-to-upload-inactive-data-to-object-storage["Apprendre encore plus"] .
 
 
 
@@ -2144,7 +2054,7 @@ Lorsque vous activez Cloud Tiering, ONTAP peut utiliser une quantité illimitée
 
 L'événement de hiérarchisation « Hiérarchiser les données supplémentaires du cluster <nom> vers le stockage d'objets pour augmenter l'efficacité de votre stockage » apparaît désormais sous la forme d'une notification lorsqu'un cluster hiérarchise moins de 20 % de ses données froides, y compris les clusters qui ne hiérarchisent aucune donnée.
 
-Cette notification est une « recommandation » pour vous aider à rendre vos systèmes plus efficaces et à économiser sur les coûts de stockage. Il fournit un lien vers le https://bluexp.netapp.com/cloud-tiering-service-tco["Calculateur du coût total de possession et des économies de Cloud Tiering"^] pour vous aider à calculer vos économies.
+Cette notification est une « recommandation » pour vous aider à rendre vos systèmes plus efficaces et à économiser sur les coûts de stockage.  Il fournit un lien vers le https://bluexp.netapp.com/cloud-tiering-service-tco["Calculateur du coût total de possession et des économies de Cloud Tiering"^] pour vous aider à calculer vos économies.
 
 
 
@@ -2160,15 +2070,15 @@ Cette notification est une « recommandation » pour vous aider à rendre vos 
 
 La BlueXP volume caching a été renommée en mise en cache de volume.
 
-Vous pouvez y accéder à partir de la barre de navigation de gauche de la console NetApp en sélectionnant *Mobilité* > *Mise en cache des volumes*.
+Vous pouvez y accéder à partir de la barre de navigation de gauche de la NetApp Console en sélectionnant *Mobilité* > *Mise en cache des volumes*.
 
 
 
 ==== BlueXP est désormais NetApp Console
 
-La console NetApp , construite sur la base BlueXP améliorée et restructurée, fournit une gestion centralisée du stockage NetApp et des services de données NetApp dans les environnements sur site et cloud à l'échelle de l'entreprise, offrant des informations en temps réel, des flux de travail plus rapides et une administration simplifiée, hautement sécurisée et conforme.
+La NetApp Console, construite sur la base BlueXP améliorée et restructurée, fournit une gestion centralisée du stockage NetApp et des NetApp Data Services dans les environnements sur site et cloud à l'échelle de l'entreprise, offrant des informations en temps réel, des flux de travail plus rapides et une administration simplifiée, hautement sécurisée et conforme.
 
-Pour plus de détails sur ce qui a changé, consultez lelink:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["Notes de version de la console NetApp"] .
+Pour plus de détails sur ce qui a changé, consultez lelink:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["Notes de version de la NetApp Console"] .
 
 
 
@@ -2178,7 +2088,7 @@ Pour plus de détails sur ce qui a changé, consultez lelink:https://docs.netapp
 
 ==== BlueXP volume caching
 
-La BlueXP volume caching, une fonctionnalité du logiciel ONTAP 9, est une capacité de mise en cache à distance qui simplifie la distribution de fichiers, réduit la latence WAN en rapprochant les ressources de l'endroit où se trouvent vos utilisateurs et vos ressources de calcul, et réduit les coûts de bande passante WAN. La mise en cache de volume fournit un volume persistant et inscriptible dans un emplacement distant. Vous pouvez utiliser la BlueXP volume caching pour accélérer l’accès aux données ou pour décharger le trafic des volumes fortement consultés. Les volumes de cache sont idéaux pour les charges de travail à lecture intensive, en particulier lorsque les clients doivent accéder aux mêmes données de manière répétée.
+La BlueXP volume caching, une fonctionnalité du logiciel ONTAP 9, est une capacité de mise en cache à distance qui simplifie la distribution de fichiers, réduit la latence WAN en rapprochant les ressources de l'endroit où se trouvent vos utilisateurs et vos ressources de calcul, et réduit les coûts de bande passante WAN.  La mise en cache de volume fournit un volume persistant et inscriptible dans un emplacement distant.  Vous pouvez utiliser la BlueXP volume caching pour accélérer l’accès aux données ou pour décharger le trafic des volumes fortement consultés.  Les volumes de cache sont idéaux pour les charges de travail à lecture intensive, en particulier lorsque les clients doivent accéder aux mêmes données de manière répétée.
 
 Avec la BlueXP volume caching, vous disposez de capacités de mise en cache pour le cloud, en particulier pour Amazon FSx for NetApp ONTAP, Cloud Volumes ONTAP et sur site comme environnements de travail.
 
@@ -2196,13 +2106,13 @@ link:https://docs.netapp.com/us-en/bluexp-volume-caching/get-started/cache-intro
 
 ==== BlueXP workload factory désormais NetApp Workload Factory
 
-BlueXP a été renommé et repensé pour mieux refléter le rôle qu'il joue dans la gestion de votre infrastructure de données. Par conséquent, BlueXP workload factory a été renommée NetApp Workload Factory.
+BlueXP a été renommé et repensé pour mieux refléter le rôle qu'il joue dans la gestion de votre infrastructure de données.  Par conséquent, BlueXP workload factory a été renommée NetApp Workload Factory.
 
 
 
 ==== Intégration de Ask Me avec MCP
 
-Ask Me, l'assistant IA de Workload Factory, est intégré au protocole de contexte de modèle (MCP). À l'aide de MCP, Ask Me s'interface en toute sécurité avec des environnements externes et interroge les outils API pour fournir des réponses adaptées à votre environnement de stockage spécifique.
+Ask Me, l'assistant IA de Workload Factory, est intégré au protocole de contexte de modèle (MCP).  À l'aide de MCP, Ask Me s'interface en toute sécurité avec des environnements externes et interroge les outils API pour fournir des réponses adaptées à votre environnement de stockage spécifique.
 
 
 
@@ -2218,36 +2128,12 @@ link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.
 
 
 
-=== 29 juin 2025
+=== 09 septembre 2025
 
 
 
-==== Mise à jour des autorisations pour les bases de données
+==== Nouvelle notification pour le stockage
 
-L'autorisation suivante est désormais disponible en mode _lecture seule_ pour les bases de données : `cloudwatch:GetMetricData` .
+Le service de notification BlueXP workload factory inclut la notification pour la gestion automatique de la capacité de stockage.
 
-https://docs.netapp.com/us-en/workload-setup-admin/permissions-reference.html#change-log["Journal des modifications de référence des autorisations"]
-
-
-
-==== Prise en charge du service de notification BlueXP workload factory
-
-Le service de notification de BlueXP workload factory permet à l'usine de charge de travail d'envoyer des notifications au service BlueXP alerts ou à une rubrique Amazon SNS.  Les notifications envoyées aux BlueXP alerts apparaissent dans le panneau des BlueXP alerts .  Lorsque Workload Factory publie des notifications sur une rubrique Amazon SNS, les abonnés à la rubrique (tels que des personnes ou d'autres applications) reçoivent les notifications aux points de terminaison configurés pour la rubrique (tels que des e-mails ou des SMS).
-
-https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["Configurer les notifications BlueXP workload factory"]
-
-
-
-=== 4 mai 2025
-
-
-
-==== Prise en charge de la saisie semi-automatique de CloudShell
-
-Lorsque vous utilisez la BlueXP workload factory CloudShell, vous pouvez commencer à saisir une commande et appuyer sur la touche Tab pour afficher les options disponibles.  Si plusieurs possibilités existent, la CLI affichera une liste de suggestions.  Cette fonctionnalité améliore la productivité en minimisant les erreurs et en accélérant l’exécution des commandes.
-
-
-
-==== Terminologie des autorisations mise à jour
-
-L'interface utilisateur et la documentation de l'usine de charge de travail utilisent désormais « lecture seule » pour faire référence aux autorisations de lecture et « lecture/écriture » pour faire référence aux autorisations d'automatisation.
+link:https://docs.netapp.com/us-en/workload-setup-admin/configure-notifications.html["Notifications pour BlueXP workload factory"]

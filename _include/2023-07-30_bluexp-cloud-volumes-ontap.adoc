@@ -8,7 +8,7 @@ Les modifications suivantes ont été introduites avec la version 3.9.32 du conn
 
 === Prise en charge du cache Flash et de la vitesse d'écriture élevée dans Google Cloud
 
-Le cache Flash et la vitesse d'écriture élevée peuvent être activés séparément dans Google Cloud pour Cloud Volumes ONTAP 9.13.1 et versions ultérieures.  Une vitesse d'écriture élevée est disponible sur tous les types d'instances pris en charge.  Flash Cache est pris en charge sur les types d’instances suivants :
+Le cache Flash et la vitesse d'écriture élevée peuvent être activés séparément dans Google Cloud pour Cloud Volumes ONTAP 9.13.1 et versions ultérieures. Une vitesse d'écriture élevée est disponible sur tous les types d'instances pris en charge. Flash Cache est pris en charge sur les types d’instances suivants :
 
 * n2-standard-16
 * n2-standard-32
@@ -24,7 +24,7 @@ link:https://docs.netapp.com/us-en/bluexp-cloud-volumes-ontap/task-deploying-gcp
 
 === Améliorations des rapports d'utilisation
 
-Diverses améliorations des informations affichées dans les rapports d’utilisation sont désormais disponibles.  Voici les améliorations apportées aux rapports d’utilisation :
+Diverses améliorations des informations affichées dans les rapports d’utilisation sont désormais disponibles. Voici les améliorations apportées aux rapports d’utilisation :
 
 * L'unité TiB est désormais incluse dans le nom des colonnes.
 * Un nouveau champ « nœud(s) » pour les numéros de série est désormais inclus.

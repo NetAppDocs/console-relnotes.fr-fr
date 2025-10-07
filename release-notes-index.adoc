@@ -2,9 +2,9 @@
 sidebar: sidebar 
 permalink: release-notes-index.html 
 keywords: release notes 
-summary: Consultez l’ensemble complet des notes de publication pour les fonctionnalités d’administration et de stockage de la console NetApp et les services de données NetApp . 
+summary: Consultez l’ensemble complet des notes de publication pour les fonctionnalités d’administration et de stockage de la NetApp Console et les services de données NetApp . 
 ---
-= Index des notes de publication
+= Index des notes de version
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
@@ -14,7 +14,7 @@ summary: Consultez l’ensemble complet des notes de publication pour les foncti
 
 
 [role="lead"]
-Consultez l’ensemble complet des notes de publication pour les fonctionnalités de la console NetApp et les services de données NetApp .
+Consultez l’ensemble complet des notes de publication pour les fonctionnalités de la NetApp Console et les services de données NetApp .
 
 
 
@@ -25,7 +25,7 @@ Consultez l’ensemble complet des notes de publication pour les fonctionnalité
 * https://docs.netapp.com/us-en/netapp-automation/about/whats-new.html["Centre d'automatisation"^]
 * https://docs.netapp.com/us-en/active-iq/reference_new_activeiq.html["Conseiller numérique"^]
 * https://docs.netapp.com/us-en/console-lifecycle-planning/release-notes/whats-new.html["Efficacité économique"^]
-* https://docs.netapp.com/us-en/console-licenses-subscriptions/index.html["Licences et abonnements"^]
+* https://docs.netapp.com/us-en/console-licenses-subscriptions/index.html["Licenses and subscriptions"^]
 * https://docs.netapp.com/us-en/console-software-updates/release-notes/whats-new.html["Mises à jour logicielles"^]
 
 
@@ -38,7 +38,7 @@ Consultez l’ensemble complet des notes de publication pour les fonctionnalité
 * https://docs.netapp.com/us-en/storage-management-blob-storage/index.html["Stockage d'objets blob Azure"^]
 * https://docs.netapp.com/us-en/storage-management-azure-netapp-files/whats-new.html["Azure NetApp Files"^]
 * https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/index.html["Cloud Volumes ONTAP"^]
-* https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/whats-new.html["Gestion de Cloud Volumes ONTAP dans la console NetApp"^]
+* https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/whats-new.html["Gestion de Cloud Volumes ONTAP dans la NetApp Console"^]
 * https://docs.netapp.com/us-en/storage-management-e-series/whats-new.html["Systèmes de la série E"^]
 * https://docs.netapp.com/us-en/storage-management-google-cloud-netapp-volumes/whats-new.html["Google Cloud NetApp Volumes"^]
 * https://docs.netapp.com/us-en/storage-management-google-cloud-storage/whats-new.html["Stockage Google Cloud"^]
