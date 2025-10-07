@@ -1343,7 +1343,109 @@ Pour plus d'informations sur les rapports d'utilisation, reportez-vous à https:
 
 == Reprise après sinistre
 
-Directive non résolue dans <stdin> - include:: https://raw.githubusercontent.com/NetAppDocs/storage-management-disaster-recovery/main/release-notes/dr-whats-new.adoc [tag=whats-new,leveloffset=+1]
+
+
+=== 06 octobre 2025
+
+
+
+==== La BlueXP disaster recovery est désormais NetApp Disaster Recovery
+
+La BlueXP disaster recovery a été renommée NetApp Disaster Recovery.
+
+
+
+==== BlueXP est désormais NetApp Console
+
+La console NetApp , construite sur la base BlueXP améliorée et restructurée, fournit une gestion centralisée du stockage NetApp et des services de données NetApp dans les environnements sur site et cloud à l'échelle de l'entreprise, offrant des informations en temps réel, des flux de travail plus rapides et une administration simplifiée, hautement sécurisée et conforme.
+
+Pour plus de détails sur ce qui a changé, consultez lelink:https://docs.netapp.com/us-en/bluexp-relnotes/index.html["Notes de version de la console NetApp"] .
+
+
+
+==== Autres mises à jour
+
+* La prise en charge d'Amazon Elastic VMware Service (EVS) avec Amazon FSx for NetApp ONTAP était disponible en version préliminaire publique. Avec cette version, il est désormais généralement disponible. Pour plus de détails, reportez-vous àlink:../reference/evs-deploy-guide-introduction.html["Présentation de NetApp Disaster Recovery à l'aide d'Amazon Elastic VMware Service et Amazon FSx for NetApp ONTAP"] .
+* Améliorations de la découverte du stockage, notamment des temps de découverte réduits pour les déploiements sur site
+* Prise en charge de la gestion des identités et des accès (IAM), y compris le contrôle d'accès basé sur les rôles (RBAC) et les autorisations utilisateur améliorées
+* Prise en charge de l'aperçu privé pour la solution Azure VMware et Cloud Volumes ONTAP. Grâce à cette prise en charge, vous pouvez désormais configurer la protection de reprise après sinistre sur site vers la solution Azure VMware à l’aide du stockage Cloud Volumes ONTAP .
+
+
+
+
+=== 4 août 2025
+
+Version 4.2.5P2
+
+
+
+==== Mises à jour de NetApp Disaster Recovery
+
+Cette version inclut les mises à jour suivantes :
+
+* Amélioration de la prise en charge VMFS pour gérer le même LUN présenté à partir de plusieurs machines virtuelles de stockage.
+* Amélioration du nettoyage du démontage des tests pour gérer le magasin de données déjà démonté et/ou supprimé.
+* Mappage de sous-réseau amélioré afin qu'il valide désormais que la passerelle saisie est contenue dans le réseau fourni.
+* Correction d'un problème qui pouvait entraîner l'échec du plan de réplication si le nom de la machine virtuelle contenait « .com ».
+* Suppression d'une restriction empêchant le volume de destination d'être identique au volume source lors de la création du volume dans le cadre de la création du plan de réplication.
+* Ajout de la prise en charge d’un abonnement à la carte (PAYGO) aux services intelligents NetApp dans Azure Marketplace et ajout d’un lien vers Azure Marketplace dans la boîte de dialogue d’essai gratuit.
++
+Pour plus de détails, voir https://docs.netapp.com/us-en/bluexp-disaster-recovery/get-started/dr-intro.html#licensing["Licences de reprise après sinistre NetApp"] et https://docs.netapp.com/us-en/bluexp-disaster-recovery/get-started/dr-licensing.html["Configurer les licences pour NetApp Disaster Recovery"] .
+
+
+
+
+
+=== 14 juillet 2025
+
+Version 4.2.5
+
+
+
+==== Rôles des utilisateurs dans NetApp Disaster Recovery
+
+NetApp Disaster Recovery utilise désormais des rôles pour gérer l’accès de chaque utilisateur à des fonctionnalités et actions spécifiques.
+
+Le service utilise les rôles suivants qui sont spécifiques à NetApp Disaster Recovery.
+
+* *Administrateur de récupération après sinistre* : effectuez toutes les actions dans NetApp Disaster Recovery.
+* *Administrateur de basculement de reprise après sinistre* : effectuez des actions de basculement et de migration dans NetApp Disaster Recovery.
+* *Administrateur d'application de récupération après sinistre* : Créez et modifiez des plans de réplication et démarrez des tests de basculement.
+* *Visionneuse de récupération après sinistre* : affichez les informations dans NetApp Disaster Recovery, mais ne pouvez effectuer aucune action.
+
+
+Si vous cliquez sur le service NetApp Disaster Recovery et le configurez pour la première fois, vous devez disposer de l'autorisation *SnapCenterAdmin* ou du rôle *Organization Admin*.
+
+Pour plus de détails, consultez la section  https://docs.netapp.com/us-en/bluexp-disaster-recovery/reference/dr-reference-roles.html["Rôles et autorisations des utilisateurs dans NetApp Disaster Recovery"] .
+
+https://docs.netapp.com/us-en/bluexp-setup-admin/reference-iam-predefined-roles.html["En savoir plus sur les rôles d'accès pour tous les services"^] .
+
+
+
+==== Autres mises à jour de NetApp Disaster Recovery
+
+* Découverte de réseau améliorée
+* Améliorations de l'évolutivité :
++
+** Filtrage des métadonnées requises au lieu de tous les détails
+** Améliorations de la découverte pour récupérer et mettre à jour les ressources des machines virtuelles plus rapidement
+** Optimisation de la mémoire et des performances pour la récupération et la mise à jour des données
+** Améliorations de la création de clients et de la gestion des pools du SDK vCenter
+
+
+* Gestion des données obsolètes lors de la prochaine découverte planifiée ou manuelle :
++
+** Lorsqu'une machine virtuelle est supprimée dans vCenter, NetApp Disaster Recovery la supprime désormais automatiquement du plan de réplication.
+** Lorsqu'une banque de données ou un réseau est supprimé dans vCenter, NetApp Disaster Recovery le supprime désormais du plan de réplication et du groupe de ressources.
+** Lorsqu'un cluster, un hôte ou un centre de données est supprimé dans vCenter, NetApp Disaster Recovery le supprime désormais du plan de réplication et du groupe de ressources.
+
+
+* Vous pouvez désormais accéder à la documentation Swagger dans le mode navigation privée de votre navigateur. Vous pouvez y accéder depuis NetApp Disaster Recovery à partir de l'option Paramètres > Documentation API ou directement à l'URL suivante dans le mode navigation privée de votre navigateur : https://snapcenter.cloudmanager.cloud.netapp.com/api/api-doc/draas["Documentation de Swagger"^] .
+* Dans certaines situations, après une opération de restauration automatique, l'iGroup a été laissé derrière une fois l'opération terminée. Cette mise à jour supprime l'iGroup s'il est obsolète.
+* Si le nom de domaine complet NFS a été utilisé dans le plan de réplication, NetApp Disaster Recovery le résout désormais en une adresse IP. Cette mise à jour est utile si le nom de domaine complet n’est pas résoluble sur le site de reprise après sinistre.
+* Améliorations de l'alignement de l'interface utilisateur
+* Améliorations du journal pour capturer les détails de dimensionnement de vCenter après la découverte réussie
+
 
 
 
