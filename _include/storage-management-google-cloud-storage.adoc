@@ -1,0 +1,7 @@
+= Stockage Google Cloud
+:allow-uri-read: 
+
+
+
+
+=== Stockage Google Cloud

@@ -22,7 +22,7 @@ Consultez l’ensemble complet des notes de publication pour les fonctionnalité
 
 * https://docs.netapp.com/us-en/console-setup-admin/whats-new.html["Installation et administration"^]
 * https://docs.netapp.com/us-en/console-alerts/whats-new.html["Alertes"^]
-* https://docs.netapp.com/us-en/netapp-automation/about/whats-new.html["Centre d'automatisation"^]
+* https://docs.netapp.com/us-en/netapp-automation/about/whats-new.html["Catalogue d'automatisation"^]
 * https://docs.netapp.com/us-en/active-iq/reference_new_activeiq.html["Conseiller numérique"^]
 * https://docs.netapp.com/us-en/console-lifecycle-planning/release-notes/whats-new.html["Efficacité économique"^]
 * https://docs.netapp.com/us-en/console-licenses-subscriptions/index.html["Licenses and subscriptions"^]

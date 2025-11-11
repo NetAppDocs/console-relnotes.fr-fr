@@ -1,5 +1,0 @@
-= 
-:allow-uri-read: 
-
-
-Le service de rapports de migration BlueXP mis à jour fournit des mises à jour des données du rapport.  Les rapports incluent désormais la capacité allouée.
