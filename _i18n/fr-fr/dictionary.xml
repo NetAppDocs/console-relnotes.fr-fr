@@ -434,4 +434,14 @@
   <block id="1417c75bd92954a0e383fd49de457f16" category="sidebar">Ces notes de version décrivent les améliorations récentes apportées à la NetApp Console et aux services de données qu'elle prend en charge. Liens vers l'ensemble des notes de version pour chaque service.</block>
   <block id="d695b94e28d0e3417c365a5d120430d6" category="sidebar">Découvrez les modifications les plus récentes apportées aux fonctionnalités et aux services de données qui font partie de la NetApp Console. Pour consulter l'historique complet des versions, rendez-vous dans les notes de version complètes de chaque service.</block>
   <block id="0ed38d65baf5b180eb747fd387e348b6" category="section-title">Services obsolètes</block>
+  <block id="1760c97f466ea374318a8c0bedcb2aff" category="section-title">11 novembre 2025</block>
+  <block id="77750efa6f5ff153acdc42067058017f" category="section-title">10 novembre 2025</block>
+  <block id="810ddecf604478d8ee317e1ac69d7971" category="section-title">17 octobre 2025</block>
+  <block id="44758d2951f923446ffff8310f8ac382" category="section-title">13 octobre 2025</block>
+  <block id="a41dd7aa7d921f9f0881a705d3679e6c" category="section-title">6 octobre 2025</block>
+  <block id="6bc8c5419da4e61de95309f77caa37bd" category="paragraph">Hiérarchisation du cloud :leveloffset: +1</block>
+  <block id="0484d56eb9f3e2829253f54874da3319" category="paragraph">Réplication :leveloffset: +1</block>
+  <block id="2c1993b83ed7d4c19e4b372af7179590" category="paragraph">Série E :leveloffset: +1</block>
+  <block id="7438fabae28e88c43c70139fd85c992a" category="section-title">22 septembre 2025</block>
+  <block id="0428e48e7f58929099e52febd0558232" category="section-title">25 août 2025</block>
 </blocks>
