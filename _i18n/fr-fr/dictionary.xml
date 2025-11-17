@@ -447,6 +447,6 @@
   <block id="d2b3a1dfe9d4c19f9ff2f788f74f9779" category="doc">Gérer les préférences de facturation</block>
   <block id="8a13dbdb4fcf25f5e0cb0926b8af890f" category="paragraph">Vous pouvez désormais configurer et gérer les *préférences de facturation* directement dans la NetApp Console. Cette amélioration permet aux administrateurs de définir et de visualiser la facturation de l'utilisation des capacités, des renouvellements et des coûts pour les licences NetApp directes, les abonnements à la place de marché cloud et l'accord Keystone .</block>
   <block id="4b7bb7f3cdde9d3c96c7125f6fc305e3" category="inline-link-macro">Documentation relative aux préférences de facturation</block>
-  <block id="9c279367f9689e87b3033ad9104199ca" category="paragraph">Pour plus d'informations, consultez le .<block ref="74f075c5e4ddd6fb6defcdaf2c161bf1" category="inline-link-macro-rx"></block></block>
   <block id="3662750346c2942117b5e1492f2bdcd4" category="paragraph">Cette version comprend des améliorations générales.</block>
+  <block id="3c3236b09e81f9868cfa639ca1fbe105" category="paragraph">Pour plus d'informations, consultez le<block ref="5cdc12ff92d7ca20af8e5de10fe76183" category="inline-link-macro-rx"></block> .</block>
 </blocks>
