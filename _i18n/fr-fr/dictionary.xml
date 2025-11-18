@@ -400,7 +400,6 @@
   <block id="650940dddaeb353d547fc2674ba4d35b" category="paragraph-title">Indicateurs d'état d'agent renommés</block>
   <block id="9722491a4236a9be86f414fa5b3eebb8" category="paragraph">Les indicateurs d'état de l'agent de la console ont été renommés de *Actif* et *Inactif* à *Connecté* et *Déconnecté* afin de rendre leur fonction plus claire.</block>
   <block id="d9e7da7d4b9cc9086a7ab3a5a270f7da" category="paragraph-title">Prise en charge de Red Hat Enterprise Linux (RHEL) 9.6 et de Podman 5.4.0</block>
-  <block id="d90d113f70d4f4d024f99f4015bbbb96" category="paragraph">L'agent Console prend désormais en charge RHEL 9.6 et Podman 5.4.0. De plus, lors de l'utilisation de RHEL 9 et versions supérieures, NetApp prend en charge podman-compose 1.5.0.</block>
   <block id="2749b80160d80f9500fa8b5d5b4da1ba" category="section-title">Administration de la NetApp Console</block>
   <block id="a0d96dec6c85f67c2563063cec22ac66" category="paragraph">Cette version comprend les éléments suivants :</block>
   <block id="ac740509743c941164fb7e88fc8b768e" category="paragraph-title">Nouvelle adresse e-mail pour les notifications de la NetApp Console</block>
@@ -453,4 +452,6 @@
   <block id="b8cda09456e64356f2c1763e3e53d0af" category="inline-link-macro">Découvrez comment utiliser les liens pour les opérations ONTAP avancées.</block>
   <block id="8a730f2606f493b8d797f6c96c460037" category="paragraph">L'interface ONTAP System Manager peut être utilisée avec une liaison AWS Lambda pour effectuer des opérations ONTAP avancées. Cela offre une alternative à l'utilisation d'un agent Console avec System Manager pour gérer un système de fichiers FSx for ONTAP directement depuis la console. <block ref="3b6bcb03237efb7ff1ce82387184b37d" category="inline-link-macro-rx"></block></block>
   <block id="b566b4df138c2254f68b7631cba29c1d" category="section-title">17 novembre 2025</block>
+  <block id="b3df2aaed88f61f572a7284cb28844ec" category="inline-link-macro">Consultez les exigences du système d'exploitation</block>
+  <block id="43a9602052a44f890e2bbc95a0205a46" category="paragraph">Lors de l'installation manuelle d'un agent Console, celui-ci prend désormais en charge RHEL 9.6 avec Podman 5.4.0. De plus, lors de l'utilisation de RHEL 9 et versions supérieures, NetApp prend en charge podman-compose 1.5.0. <block ref="dd394ea917033ddbf269729b5d828637" category="inline-link-macro-rx"></block>.</block>
 </blocks>
