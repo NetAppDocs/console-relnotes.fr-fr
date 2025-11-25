@@ -124,21 +124,6 @@
   <block id="e799d8365a87a3e0c67cefd2d91a902d" category="doc">Amazon FSX pour ONTAP</block>
   <block id="6c253a8aff5dfa835a77545b3006abc8" category="doc">Clusters ONTAP sur site</block>
   <block id="f3cecd4ee9830dec85b22d80cd95ba07" category="list-text"><block ref="f3cecd4ee9830dec85b22d80cd95ba07" category="inline-link-rx"></block></block>
-  <block id="f7919ff057187672b74306b219aadaa0" category="doc">Prise en charge de la protection des charges de travail VMware dans l'aperçu</block>
-  <block id="5e8801556a1a15a279f09b79ad9c4141" category="paragraph">Cette version ajoute une prise en charge préliminaire pour la protection des charges de travail VMware. Sauvegardez les machines virtuelles VMware et les banques de données des systèmes ONTAP sur site vers Amazon Web Services et StorageGRID.</block>
-  <block id="b7aad0efced7f2a5664d2d5fcafeac91" category="admonition">La documentation sur la protection des charges de travail VMware est fournie sous forme d'aperçu technologique. Avec cette offre préliminaire, NetApp se réserve le droit de modifier les détails, le contenu et le calendrier de l'offre avant la disponibilité générale.</block>
-  <block id="5b3ee7a2b0e2cc1719a9dc8c2b849352" category="inline-link-macro">En savoir plus sur la protection des charges de travail VMware avec NetApp Backup and Recovery</block>
-  <block id="a4604657c4916d399ee4757122138b92" category="paragraph"><block ref="d36db2686cf22b4733dc580e6187e664" category="inline-link-macro-rx"></block>.</block>
-  <block id="e4fadb4a8e44a20b9cae72da5f43dd1c" category="section-title">L'indexation haute performance pour AWS, Azure et GCP est généralement disponible</block>
-  <block id="d2437297e3bf3cd7adfa86f57b8629f0" category="paragraph">En février 2025, nous avons annoncé l’aperçu de l’indexation haute performance (Indexed Catalog v2) pour AWS, Azure et GCP. Cette fonctionnalité est désormais généralement disponible (GA). En juin 2025, nous l'avons fourni à tous les _nouveaux_ clients par défaut. Avec cette version, le support est disponible pour _tous_ les clients. L’indexation hautes performances améliore les performances des opérations de sauvegarde et de restauration pour les charges de travail protégées par le stockage d’objets.</block>
-  <block id="5ced283cbe92781b3a48240fd1fde5cd" category="paragraph">Activé par défaut :</block>
-  <block id="234f6b906c6e6adf3ab5f1a4906d5366" category="list-text">Si vous êtes un nouveau client, l'indexation haute performance est activée par défaut.</block>
-  <block id="3b98c4910d4638f409d4421b51847611" category="list-text">Si vous êtes un client existant, vous pouvez activer la réindexation en accédant à la section Restaurer de l'interface utilisateur.</block>
-  <block id="7e8fe67b005603b496012796735f2d36" category="doc">Suivi d'utilisation logique amélioré avec une nouvelle colonne</block>
-  <block id="b79d3069a7b9ca9140a5c9b1bf2f8d81" category="paragraph">Une nouvelle colonne, Empreinte totale, est ajoutée pour améliorer le suivi de la consommation Keystone pour les volumes FabricPool :</block>
-  <block id="729a65ff91860ad65935d125d788f643" category="list-text">* Tableau de bord Keystone dans BlueXP*: Vous pouvez voir la colonne *Empreinte totale* dans l'onglet *Volumes dans les clusters* dans l'onglet *Actifs*.</block>
-  <block id="61f4e69294ec080e5cb7bce32f2f8b99" category="list-text">* Digital Advisor*: Vous pouvez voir la colonne *Empreinte totale* dans l'onglet *Détails du volume* dans l'onglet *Volumes et objets*.</block>
-  <block id="610355e82f0e7cf01bdfa1df13985f3f" category="paragraph">Cette colonne affiche l'empreinte logique totale des volumes utilisant la hiérarchisation FabricPool , y compris les données des niveaux de performances et de froid, afin que vous puissiez calculer avec précision la consommation de Keystone .</block>
   <block id="e83b5a250e0912f549b3d3758e90e680" category="doc">Ajout de la surveillance des alertes</block>
   <block id="eff9717b3e6b80befe3a05db7b3e6a1d" category="paragraph">Le tableau de bord Keystone de BlueXP inclut désormais un onglet *Surveillance* pour gérer les alertes et les surveillances sur vos abonnements. Ce nouvel onglet vous permet de :</block>
   <block id="d540a0a7aa0f09414e542ffabc6300c6" category="list-text">Affichez et résolvez les alertes actives, y compris les alertes générées par le système et définies par l'utilisateur concernant l'utilisation de la capacité et l'expiration de l'abonnement.</block>
@@ -440,7 +425,6 @@
   <block id="0484d56eb9f3e2829253f54874da3319" category="paragraph">Réplication :leveloffset: +1</block>
   <block id="2c1993b83ed7d4c19e4b372af7179590" category="paragraph">Série E :leveloffset: +1</block>
   <block id="7438fabae28e88c43c70139fd85c992a" category="section-title">22 septembre 2025</block>
-  <block id="0428e48e7f58929099e52febd0558232" category="section-title">25 août 2025</block>
   <block id="1387404b18ce63590b24c55d54d3ff43" category="paragraph">La réplication des données est disponible entre un système ONTAP sur site et un système de fichiers FSx pour ONTAP depuis la page Systèmes de la NetApp Console .</block>
   <block id="d2b3a1dfe9d4c19f9ff2f788f74f9779" category="doc">Gérer les préférences de facturation</block>
   <block id="8a13dbdb4fcf25f5e0cb0926b8af890f" category="paragraph">Vous pouvez désormais configurer et gérer les *préférences de facturation* directement dans la NetApp Console. Cette amélioration permet aux administrateurs de définir et de visualiser la facturation de l'utilisation des capacités, des renouvellements et des coûts pour les licences NetApp directes, les abonnements à la place de marché cloud et l'accord Keystone .</block>
@@ -454,4 +438,7 @@
   <block id="b3df2aaed88f61f572a7284cb28844ec" category="inline-link-macro">Consultez les exigences du système d'exploitation</block>
   <block id="43a9602052a44f890e2bbc95a0205a46" category="paragraph">Lors de l'installation manuelle d'un agent Console, celui-ci prend désormais en charge RHEL 9.6 avec Podman 5.4.0. De plus, lors de l'utilisation de RHEL 9 et versions supérieures, NetApp prend en charge podman-compose 1.5.0. <block ref="dd394ea917033ddbf269729b5d828637" category="inline-link-macro-rx"></block>.</block>
   <block id="11decf8e913c8fbeb5d947338d43e3b0" category="paragraph">Pour plus d'informations, voir <block ref="bf6dbdf786c7323ca961bfd2e12103c6" category="inline-link-macro-rx"></block>.</block>
+  <block id="18b429fb243989438d2e534cfa60ad10" category="doc">Identifiant de suivi pour les abonnements avec interruption de couverture</block>
+  <block id="b483bafe873ecad663b8e6c8949045d7" category="paragraph">Dans la boîte de notification *Complétez votre couverture* de *Surveillance &gt; Moniteurs d'alerte*, chaque abonnement affiche désormais son identifiant de suivi à côté du numéro d'abonnement.</block>
+  <block id="3a51c5c35df88316b8d012c010e340f7" category="section-title">24 novembre 2025</block>
 </blocks>
