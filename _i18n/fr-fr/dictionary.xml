@@ -449,6 +449,6 @@
   <block id="eccf4b156fba5109ca6b1ef2be2fd64e" category="paragraph">NetApp Disaster Recovery prend désormais en charge Google Cloud VMware Engine utilisant Google Cloud NetApp Volumes pour les opérations de migration, de basculement, de restauration et de test. Cette intégration permet des flux de travail de reprise après sinistre transparents entre les environnements sur site et Google Cloud.</block>
   <block id="b5b8e67d6a37d24ad73c89e4c7ac8c9e" category="inline-link-macro">prérequis</block>
   <block id="7984e947265cc8b94c06702adbf28865" category="inline-link-macro">limites</block>
-  <block id="4fae34c4a960e8f2c583a66a68cf6fdc" category="paragraph">Assurez-vous de consulter le<block ref="0b97dbd151642cb26d83aa16e8ffd9ce" category="inline-link-macro-rx"></block> et<block ref="86229131b08ad70f4dd9ffc7440523ad" category="inline-link-macro-rx"></block> pour Google Cloud.</block>
   <block id="b0cddd5e1e4185232bf6d1fb2418ed79" category="section-title">1er décembre 2025</block>
+  <block id="8497094e0d678632f29aeaad49708682" category="paragraph">Assurez-vous de consulter le<block ref="0b97dbd151642cb26d83aa16e8ffd9ce" category="inline-link-macro-rx"></block> et<block ref="9bbaf1e88d2981b5294528496eff27bf" category="inline-link-macro-rx"></block> pour Google Cloud.</block>
 </blocks>
