@@ -451,4 +451,13 @@
   <block id="7984e947265cc8b94c06702adbf28865" category="inline-link-macro">limites</block>
   <block id="b0cddd5e1e4185232bf6d1fb2418ed79" category="section-title">1er décembre 2025</block>
   <block id="8497094e0d678632f29aeaad49708682" category="paragraph">Assurez-vous de consulter le<block ref="0b97dbd151642cb26d83aa16e8ffd9ce" category="inline-link-macro-rx"></block> et<block ref="9bbaf1e88d2981b5294528496eff27bf" category="inline-link-macro-rx"></block> pour Google Cloud.</block>
+  <block id="6a6493990827c82055e808631b52c236" category="doc">Version 1.49</block>
+  <block id="640602402999fbf572de482a35f449bc" category="paragraph">Cette version de Data Classification inclut des correctifs de bogues et les mises à jour suivantes :</block>
+  <block id="c257ad0ab1dd1ba68f40f6d92155f5dd" category="paragraph-title">Surveillez les indicateurs et les performances dans le tableau de bord de surveillance de la santé.</block>
+  <block id="d62744b30354624c6087760cfd47ae58" category="paragraph">Data Classification propose désormais un tableau de bord de surveillance de l'état de santé, offrant une surveillance en temps réel de vos ressources et des informations sur l'utilisation de la mémoire, l'utilisation du disque, le taux d'utilisation du disque, et plus encore. Grâce aux informations fournies par le tableau de bord de surveillance de l'état de santé, vous pouvez examiner l'infrastructure de votre déploiement et obtenir des informations permettant d'optimiser le stockage et les performances.</block>
+  <block id="3b3cf1105e8b8d40f3cb14b9f956e666" category="inline-link-macro">Surveiller l'état de la classification des données</block>
+  <block id="699330677c1a0f32d795bf5b4ef62c06" category="paragraph">Pour plus d'informations, voir <block ref="47a26f0a929ccc455d276fcbc1329665" category="inline-link-macro-rx"></block>.</block>
+  <block id="bf17c0b6bb3350440ee2a9bb4f2c9d89" category="paragraph-title">Performances de chargement améliorées</block>
+  <block id="b6a3c9ea2c8f586e05010be520e7c46c" category="paragraph">Les performances de chargement de toutes les pages de la section Classification des données ont été améliorées afin d'offrir une expérience utilisateur plus efficace.</block>
+  <block id="2727f68982ff25e8b3c57e026120561d" category="section-title">8 décembre 2025</block>
 </blocks>
