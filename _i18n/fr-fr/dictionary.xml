@@ -477,13 +477,13 @@
   <block id="c8d94434feabcd9486a228e1a7a02882" category="paragraph">Par défaut, la reprise après sinistre conserve la hiérarchie d'inventaire des machines virtuelles (structure des dossiers) lors d'un basculement. Si le dossier requis n'est pas présent sur la cible de récupération, la fonction de récupération après sinistre le crée.</block>
   <block id="5a54761f5d99470c8137218395b65ca5" category="paragraph">Vous pouvez désormais modifier ce paramètre en désignant un nouveau dossier parent pour la machine virtuelle ou en décochant l'option **Conserver la hiérarchie de dossiers d'origine**.</block>
   <block id="64bbb11437b30da2acf631c36bd785dd" category="inline-link-macro">Créer un plan de réplication</block>
-  <block id="4b4839446c123b0f7cbb37cc05973b41" category="paragraph">Pour plus d'informations, voir <block ref="8ed6b1ab912526d5ffcc717e1a39851e" category="inline-link-macro-rx"></block>.</block>
   <block id="c1bacabdbdc0d5e57b5ead85a617b4b0" category="section-title">Mise à jour simplifiée de l'agent de console</block>
   <block id="1220fc49240c9d2c58d7490c6c40ac65" category="paragraph">La reprise après sinistre prend désormais en charge un processus simplifié pour l'utilisation de plusieurs agents Console dans un environnement de travail. Pour changer d'agent de console, vous devez modifier la configuration de votre vCenter, redécouvrir les informations d'identification et actualiser les plans de réplication pour utiliser le nouvel agent de console.</block>
   <block id="d6155caa68c59478855dfa8342f87d18" category="inline-link-macro">Agents de la console de commutation</block>
-  <block id="8c3cfaa540744075b83a947ed57c6f60" category="paragraph">Pour plus d'informations, voir <block ref="0905281a07a8919c4c92242f0cf75d65" category="inline-link-macro-rx"></block>.</block>
   <block id="b4d49b16355d04fa21a29a82f9f163eb" category="section-title">9 décembre 2025</block>
   <block id="4256b08931f8c14d28bbf33199e1b022" category="paragraph">Ransomware Resilience vous permet désormais de modifier le statut des alertes comportementales des utilisateurs. Vous pouvez ignorer et résoudre manuellement les alertes.</block>
   <block id="8fe404d4b8af36b9844eb288d2706bbe" category="inline-link-macro">Gérer les alertes dans Ransomware Resilience</block>
   <block id="869c8807275d576171cb34b892652da6" category="paragraph">Pour plus d'informations, voir <block ref="ca80a6cafecee489657bc722219fb267" category="inline-link-macro-rx"></block>.</block>
+  <block id="98ade846ffa73dc9c6bcd3e3e84c38b7" category="paragraph">Pour plus d'informations, voir <block ref="1762f821178ef43810c03e86465a946d" category="inline-link-macro-rx"></block>.</block>
+  <block id="1df351797bd2540f3ec41bc24e67bf1f" category="paragraph">Pour plus d'informations, voir <block ref="2631c62a2ac2ec2e6a0ebc0352319a2c" category="inline-link-macro-rx"></block>.</block>
 </blocks>
