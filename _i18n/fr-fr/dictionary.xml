@@ -469,8 +469,6 @@
   <block id="8a9b2764802b622f9894a669a606f74f" category="doc">Le blocage des extensions est activé au niveau de la charge de travail.</block>
   <block id="ab47595f128d75b47b3449fcd4dfb523" category="paragraph">Lorsque vous activez le blocage des extensions, celui-ci est désormais activé au niveau de la charge de travail et non plus au niveau de la machine virtuelle de stockage.</block>
   <block id="a6493502d5fc22c0b3ccee818dc4a5a5" category="section-title">Modifier l'état d'alerte du comportement de l'utilisateur</block>
-  <block id="685b0f2db45e4fc09a06ccb4695806de" category="inline-xref-macro">Gérer les alertes</block>
-  <block id="30acfc7aa0f5ff9593d73e769de766c0" category="paragraph">Pour plus d'informations, voir <block ref="32161c93f86d45672d8429d13ea78e6b" category="inline-xref-macro-rx"></block>.</block>
   <block id="d5214a8deea026de61af736ebf8697dd" category="section-title">Prise en charge de plusieurs agents de console</block>
   <block id="1a6a565def701385358a626d6728afd8" category="paragraph">Ransomware Resilience prend désormais en charge l'utilisation de plusieurs agents Console pour gérer les mêmes systèmes.</block>
   <block id="f3aee30a3a487c746572616e3f53dc9d" category="inline-link-macro">Créer un agent de console</block>
@@ -486,4 +484,6 @@
   <block id="8c3cfaa540744075b83a947ed57c6f60" category="paragraph">Pour plus d'informations, voir <block ref="0905281a07a8919c4c92242f0cf75d65" category="inline-link-macro-rx"></block>.</block>
   <block id="b4d49b16355d04fa21a29a82f9f163eb" category="section-title">9 décembre 2025</block>
   <block id="4256b08931f8c14d28bbf33199e1b022" category="paragraph">Ransomware Resilience vous permet désormais de modifier le statut des alertes comportementales des utilisateurs. Vous pouvez ignorer et résoudre manuellement les alertes.</block>
+  <block id="8fe404d4b8af36b9844eb288d2706bbe" category="inline-link-macro">Gérer les alertes dans Ransomware Resilience</block>
+  <block id="869c8807275d576171cb34b892652da6" category="paragraph">Pour plus d'informations, voir <block ref="ca80a6cafecee489657bc722219fb267" category="inline-link-macro-rx"></block>.</block>
 </blocks>
