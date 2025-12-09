@@ -467,4 +467,24 @@
   <block id="8b8a6f71e41f04ff546fb14f0800f38f" category="paragraph"><block ref="9f09945a70747c90951b9e96b5ea16be" category="inline-link-macro-rx"></block>.</block>
   <block id="236430e108e8394ac19913076b10fb55" category="doc">Étiquette renommée « Capacité de rupture accumulée »</block>
   <block id="73ba7647571e18c30e8b5b930b7d7ffb" category="paragraph">L'étiquette *Capacité de pointe cumulée* est renommée *Capacité de pointe cumulée*.</block>
+  <block id="8a9b2764802b622f9894a669a606f74f" category="doc">Le blocage des extensions est activé au niveau de la charge de travail.</block>
+  <block id="ab47595f128d75b47b3449fcd4dfb523" category="paragraph">Lorsque vous activez le blocage des extensions, celui-ci est désormais activé au niveau de la charge de travail et non plus au niveau de la machine virtuelle de stockage.</block>
+  <block id="a6493502d5fc22c0b3ccee818dc4a5a5" category="section-title">Modifier l'état d'alerte du comportement de l'utilisateur</block>
+  <block id="f143f02b29819ec9e761d9f292dea42c" category="paragraph">Ransomware Resilience vous permet désormais de modifier le statut des alertes comportementales des utilisateurs. Vous pouvez ignorer et résoudre manuellement les alertes. Vous pouvez désormais également marquer les alertes comme « En cours d'examen ».</block>
+  <block id="685b0f2db45e4fc09a06ccb4695806de" category="inline-xref-macro">Gérer les alertes</block>
+  <block id="30acfc7aa0f5ff9593d73e769de766c0" category="paragraph">Pour plus d'informations, voir <block ref="32161c93f86d45672d8429d13ea78e6b" category="inline-xref-macro-rx"></block>.</block>
+  <block id="d5214a8deea026de61af736ebf8697dd" category="section-title">Prise en charge de plusieurs agents de console</block>
+  <block id="1a6a565def701385358a626d6728afd8" category="paragraph">Ransomware Resilience prend désormais en charge l'utilisation de plusieurs agents Console pour gérer les mêmes systèmes.</block>
+  <block id="f3aee30a3a487c746572616e3f53dc9d" category="inline-link-macro">Créer un agent de console</block>
+  <block id="76adc55b5a0beb97a709fbc0c204a3d0" category="paragraph">Pour plus d'informations sur les agents de console, consultez<block ref="c97584494dd542160395e5c607ae4c2c" category="inline-link-macro-rx"></block> .</block>
+  <block id="b706122b5735a672dec906da7d14b15c" category="doc">conservation de la hiérarchie des dossiers</block>
+  <block id="c8d94434feabcd9486a228e1a7a02882" category="paragraph">Par défaut, la reprise après sinistre conserve la hiérarchie d'inventaire des machines virtuelles (structure des dossiers) lors d'un basculement. Si le dossier requis n'est pas présent sur la cible de récupération, la fonction de récupération après sinistre le crée.</block>
+  <block id="5a54761f5d99470c8137218395b65ca5" category="paragraph">Vous pouvez désormais modifier ce paramètre en désignant un nouveau dossier parent pour la machine virtuelle ou en décochant l'option **Conserver la hiérarchie de dossiers d'origine**.</block>
+  <block id="64bbb11437b30da2acf631c36bd785dd" category="inline-link-macro">Créer un plan de réplication</block>
+  <block id="4b4839446c123b0f7cbb37cc05973b41" category="paragraph">Pour plus d'informations, voir <block ref="8ed6b1ab912526d5ffcc717e1a39851e" category="inline-link-macro-rx"></block>.</block>
+  <block id="c1bacabdbdc0d5e57b5ead85a617b4b0" category="section-title">Mise à jour simplifiée de l'agent de console</block>
+  <block id="1220fc49240c9d2c58d7490c6c40ac65" category="paragraph">La reprise après sinistre prend désormais en charge un processus simplifié pour l'utilisation de plusieurs agents Console dans un environnement de travail. Pour changer d'agent de console, vous devez modifier la configuration de votre vCenter, redécouvrir les informations d'identification et actualiser les plans de réplication pour utiliser le nouvel agent de console.</block>
+  <block id="d6155caa68c59478855dfa8342f87d18" category="inline-link-macro">Agents de la console de commutation</block>
+  <block id="8c3cfaa540744075b83a947ed57c6f60" category="paragraph">Pour plus d'informations, voir <block ref="0905281a07a8919c4c92242f0cf75d65" category="inline-link-macro-rx"></block>.</block>
+  <block id="b4d49b16355d04fa21a29a82f9f163eb" category="section-title">9 décembre 2025</block>
 </blocks>

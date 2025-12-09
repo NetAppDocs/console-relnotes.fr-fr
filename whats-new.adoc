@@ -52,6 +52,32 @@ Le service de remédiation a été supprimé le 22 avril 2024.
 
 
 
+== 9 décembre 2025
+
+
+
+=== Reprise après sinistre
+
+
+
+==== conservation de la hiérarchie des dossiers
+
+Par défaut, la reprise après sinistre conserve la hiérarchie d'inventaire des machines virtuelles (structure des dossiers) lors d'un basculement. Si le dossier requis n'est pas présent sur la cible de récupération, la fonction de récupération après sinistre le crée.
+
+Vous pouvez désormais modifier ce paramètre en désignant un nouveau dossier parent pour la machine virtuelle ou en décochant l'option **Conserver la hiérarchie de dossiers d'origine**.
+
+Pour plus d'informations, voir link:../use/drplan-create.adoc["Créer un plan de réplication"].
+
+
+
+==== Mise à jour simplifiée de l'agent de console
+
+La reprise après sinistre prend désormais en charge un processus simplifié pour l'utilisation de plusieurs agents Console dans un environnement de travail. Pour changer d'agent de console, vous devez modifier la configuration de votre vCenter, redécouvrir les informations d'identification et actualiser les plans de réplication pour utiliser le nouvel agent de console.
+
+Pour plus d'informations, voir link:../reference/switch-console-agent.html["Agents de la console de commutation"].
+
+
+
 == 8 décembre 2025
 
 
@@ -87,6 +113,32 @@ Pour plus d'informations, voir link:https://docs.netapp.com/us-en/data-services-
 
 .Performances de chargement améliorées
 Les performances de chargement de toutes les pages de la section Classification des données ont été améliorées afin d'offrir une expérience utilisateur plus efficace.
+
+
+
+=== Résilience aux ransomwares
+
+
+
+==== Le blocage des extensions est activé au niveau de la charge de travail.
+
+Lorsque vous activez le blocage des extensions, celui-ci est désormais activé au niveau de la charge de travail et non plus au niveau de la machine virtuelle de stockage.
+
+
+
+==== Modifier l'état d'alerte du comportement de l'utilisateur
+
+Ransomware Resilience vous permet désormais de modifier le statut des alertes comportementales des utilisateurs. Vous pouvez ignorer et résoudre manuellement les alertes. Vous pouvez désormais également marquer les alertes comme « En cours d'examen ».
+
+Pour plus d'informations, voir xref:rp-use-alert.html[Gérer les alertes].
+
+
+
+==== Prise en charge de plusieurs agents de console
+
+Ransomware Resilience prend désormais en charge l'utilisation de plusieurs agents Console pour gérer les mêmes systèmes.
+
+Pour plus d'informations sur les agents de console, consultezlink:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-start-setup.html["Créer un agent de console"] .
 
 
 
