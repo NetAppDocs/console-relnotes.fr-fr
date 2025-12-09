@@ -90,6 +90,18 @@ Les performances de chargement de toutes les pages de la section Classification 
 
 
 
+=== Keystone
+
+Nouvelles améliorations dans le tableau de bord Keystone dans la NetApp Console:
+
+
+
+==== Étiquette renommée « Capacité de rupture accumulée »
+
+L'étiquette *Capacité de pointe cumulée* est renommée *Capacité de pointe cumulée*.
+
+
+
 == 1er décembre 2025
 
 
