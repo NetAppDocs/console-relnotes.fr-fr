@@ -528,4 +528,12 @@
   <block id="e8f9974435fe7b24ffa11827d0104693" category="paragraph">Les informations détaillées concernant vos systèmes ONTAP sur site (et FSx pour ONTAP) sont désormais plus faciles à consulter et à gérer à partir des pages de gestion du stockage.</block>
   <block id="c513928c0b95afec773bd29d135d4632" category="list-text">La page * Discoverable systems* sépare les informations récapitulatives de l'affichage par onglets des systèmes disponibles, facilitant ainsi la consultation d'informations complètes sur les systèmes détectables.</block>
   <block id="174dd97dd1f160583ac76fa482fa6a5e" category="section-title">10 décembre 2025</block>
+  <block id="b5f5c102d46ada8d7cc41dab03033769" category="doc">Améliorations de l'ergonomie lors de la visualisation des systèmes ONTAP depuis la NetApp Console (mode standard uniquement)</block>
+  <block id="ecf08ccb0621d66d3cd08f6e278423f6" category="paragraph">La page *Systèmes* de la NetApp Console a été améliorée pour une meilleure clarté et une utilisation plus conviviale lors de la gestion des volumes et des clusters. Ces mises à jour permettent d'harmoniser davantage l'expérience avec System Manager pour les versions ONTAP plus récentes et simplifient la navigation.</block>
+  <block id="ff6644b2d87a60757e2ed06cac2ef1c5" category="paragraph-title">Capacité de cluster incluse pour les versions ONTAP 9.5 et supérieures (mode standard Console uniquement)</block>
+  <block id="e20de5b140eba87d0cc368f44348842a" category="paragraph">La page *Systèmes &gt; Vue d'ensemble* affiche la taille du cluster ainsi que la version ONTAP pour les clusters exécutant ONTAP 9.5 et versions ultérieures.</block>
+  <block id="0c0228fc4907ab7d926a830e9cb7e6a9" category="paragraph">Pour NetApp Console en mode restreint ou les versions ONTAP 9.5 et inférieures, les informations de provisionnement du volume restent inchangées.</block>
+  <block id="e499e5b4086ee6929a42eacc5a3b18c3" category="paragraph-title">L'onglet Volumes de la page Systèmes affiche par défaut l'affichage en grille si vous avez plus de 20 clusters ONTAP locaux.</block>
+  <block id="342a527e4cea581e64e32f6e8b40d64a" category="paragraph">Lorsque vous gérez plus de 20 clusters ONTAP sur site dans la NetApp Console, l'onglet *Volume* passe par défaut en mode grille pour une navigation plus facile. L'affichage par carte est désactivé.</block>
+  <block id="5bc7f3f0eeeedc08111957c5e0315beb" category="paragraph">Cette modification s'applique uniquement au mode standard et aux versions ONTAP 9.6 et supérieures.</block>
 </blocks>
