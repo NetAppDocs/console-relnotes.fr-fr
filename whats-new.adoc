@@ -52,6 +52,64 @@ Le service de remédiation a été supprimé le 22 avril 2024.
 
 
 
+== 12 janvier 2026
+
+
+
+=== Reprise après sinistre
+
+
+
+==== Prise en charge de plusieurs agents de console dans les environnements sur site
+
+Si vous utilisez la reprise après sinistre sur site, vous pouvez désormais déployer un agent Console pour chaque instance vCenter, ce qui améliore la résilience.
+
+Par exemple, si vous avez deux sites (sites A et B), le site A peut avoir l'agent de console A attaché à vCenter 1, au déploiement ONTAP 1 et au déploiement ONTAP 2. Le site B peut avoir l'agent de console B attaché aux déploiements vCenter 2 et ONTAP 3 et 4.
+
+Pour plus d'informations sur l'agent Console dans le cadre de la reprise après sinistre, consultez link:https://docs.netapp.com/us-en/data-services-disaster-recovery/get-started/dr-prerequisites.html#netapp-console-prerequisites["Créer l'agent de console"^].
+
+
+
+==== Ajoutez des machines virtuelles après le basculement pour les plans de réplication utilisant la protection basée sur le datastore.
+
+En cas de basculement, tout plan de réplication utilisant une protection basée sur la banque de données inclut les machines virtuelles ajoutées à la banque de données, à condition qu'elles aient été découvertes. Vous devez fournir les détails de mappage des machines virtuelles ajoutées avant que le basculement ne soit terminé.
+
+Pour plus d'informations, voir link:https://docs.netapp.com/us-en/data-services-disaster-recovery/use/failover.html["Applications de basculement"^].
+
+
+
+==== Nouvelles notifications par e-mail
+
+Le service de reprise après sinistre envoie désormais des notifications par e-mail pour les événements suivants :
+
+* Limite d'utilisation de la capacité proche
+* Génération du rapport terminée
+* échecs professionnels
+* Expiration ou infractions au permis
+
+
+
+
+==== Améliorations de Swagger
+
+Vous pouvez désormais accéder à la documentation Swagger directement depuis le système de reprise après sinistre. Dans la section Reprise après sinistre, sélectionnez **Paramètres** puis **Documentation API** pour accéder à Swagger, ou consultez cette URL en mode navigation privée/incognito de votre navigateur : link:https://snapcenter.cloudmanager.cloud.netapp.com/api/api-doc/draas["https://snapcenter.cloudmanager.cloud.netapp.com/api/api-doc/draas"^].
+
+
+
+==== Interfaces utilisateur améliorées
+
+La solution de reprise après sinistre offre désormais des avertissements et des résolutions d'erreurs améliorés. Cette version corrige une erreur qui empêchait l'affichage des tâches annulées dans l'interface utilisateur. Les tâches annulées sont désormais visibles. Un nouvel avertissement s'affiche également lorsque le même réseau de destination est associé à plusieurs réseaux sources différents.
+
+
+
+==== Conserver la structure de dossiers des machines virtuelles ajoutée par défaut dans les plans de réplication
+
+Lors de la création d'une réplication, le comportement par défaut consiste désormais à conserver la structure des dossiers de la machine virtuelle. Si le répertoire cible de récupération ne possède pas l'arborescence de dossiers d'origine, la fonction de récupération après sinistre la crée. Vous pouvez désélectionner cette option pour ignorer l'arborescence des dossiers d'origine.
+
+Pour plus d'informations, voir link:https://docs.netapp.com/us-en/data-services-disaster-recovery/use/drplan-create.html["Créer un plan de réplication"^].
+
+
+
 == 10 décembre 2025
 
 
@@ -484,28 +542,3 @@ Pour plus de détails, reportez-vous à :
 * Déploiement: https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/reference-versions.html#azure["Versions ONTAP prises en charge pour les déploiements Cloud Volumes ONTAP"^]
 * Mise à niveau: https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/task-updating-ontap-cloud.html#supported-upgrade-paths["Chemins de mise à niveau pris en charge pour Azure"^]
 
-
-
-
-== 13 octobre 2025
-
-
-
-=== Keystone
-
-Nouvelles améliorations dans le tableau de bord Keystone dans la NetApp Console:
-
-
-
-==== Colonne de remplacement de la politique QoS dans l'onglet Ressources
-
-L'onglet *Volumes dans les clusters* dans l'onglet *Actifs* inclut désormais une colonne *Remplacement de la politique QoS* qui indique si les règles QoS sont contournées pour les volumes de sauvegarde et de miroir, affichant *vrai* (règles ignorées), *faux* (règles appliquées) ou *N/A* (pour les volumes miroir).
-
-
-NOTE: Pour les abonnements Keystone v3, cette colonne affiche *N/A* car les politiques QoS ne sont pas applicables dans l'offre v3.
-
-
-
-==== Visibilité améliorée des alertes dans la page Aperçu
-
-La page *Aperçu* inclut désormais deux nouvelles sections d'alerte nommées *Alertes non résolues par gravité* et *Alertes Keystone non résolues les plus anciennes*. Pour en savoir plus, consultez link:https://docs.netapp.com/us-en/keystone-staas/integrations/keystone-console.html["Tableau de bord Keystone dans la NetApp Console"].

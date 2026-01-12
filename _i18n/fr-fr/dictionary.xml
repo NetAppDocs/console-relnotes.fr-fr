@@ -116,13 +116,7 @@
   <block id="6c253a8aff5dfa835a77545b3006abc8" category="doc">Clusters ONTAP sur site</block>
   <block id="f3cecd4ee9830dec85b22d80cd95ba07" category="list-text"><block ref="f3cecd4ee9830dec85b22d80cd95ba07" category="inline-link-rx"></block></block>
   <block id="307d24114a1eea93601b6d95cac55bcb" category="paragraph">La version préliminaire des charges de travail VMware introduit les fonctionnalités améliorées suivantes :</block>
-  <block id="13f711a55db449e74aa63517fe680750" category="doc">Colonne de remplacement de la politique QoS dans l'onglet Ressources</block>
   <block id="d272e1753b82039c96c37cf7d7f1dcce" category="paragraph">Nouvelles améliorations dans le tableau de bord Keystone dans la NetApp Console:</block>
-  <block id="c6276ebcdb23205ceaed5fbf4249ea31" category="paragraph">L'onglet *Volumes dans les clusters* dans l'onglet *Actifs* inclut désormais une colonne *Remplacement de la politique QoS* qui indique si les règles QoS sont contournées pour les volumes de sauvegarde et de miroir, affichant *vrai* (règles ignorées), *faux* (règles appliquées) ou *N/A* (pour les volumes miroir).</block>
-  <block id="11a43b8d2f9eca6ac1fbd015814f99f3" category="admonition">Pour les abonnements Keystone v3, cette colonne affiche *N/A* car les politiques QoS ne sont pas applicables dans l'offre v3.</block>
-  <block id="b953e2efb9e42549a0a1a0948af92e84" category="section-title">Visibilité améliorée des alertes dans la page Aperçu</block>
-  <block id="ccb709a27cabd8f47e223efe2e7e0976" category="inline-link-macro">Tableau de bord Keystone dans la NetApp Console</block>
-  <block id="2236517eb263ad0757df75dbb425c588" category="paragraph">La page *Aperçu* inclut désormais deux nouvelles sections d'alerte nommées *Alertes non résolues par gravité* et *Alertes Keystone non résolues les plus anciennes*. Pour en savoir plus, consultez <block ref="a7e79568e4aab3fed7388da5f153bdec" category="inline-link-macro-rx"></block>.</block>
   <block id="7b6830c2d647bfeae537b084a1bc4c97" category="doc">Cloud Volumes ONTAP dans Azure est désormais limité aux dernières versions prises en charge</block>
   <block id="0e627d1b98c5809f132bf109fa4041d3" category="paragraph">Les déploiements et mises à niveau de Cloud Volumes ONTAP dans Azure via la NetApp Console sont désormais limités aux dernières versions prises en charge. Cela garantit la compatibilité avec le matériel de dernière génération pris en charge par Microsoft et fournit les fonctionnalités et améliorations de sécurité les plus récentes. La console vous invitera à effectuer une mise à niveau vers les versions prises en charge.</block>
   <block id="9ca9f40464321b098a9b31a750f1e5ce" category="paragraph">Pour plus de détails, reportez-vous à :</block>
@@ -168,7 +162,6 @@
   <block id="1760c97f466ea374318a8c0bedcb2aff" category="section-title">11 novembre 2025</block>
   <block id="77750efa6f5ff153acdc42067058017f" category="section-title">10 novembre 2025</block>
   <block id="810ddecf604478d8ee317e1ac69d7971" category="section-title">17 octobre 2025</block>
-  <block id="44758d2951f923446ffff8310f8ac382" category="section-title">13 octobre 2025</block>
   <block id="1387404b18ce63590b24c55d54d3ff43" category="paragraph">La réplication des données est disponible entre un système ONTAP sur site et un système de fichiers FSx pour ONTAP depuis la page Systèmes de la NetApp Console .</block>
   <block id="d2b3a1dfe9d4c19f9ff2f788f74f9779" category="doc">Gérer les préférences de facturation</block>
   <block id="8a13dbdb4fcf25f5e0cb0926b8af890f" category="paragraph">Vous pouvez désormais configurer et gérer les *préférences de facturation* directement dans la NetApp Console. Cette amélioration permet aux administrateurs de définir et de visualiser la facturation de l'utilisation des capacités, des renouvellements et des coûts pour les licences NetApp directes, les abonnements à la place de marché cloud et l'accord Keystone .</block>
@@ -283,4 +276,28 @@
   <block id="5bc7f3f0eeeedc08111957c5e0315beb" category="paragraph">Cette modification s'applique uniquement au mode standard et aux versions ONTAP 9.6 et supérieures.</block>
   <block id="ad4891bd95428a3a61372e6cb7c1e8db" category="paragraph">Pour plus d'informations, voir <block ref="46afb87ea9ab52c50c55f4a3ee88e9ae" category="inline-link-macro-rx"></block>.</block>
   <block id="8b398f79cbc8bafdd3d60b15c90e7f01" category="paragraph">Pour plus d'informations, voir <block ref="9816d86fb07a6c2043bc508d566ad539" category="inline-link-macro-rx"></block>.</block>
+  <block id="6da53899225555a506524070f96e33df" category="doc">Prise en charge de plusieurs agents de console dans les environnements sur site</block>
+  <block id="8a702621d5f54ca1c7d25a86b7e3f774" category="paragraph">Si vous utilisez la reprise après sinistre sur site, vous pouvez désormais déployer un agent Console pour chaque instance vCenter, ce qui améliore la résilience.</block>
+  <block id="4cb7bcc4077d7b471c915dace37d3111" category="paragraph">Par exemple, si vous avez deux sites (sites A et B), le site A peut avoir l'agent de console A attaché à vCenter 1, au déploiement ONTAP 1 et au déploiement ONTAP 2. Le site B peut avoir l'agent de console B attaché aux déploiements vCenter 2 et ONTAP 3 et 4.</block>
+  <block id="0382d445298ad46bfe9bb89d2b1bbc4a" category="inline-link-macro">Créer l'agent de console</block>
+  <block id="31f61ac5920cfdf4b1428392c106e013" category="paragraph">Pour plus d'informations sur l'agent Console dans le cadre de la reprise après sinistre, consultez <block ref="c6314de739d0ca77819b65e8d83a54dc" category="inline-link-macro-rx"></block>.</block>
+  <block id="4de9da4a5acec3c25ad553d7f1a89484" category="section-title">Ajoutez des machines virtuelles après le basculement pour les plans de réplication utilisant la protection basée sur le datastore.</block>
+  <block id="31c59621442d91b173b5c05f7fe7f5ba" category="paragraph">En cas de basculement, tout plan de réplication utilisant une protection basée sur la banque de données inclut les machines virtuelles ajoutées à la banque de données, à condition qu'elles aient été découvertes. Vous devez fournir les détails de mappage des machines virtuelles ajoutées avant que le basculement ne soit terminé.</block>
+  <block id="01808e57843d81464069fd6222b42dc5" category="inline-link-macro">Applications de basculement</block>
+  <block id="210c07d14f371d34616f90780c809d7d" category="paragraph">Pour plus d'informations, voir <block ref="10ad778ec26a5abb07ecd723807494c7" category="inline-link-macro-rx"></block>.</block>
+  <block id="0fdf1f7467d148d6f8e6edea53e3bba1" category="section-title">Nouvelles notifications par e-mail</block>
+  <block id="f3815b37b633b3691ad8c2d3a2aeec1b" category="paragraph">Le service de reprise après sinistre envoie désormais des notifications par e-mail pour les événements suivants :</block>
+  <block id="92522c3fbfb92373bdaceab2b1ec2db4" category="list-text">Limite d'utilisation de la capacité proche</block>
+  <block id="722ef45b415368a656fe90463206ae2e" category="list-text">Génération du rapport terminée</block>
+  <block id="3097f5b876f89e830b96175a17c6ee35" category="list-text">échecs professionnels</block>
+  <block id="8d6a4ba10a10e8034a89ce1a5220c738" category="list-text">Expiration ou infractions au permis</block>
+  <block id="489ad675e0724931adc834fbc59bdeec" category="section-title">Améliorations de Swagger</block>
+  <block id="1749ad8b4bb22a316407bcdb543d7aeb" category="inline-link-macro"><block ref="1749ad8b4bb22a316407bcdb543d7aeb" category="inline-link-rx"></block></block>
+  <block id="0a476aea9bd42d70a5e646a38f779187" category="paragraph">Vous pouvez désormais accéder à la documentation Swagger directement depuis le système de reprise après sinistre. Dans la section Reprise après sinistre, sélectionnez **Paramètres** puis **Documentation API** pour accéder à Swagger, ou consultez cette URL en mode navigation privée/incognito de votre navigateur : <block ref="dcecb9493ce135a9d2a96f8693efd425" category="inline-link-macro-rx"></block>.</block>
+  <block id="df6f21ef230478b0b817e1303ba53264" category="section-title">Interfaces utilisateur améliorées</block>
+  <block id="ce620672d96c9599e9bfaa409968c7a6" category="paragraph">La solution de reprise après sinistre offre désormais des avertissements et des résolutions d'erreurs améliorés. Cette version corrige une erreur qui empêchait l'affichage des tâches annulées dans l'interface utilisateur. Les tâches annulées sont désormais visibles. Un nouvel avertissement s'affiche également lorsque le même réseau de destination est associé à plusieurs réseaux sources différents.</block>
+  <block id="edd2f7fa340d3324747878ea3a531288" category="section-title">Conserver la structure de dossiers des machines virtuelles ajoutée par défaut dans les plans de réplication</block>
+  <block id="2295e48d8abb5539689fac23d785e1cd" category="paragraph">Lors de la création d'une réplication, le comportement par défaut consiste désormais à conserver la structure des dossiers de la machine virtuelle. Si le répertoire cible de récupération ne possède pas l'arborescence de dossiers d'origine, la fonction de récupération après sinistre la crée. Vous pouvez désélectionner cette option pour ignorer l'arborescence des dossiers d'origine.</block>
+  <block id="2ab0f27f92b633596464651c85366a28" category="paragraph">Pour plus d'informations, voir <block ref="5e71e4e6b8c5e7bff47e3e8fc9f8f4a2" category="inline-link-macro-rx"></block>.</block>
+  <block id="667dffcf5676fe0bd645082d2a512fef" category="section-title">12 janvier 2026</block>
 </blocks>
