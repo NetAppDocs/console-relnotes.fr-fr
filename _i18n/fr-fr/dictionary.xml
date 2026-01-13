@@ -310,4 +310,17 @@
   <block id="cce6483b933a36b9eebb2ecf0d8f32a6" category="paragraph">Pour plus d'informations, voir <block ref="40a5b14292f3b3c1d42c8b093a2843e2" category="inline-link-macro-rx"></block>.</block>
   <block id="35308ce14b9ba8b4f632405b876f0cc3" category="section-title">Les alertes marquées comme étant en cours de révision</block>
   <block id="ff4c9cd383a7fe5ae887d1ac68d7ba52" category="paragraph">Ransomware Resilience vous permet désormais de marquer les alertes comme « En cours d'examen ». Utilisez l'étiquette « En cours d'examen » pour améliorer la clarté au sein de votre équipe lors du tri et de la gestion des menaces de ransomware actives.</block>
+  <block id="79af92d05f2b214eab2c765e215beb6b" category="doc">Agent de console 4.3.0</block>
+  <block id="6f1b51eea64496510e6cf5a5a2d57d29" category="paragraph">La version 4.3.0 prend en charge à la fois le mode standard et le mode restreint.</block>
+  <block id="664a9e1da962d9131b0a035da50bbcc7" category="paragraph-title">Capacité à valider les connexions réseau des agents de la console</block>
+  <block id="81cc16a2354d8ec80802e2e4ac22f15a" category="paragraph">Vous pouvez désormais valider les connexions réseau des agents Console connectés directement depuis la NetApp Console. Cette fonctionnalité permet de vérifier la connectivité et de résoudre les problèmes liés aux agents de la console.</block>
+  <block id="65ce32eae3a28c0b24f8cc33c345ab84" category="paragraph"><block ref="65ce32eae3a28c0b24f8cc33c345ab84" category="inline-link-macro-rx"></block></block>
+  <block id="8b71edf4fd7d99d72da1d37de5e154b7" category="paragraph-title">Prise en charge de la fédération lorsque la NetApp Console est en mode restreint</block>
+  <block id="58bbe2cc0931c12594be1bafb70597fb" category="paragraph">Vous pouvez désormais activer la fédération pour une organisation NetApp Console en mode restreint. Cela permet aux utilisateurs de se connecter à la console en utilisant leurs identifiants d'entreprise tout en conservant les avantages de sécurité du mode restreint.</block>
+  <block id="ac811c471ef716f9c8a3865d7f14caa3" category="paragraph-title">Mode lecture seule</block>
+  <block id="8fc5022358a80320244b4f909c4293cc" category="paragraph">Vous pouvez configurer une organisation NetApp Console en mode lecture seule. En mode lecture seule, les utilisateurs peuvent consulter les ressources et les paramètres, mais ne peuvent apporter aucune modification. Un administrateur ou un super administrateur d'organisation peut activer le mode lecture seule pour une organisation. Lorsque le mode lecture seule est activé, les utilisateurs disposant de rôles d'administrateur doivent élever manuellement leurs autorisations pour effectuer les modifications nécessaires.</block>
+  <block id="c7c19a46289db74512cc747670442409" category="inline-link-macro">Découvrez comment activer le mode lecture seule pour une organisation Console.</block>
+  <block id="701595799e137f6efaa9c9cd9be54125" category="paragraph"><block ref="701595799e137f6efaa9c9cd9be54125" category="inline-link-macro-rx"></block></block>
+  <block id="4380e2b873a072c906edb6d21b6eb823" category="inline-link-macro">Découvrez comment rehausser votre rôle lorsque votre organisation est en mode lecture seule.</block>
+  <block id="b45238e19857e4059227131bbda630a6" category="paragraph"><block ref="b45238e19857e4059227131bbda630a6" category="inline-link-macro-rx"></block></block>
 </blocks>
