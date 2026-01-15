@@ -117,13 +117,6 @@
   <block id="f3cecd4ee9830dec85b22d80cd95ba07" category="list-text"><block ref="f3cecd4ee9830dec85b22d80cd95ba07" category="inline-link-rx"></block></block>
   <block id="307d24114a1eea93601b6d95cac55bcb" category="paragraph">La version préliminaire des charges de travail VMware introduit les fonctionnalités améliorées suivantes :</block>
   <block id="d272e1753b82039c96c37cf7d7f1dcce" category="paragraph">Nouvelles améliorations dans le tableau de bord Keystone dans la NetApp Console:</block>
-  <block id="7b6830c2d647bfeae537b084a1bc4c97" category="doc">Cloud Volumes ONTAP dans Azure est désormais limité aux dernières versions prises en charge</block>
-  <block id="0e627d1b98c5809f132bf109fa4041d3" category="paragraph">Les déploiements et mises à niveau de Cloud Volumes ONTAP dans Azure via la NetApp Console sont désormais limités aux dernières versions prises en charge. Cela garantit la compatibilité avec le matériel de dernière génération pris en charge par Microsoft et fournit les fonctionnalités et améliorations de sécurité les plus récentes. La console vous invitera à effectuer une mise à niveau vers les versions prises en charge.</block>
-  <block id="9ca9f40464321b098a9b31a750f1e5ce" category="paragraph">Pour plus de détails, reportez-vous à :</block>
-  <block id="c7c36710c319ba2646765acbeed52820" category="inline-link">Versions ONTAP prises en charge pour les déploiements Cloud Volumes ONTAP</block>
-  <block id="8a79801dc6892f83b39904d935baeea6" category="list-text">Déploiement:<block ref="defc681ae2012fb7f8f998224eac55e5" category="inline-link-rx"></block></block>
-  <block id="b2f564ccc8dab8d25ce5727e3ac0f553" category="inline-link">Chemins de mise à niveau pris en charge pour Azure</block>
-  <block id="cd28d8af5b4308747357925ae313e125" category="list-text">Mise à niveau:<block ref="9fd9abde9fac7cd4edc5e352cd251056" category="inline-link-rx"></block></block>
   <block id="9c1b6a208384484254769349d91e3af9" category="doc">Agent de console 4.1.0</block>
   <block id="e8cdaf5bab63b64f0740dc40a9389ed9" category="paragraph">Cette version de l'agent Console inclut des améliorations de sécurité, des corrections de bugs et les fonctionnalités suivantes :</block>
   <block id="e32e1b9613d2e086e1fc46ae7489620c" category="paragraph">La version 4.1.0 est disponible pour le mode standard et le mode restreint.</block>
@@ -160,7 +153,6 @@
   <block id="0ed38d65baf5b180eb747fd387e348b6" category="section-title">Services obsolètes</block>
   <block id="1760c97f466ea374318a8c0bedcb2aff" category="section-title">11 novembre 2025</block>
   <block id="77750efa6f5ff153acdc42067058017f" category="section-title">10 novembre 2025</block>
-  <block id="810ddecf604478d8ee317e1ac69d7971" category="section-title">17 octobre 2025</block>
   <block id="1387404b18ce63590b24c55d54d3ff43" category="paragraph">La réplication des données est disponible entre un système ONTAP sur site et un système de fichiers FSx pour ONTAP depuis la page Systèmes de la NetApp Console .</block>
   <block id="d2b3a1dfe9d4c19f9ff2f788f74f9779" category="doc">Gérer les préférences de facturation</block>
   <block id="8a13dbdb4fcf25f5e0cb0926b8af890f" category="paragraph">Vous pouvez désormais configurer et gérer les *préférences de facturation* directement dans la NetApp Console. Cette amélioration permet aux administrateurs de définir et de visualiser la facturation de l'utilisation des capacités, des renouvellements et des coûts pour les licences NetApp directes, les abonnements à la place de marché cloud et l'accord Keystone .</block>
@@ -300,7 +292,6 @@
   <block id="5b52ed0566b981ecb59362875a8260d9" category="inline-link">Préférences de facturation et dépassements</block>
   <block id="566784414055fc000fcabfbdbb65d626" category="paragraph"><block ref="308d91214afb4193d1f3387ad8901dcd" category="inline-link-rx"></block>.</block>
   <block id="28f949c139c27e6b09df3640a4d3aea0" category="doc">Répliquer les instantanés sur ONTAP</block>
-  <block id="f67d671d0eb9b2810d472b2c73fb65d6" category="paragraph">Ransomware Resilience prend désormais en charge l'ajout de la réplication des instantanés vers un site ONTAP secondaire. Vous pouvez créer une stratégie de protection contre les ransomwares incluant la réplication ou utiliser la stratégie prédéfinie. Avec les groupes de protection qui utilisent une stratégie de réplication, vous pouvez répliquer vers la même destination ou vers des destinations différentes pour chaque charge de travail.</block>
   <block id="6ca5a36112bece1031ef1a3e82518ffb" category="inline-link-macro">Protéger les charges de travail grâce à la résilience contre les ransomwares</block>
   <block id="0b603f5148dda4ce1b974e4b20493476" category="paragraph">Pour plus d'informations, voir <block ref="1b59dbcecddb451034333205ceb2d85d" category="inline-link-macro-rx"></block>.</block>
   <block id="f7bb3fba9e87909a7d99018a8feebef5" category="section-title">Exclure les charges de travail de la résilience aux ransomwares</block>
@@ -337,4 +328,5 @@
   <block id="ff7b9533f576d72772ad31931f1070c3" category="paragraph-title">Délai estimé pour les rapports d'enquête</block>
   <block id="317bcae14c763efc48845c774a224df6" category="paragraph">Lorsque vous téléchargez un rapport d'enquête, la classification des données affiche désormais le temps estimé pour la fin du téléchargement.</block>
   <block id="4a0d328244ebc11cdcdafe7537ab73a0" category="section-title">14 janvier 2026</block>
+  <block id="1bfdea46bcdc184ecc395f7be984a97f" category="paragraph">Ransomware Resilience prend désormais en charge l'ajout de la réplication des instantanés vers un site ONTAP secondaire. Vous pouvez créer une stratégie de protection contre les ransomwares incluant la réplication ou utiliser la stratégie prédéfinie.</block>
 </blocks>
