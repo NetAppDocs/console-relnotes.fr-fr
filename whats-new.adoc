@@ -52,6 +52,22 @@ Le service de remédiation a été supprimé le 22 avril 2024.
 
 
 
+== 19 janvier 2026
+
+
+
+=== Keystone
+
+Mises à jour du tableau de bord Keystone dans la NetApp Console:
+
+
+
+==== Modification de l'abonnement impossible
+
+L'option permettant de modifier la capacité engagée pour les abonnements Keystone n'est actuellement pas disponible. Cette fonctionnalité sera réintroduite dans une prochaine version.
+
+
+
 == 14 janvier 2026
 
 
