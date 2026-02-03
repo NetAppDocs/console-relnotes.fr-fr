@@ -52,6 +52,40 @@ Le service de remédiation a été supprimé le 22 avril 2024.
 
 
 
+== 02 février 2026
+
+
+
+=== Keystone
+
+Nouvelles améliorations dans le tableau de bord Keystone dans la NetApp Console:
+
+
+
+==== Filtrage interactif des données de pointe quotidiennes accumulées
+
+Le tableau « Frais cumulés par jour » de l’onglet « Tendance de consommation » prend désormais en charge le filtrage interactif. Sélectionnez une barre du graphique de facturation des frais cumulés pour afficher uniquement les jours de cette période de facturation. Pour en savoir plus, consultez link:./integrations/consumption-tab.html#view-daily-accrued-burst-data-usage["Afficher l’utilisation quotidienne des données en rafale"].
+
+
+
+==== Affichage amélioré de la plage de dates dans le graphique des rafales cumulées
+
+Le graphique de facturation cumulée dans l’onglet *Tendance de consommation* affiche désormais des plages de dates complètes pour chaque période de facturation, telles que du 01 oct. 2025 au 31 oct. 2025, au lieu du mois et de l’année seulement.
+
+
+
+==== Vue détaillée extensible de l'abonnement
+
+L'onglet *Abonnements* propose une option permettant de développer tous les abonnements et d'afficher simultanément les informations relatives aux niveaux de performance de chaque abonnement. Pour en savoir plus, consultez link:./integrations/subscriptions-tab.html["Consultez les détails de vos abonnements Keystone"].
+
+
+
+==== Nouvelle colonne Usage type
+
+L'onglet *Abonnements* comprend une colonne *Type d'utilisation* qui indique si l'abonnement est facturé en fonction de l'utilisation provisionnée, physique ou logique. Pour en savoir plus, consultez link:./integrations/subscriptions-tab.html["Consultez les détails de vos abonnements Keystone"].
+
+
+
 == 19 janvier 2026
 
 
@@ -66,7 +100,7 @@ Cette version des charges de travail de volume ONTAP introduit la fonctionnalit�
 
 *Prise en charge de plusieurs compartiments* : (Aperçu privé) À partir d’ ONTAP 9.17.1 et versions ultérieures, vous pouvez désormais protéger les volumes d’un système avec jusqu’à 6 compartiments par système sur différents fournisseurs de cloud.
 
-link:prev-ontap-backup-manage.html["Découvrez comment sauvegarder les données de volume ONTAP à l'aide de NetApp Backup and Recovery."].
+link:https://docs.netapp.com/us-en/data-services-backup-recovery/prev-ontap-backup-manage.html["Découvrez comment sauvegarder les données de volume ONTAP à l'aide de NetApp Backup and Recovery."].
 
 
 
@@ -115,18 +149,6 @@ Pour plus de détails sur la protection des charges de travail KVM, reportez-vou
 Les rapports de résilience aux ransomwares capturent désormais des informations sur les volumes pris en charge et non pris en charge dans le rapport **Résumé**. Utilisez ces informations pour diagnostiquer pourquoi certains volumes d'un système pourraient ne pas être éligibles à la protection contre les ransomwares.
 
 Pour plus d'informations, voir link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-use-reports.html["Télécharger les rapports dans Ransomware Resilience"^].
-
-
-
-=== Keystone
-
-Mises à jour du tableau de bord Keystone dans la NetApp Console:
-
-
-
-==== Modification de l'abonnement impossible
-
-L'option permettant de modifier la capacité engagée pour les abonnements Keystone n'est actuellement pas disponible. Cette fonctionnalité sera réintroduite dans une prochaine version.
 
 
 
