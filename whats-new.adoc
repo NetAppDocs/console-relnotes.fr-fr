@@ -52,6 +52,32 @@ Le service de remédiation a été supprimé le 22 avril 2024.
 
 
 
+== 04 février 2026
+
+
+
+=== Conseiller numérique
+
+
+
+==== Nouveau rapport de sécurité pour une supervision complète de la sécurité
+
+Digital Advisor inclut désormais un rapport de sécurité offrant une vue unifiée des risques de sécurité ONTAP au sein de votre environnement de stockage. Ce rapport permet une détection plus rapide des erreurs de configuration, des lacunes de conformité et des problèmes de sécurité sur les clusters, les SVM et les volumes, vous aidant à maintenir une infrastructure de stockage sécurisée.
+
+
+
+==== Prise en charge améliorée de Upgrade Advisor pour les niveaux de correctifs mixtes
+
+Upgrade Advisor génère désormais des rapports de mise à niveau pour les clusters dont les nœuds exécutent différents niveaux de correctifs au sein d'une même version majeure d'ONTAP. Cette amélioration garantit que les clients peuvent procéder aux mises à niveau sans interruption tant que le cluster n'est pas composé de versions majeures mixtes, offrant ainsi une plus grande flexibilité dans la planification des mises à niveau.
+
+
+
+==== Prise en charge étendue pour les versions ONTAP en fin de support limité
+
+Upgrade Advisor prend désormais en charge la génération de plans de mise à niveau pour les versions ONTAP ayant atteint la fin du support limité, avec un délai de grâce de 9 mois. Cette fonctionnalité aide les clients à agir rapidement et à éviter les interruptions de mise à niveau en leur fournissant des instructions claires pendant la période de transition.
+
+
+
 == 02 février 2026
 
 
