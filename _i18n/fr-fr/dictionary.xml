@@ -351,4 +351,16 @@
   <block id="6e6cddfac74a82983c3905af5c6e5b98" category="inline-link">Autorisations requises pour Google Cloud Infrastructure Manager</block>
   <block id="98244417f1eb666b345ad436d51edece" category="list-text"><block ref="98244417f1eb666b345ad436d51edece" category="inline-link-rx"></block></block>
   <block id="c9d872b23d54864ab58551a55106a3db" category="section-title">09 février 2026</block>
+  <block id="9f8adb7ebffc39f306c40ef2d6a377b1" category="paragraph-title">Activez la classification des données avec Amazon FSxN pour ONTAP directement depuis le canevas NetApp Console</block>
+  <block id="880dc0b44905babcfa6685da86ba8117" category="paragraph">Vous pouvez désormais activer Amazon FSxN pour ONTAP directement depuis le canevas NetApp Console, ce qui vous permet de lancer plus rapidement la classification des données pour vos systèmes FSxN.</block>
+  <block id="dd8a2d3b3415c2980790a672dff3757f" category="inline-link-macro">Analyser les volumes Amazon FSxN pour ONTAP</block>
+  <block id="db8b5cff328cee1f4914855b931bae02" category="paragraph">Pour plus d'informations sur l'utilisation de la classification des données avec Amazon FSxN pour ONTAP, consultez <block ref="48a47292b9e31aff1079bbdaa3cd4739" category="inline-link-macro-rx"></block>.</block>
+  <block id="3ee3e594e3bac0471e4cda35acc3588a" category="paragraph-title">Augmentation du plafond d'exportation pour l'investigation des répertoires</block>
+  <block id="45f99b8f539f37cc0379b65d3ddafbbf" category="paragraph">Lors de l'exportation d'un rapport d'enquête sur les répertoires depuis le tableau de bord Enquête, vous pouvez désormais inclure 10 000 lignes. Cette augmentation par rapport à la limite précédente de 5 000 lignes prend en charge des enquêtes à plus grande échelle sur la gouvernance des données et la conformité.</block>
+  <block id="1cbaf70f8f4340f5a7ef57a023be3309" category="inline-link-macro">Examiner les données</block>
+  <block id="e733aab9ce2fc5320fbdd563cba5e12b" category="paragraph">Pour plus d'informations, voir <block ref="d8b3109a5818cc0f43ade4650ffede11" category="inline-link-macro-rx"></block>.</block>
+  <block id="80f498ef50d7bad5da9acf441b502c0f" category="paragraph-title">Limite accrue pour la copie et le déplacement</block>
+  <block id="401f234e1c84943381dd951c39f2ce3c" category="paragraph">Lors de la copie ou du déplacement de fichiers, vous pouvez désormais déplacer des fichiers jusqu'à 250 Mo, une augmentation par rapport à la limite précédente de 50 Mo.</block>
+  <block id="244d30ed7d7da13b1f80f1fa008af700" category="paragraph-title">Affichage amélioré pour les écrans basse résolution</block>
+  <block id="80bb2719fe9feeb03d5cc88bd71e8a81" category="paragraph">Data Classification a amélioré ses performances d'affichage sur les écrans basse résolution, améliorant l'expérience utilisateur.</block>
 </blocks>
