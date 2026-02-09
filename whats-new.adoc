@@ -52,6 +52,34 @@ Le service de remédiation a été supprimé le 22 avril 2024.
 
 
 
+== 09 février 2026
+
+
+
+=== Cloud Volumes ONTAP
+
+
+
+==== Prise en charge de Google Cloud Infrastructure Manager
+
+Cloud Volumes ONTAP 9.16.1 et versions ultérieures prennent désormais en charge  https://docs.cloud.google.com/infrastructure-manager/docs/overview["Google Cloud Infrastructure Manager"^] (IM) au lieu de  https://docs.cloud.google.com/deployment-manager/docs/deprecations["Gestionnaire de déploiement cloud"^] (DM) pour les nouveaux déploiements sur Google Cloud. Google va déprécier Deployment Manager en tant que service d'infrastructure dans un avenir proche au profit d'Infrastructure Manager, plus avancé.
+
+Désormais, déployez automatiquement Cloud Volumes ONTAP pour utiliser Infrastructure Manager ou basculez vos déploiements existants dans Deployment Manager vers Infrastructure Manager en exécutant un outil de conversion. La conversion est un processus unique, après quoi vos systèmes commenceront automatiquement à utiliser Infrastructure Manager. Consultez  https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/task-gcp-dm-im-conv.html["Configurer les déploiements Cloud Volumes ONTAP existants pour Google Cloud Infrastructure Manager"^] pour obtenir des instructions sur l'exécution de l'outil de transition.
+
+Les systèmes Cloud Volumes ONTAP qui utilisent Infrastructure Manager utilisent des buckets Google Cloud Storage pour stocker les données et les enregistrements dans la zone du premier déploiement afin de conserver les enregistrements de déploiement, qui sont réutilisés pour les déploiements suivants. Des frais supplémentaires peuvent s’appliquer pour ces compartiments, mais ne modifiez pas et ne supprimez pas les compartiments ni leur contenu :
+
+* `gs://netapp-cvo-infrastructure-manager-<project id>/dm-to-im-convert` : pour stocker les fichiers Terraform de Cloud Volumes ONTAP
+* `<gcp project number>-<region>-blueprint-config`: pour stocker les artefacts Terraform de Google Cloud
+
+
+.Liens associés
+* https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/task-getting-started-gcp.html["Premiers pas avec Cloud Volumes ONTAP dans Google Cloud"^]
+* https://docs.netapp.com/us-en/console-setup-admin/whats-new.html#console-agent-4-2-0["NetApp Console Agent 4.2.0 Notes de version"^]
+* https://docs.netapp.com/us-en/console-setup-admin/reference-permissions-gcp.html#gcp-permissions-change-log["Autorisations requises pour Google Cloud Infrastructure Manager"^]
+
+
+
+
 == 04 février 2026
 
 
@@ -606,141 +634,3 @@ Dans la boîte de notification *Complétez votre couverture* de *Surveillance > 
 ==== Gestionnaire système disponible lors de l'utilisation d'un lien AWS Lambda
 
 L'interface ONTAP System Manager peut être utilisée avec une liaison AWS Lambda pour effectuer des opérations ONTAP avancées. Cela offre une alternative à l'utilisation d'un agent Console avec System Manager pour gérer un système de fichiers FSx for ONTAP directement depuis la console. link:https://docs.netapp.com/us-en/workload-fsx-ontap/links-overview.html["Découvrez comment utiliser les liens pour les opérations ONTAP avancées."^]
-
-
-
-== 11 novembre 2025
-
-
-
-=== Amazon FSX pour ONTAP
-
-
-
-==== Prise en charge de la réplication entre les systèmes ONTAP sur site et les systèmes de fichiers FSx pour ONTAP
-
-La réplication des données est disponible entre un système ONTAP sur site et un système de fichiers FSx pour ONTAP depuis la page Systèmes de la NetApp Console .
-
-link:https://docs.netapp.com/us-en/storage-management-fsx-ontap/use/task-manage-fsx-systems.html#replicate-data["Répliquer les données"]
-
-
-
-== 10 novembre 2025
-
-
-
-=== Licenses and subscriptions
-
-
-
-==== Gérer les préférences de facturation
-
-Vous pouvez désormais configurer et gérer les *préférences de facturation* directement dans la NetApp Console. Cette amélioration permet aux administrateurs de définir et de visualiser la facturation de l'utilisation des capacités, des renouvellements et des coûts pour les licences NetApp directes, les abonnements à la place de marché cloud et l'accord Keystone .
-
-Pour plus d'informations, consultez lelink:https://docs.netapp.com/us-en/console-licenses-subscriptions/concept-billing-preferences.html["Documentation relative aux préférences de facturation"^] .
-
-
-
-=== Configuration et administration de la console
-
-
-
-==== Agent de console 4.1.0
-
-Cette version de l'agent Console inclut des améliorations de sécurité, des corrections de bugs et les fonctionnalités suivantes :
-
-La version 4.1.0 est disponible pour le mode standard et le mode restreint.
-
-.Indicateurs d'état d'agent renommés
-Les indicateurs d'état de l'agent de la console ont été renommés de *Actif* et *Inactif* à *Connecté* et *Déconnecté* afin de rendre leur fonction plus claire.
-
-.Prise en charge de Red Hat Enterprise Linux (RHEL) 9.6 et de Podman 5.4.0
-Lors de l'installation manuelle d'un agent Console, celui-ci prend désormais en charge RHEL 9.6 avec Podman 5.4.0. De plus, lors de l'utilisation de RHEL 9 et versions supérieures, NetApp prend en charge podman-compose 1.5.0. link:https://docs.netapp.com/us-en/console-setup-admin/task-install-agent-on-prem.html["Consultez les exigences du système d'exploitation"].
-
-
-
-==== Administration de la NetApp Console
-
-Cette version comprend les éléments suivants :
-
-.Nouvelle adresse e-mail pour les notifications de la NetApp Console
-L'adresse e-mail qui envoie les notifications de NetApp Console a changé et est désormais *service@console.netapp.com* au lieu de *service@console.bluexp.netapp.com*. NetApp recommande de mettre à jour vos règles de messagerie pour autoriser *service@console.netapp.com* afin de continuer à recevoir les notifications par e-mail de NetApp Console .
-
-
-
-=== Classification des données
-
-
-
-==== Version 1.48
-
-Cette version de la Classification des données inclut des correctifs de bogues, des améliorations de sécurité et des optimisations de performances.
-
-.Clarté améliorée du suivi de la progression de l'analyse
-Les configurations d'analyse incluent désormais des informations améliorées sur l'avancement de l'analyse. Auparavant, une barre de progression ne s'affichait que pendant le déroulement de l'analyse. Désormais, la barre de progression reste visible après la fin de l'analyse pour confirmer que les scans ont été effectués avec succès. Vous pouvez également consulter le nombre de fichiers cartographiés et analysés.
-
-Pour plus d'informations sur les paramètres de numérisation, consultez link:https://docs.netapp.com/us-en/data-services-data-classification/task-managing-repo-scanning.html#view-the-scan-status-for-your-repositories["Modifier les paramètres d'analyse de NetApp Data Classification pour vos référentiels"^].
-
-
-
-=== Reprise après sinistre
-
-
-
-==== Prise en charge du basculement en cascade
-
-Vous pouvez désormais configurer une relation en cascade dans ONTAP et utiliser n'importe quel segment de cette relation de réplication pour la reprise après sinistre.
-
-
-
-==== Rétrograder la prise en charge matérielle VMware lors de l'enregistrement
-
-La solution de reprise après sinistre prend désormais en charge la rétrogradation du matériel VMware vers une version antérieure de vSphere lors de l'enregistrement. Cela s'avère utile lorsque l'hôte ESX source exécute une version plus récente que le site de reprise après sinistre.
-
-Pour plus d'informations, voir link:https://docs.netapp.com/us-en/data-services-disaster-recovery/use/drplan-create.html#select-vcenter-servers["Créer un plan de réplication dans NetApp Disaster Recovery"].
-
-
-
-==== Arrêt en douceur
-
-La reprise après sinistre arrête désormais les machines virtuelles en douceur au lieu de les éteindre brutalement. Si une machine virtuelle donnée met plus de dix minutes à s'éteindre, la procédure de reprise après sinistre l'éteint.
-
-
-
-==== Assistance à la création de scripts avant sauvegarde
-
-Vous pouvez désormais injecter des scripts personnalisés dans le flux de travail de basculement pour qu'ils s'exécutent avant la création d'une sauvegarde. Les scripts de pré-sauvegarde vous permettent de contrôler l'état de la machine virtuelle avant la réplication d'un instantané et de préparer une machine virtuelle à une transition. Par exemple, vous pouvez injecter un script qui démonte un montage NFS qui sera remonté à l'aide d'un script différent après le basculement.
-
-Pour plus d'informations, voir link:https://docs.netapp.com/us-en/data-services-disaster-recovery/use/drplan-create.html#select-vcenter-servers["Créer un plan de réplication dans NetApp Disaster Recovery"].
-
-
-
-=== Résilience aux ransomwares
-
-Cette version comprend des améliorations générales.
-
-
-
-=== Cloud Volumes ONTAP
-
-
-
-==== Prise en charge NVMe-TCP améliorée
-
-Auparavant, lors du déploiement d'instances Cloud Volumes ONTAP sur NVMe-TCP, il était nécessaire d'obtenir et d'appliquer manuellement les licences NVMe avant le déploiement. Grâce à cette mise à jour, Cloud Volumes ONTAP installe désormais automatiquement les licences NVMe requises lors du déploiement, simplifiant ainsi le processus d'installation.
-
-Pour les déploiements NVMe-TCP existants dépourvus de licences, Cloud Volumes ONTAP applique automatiquement les licences. Vous devez redémarrer le système pour que les licences soient prises en compte.
-
-Pour plus d'informations, consultez https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/concept-client-protocols.html#nvme-tcp["Protocoles clients pris en charge pour Cloud Volumes ONTAP: NVMe-TCP"^] .
-
-
-
-=== Keystone
-
-Nouvelles améliorations dans le tableau de bord Keystone dans la NetApp Console:
-
-
-
-==== Remplissez votre case de notification de couverture
-
-L'onglet *Surveillance des alertes* de la page *Surveillance* comprend une boîte de notification *Complétez votre couverture* qui apparaît en cas de lacunes de couverture. Cette section répertorie les abonnements dont la capacité ou la date d'expiration est insuffisante, ainsi que les moniteurs sans abonnement. Vous pouvez combler les lacunes en ajoutant des abonnements aux moniteurs existants, en créant de nouveaux moniteurs ou en supprimant les moniteurs inutilisés. Pour en savoir plus, consultez link:https://docs.netapp.com/us-en/keystone-staas/integrations/monitoring-alert-monitors.html#manage-coverage-gaps["Gérer les lacunes de couverture pour les moniteurs d'alerte"].
