@@ -56,6 +56,33 @@ Le service de remédiation a été supprimé le 22 avril 2024.
 
 
 
+=== Configuration et administration de la console
+
+
+
+==== Agent Console 4.4.1
+
+La version 4.4.0 prend en charge à la fois le mode standard et le mode restreint.
+
+Cette version de l'agent Console inclut des améliorations de sécurité et des corrections de bugs.
+
+
+
+==== Administration de la NetApp Console
+
+Cette version comprend les éléments suivants :
+
+
+
+==== Administration de la NetApp Console
+
+Cette version comprend les éléments suivants :
+
+.Accédez à NetApp Data Infrastructure Insights depuis la NetApp Console
+Vous pouvez accéder à un essai gratuit de NetApp Data Infrastructure Insights depuis NetApp Console. Allez dans *Governance* > *Data Infrastructure Insights* pour vous inscrire et explorer des insights et des analyses sur votre environnement de données.
+
+
+
 === Cloud Volumes ONTAP
 
 
@@ -82,6 +109,50 @@ https://docs.cloud.google.com/compute/docs/general-purpose-machines#c3_series["G
 Les déploiements Cloud Volumes ONTAP 9.18.1 et ultérieurs dans les zones de disponibilité uniques et multiples d'Azure prennent en charge le chiffrement Azure Virtual Network (VNet) dans le cadre de leur stratégie de sécurité multicouche afin de protéger les données en transit. Cloud Volumes ONTAP exploite le protocole Datagram Transport Layer Security (DTLS) natif d'Azure pour sécuriser la communication entre les nœuds ONTAP, les interfaces de gestion et les autres services Azure, empêchant l'interception et l'accès non autorisé. Ce chiffrement au niveau du réseau complète les protections intégrées d'ONTAP pour le stockage et les données au repos afin d'assurer la sécurité de bout en bout de vos données.
 
 https://review.docs.netapp.com/us-en/storage-management-cloud-volumes-ontap_gcp-sn-c3-support/reference-networking-azure.html#networking-for-azure-vnet-encryption["Mise en réseau pour le chiffrement Azure VNet"^]
+
+
+
+== 16 février 2026
+
+
+
+=== Résilience aux ransomwares
+
+
+
+==== Prise en charge d'Azure NetApp Files
+
+Ransomware Resilience prend désormais en charge les systèmes Azure NetApp Files, vous permettant de détecter et de contrer efficacement les menaces de ransomware dans Azure NetApp Files. Lorsque vous découvrez des charges de travail, Ransomware Resilience présente désormais Azure NetApp Files et les affiche dans le tableau de bord de protection. La prise en charge de Ransomware Resilience pour Azure NetApp Files inclut des stratégies de détection et de protection uniquement avec des instantanés. La prise en charge d’Azure NetApp Files est actuellement en préversion.
+
+Pour plus d'informations, consultez le lien : Pour plus d'informations, consultez link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/concept-ransomware-resilience.html["Découvrez la résilience face aux ransomwares"^].
+
+
+
+==== Exclure les utilisateurs des alertes de comportement utilisateur
+
+Ransomware Resilience permet désormais d'exclure des utilisateurs spécifiques des alertes de comportement utilisateur. Exclure des utilisateurs de confiance peut éviter les faux positifs et les alertes inutiles.
+
+Pour plus d'informations, consultez le lien : Pour plus d'informations, consultez link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/suspicious-user-activity.html#exclude-users-from-alerts["Exclure les utilisateurs des alertes"^].
+
+
+
+==== Prise en charge des groupes de protection pour l'activité des comportements des utilisateurs
+
+Les groupes de protection Ransomware Resilience prennent désormais en charge les politiques de détection des comportements suspects des utilisateurs. Lorsque vous appliquez une stratégie de protection contre les ransomwares à un groupe de protection, elle applique une politique à l'ensemble des charges de travail, simplifiant la gestion de votre posture de cybersécurité.
+
+Pour plus d'informations, consultez link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-use-protect.html#create-a-protection-group["Créer un groupe de protection"^].
+
+
+
+=== Amazon FSX pour ONTAP
+
+
+
+==== Prise en charge de la migration des VM de stockage
+
+NetApp Workload Factory prend désormais en charge la migration des machines virtuelles de stockage. Cette fonctionnalité permet la migration des données et des configurations des systèmes de stockage ONTAP depuis des systèmes ONTAP sur site ou des systèmes de fichiers FSx for ONTAP de première génération vers des systèmes de fichiers FSx for ONTAP de deuxième génération. Vous pouvez répliquer les données et les paramètres de configuration des machines virtuelles de stockage vers le nouveau système de fichiers avec une interruption minimale et une perturbation réduite pour les utilisateurs et les applications.
+
+Pour utiliser cette fonctionnalité, link:https://docs.netapp.com/us-en/storage-management-fsx-ontap/use/task-replicate-data.html["créer une relation de réplication"] et sélectionnez *Migration* comme cas d'utilisation. Pour mener à bien le processus de migration, vous devez link:https://review.docs.netapp.com/us-en/workload-fsx-ontap/task/replicate-data.html#cut-over-replication-for-migration-use-cases["basculer la machine virtuelle de stockage et ses volumes répliqués"] immédiatement pour migrer définitivement les données et les paramètres de configuration de la machine virtuelle de stockage vers le système de fichiers FSx for ONTAP cible.
 
 
 
@@ -513,7 +584,7 @@ Pour plus d'informations, voir link:https://docs.netapp.com/us-en/data-services-
 
 ==== Répliquer les instantanés sur ONTAP
 
-Ransomware Resilience prend désormais en charge l'ajout de la réplication des instantanés vers un site ONTAP secondaire. Avec les groupes de protection qui utilisent une stratégie de réplication, vous pouvez répliquer vers la même destination ou vers des destinations différentes pour chaque charge de travail. Vous pouvez créer une stratégie de protection contre les ransomwares incluant la réplication ou utiliser la stratégie prédéfinie.
+Ransomware Resilience prend désormais en charge l'ajout de la réplication des snapshots vers un site ONTAP secondaire. Avec des groupes de protection qui utilisent une stratégie de réplication, vous pouvez répliquer vers la même destination ou vers des destinations différentes pour chaque charge de travail. Vous pouvez créer une stratégie de protection contre les ransomwares qui inclut la réplication ou utiliser la stratégie prédéfinie.
 
 Pour plus d'informations, voir link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-use-protect.html["Protéger les charges de travail grâce à la résilience contre les ransomwares"^].
 
