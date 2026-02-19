@@ -52,6 +52,26 @@ Le service de remédiation a été supprimé le 22 avril 2024.
 
 
 
+== 19 février 2026
+
+
+
+=== Cloud Volumes ONTAP
+
+
+
+==== Nouvelles régions prises en charge dans Azure
+
+Vous pouvez désormais déployer Cloud Volumes ONTAP 9.12.1 GA et versions ultérieures dans une ou plusieurs zones de disponibilité dans Azure dans les régions suivantes. Cela inclut la prise en charge des déploiements à nœud unique et à haute disponibilité (HA).
+
+* Japon Ouest (japanwest)
+* Indonésie Central (indonesiacentral)
+
+
+Pour obtenir la liste de toutes les régions, veuillez vous référer à  https://bluexp.netapp.com/cloud-volumes-global-regions["Carte des régions mondiales sous Azure"^].
+
+
+
 == 17 février 2026
 
 
