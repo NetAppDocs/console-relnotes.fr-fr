@@ -192,6 +192,18 @@ Pour utiliser cette fonctionnalité, link:https://docs.netapp.com/us-en/storage-
 
 
 
+=== Keystone
+
+Nouvelles améliorations dans le tableau de bord Keystone dans la NetApp Console:
+
+
+
+==== Affichage de la consommation des modules complémentaires DII
+
+La consommation du module complémentaire Data Infrastructure Insights (DII) s'affiche désormais dans les onglets *Consommation actuelle* et *Tendance de la consommation*. Pour en savoir plus, consultez link:./concepts/data-infra-insights.html#view-dii-consumption["Voir la consommation de DII"].
+
+
+
 == 12 février 2026
 
 
