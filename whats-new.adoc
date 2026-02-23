@@ -52,6 +52,32 @@ Le service de remédiation a été supprimé le 22 avril 2024.
 
 
 
+== 23 février 2026
+
+
+
+=== Sauvegarde et récupération
+
+
+
+==== Charges de travail KVM prises en charge en General Availability (GA)
+
+La prise en charge des charges de travail Microsoft Hyper-V est désormais généralement disponible (GA) dans NetApp Backup and Recovery.
+
+Pour plus de détails sur la protection des charges de travail KVM, reportez-vous à https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kvm-protect-overview.html["Présentation de la protection des charges de travail KVM"] .
+
+
+
+==== Kubernetes pris en charge en General Availability (GA)
+
+La prise en charge des charges de travail Kubernetes est désormais disponible (GA) dans NetApp Backup and Recovery. Cette version des charges de travail Kubernetes introduit également les fonctionnalités améliorées suivantes :
+
+*Prise en charge des rapports* : Vous pouvez désormais générer des rapports d’activité de protection pour les clusters Kubernetes et les applications protégées par NetApp Backup and Recovery.
+
+Pour plus de détails sur la protection des charges de travail Kubernetes, consultez  https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kubernetes-protect-overview.html["Vue d'ensemble de la protection des workloads Kubernetes"].
+
+
+
 == 19 février 2026
 
 
@@ -898,19 +924,3 @@ Assurez-vous de consulter lelink:https://docs.netapp.com/us-en/data-services-dis
 À mesure que les clients configurent et autorisent davantage de systèmes Google Cloud NetApp Volumes , la gestion des identifiants a évolué.
 
 Les informations d'identification des systèmes NetApp Volumes sont désormais stockées sur un serveur cloud Google, tel que le service Cloud Key Management ou un service similaire, et les informations d'identification d'emprunt d'identité du compte de service sont utilisées lors de la création d'un nouveau système.
-
-
-
-== 24 novembre 2025
-
-
-
-=== Keystone
-
-Nouvelles améliorations dans le tableau de bord Keystone dans la NetApp Console:
-
-
-
-==== Identifiant de suivi pour les abonnements avec interruption de couverture
-
-Dans la boîte de notification *Complétez votre couverture* de *Surveillance > Moniteurs d'alerte*, chaque abonnement affiche désormais son identifiant de suivi à côté du numéro d'abonnement.
