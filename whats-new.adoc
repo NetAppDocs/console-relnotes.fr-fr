@@ -16,40 +16,18 @@ summary: Découvrez les modifications les plus récentes apportées aux fonction
 [role="lead"]
 Découvrez les modifications les plus récentes apportées aux fonctionnalités et aux services de données qui font partie de la NetApp Console.  Pour un historique complet des versions, accédez aulink:release-notes-index.html["ensemble complet de notes de version"] pour chaque service individuel.
 
+[NOTE]
+====
+Les services suivants ont été abandonnés :
+
+Mise en cache de périphérie:: Le service de mise en cache de périphérie a été supprimé le 7 août 2024.
+Kubernetes:: La prise en charge de la découverte et de la gestion des clusters Kubernetes a été supprimée le 7 août 2024.
+Rapports de migration:: Le service de rapports de migration a été supprimé le 7 août 2024.
+Résilience opérationnelle:: Les fonctionnalités de résilience opérationnelle ont été supprimées le 22 août 2025.
+Assainissement:: Le service de remédiation a été supprimé le 22 avril 2024.
 
 
-== Services obsolètes
-
-
-
-=== Mise en cache de périphérie
-
-Le service de mise en cache de périphérie a été supprimé le 7 août 2024.
-
-
-
-=== Kubernetes
-
-La prise en charge de la découverte et de la gestion des clusters Kubernetes a été supprimée le 7 août 2024.
-
-
-
-=== Rapports de migration
-
-Le service de rapports de migration a été supprimé le 7 août 2024.
-
-
-
-=== Résilience opérationnelle
-
-Les fonctionnalités de résilience opérationnelle ont été supprimées le 22 août 2025.
-
-
-
-=== Assainissement
-
-Le service de remédiation a été supprimé le 22 avril 2024.
-
+====
 
 
 == 26 février 2026
