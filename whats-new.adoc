@@ -1003,19 +1003,3 @@ Nouvelles améliorations dans le tableau de bord Keystone dans la NetApp Console
 ==== Étiquette renommée « Capacité de rupture accumulée »
 
 L'étiquette *Capacité de pointe cumulée* est renommée *Capacité de pointe cumulée*.
-
-
-
-== 1er décembre 2025
-
-
-
-=== Reprise après sinistre
-
-
-
-==== Prise en charge de Google Cloud VMware Engine à l'aide de Google Cloud NetApp Volumes
-
-NetApp Disaster Recovery prend désormais en charge Google Cloud VMware Engine utilisant Google Cloud NetApp Volumes pour les opérations de migration, de basculement, de restauration et de test. Cette intégration permet des flux de travail de reprise après sinistre transparents entre les environnements sur site et Google Cloud.
-
-Assurez-vous de consulter lelink:https://docs.netapp.com/us-en/data-services-disaster-recovery/get-started/dr-prerequisites.html["prérequis"] etlink:https://docs.netapp.com/us-en/data-services-disaster-recovery/release-notes/dr-limitations.html["limites"] pour Google Cloud.
