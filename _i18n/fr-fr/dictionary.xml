@@ -534,4 +534,13 @@
   <block id="9478b45dce4de73855a8e0b13720f895" category="paragraph">La classification des données prend désormais en charge les configurations de proxy transparent, permettant un déploiement plus fluide dans les environnements réseau proxy ou restreints.</block>
   <block id="365a447377f6e5c0e423f1aee2b9e99f" category="inline-link-macro">Installer NetApp Data Classification sur un hôte Linux sans accès à Internet</block>
   <block id="89f7afc8a9b178d4b4346f224d8bffc7" category="paragraph">Pour plus d'informations sur le déploiement dans des environnements restreints, voir <block ref="6804ab8e5e77245509e3dc550ef5b67d" category="inline-link-macro-rx"></block>.</block>
+  <block id="dd340069cb16665edf781618805f1165" category="doc">Agent Console 4.5.0</block>
+  <block id="de3b44fa9f294325dd837b3f15773cd6" category="paragraph">La version 4.5.0 prend en charge à la fois le mode standard et le mode restreint.</block>
+  <block id="8d40f2642d0505b33483f580f9515a11" category="paragraph">Cette version de l'agent Console inclut des améliorations de sécurité et des corrections de bugs, ainsi que la fonctionnalité nouvelle suivante.</block>
+  <block id="b8ea9a14287592fd39444f5f11f22b28" category="paragraph-title">Prise en charge des vérifications de configuration pour les ports requis</block>
+  <block id="e6aa0876ac72372fe4102974fad02f9e" category="inline-link-macro">En savoir plus sur l'exécution des vérifications de configuration sur l'agent Console.</block>
+  <block id="8fab8f63a86cd4593eb84501e6b42574" category="paragraph">Vous pouvez valider que les ports requis pour l'agent de la Console sont ouverts à l'aide de contrôles de configuration. Vous pouvez effectuer des contrôles de configuration depuis la Console ou la console de maintenance de l'Agent. <block ref="b6bcdf4dfaf7604bd81efc4009e39859" category="inline-link-macro-rx"></block></block>
+  <block id="2de08c251ba5c647be79f6b565692ba4" category="section-title">Administration de la console</block>
+  <block id="2bdd9842a1d8845c8d1b9f13695c4ac5" category="inline-link-macro">En savoir plus sur l’attribution des rôles Keystone aux utilisateurs partenaires.</block>
+  <block id="f932e5731af0b28e3d04131c77f23704" category="paragraph">Vous pouvez attribuer des rôles Keystone aux utilisateurs partenaires pour leur permettre de gérer les ressources Keystone au sein d'une organisation partenaire. <block ref="37c7e4a6dbebd9961095310c537fa832" category="inline-link-macro-rx"></block></block>
 </blocks>
