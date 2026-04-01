@@ -551,4 +551,15 @@
   <block id="1336b537734375879229275580e44691" category="inline-link">Aperçu de la protection des charges de travail de la base de données Oracle</block>
   <block id="1862dacb480058987868f9ba0ecb7166" category="paragraph">Pour plus de détails sur la protection des charges de travail Oracle Database, consultez<block ref="a1bc2d91e29f35544fc66a9a951bc0f5" category="inline-link-rx"></block>.</block>
   <block id="d8fdc2681cdec613a02ac551c44a6e8c" category="section-title">31 mars 2026</block>
+  <block id="18515b3c335f09237bc0721c0cb72b94" category="doc">Au-dessus de la capacité de pointe sur le graphique de consommation historique</block>
+  <block id="c63c700d510218e3fd6113514c7cadf9" category="inline-link-macro">Consultez les tendances de consommation de vos abonnements Keystone</block>
+  <block id="ccb30c6d28628d4a2488596de7e2891b" category="paragraph">Le graphique de consommation historique de l'onglet *Tendance de consommation* met désormais en évidence les utilisations dépassant la limite de pointe. Pour en savoir plus, consultez <block ref="06dd3a9283773166a29e1b7ff4424218" category="inline-link-macro-rx"></block>.</block>
+  <block id="b3dc9240b9d14158cfa1e8c9f006c4cc" category="section-title">Prévisions d'utilisation des capacités</block>
+  <block id="d91e86bb82b2e269900865aa75c2f6b1" category="inline-link-macro">Consulter les données prévisionnelles</block>
+  <block id="0794ebef867392ddd8fde9d8acc33d95" category="paragraph">Vous pouvez utiliser le bouton *Prévisions* dans la vue *Historique de consommation* de l'onglet *Tendance de consommation* pour projeter l'utilisation des capacités pour les 120 prochains jours à compter de la date actuelle. Pour en savoir plus, consultez <block ref="9484ad044036df23422b98e69c766760" category="inline-link-macro-rx"></block>.</block>
+  <block id="3cad4604b833d612cf60efacf78eba67" category="section-title">ID de suivi dans l'exportation d'abonnement</block>
+  <block id="7c8889a3dbf6564af66cd90c8d50ab99" category="paragraph">Le rapport d'abonnements téléchargé depuis la page *Abonnements* inclut désormais l'*Tracking ID* dans les données de niveau de service de performance, aussi bien aux formats Excel que CSV.</block>
+  <block id="4f5116f256021abd73dfaa4f95b17237" category="section-title">Mises à jour de la visibilité des colonnes de la page Subscriptions</block>
+  <block id="ff8ca3704c3bbdb74c1650666c3657bb" category="paragraph">Sur la page *Abonnements*, la colonne *Version Keystone* est désormais masquée par défaut, et la colonne *Abonnements liés* n'apparaît que lorsque des abonnements liés sont disponibles.</block>
+  <block id="5b57bf4dba78305736e07582baae16bb" category="section-title">30 mars 2026</block>
 </blocks>
