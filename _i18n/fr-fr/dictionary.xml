@@ -562,4 +562,7 @@
   <block id="4f5116f256021abd73dfaa4f95b17237" category="section-title">Mises à jour de la visibilité des colonnes de la page Subscriptions</block>
   <block id="ff8ca3704c3bbdb74c1650666c3657bb" category="paragraph">Sur la page *Abonnements*, la colonne *Version Keystone* est désormais masquée par défaut, et la colonne *Abonnements liés* n'apparaît que lorsque des abonnements liés sont disponibles.</block>
   <block id="5b57bf4dba78305736e07582baae16bb" category="section-title">30 mars 2026</block>
+  <block id="ed300adca180c1e33d800707367434a6" category="doc">Plan d'action SOAR pour Google SecOps</block>
+  <block id="d6e96acd595d94a4f4fd9727f77f8f89" category="inline-link-macro">Google SecOps</block>
+  <block id="6e9577ca2ef4afc51475afb9c4855a58" category="paragraph">Ransomware Resilience propose désormais un guide d'orchestration, d'automatisation et de réponse en matière de sécurité (SOAR) pour <block ref="a0b16504c1687e5508c034346a32796a" category="inline-link-macro-rx"></block>. Ce guide facilite la gestion des réponses aux menaces, automatise les tests et les actions essentielles de réponse aux ransomwares, notamment la création de snapshots et la mise hors ligne d'un volume.</block>
 </blocks>
