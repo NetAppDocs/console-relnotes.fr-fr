@@ -30,6 +30,28 @@ Assainissement:: Le service de remédiation a été supprimé le 22 avril 2024.
 ====
 
 
+== 13 avril 2026
+
+
+
+=== Reprise après sinistre
+
+
+
+==== La prise en charge de Google Cloud VMware Engine (GCVE) est désormais généralement disponible (GA)
+
+NetApp Disaster Recovery pour GCVE est désormais disponible en disponibilité générale (GA). Avec la prise en charge GA, Disaster Recovery pour GCVE prend désormais en charge :
+
+* *Instantanés gérés par la plateforme :* Gérez les sauvegardes et les politiques de rétention de manière transparente via ONTAP ou Google Cloud Platform (GCP).
+* *Plusieurs banques de données par plan de réplication :* Simplifiez vos plans de reprise après sinistre en consolidant plusieurs banques de données dans une seule stratégie de réplication.
+* *Forcer le basculement en cas d'indisponibilité du site source :* Basculer vers un site de reprise après sinistre si la source est indisponible.
+* *Différer la resynchronisation SnapMirror et restaurer la réplication à la demande :* Différez les resynchronisations SnapMirror pour éviter tout impact sur les charges de travail de production pendant les périodes de pointe grâce à l’option « skip protect », puis restaurez la réplication à la demande ultérieurement avec l’option « re-protect ».
+
+
+Pour plus d'informations sur la prise en charge de GCVE, découvrez link:https://docs.netapp.com/us-en/data-services-disaster-recovery/release-notes/dr-limitations.html["Configurations prises en charge pour NetApp Disaster Recovery"^].
+
+
+
 == 31 mars 2026
 
 
@@ -985,139 +1007,3 @@ Les temps de chargement de toutes les pages de la section Classification des don
 
 .Délai estimé pour les rapports d'enquête
 Lorsque vous téléchargez un rapport d'enquête, la classification des données affiche désormais le temps estimé pour la fin du téléchargement.
-
-
-
-== 12 janvier 2026
-
-
-
-=== Configuration et administration de la console
-
-
-
-==== Agent de console 4.3.0
-
-La version 4.3.0 prend en charge à la fois le mode standard et le mode restreint.
-
-Cette version de l'agent Console inclut des améliorations de sécurité, des corrections de bugs et les fonctionnalités suivantes :
-
-.Capacité à valider les connexions réseau des agents de la console
-Vous pouvez désormais valider les connexions réseau des agents Console connectés directement depuis la NetApp Console. Cette fonctionnalité permet de vérifier la connectivité et de résoudre les problèmes avec les agents Console. Ceci s'ajoute à la possibilité existante d'exécuter des diagnostics réseau depuis la ligne de commandes de la console de maintenance de l'agent Console (CLI).
-
-link:https://docs.netapp.com/us-en/console-setup-admin/task-troubleshoot-agent.html#verify-network-access["Apprenez à exécuter la configuration depuis la NetApp Console."]
-
-
-
-==== Administration de la NetApp Console
-
-Cette version comprend les éléments suivants :
-
-.Contrôle d'accès basé sur les rôles pour les groupes fédérés dans la NetApp Console
-La NetApp Console prend en charge l'attribution de rôles aux groupes fédérés (par exemple, les groupes Active Directory), permettant aux administrateurs d'automatiser l'intégration et la désintégration des utilisateurs en fonction de leur appartenance à un groupe dans le fournisseur d'identité (IdP) de l'organisation. Cette fonctionnalité réduit la charge administrative et garantit un accès sécurisé et cohérent en mettant à jour instantanément l'accès à la console lorsque les appartenances aux groupes changent.
-
-link:https://docs.netapp.com/us-en/console-setup-admin/task-iam-manage-members-permissions.html#add-a-federated-group-to-your-organization["Découvrez comment donner accès à un groupe fédéré à votre organisation."]
-
-.Prise en charge de la fédération lorsque la NetApp Console est en mode restreint
-Vous pouvez désormais activer la fédération pour une organisation NetApp Console en mode restreint. Cela permet aux utilisateurs de se connecter à la console en utilisant leurs identifiants d'entreprise tout en conservant les avantages de sécurité du mode restreint.
-
-.Mode lecture seule
-Vous pouvez configurer une organisation NetApp Console en mode lecture seule. En mode lecture seule, les utilisateurs peuvent consulter les ressources et les paramètres, mais ne peuvent apporter aucune modification. Un administrateur ou un super administrateur d'organisation peut activer le mode lecture seule pour une organisation. Lorsque le mode lecture seule est activé, les utilisateurs disposant de rôles d'administrateur doivent élever manuellement leurs autorisations pour effectuer les modifications nécessaires.
-
-link:https://docs.netapp.com/us-en/console-setup-admin/task-enable-read-only-mode.html["Découvrez comment activer le mode lecture seule pour une organisation Console."]
-
-link:https://docs.netapp.com/us-en/console-setup-admin/task-user-settings.html["Découvrez comment rehausser votre rôle lorsque votre organisation est en mode lecture seule."]
-
-
-
-=== Reprise après sinistre
-
-
-
-==== Prise en charge de plusieurs agents de console dans les environnements sur site
-
-Si vous utilisez la reprise après sinistre sur site, vous pouvez désormais déployer un agent Console pour chaque instance vCenter, ce qui améliore la résilience.
-
-Par exemple, si vous avez deux sites (sites A et B), le site A peut avoir l'agent de console A attaché à vCenter 1, au déploiement ONTAP 1 et au déploiement ONTAP 2. Le site B peut avoir l'agent de console B attaché aux déploiements vCenter 2 et ONTAP 3 et 4.
-
-Pour plus d'informations sur l'agent Console dans le cadre de la reprise après sinistre, consultez link:https://docs.netapp.com/us-en/data-services-disaster-recovery/get-started/dr-prerequisites.html#netapp-console-prerequisites["Créer l'agent de console"^].
-
-
-
-==== Ajoutez des machines virtuelles après le basculement pour les plans de réplication utilisant la protection basée sur le datastore.
-
-En cas de basculement, tout plan de réplication utilisant une protection basée sur la banque de données inclut les machines virtuelles ajoutées à la banque de données, à condition qu'elles aient été découvertes. Vous devez fournir les détails de mappage des machines virtuelles ajoutées avant que le basculement ne soit terminé.
-
-Pour plus d'informations, voir link:https://docs.netapp.com/us-en/data-services-disaster-recovery/use/failover.html["Applications de basculement"^].
-
-
-
-==== Nouvelles notifications par e-mail
-
-Le service de reprise après sinistre envoie désormais des notifications par e-mail pour les événements suivants :
-
-* Limite d'utilisation de la capacité proche
-* Génération du rapport terminée
-* échecs professionnels
-* Expiration ou infractions au permis
-
-
-
-
-==== Améliorations de Swagger
-
-Vous pouvez désormais accéder à la documentation Swagger directement depuis le système de reprise après sinistre. Dans la section Reprise après sinistre, sélectionnez **Paramètres** puis **Documentation API** pour accéder à Swagger, ou consultez cette URL en mode navigation privée/incognito de votre navigateur : link:https://snapcenter.cloudmanager.cloud.netapp.com/api/api-doc/draas["https://snapcenter.cloudmanager.cloud.netapp.com/api/api-doc/draas"^].
-
-
-
-==== Interfaces utilisateur améliorées
-
-La solution de reprise après sinistre offre désormais des avertissements et des résolutions d'erreurs améliorés. Cette version corrige une erreur qui empêchait l'affichage des tâches annulées dans l'interface utilisateur. Les tâches annulées sont désormais visibles. Un nouvel avertissement s'affiche également lorsque le même réseau de destination est associé à plusieurs réseaux sources différents.
-
-
-
-==== Conserver la structure de dossiers des machines virtuelles ajoutée par défaut dans les plans de réplication
-
-Lors de la création d'une réplication, le comportement par défaut consiste désormais à conserver la structure des dossiers de la machine virtuelle. Si le répertoire cible de récupération ne possède pas l'arborescence de dossiers d'origine, la fonction de récupération après sinistre la crée. Vous pouvez désélectionner cette option pour ignorer l'arborescence des dossiers d'origine.
-
-Pour plus d'informations, voir link:https://docs.netapp.com/us-en/data-services-disaster-recovery/use/drplan-create.html["Créer un plan de réplication"^].
-
-
-
-=== Résilience aux ransomwares
-
-
-
-==== Répliquer les instantanés sur ONTAP
-
-Ransomware Resilience prend désormais en charge l'ajout de la réplication des snapshots vers un site ONTAP secondaire. Avec des groupes de protection qui utilisent une stratégie de réplication, vous pouvez répliquer vers la même destination ou vers des destinations différentes pour chaque charge de travail. Vous pouvez créer une stratégie de protection contre les ransomwares qui inclut la réplication ou utiliser la stratégie prédéfinie.
-
-Pour plus d'informations, voir link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-use-protect.html["Protéger les charges de travail grâce à la résilience contre les ransomwares"^].
-
-
-
-==== Exclure les charges de travail de la résilience aux ransomwares
-
-Ransomware Resilience prend désormais en charge l'exclusion de certaines charges de travail d'un système de la protection et du tableau de bord Ransomware Resilience. Vous pouvez exclure les charges de travail après leur découverte, puis les réinclure si vous souhaitez ajouter une protection contre les ransomwares. Les charges de travail exclues ne vous seront pas facturées.
-
-Pour plus d'informations, voir link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-start-discover.html#exclude-workloads["Exclure les charges de travail"^].
-
-
-
-==== Les alertes marquées comme étant en cours de révision
-
-Ransomware Resilience vous permet désormais de marquer les alertes comme « En cours d'examen ». Utilisez l'étiquette « En cours d'examen » pour améliorer la clarté au sein de votre équipe lors du tri et de la gestion des menaces de ransomware actives.
-
-Pour plus d'informations, voir link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-use-alert.html["Gérer les alertes dans Ransomware Resilience"^].
-
-
-
-=== Cloud Volumes ONTAP
-
-
-
-==== Option de facturation privilégiée pour Cloud Volumes ONTAP
-
-Vous pouvez désormais sélectionner l'option de facturation qui vous convient le mieux pour calculer votre consommation et vos dépassements Cloud Volumes ONTAP . Étant donné la disponibilité limitée du modèle de licence Bring Your Own Licenses (BYOL) le 25 juin 2025, NetApp a ajouté des méthodes de facturation préférées dans la section *Licences et abonnements* de la NetApp Console. Vous pouvez utiliser soit votre abonnement annuel à la plateforme pour la facturation et les dépassements, soit le modèle BYOL existant comme option privilégiée. Cela vous permet de choisir la méthode de facturation qui correspond le mieux à la stratégie financière et aux habitudes d'utilisation de votre organisation.
-
-https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/concept-licensing-charging.html#billing-preferences-and-overages["Préférences de facturation et dépassements"^].
