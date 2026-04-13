@@ -121,20 +121,6 @@ Pour plus de détails sur la protection des charges de travail VMware, consultez
 
 
 
-=== Classification des données
-
-
-
-==== Version 1.53
-
-Cette version de Data Classification inclut des correctifs de bogues, des améliorations de sécurité et des optimisations de performances.
-
-Hiérarchisation du cloud :leveloffset: +1
-
-Directive non résolue dans _whatsnew/2026-04-13_data-services-cloud-tiering.adoc - include::../_include/cloud-tiering-eol.adoc[]
-
-
-
 === Reprise après sinistre
 
 
@@ -150,34 +136,6 @@ NetApp Disaster Recovery pour GCVE est désormais disponible en disponibilité g
 
 
 Pour plus d'informations sur la prise en charge de GCVE, découvrez link:https://docs.netapp.com/us-en/data-services-disaster-recovery/release-notes/dr-limitations.html["Configurations prises en charge pour NetApp Disaster Recovery"^].
-
-
-
-=== Résilience aux ransomwares
-
-
-
-==== Restauration propre
-
-Ransomware Resilience prend désormais en charge les restaurations propres, une nouvelle option de récupération qui vous aide à vous remettre rapidement et facilement des attaques de ransomware. Les restaurations propres offrent des flux de travail guidés qui identifient les points de restauration optimaux pour remettre vos charges de travail en service tout en minimisant l'interruption. Les flux de travail dans la restauration propre fournissent également des informations au niveau fichier sur vos données, garantissant que vous pouvez restaurer des charges de travail exemptes de logiciels malveillants, ce qui empêche toute réinfection et minimise la perte de données.
-
-Pour en savoir plus sur les configurations prises en charge et sur la manière de configurer votre système pour une restauration complète, consultez link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-clean-restore.html["Créer un environnement de récupération isolé"^]. Pour en savoir plus sur la procédure de restauration complète, consultez link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-clean-restore-recover.html["Récupérez les charges de travail avec une restauration propre"^].
-
-
-
-==== Prise en charge SIEM pour Splunk Enterprise
-
-Ransomware Resilience offre désormais une prise en charge de la gestion des informations et des événements de sécurité (SIEM) pour Splunk Enterprise, vous permettant de centraliser les données de journalisation et d'événements et de rationaliser l'analyse et la détection des menaces.
-
-Pour plus d'informations, voir link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-siem.html["Connectez NetApp Ransomware Resilience à un SIEM"^].
-
-
-
-==== Amélioration de l'activité des utilisateurs
-
-Les informations relatives aux incidents de violation de données sont désormais conservées pendant 13 mois après un incident, ce qui permet une conservation des données plus longue pour vos besoins de reporting.
-
-Pour plus d'informations, voir link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/concept-user-behavior.html["Découvrez la détection de l'activité des utilisateurs"^].
 
 
 
