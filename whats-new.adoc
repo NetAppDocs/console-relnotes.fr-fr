@@ -121,6 +121,16 @@ Pour plus de détails sur la protection des charges de travail VMware, consultez
 
 
 
+=== Classification des données
+
+
+
+==== Version 1.53
+
+Cette version de Data Classification inclut des correctifs de bogues, des améliorations de sécurité et des optimisations de performances.
+
+
+
 === Reprise après sinistre
 
 
