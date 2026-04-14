@@ -123,20 +123,6 @@
   <block id="a09c3a7be8e7dc42776a7b03793d536c" category="inline-link">Configurations prises en charge pour Cloud Volumes ONTAP dans Azure</block>
   <block id="dfcd07d4790b963532ec4f8f70f184cd" category="paragraph-title">Prise en charge de Google Cloud Infrastructure Manager</block>
   <block id="221dc7db98837c8091cba0d42f55b28d" category="inline-link-macro">Gestionnaire de déploiement cloud</block>
-  <block id="a4abecdc1a189db5254898cad3b99a7e" category="doc">Version 1.50</block>
-  <block id="0bbdca5358fc47c779aaa8d26a52510f" category="paragraph-title">Améliorations de la classification personnalisée</block>
-  <block id="3d1c64f6b833049963a84f1722911079" category="paragraph">La classification des données prend désormais en charge la création de catégories personnalisées pour vos données. Vous pouvez télécharger des fichiers pour affiner un modèle d'IA que la classification des données utilise pour appliquer le marqueur de catégorie aux données. L'interface de toutes les classifications personnalisées a été améliorée.</block>
-  <block id="b3d4fb955e1630fd4184c8964a1f4fdb" category="inline-link-macro">Créer une classification personnalisée</block>
-  <block id="1ea7cf77170c31be18fc52c7e9649923" category="paragraph">Pour plus d'informations, voir <block ref="c45381d223df5e8e5c4b98a60b8b65d3" category="inline-link-macro-rx"></block>.</block>
-  <block id="3e1e55a16c45f87e5a51189ca804eaf3" category="paragraph-title">Définition de données obsolètes personnalisée</block>
-  <block id="97b36bc8814884dc26bf5a568d08d691" category="paragraph">La classification des données vous permet désormais de personnaliser la définition des données obsolètes afin qu'elle corresponde aux besoins de votre organisation. Auparavant, les données obsolètes étaient définies comme toutes les données dont la dernière modification remontait à trois ans. Désormais, les données obsolètes peuvent être identifiées en fonction de leur dernière consultation ou de leur dernière modification ; cette période peut aller de 6 mois à 10 ans.</block>
-  <block id="493a301aeed6d63ec61fcc12caab7b22" category="inline-link-macro">Personnaliser la définition des données obsolètes</block>
-  <block id="14748686f892545cd3b61c5ed2221369" category="paragraph">Pour plus d'informations, voir <block ref="a0a0e231fdda706f469e0c838920ede3" category="inline-link-macro-rx"></block>.</block>
-  <block id="e887aed8f9c3dbecd37e8896d96b6637" category="paragraph-title">Performances améliorées</block>
-  <block id="0106b64c8d04b65e1353d763ca518487" category="paragraph">Les temps de chargement de toutes les pages de la section Classification des données, du rapport de cartographie des données et des filtres de la page Investigation ont été réduits.</block>
-  <block id="ff7b9533f576d72772ad31931f1070c3" category="paragraph-title">Délai estimé pour les rapports d'enquête</block>
-  <block id="317bcae14c763efc48845c774a224df6" category="paragraph">Lorsque vous téléchargez un rapport d'enquête, la classification des données affiche désormais le temps estimé pour la fin du téléchargement.</block>
-  <block id="4a0d328244ebc11cdcdafe7537ab73a0" category="section-title">14 janvier 2026</block>
   <block id="194a29c3464a05de3c32434145c0b5d6" category="section-title">19 janvier 2026</block>
   <block id="48ddddb06a7cca979a8b0eb4de198113" category="doc">Améliorations des charges de travail volumiques ONTAP</block>
   <block id="70cc82710208295496c70c203368aaf9" category="paragraph">Cette version des charges de travail de volume ONTAP introduit la fonctionnalité améliorée suivante :</block>
@@ -567,4 +553,13 @@
   <block id="f31838bfd1a4d7d1cc348bb0e79249aa" category="inline-link-macro">Découvrez la détection de l'activité des utilisateurs</block>
   <block id="787e93d4c2f472a6434cd13d74f3f4d4" category="paragraph">Pour plus d'informations, voir <block ref="1a6935dbce91cdb72e61e2f8c1313b36" category="inline-link-macro-rx"></block>.</block>
   <block id="6ff288c704ac97afbc67708bc23dbc09" category="paragraph">Pour en savoir plus sur les configurations prises en charge et sur la manière de configurer votre système pour une restauration complète, consultez <block ref="bce58762a021948ccde0fba2f5f7a845" category="inline-link-macro-rx"></block>. Pour en savoir plus sur la procédure de restauration complète, consultez <block ref="c39fc221f9e8d680274efcf9f5170bf4" category="inline-link-macro-rx"></block>.</block>
+  <block id="d5affa88c9505737da2bd460b6fd43bb" category="doc">Prise en charge améliorée de Cloud Volumes ONTAP avec les machines virtuelles Google Cloud C3</block>
+  <block id="0c095222c728afb1d3c25c10e5f27e3c" category="paragraph">Cloud Volumes ONTAP prend désormais en charge de manière améliorée les machines virtuelles de la série Google Cloud C3, ce qui permet d'activer les fonctionnalités supplémentaires suivantes :</block>
+  <block id="f0de228b367386d27d7b8cbf65c47859" category="list-text">Dans vos déploiements Cloud Volumes ONTAP, vous pouvez basculer entre différents types d'instances au sein de la famille C3.</block>
+  <block id="b6d05c51f23a9bec9f5098e25088be1b" category="list-text">Lors du changement de type d'instance, si vous sélectionnez c3-standard-44 ou c3-standard-88 et leurs variantes LSSD comme machine virtuelle cible, le service réseau Google applique automatiquement le niveau de réseau de sortie Tier-1. Si vous choisissez une autre variante C3, le niveau de réseau de sortie est défini sur Standard.</block>
+  <block id="8c530a5dacbdac6ea799436763592a2b" category="admonition">Le passage au niveau 1 du réseau de sortie engendre des coûts supplémentaires. Prévoyez le déploiement et la mise à niveau en conséquence.</block>
+  <block id="592c8c8f58ba9f6037877ba4f12bbd27" category="list-text">Si vous sélectionnez les variantes SSD locales (LSSD) de C3, le cache Flash est activé par défaut. Vous ne pouvez pas changer de variante LSSD de C3 dans votre déploiement Cloud Volumes ONTAP, même si la variante cible prend en charge le cache Flash.</block>
+  <block id="03fe422ae9ed1fe4cea49e5cfeeac9b8" category="list-text">Sur vos machines virtuelles C3, vous pouvez désormais ajouter des volumes aux agrégats nouveaux et existants.</block>
+  <block id="5aaea3e4d288404c9e29a557265127f4" category="list-text">Vous pouvez modifier les paramètres IOPS et de débit lors de l’ajout de volumes via la NetApp Console ou en utilisant l’<block ref="a27faf3e52367bc8d4429006be3dde82" prefix=" " category="inline-code"></block> API.</block>
+  <block id="79755a85cb08431038b7bbe13d99c64f" category="list-text"><block ref="79755a85cb08431038b7bbe13d99c64f" category="inline-link-rx"></block></block>
 </blocks>
