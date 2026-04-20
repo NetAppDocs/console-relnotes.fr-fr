@@ -148,11 +148,13 @@ Pour plus de détails sur la protection des charges de travail VMware, consultez
 
 Cette version de Data Classification inclut des correctifs de bogues, des améliorations de sécurité et des optimisations de performances.
 
-Hiérarchisation du cloud :leveloffset: +1
+
+
+=== Hiérarchisation du cloud
 
 
 
-=== NetApp Cloud Tiering n'est plus proposé
+==== NetApp Cloud Tiering n'est plus proposé
 
 NetApp Cloud Tiering n'est plus disponible à l'achat ni au renouvellement de licence depuis le 26 avril 2026.
 
