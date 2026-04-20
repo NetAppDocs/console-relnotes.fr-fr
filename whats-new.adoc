@@ -30,6 +30,25 @@ Assainissement:: Le service de remédiation a été supprimé le 22 avril 2024.
 ====
 
 
+== 20 avril 2026
+
+
+
+=== Sauvegarde et récupération
+
+
+
+==== Améliorations des charges de travail VMware
+
+Dans cette version, les charges de travail VMware introduisent l'amélioration suivante :
+
+* *ASA r2 prise en charge SAN* : Les charges de travail VMware prennent désormais en charge la protection des machines virtuelles sur des banques de données VMFS hébergées par des environnements NetApp ASA r2 SAN uniquement.
+
+
+Pour plus de détails sur la protection des charges de travail VMware, consultez  https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-protect-overview.html["Vue d'ensemble de la protection des workloads VMware"].
+
+
+
 == 13 avril 2026
 
 
@@ -1066,69 +1085,3 @@ L'onglet *Abonnements* propose une option permettant de développer tous les abo
 ==== Nouvelle colonne Usage type
 
 L'onglet *Abonnements* comprend une colonne *Type d'utilisation* qui indique si l'abonnement est facturé en fonction de l'utilisation provisionnée, physique ou logique. Pour en savoir plus, consultez link:./integrations/subscriptions-tab.html["Consultez les détails de vos abonnements Keystone"].
-
-
-
-== 19 janvier 2026
-
-
-
-=== Sauvegarde et récupération
-
-
-
-==== Améliorations des charges de travail volumiques ONTAP
-
-Cette version des charges de travail de volume ONTAP introduit la fonctionnalité améliorée suivante :
-
-*Prise en charge de plusieurs compartiments* : (Aperçu privé) À partir d’ ONTAP 9.17.1 et versions ultérieures, vous pouvez désormais protéger les volumes d’un système avec jusqu’à 6 compartiments par système sur différents fournisseurs de cloud.
-
-link:https://docs.netapp.com/us-en/data-services-backup-recovery/prev-ontap-backup-manage.html["Découvrez comment sauvegarder les données de volume ONTAP à l'aide de NetApp Backup and Recovery."].
-
-
-
-==== Améliorations des charges de travail VMware
-
-Cette version des charges de travail VMware introduit les fonctionnalités améliorées suivantes :
-
-* La prise en charge des charges de travail VMware est désormais disponible en disponibilité générale (GA) dans NetApp Backup and Recovery.
-* Vous pouvez désormais restaurer les fichiers et dossiers du système d'exploitation invité.
-
-
-https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-restore-guest-files-and-folders-overview.html["Apprenez-en davantage sur la restauration des fichiers et dossiers invités."].
-
-
-
-==== Améliorations de la préversion des charges de travail Hyper-V
-
-Cette version des charges de travail Hyper-V introduit les fonctionnalités améliorées suivantes :
-
-* Vous pouvez désormais restaurer les sauvegardes et les instantanés de machines virtuelles Hyper-V vers un autre emplacement. Utilisez cette fonctionnalité pour gérer les versions de machines virtuelles sur différents hôtes Hyper-V.
-* NetApp Backup and Recovery prend désormais en charge les machines virtuelles Hyper-V provisionnées par System Center Virtual Machine Manager (SCVMM) et hébergées sur un partage CIFS.
-* Vous pouvez désormais modifier les groupes de protection.
-
-
-
-NOTE: Dans cette version uniquement, vous ne pouvez pas mettre à niveau les plugins NetApp pour Hyper-V ou Windows à l'aide de l'option *Mettre à niveau* du menu Actions. Il faut plutôt supprimer chaque hôte Hyper-V et l'ajouter à nouveau pour mettre à jour les plugins.
-
-https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-hyperv-restore.html["Découvrez comment restaurer des machines virtuelles Hyper-V avec NetApp Backup and Recovery."].
-
-
-
-==== Améliorations de la prévisualisation des charges de travail KVM
-
-La préversion des charges de travail KVM protège désormais les hôtes KVM et les machines virtuelles qui sont gérées par Apache CloudStack.
-
-Pour plus de détails sur la protection des charges de travail KVM, reportez-vous à https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kvm-protect-overview.html["Présentation de la protection des charges de travail KVM"] .
-
-
-
-=== Résilience aux ransomwares
-
-
-
-==== Volumes non pris en charge
-
-Les rapports de NetApp Ransomware Resilience incluent désormais des informations sur les volumes pris en charge et non pris en charge dans le rapport **Summary**. Utilisez ces informations pour diagnostiquer pourquoi des volumes d’un système peuvent ne pas être éligibles à la protection contre les ransomwares.
-
-Pour plus d'informations, voir link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-use-reports.html["Télécharger les rapports dans Ransomware Resilience"^].
