@@ -511,7 +511,6 @@
   <block id="19e7d45c6bedb302dc81dcad6024f1c3" category="list-text">*Restauration de fichiers sur des machines virtuelles Linux* : Vous pouvez désormais restaurer des fichiers et des dossiers de machines virtuelles sur des machines virtuelles Linux. Pour plus d'informations, consultez<block ref="d14b743b42535a5def60386aae0617f3" category="inline-link-rx"></block>.</block>
   <block id="9011586cd2cbb8095aa94a58c4af72fd" category="doc">Version 1.53</block>
   <block id="d34f29080dba1970a613ab39b7166d0c" category="paragraph">Cette version de Data Classification inclut des correctifs de bogues, des améliorations de sécurité et des optimisations de performances.</block>
-  <block id="6bc8c5419da4e61de95309f77caa37bd" category="paragraph">Hiérarchisation du cloud :leveloffset: +1</block>
   <block id="ad2a9811677d640aa02be04e16ed6267" category="doc">Restauration propre</block>
   <block id="a27a472ba292f326ddc2e430f964123b" category="paragraph">Ransomware Resilience prend désormais en charge les restaurations propres, une nouvelle option de récupération qui vous aide à vous remettre rapidement et facilement des attaques de ransomware. Les restaurations propres offrent des flux de travail guidés qui identifient les points de restauration optimaux pour remettre vos charges de travail en service tout en minimisant l'interruption. Les flux de travail dans la restauration propre fournissent également des informations au niveau fichier sur vos données, garantissant que vous pouvez restaurer des charges de travail exemptes de logiciels malveillants, ce qui empêche toute réinfection et minimise la perte de données.</block>
   <block id="86ef5018580452c81ea6cb2911275e90" category="inline-link-macro">Créer un environnement de récupération isolé</block>
@@ -548,4 +547,9 @@
   <block id="3c1b98a4347b1e75ca57e51e43e141b2" category="list-text"><block ref="bc9f3746ee1a6c6e91093bc2b9ff13fb" category="inline-link-macro-rx"></block></block>
   <block id="65afa52dc402fa4f804d1fad742f5b32" category="inline-link-macro">NetApp Cloud Tiering FAQ sur la fin de disponibilité</block>
   <block id="91140b6bf054d442adb9178830663a05" category="list-text"><block ref="317d9243bec15035f876da17dbcf900e" category="inline-link-macro-rx"></block></block>
+  <block id="bbb8f007e34c0752a6b247756b53fab3" category="doc">Étiquette de capacité provisionnée renommée</block>
+  <block id="d174bb4b9301e712299bb2a97af43ea4" category="paragraph">L'intitulé *Capacité provisionnée* est renommé *Capacité volumique provisionnée*. Le nouvel intitulé est également reflété dans les rapports CSV et Excel associés.</block>
+  <block id="c959d5af4f5382807b954dd4e30cb885" category="section-title">Basculement des prévisions pour la rafale accumulée</block>
+  <block id="a210e1436e5783be9e7a1e80f658f571" category="paragraph">Vous pouvez désormais utiliser le bouton *Prévisions* dans la vue *Consommation cumulée des pics* de l’onglet *Tendance de consommation* pour projeter la consommation cumulée des pics pour les 120 prochains jours à compter de la date actuelle. Pour en savoir plus, consultez <block ref="9484ad044036df23422b98e69c766760" category="inline-link-macro-rx"></block>.</block>
+  <block id="9e011831a807911dc5fe5c1f934f6d23" category="section-title">27 avril 2026</block>
 </blocks>
