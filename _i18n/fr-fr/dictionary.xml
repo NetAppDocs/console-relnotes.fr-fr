@@ -488,7 +488,6 @@
   <block id="cd11b988c9f7b5a4f534d244c8f742a8" category="inline-link">Présentation de la protection des charges de travail ONTAP Volumes</block>
   <block id="cb64e7530a451b6a29edd3427495ec90" category="paragraph">Pour plus de détails sur la protection des charges de travail ONTAP Volumes, reportez-vous à<block ref="c12abefe1b46a590752410462324e2ee" category="inline-link-rx"></block>.</block>
   <block id="19455401d550e37f86235df1de2da367" category="paragraph">Dans cette version, les charges de travail Kubernetes introduisent les améliorations suivantes en matière de politique de protection :</block>
-  <block id="8832a3317e409faa663d5b3be7a37383" category="list-text">*Modifier les politiques de protection* : Vous pouvez désormais modifier les politiques de protection des charges de travail Kubernetes si vous devez modifier</block>
   <block id="67c0c04b74d317df3fb38678dfce9d57" category="list-text">*Prise en charge des sauvegardes disque à disque* : Vous pouvez désormais configurer les politiques de protection Kubernetes avec une architecture de sauvegarde disque à disque.</block>
   <block id="1f22edbdac095058ea8301cd1b0fa03f" category="list-text">*Prise en charge des buckets de stockage Google Cloud Platform* : Vous pouvez désormais configurer les politiques de protection Kubernetes pour effectuer des sauvegardes sur des buckets de stockage Google Cloud Platform.</block>
   <block id="55dcb475c806e158ae812c3e721ff829" category="inline-link">Créez et gérez des politiques de protection dans NetApp Backup and Recovery</block>
@@ -552,4 +551,5 @@
   <block id="c959d5af4f5382807b954dd4e30cb885" category="section-title">Basculement des prévisions pour la rafale accumulée</block>
   <block id="a210e1436e5783be9e7a1e80f658f571" category="paragraph">Vous pouvez désormais utiliser le bouton *Prévisions* dans la vue *Consommation cumulée des pics* de l’onglet *Tendance de consommation* pour projeter la consommation cumulée des pics pour les 120 prochains jours à compter de la date actuelle. Pour en savoir plus, consultez <block ref="9484ad044036df23422b98e69c766760" category="inline-link-macro-rx"></block>.</block>
   <block id="9e011831a807911dc5fe5c1f934f6d23" category="section-title">27 avril 2026</block>
+  <block id="b8b08cc8479793cbf90cf90739d5d44a" category="list-text">*Modifier les politiques de protection* : Vous pouvez désormais modifier les politiques de protection des charges de travail Kubernetes si vous devez les modifier.</block>
 </blocks>
