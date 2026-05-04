@@ -30,6 +30,22 @@ Assainissement:: Le service de remédiation a été supprimé le 22 avril 2024.
 ====
 
 
+== 4 mai 2026
+
+
+
+=== Classification des données
+
+
+
+==== Déployez la classification des données avec OVA
+
+NetApp Data Classification prend désormais en charge le déploiement avec VMware Open Virtual Appliance (OVA), offrant une stratégie de déploiement simplifiée pour les environnements VMware vSphere sur site.
+
+Pour plus d'informations, consultez link:https://docs.netapp.com/us-en/data-services-data-classification/task-deploy-ova.html["Déployez la classification des données avec OVA"^].
+
+
+
 == 27 avril 2026
 
 
@@ -165,7 +181,7 @@ Pour plus de détails sur la protection des charges de travail VMware, consultez
 
 
 
-==== Version 1.53
+==== Améliorations générales
 
 Cette version de Data Classification inclut des correctifs de bogues, des améliorations de sécurité et des optimisations de performances.
 
@@ -451,29 +467,40 @@ Pour plus de détails sur la protection des charges de travail VMware, consultez
 
 
 
-==== Version 1.52
+==== Validation des ressources
 
-.Validation des ressources
 Pour garantir la fiabilité, Data Classification vérifie désormais la mémoire et les ressources d'espace disque disponibles lors de l'analyse, de la génération de rapports et des actions. Lorsque l'utilisation de la mémoire dépasse 95 % ou que l'espace disque est inférieur à 6 Go, Data Classification interrompt automatiquement les opérations. Les opérations reprennent dès que les ressources sont suffisantes.
 
 Pour surveiller les ressources de votre système, consultez link:https://docs.netapp.com/us-en/data-services-data-classification/task-health-monitor.html["Surveiller l'état de Data Classification"^].
 
-.Limite accrue pour la copie et le déplacement
+
+
+==== Limite accrue pour la copie et le déplacement
+
 Les fonctions de copie et de déplacement sont désormais prises en charge pour les destinations CIFS. La limite de taille par fichier pour ces deux actions a été portée à 1 Go contre la limite précédente de 50 Mo. Les limites d'opération pour ces deux actions ont été portées à 1 To ou 5 millions de fichiers.
 
 Pour plus d'informations, voir link:https://docs.netapp.com/us-en/data-services-data-classification/task-copy-move.html["Copier, déplacer et supprimer des données"^].
 
-.Autorisations de configuration d'intégration Active Directory
+
+
+==== Autorisations de configuration d'intégration Active Directory
+
 Les modifications apportées aux paramètres d'intégration d'Active Directory (AD) dans Data Classification sont désormais réservées aux administrateurs. Les spectateurs n'ont plus la possibilité de modifier les paramètres AD.
 
 Pour plus d'informations sur le rôle de visionneur de classification, voir link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-predefined-roles.html#data-service-roles["Rôles du service de données"^].
 
-.Prise en charge de RHEL 9.7
+
+
+==== Prise en charge de RHEL 9.7
+
 Data Classification a ajouté Red Hat Enterprise Linux v9.7 pour l'installation manuelle sur site, y compris les déploiements sur des sites isolés.
 
 Les systèmes d'exploitation suivants nécessitent l'utilisation du moteur de conteneurs Podman, et ils nécessitent Data Classification version 1.30 ou supérieure : Red Hat Enterprise Linux version 8.8, 8.10, 9.0, 9.1, 9.2, 9.3, 9.4, 9.5, 9.6 et 9.7.
 
-.Prise en charge du proxy transparent
+
+
+==== Prise en charge du proxy transparent
+
 La classification des données prend désormais en charge les configurations de proxy transparent, permettant un déploiement plus fluide dans les environnements réseau proxy ou restreints.
 
 Pour plus d'informations sur le déploiement dans des environnements restreints, voir link:https://docs.netapp.com/us-en/data-services-data-classification/task-deploy-compliance-dark-site.html["Installer NetApp Data Classification sur un hôte Linux sans accès à Internet"^].
@@ -960,26 +987,32 @@ Pour plus de détails sur la protection des charges de travail Oracle Database, 
 
 
 
-==== Version 1.51
+==== Activez la classification des données avec Amazon FSxN pour ONTAP directement depuis le canevas NetApp Console
 
-Cette version de Data Classification inclut des correctifs de bogues et les mises à jour suivantes :
-
-.Activez la classification des données avec Amazon FSxN pour ONTAP directement depuis le canevas NetApp Console
 Vous pouvez désormais activer Amazon FSxN pour ONTAP directement depuis le canevas NetApp Console, ce qui vous permet de lancer plus rapidement la classification des données pour vos systèmes FSxN.
 
 Pour plus d'informations sur l'utilisation de la classification des données avec Amazon FSxN pour ONTAP, consultez link:https://docs.netapp.com/us-en/data-services-data-classification/task-scanning-fsx.html["Analyser les volumes Amazon FSxN pour ONTAP"^].
 
-.Augmentation du plafond d'exportation pour l'investigation des répertoires
+
+
+==== Augmentation du plafond d'exportation pour l'investigation des répertoires
+
 Lors de l'exportation d'un rapport d'enquête sur les répertoires depuis le tableau de bord Enquête, vous pouvez désormais inclure 10 000 lignes. Cette augmentation par rapport à la limite précédente de 5 000 lignes prend en charge des enquêtes à plus grande échelle sur la gouvernance des données et la conformité.
 
 Pour plus d'informations, voir link:https://docs.netapp.com/us-en/data-services-data-classification/task-investigate-data.html["Examiner les données"^].
 
-.Limites accrues pour la copie et le déplacement
+
+
+==== Limites accrues pour la copie et le déplacement
+
 Lors de la copie ou du déplacement de fichiers, vous pouvez désormais déplacer des fichiers jusqu'à 250 Mo, une augmentation par rapport à la limite précédente de 50 Mo.
 
 Pour plus d'informations, voir link:https://docs.netapp.com/us-en/data-services-data-classification/task-copy-move.html["Copier, déplacer et supprimer des données"^].
 
-.Affichage amélioré pour les écrans basse résolution
+
+
+==== Affichage amélioré pour les écrans basse résolution
+
 Data Classification a amélioré ses performances d'affichage sur les écrans basse résolution, améliorant l'expérience utilisateur.
 
 

@@ -118,7 +118,6 @@
   <block id="a0d96dec6c85f67c2563063cec22ac66" category="paragraph">Cette version comprend les éléments suivants :</block>
   <block id="1417c75bd92954a0e383fd49de457f16" category="sidebar">Ces notes de version décrivent les améliorations récentes apportées à la NetApp Console et aux services de données qu'elle prend en charge. Liens vers l'ensemble des notes de version pour chaque service.</block>
   <block id="d695b94e28d0e3417c365a5d120430d6" category="sidebar">Découvrez les modifications les plus récentes apportées aux fonctionnalités et aux services de données qui font partie de la NetApp Console. Pour consulter l'historique complet des versions, rendez-vous dans les notes de version complètes de chaque service.</block>
-  <block id="640602402999fbf572de482a35f449bc" category="paragraph">Cette version de Data Classification inclut des correctifs de bogues et les mises à jour suivantes :</block>
   <block id="64bbb11437b30da2acf631c36bd785dd" category="inline-link-macro">Créer un plan de réplication</block>
   <block id="a09c3a7be8e7dc42776a7b03793d536c" category="inline-link">Configurations prises en charge pour Cloud Volumes ONTAP dans Azure</block>
   <block id="dfcd07d4790b963532ec4f8f70f184cd" category="paragraph-title">Prise en charge de Google Cloud Infrastructure Manager</block>
@@ -127,17 +126,6 @@
   <block id="4cfb069ae88ce34afb281a4bbf65ac6e" category="inline-link">Présentation de la protection des charges de travail KVM</block>
   <block id="79fcd951f792f60f767e44b5011c7851" category="paragraph">Pour plus de détails sur la protection des charges de travail KVM, reportez-vous à<block ref="e92217b78da768e08fd669e597378b8f" category="inline-link-rx"></block> .</block>
   <block id="84e342f82fe0ee384175add283bd1f4e" category="list-text">La prise en charge des charges de travail VMware est désormais disponible en disponibilité générale (GA) dans NetApp Backup and Recovery.</block>
-  <block id="990e7c9325408b6d830d12ba4c1afe88" category="doc">Filtrage interactif des données de pointe quotidiennes accumulées</block>
-  <block id="cb74be13d3a600957d1ee583265f537d" category="inline-link-macro">Afficher l’utilisation quotidienne des données en rafale</block>
-  <block id="4b808a5ae06687042695057904b0b6bb" category="paragraph">Le tableau « Frais cumulés par jour » de l’onglet « Tendance de consommation » prend désormais en charge le filtrage interactif. Sélectionnez une barre du graphique de facturation des frais cumulés pour afficher uniquement les jours de cette période de facturation. Pour en savoir plus, consultez <block ref="9340f3a90809d3af703998e25844252d" category="inline-link-macro-rx"></block>.</block>
-  <block id="a3b5a92602c2684cdca8198a8cfe1818" category="section-title">Affichage amélioré de la plage de dates dans le graphique des rafales cumulées</block>
-  <block id="1c9a58169acbfe805f644273387c3b52" category="paragraph">Le graphique de facturation cumulée dans l’onglet *Tendance de consommation* affiche désormais des plages de dates complètes pour chaque période de facturation, telles que du 01 oct. 2025 au 31 oct. 2025, au lieu du mois et de l’année seulement.</block>
-  <block id="46b1adc980362ab6f320e3cdb4a469c1" category="section-title">Vue détaillée extensible de l'abonnement</block>
-  <block id="6e665113a95f128bda94a45125d034c0" category="inline-link-macro">Consultez les détails de vos abonnements Keystone</block>
-  <block id="f40d8051a9fd8153ddf9a5541a863887" category="paragraph">L'onglet *Abonnements* propose une option permettant de développer tous les abonnements et d'afficher simultanément les informations relatives aux niveaux de performance de chaque abonnement. Pour en savoir plus, consultez <block ref="61d5e61d482be5b378176189e19c50df" category="inline-link-macro-rx"></block>.</block>
-  <block id="f6c0ac19eddb9409767c72354ec3684d" category="section-title">Nouvelle colonne Usage type</block>
-  <block id="7d6ad97dce95d7baa137f0f095070eb3" category="paragraph">L'onglet *Abonnements* comprend une colonne *Type d'utilisation* qui indique si l'abonnement est facturé en fonction de l'utilisation provisionnée, physique ou logique. Pour en savoir plus, consultez <block ref="61d5e61d482be5b378176189e19c50df" category="inline-link-macro-rx"></block>.</block>
-  <block id="e6437d0fab94a9cc41e9fc0354b23716" category="section-title">02 février 2026</block>
   <block id="a0d3399097b7cbf32ef14a3abf47c295" category="doc">Nouveau rapport de sécurité pour une supervision complète de la sécurité</block>
   <block id="9747281be2bd1fc01288f1691f51d2f4" category="paragraph">Digital Advisor inclut désormais un rapport de sécurité offrant une vue unifiée des risques de sécurité ONTAP au sein de votre environnement de stockage. Ce rapport permet une détection plus rapide des erreurs de configuration, des lacunes de conformité et des problèmes de sécurité sur les clusters, les SVM et les volumes, vous aidant à maintenir une infrastructure de stockage sécurisée.</block>
   <block id="fb4692a2354d5e0222d888a1c02dabeb" category="section-title">Prise en charge améliorée de Upgrade Advisor pour les niveaux de correctifs mixtes</block>
@@ -208,7 +196,6 @@
   <block id="7736ebd5eab336ae9e7647e31955b0cc" category="paragraph">La réplication des données est désormais disponible entre un système Cloud Volumes ONTAP et un système de fichiers FSx for ONTAP depuis la NetApp Console.</block>
   <block id="37fa21b7ca602fd8fe055b26a1de7d8b" category="inline-link-macro">Répliquer les données</block>
   <block id="f319ee95d93a22851e4a5522d2273836" category="paragraph"><block ref="f319ee95d93a22851e4a5522d2273836" category="inline-link-macro-rx"></block></block>
-  <block id="0cd5c5ab4d8a458ece2a760f674c681e" category="doc">Version 1.51</block>
   <block id="dbeedec7ca35d125dd2a7ee8355c41f5" category="section-title">Charges de travail VMware prises en charge en General Availability (GA)</block>
   <block id="dbf7cd788b00dca3348b80d3d3473bf6" category="doc">Prise en charge des machines virtuelles Ebdsv5 et E104ids_v5 dans Azure</block>
   <block id="4324be09b704ac1f5d63ff496d7ef1f4" category="paragraph">À partir de Cloud Volumes ONTAP 9.18.1, vous pouvez déployer des machines virtuelles Ebdsv5 et E104ids_v5 pour des déploiements et des mises à niveau à nœud unique et en paire haute disponibilité (HA).</block>
@@ -391,7 +378,6 @@
   <block id="4c66a9dab829d794eb059ed24f6c0e5b" category="section-title">Amélioration de la découverte du réseau</block>
   <block id="b5cc90986d9652570eab368db96768d2" category="paragraph">La reprise après sinistre inclut désormais une découverte réseau améliorée pour prendre en charge un plus large éventail de configurations réseau.</block>
   <block id="59ff8a6991a0f51816a1d27ab0590821" category="paragraph-title">Limites accrues pour la copie et le déplacement</block>
-  <block id="5db4431afc8c4647c29360449ee80225" category="doc">Version 1.52</block>
   <block id="1cc9fa7904bbb11e4569869878e58bbb" category="paragraph-title">Validation des ressources</block>
   <block id="19458db6dfda018080434d803401d712" category="paragraph">Pour garantir la fiabilité, Data Classification vérifie désormais la mémoire et les ressources d'espace disque disponibles lors de l'analyse, de la génération de rapports et des actions. Lorsque l'utilisation de la mémoire dépasse 95 % ou que l'espace disque est inférieur à 6 Go, Data Classification interrompt automatiquement les opérations. Les opérations reprennent dès que les ressources sont suffisantes.</block>
   <block id="3b3cf1105e8b8d40f3cb14b9f956e666" category="inline-link-macro">Surveiller l'état de Data Classification</block>
@@ -508,7 +494,6 @@
   <block id="cab9c79c2324192af6049aa8cd78508d" category="list-text">*Restauration sur un système de stockage alternatif* : Vous pouvez désormais restaurer des machines virtuelles sur un système de stockage alternatif même si le système de stockage principal est totalement indisponible. Pour plus d'informations, consultez<block ref="f3d02f39d5e1822fd83675aa2d7843de" category="inline-link-rx"></block>.</block>
   <block id="9486b4129634e76f84d1e52fbd1b3326" category="inline-link">Restaurer les fichiers et les dossiers</block>
   <block id="19e7d45c6bedb302dc81dcad6024f1c3" category="list-text">*Restauration de fichiers sur des machines virtuelles Linux* : Vous pouvez désormais restaurer des fichiers et des dossiers de machines virtuelles sur des machines virtuelles Linux. Pour plus d'informations, consultez<block ref="d14b743b42535a5def60386aae0617f3" category="inline-link-rx"></block>.</block>
-  <block id="9011586cd2cbb8095aa94a58c4af72fd" category="doc">Version 1.53</block>
   <block id="d34f29080dba1970a613ab39b7166d0c" category="paragraph">Cette version de Data Classification inclut des correctifs de bogues, des améliorations de sécurité et des optimisations de performances.</block>
   <block id="ad2a9811677d640aa02be04e16ed6267" category="doc">Restauration propre</block>
   <block id="a27a472ba292f326ddc2e430f964123b" category="paragraph">Ransomware Resilience prend désormais en charge les restaurations propres, une nouvelle option de récupération qui vous aide à vous remettre rapidement et facilement des attaques de ransomware. Les restaurations propres offrent des flux de travail guidés qui identifient les points de restauration optimaux pour remettre vos charges de travail en service tout en minimisant l'interruption. Les flux de travail dans la restauration propre fournissent également des informations au niveau fichier sur vos données, garantissant que vous pouvez restaurer des charges de travail exemptes de logiciels malveillants, ce qui empêche toute réinfection et minimise la perte de données.</block>
@@ -552,4 +537,9 @@
   <block id="a210e1436e5783be9e7a1e80f658f571" category="paragraph">Vous pouvez désormais utiliser le bouton *Prévisions* dans la vue *Consommation cumulée des pics* de l’onglet *Tendance de consommation* pour projeter la consommation cumulée des pics pour les 120 prochains jours à compter de la date actuelle. Pour en savoir plus, consultez <block ref="9484ad044036df23422b98e69c766760" category="inline-link-macro-rx"></block>.</block>
   <block id="9e011831a807911dc5fe5c1f934f6d23" category="section-title">27 avril 2026</block>
   <block id="b8b08cc8479793cbf90cf90739d5d44a" category="list-text">*Modifier les politiques de protection* : Vous pouvez désormais modifier les politiques de protection des charges de travail Kubernetes si vous devez les modifier.</block>
+  <block id="e4c84482ee4555ae482d96b91322224c" category="doc">Améliorations générales</block>
+  <block id="d939a4c3efbccb14bb6a8b8ec450f62d" category="doc">Déployez la classification des données avec OVA</block>
+  <block id="c58a3e421744f0b78f692f20d074d1f6" category="paragraph">NetApp Data Classification prend désormais en charge le déploiement avec VMware Open Virtual Appliance (OVA), offrant une stratégie de déploiement simplifiée pour les environnements VMware vSphere sur site.</block>
+  <block id="1a4ea23de9d17b2e28a82a012795f402" category="paragraph">Pour plus d'informations, consultez <block ref="671ddfd34f6defdc139134bff6f63dc9" category="inline-link-macro-rx"></block>.</block>
+  <block id="e0b0747cd573746d9f139faffc729dd5" category="section-title">4 mai 2026</block>
 </blocks>
