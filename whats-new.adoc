@@ -30,6 +30,29 @@ Assainissement:: Le service de remédiation a été supprimé le 22 avril 2024.
 ====
 
 
+== 12 mai 2026
+
+
+
+=== Reprise après sinistre
+
+
+
+==== Prise en charge des charges de travail basées sur Kubernetes (aperçu)
+
+NetApp Disaster Recovery inclut désormais la prise en charge des charges de travail basées sur Kubernetes. Avec la prise en charge de Kubernetes, vous pouvez protéger les applications exécutées sur des clusters Kubernetes, y compris les environnements de virtualisation OpenShift. Disaster Recovery prend en charge link:https://docs.netapp.com/us-en/trident/trident-protect/trident-protect-requirements.html["toute version de Kubernetes actuellement prise en charge par Trident Protect"^], assurant une intégration transparente et des capacités de reprise après sinistre robustes pour les applications conteneurisées.
+
+Principales caractéristiques de la prise en charge des charges de travail basées sur Kubernetes :
+
+* **Large compatibilité** : La reprise après sinistre prend en charge toutes les versions de Kubernetes compatibles avec Trident Protect, y compris Red Hat OpenShift Virtualization.
+* **Protection centrée sur l'application** : Vous pouvez désormais protéger les charges de travail Kubernetes au niveau de l'application, garantissant ainsi la reprise des services critiques lors des basculements.
+* **Orchestration simplifiée** : La reprise après sinistre offre des flux de travail intuitifs pour automatiser la sauvegarde et la réplication des charges de travail Kubernetes, en tirant parti de la même technologie efficace SnapMirror utilisée pour les environnements VMware.
+
+
+La prise en charge des charges de travail basées sur Kubernetes est actuellement en préversion. Pour commencer à protéger les charges de travail basées sur Kubernetes, consultez link:https://docs.netapp.com/us-en/data-services-disaster-recovery/task-kubernetes-requirements.html["Exigences de Kubernetes pour NetApp Disaster Recovery"^].
+
+
+
 == 5 mai 2026
 
 
@@ -918,200 +941,3 @@ E104ids_v5 est une instance de machine virtuelle isolée qui vous aide à mieux 
 https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/reference-configs-azure.html["Configurations prises en charge pour Cloud Volumes ONTAP dans Azure"^]
 
 https://learn.microsoft.com/en-us/azure/virtual-machines/sizes/memory-optimized/edsv5-series?tabs=sizebasic["Documentation Azure : série de tailles Edsv5"^]
-
-
-
-== 09 février 2026
-
-
-
-=== Configuration et administration de la console
-
-
-
-==== Agent Console 4.4.0
-
-La version 4.4.0 prend en charge à la fois le mode standard et le mode restreint.
-
-Cette version de l'agent Console inclut des améliorations de sécurité et des corrections de bugs.
-
-
-
-==== Administration de la NetApp Console
-
-Cette version comprend les éléments suivants :
-
-.Prise en charge du contrôle d'accès basé sur les rôles pour les charges de travail NetApp Backup and Recovery (Oracle et Microsoft SQL Server)
-Vous pouvez associer des charges de travail Backup and Recovery (Oracle et Microsoft SQL Server) à des projets. Après affectation à un projet, les utilisateurs qui se voient attribuer un rôle Backup and Recovery pour le projet peuvent travailler avec les charges de travail. Les autres charges de travail ne sont pas prises en charge avec l'accès basé sur les rôles pour le moment.
-
-link:https://docs.netapp.com/us-en/data-services-backup-recovery/br-rbac-setup.html["En savoir plus sur la configuration de l'accès basé sur les rôles pour les charges de travail de NetApp Backup and Recovery."^]
-
-
-
-=== Sauvegarde et récupération
-
-
-
-==== Charges de travail Microsoft Hyper-V prises en charge en General Availability (GA)
-
-La prise en charge des charges de travail Microsoft Hyper-V est désormais généralement disponible (GA) dans NetApp Backup and Recovery.
-
-
-
-==== Charges de travail VMware prises en charge en General Availability (GA)
-
-La prise en charge des charges de travail VMware est désormais disponible en disponibilité générale (GA) dans NetApp Backup and Recovery.
-
-
-
-==== Améliorations des charges de travail Kubernetes
-
-Cette version des charges de travail Kubernetes introduit les fonctionnalités améliorées suivantes :
-
-* *Prise en charge du flux de travail CR* : Vous pouvez désormais effectuer des tâches de protection courantes à l’aide des CR ainsi que de l’interface utilisateur Web Backup and Recovery.
-* *Migration de clusters* : Vous pouvez désormais ajouter des clusters Kubernetes existants protégés par Trident Protect à Backup and Recovery.
-* *Prise en charge du framework d'alertes* : Vous pouvez désormais recevoir des alertes par e-mail et via l'interface utilisateur pour certains événements de charge de travail Kubernetes.
-* *Intégration de l'onglet Restauration* : Vous pouvez désormais accéder aux actions de restauration de charge de travail Kubernetes depuis le menu Restauration.
-* *Prise en charge de l'architecture de sauvegarde 3-2-1 fanout* : Vous pouvez désormais utiliser une architecture 3-2-1 fanout dans votre politique de protection lors de la protection des charges de travail Kubernetes.
-
-
-Pour plus de détails sur la protection des charges de travail Kubernetes, consultez  https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kubernetes-protect-overview.html["Vue d'ensemble de la protection des workloads Kubernetes"].
-
-
-
-==== Améliorations des charges de travail Oracle Database
-
-Cette version des charges de travail Oracle Database introduit les fonctionnalités améliorées suivantes :
-
-* *Prise en charge des utilisateurs non root* : Les utilisateurs non root peuvent désormais effectuer des opérations de sauvegarde, de restauration et de clonage, améliorant la sécurité et la conformité.
-* *Prise en charge du clonage* : Les fonctionnalités de clonage sont désormais prises en charge dans les environnements NAS, SAN et ASM principaux et secondaires en utilisant ASM library v2, permettant des flux de travail de protection coordonnés.
-* *Prise en charge du fractionnement des clones* : Vous pouvez désormais fractionner les instantanés inscriptibles (clones) de leurs volumes parents, libérer de l’espace de stockage et permettre des opérations indépendantes.
-* *Sauvegarde et restauration pour le stockage d'objets* : Les fonctionnalités natives de sauvegarde et de restauration sont désormais prises en charge pour les cibles de stockage S3 compatibles basées sur des objets.
-* *Gestion du cycle de vie des clones (CLM)*: Les opérations d’actualisation des clones sont prises en charge sur le stockage principal.
-* *Clonage vers un hôte alternatif* : Vous pouvez désormais cloner des bases de données vers un hôte différent (pour des tests ou de l’analytique) à partir du stockage principal et secondaire.
-* *Prise en charge des groupes de cohérence ONTAP* : Les groupes de cohérence ONTAP sont désormais pris en charge, garantissant des instantanés cohérents au niveau des applications sur plusieurs volumes.
-* Backup and Recovery prend désormais en charge les architectures de stratégie de protection suivantes pour les charges de travail Oracle Database :
-+
-** Fanout 3-2-1
-** Disque à disque
-** Du disque au stockage objet
-** En cascade
-** Instantané local
-
-
-
-
-Pour plus de détails sur la protection des charges de travail Oracle Database, consultez https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-oracle-protect-overview.html["Vue d'ensemble de la protection des workloads Oracle Database"].
-
-
-
-=== Classification des données
-
-
-
-==== Activez la classification des données avec Amazon FSxN pour ONTAP directement depuis le canevas NetApp Console
-
-Vous pouvez désormais activer Amazon FSxN pour ONTAP directement depuis le canevas NetApp Console, ce qui vous permet de lancer plus rapidement la classification des données pour vos systèmes FSxN.
-
-Pour plus d'informations sur l'utilisation de la classification des données avec Amazon FSxN pour ONTAP, consultez link:https://docs.netapp.com/us-en/data-services-data-classification/task-scanning-fsx.html["Analyser les volumes Amazon FSxN pour ONTAP"^].
-
-
-
-==== Augmentation du plafond d'exportation pour l'investigation des répertoires
-
-Lors de l'exportation d'un rapport d'enquête sur les répertoires depuis le tableau de bord Enquête, vous pouvez désormais inclure 10 000 lignes. Cette augmentation par rapport à la limite précédente de 5 000 lignes prend en charge des enquêtes à plus grande échelle sur la gouvernance des données et la conformité.
-
-Pour plus d'informations, voir link:https://docs.netapp.com/us-en/data-services-data-classification/task-investigate-data.html["Examiner les données"^].
-
-
-
-==== Limites accrues pour la copie et le déplacement
-
-Lors de la copie ou du déplacement de fichiers, vous pouvez désormais déplacer des fichiers jusqu'à 250 Mo, une augmentation par rapport à la limite précédente de 50 Mo.
-
-Pour plus d'informations, voir link:https://docs.netapp.com/us-en/data-services-data-classification/task-copy-move.html["Copier, déplacer et supprimer des données"^].
-
-
-
-==== Affichage amélioré pour les écrans basse résolution
-
-Data Classification a amélioré ses performances d'affichage sur les écrans basse résolution, améliorant l'expérience utilisateur.
-
-
-
-=== Cloud Volumes ONTAP
-
-
-
-==== Prise en charge de Google Cloud Infrastructure Manager
-
-Cloud Volumes ONTAP 9.16.1 et versions ultérieures prennent désormais en charge  https://docs.cloud.google.com/infrastructure-manager/docs/overview["Google Cloud Infrastructure Manager"^] (IM) au lieu de  https://docs.cloud.google.com/deployment-manager/docs/deprecations["Gestionnaire de déploiement cloud"^] (DM) pour les nouveaux déploiements sur Google Cloud. Google va déprécier Deployment Manager en tant que service d'infrastructure dans un avenir proche au profit d'Infrastructure Manager, plus avancé.
-
-À compter du 9 février 2026, Cloud Volumes ONTAP utilise Infrastructure Manager pour les déploiements nouveaux et existants. Ce tableau explique quelques flux de travail pour vous :
-
-[cols="1,4,1,1,1,1"]
-|===
-| Scénario | Action | Nouvelles API pour l'agent | Nouvelles autorisations pour l'agent | Nouvelles API Google Cloud pour Cloud Volumes ONTAP | Ressources documentaires 
-
-
-| Agent existant et déploiement Cloud Volumes ONTAP existant | Ajoutez de nouvelles API et autorisations à l'agent existant et convertissez le système Cloud Volumes ONTAP existant.  a| 
-* API Cloud Infrastructure Manager
-* API Cloud Quotas
-
- a| 
-Toutes les autorisations listées pour la version Console sur :
-
-* https://docs.netapp.com/us-en/console-setup-admin/reference-permissions-gcp.html#08-december-2025["8 décembre 2025"^]
-* https://docs.netapp.com/us-en/console-setup-admin/reference-permissions-gcp.html#09-february-2026["09 février 2026"^]
-
-| \https://www.googleapis.com/upload/storage/v1 \https://config.googleapis.com/v1  a| 
-https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/task-gcp-dm-im-conv.html["Configurer les déploiements Cloud Volumes ONTAP existants pour Google Cloud Infrastructure Manager"^]
-
-
-
-| Agent existant et nouveau déploiement Cloud Volumes ONTAP | Ajoutez de nouvelles API et autorisations à l'agent existant et déployez un nouveau système Cloud Volumes ONTAP.  a| 
-* API Cloud Infrastructure Manager
-* API Cloud Quotas
-
- a| 
-Toutes les autorisations listées pour la version Console sur :
-
-* https://docs.netapp.com/us-en/console-setup-admin/reference-permissions-gcp.html#08-december-2025["8 décembre 2025"^]
-* https://docs.netapp.com/us-en/console-setup-admin/reference-permissions-gcp.html#09-february-2026["09 février 2026"^]
-
-| Toutes les étapes pour un nouveau déploiement  a| 
-https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/task-getting-started-gcp.html["Premiers pas avec Cloud Volumes ONTAP dans Google Cloud"^]
-
-
-
-| Nouvel agent et nouveau déploiement | Créez un nouvel agent et déployez un nouveau système Cloud Volumes ONTAP. |  |  |   a| 
-* https://docs.netapp.com/us-en/console-setup-admin/task-install-agent-google-gcloud.html["Créer un agent de Console à partir de Google Cloud"^]
-* https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/task-getting-started-gcp.html["Premiers pas avec Cloud Volumes ONTAP dans Google Cloud"^]
-
-
-|===
-Déployez Cloud Volumes ONTAP pour qu'il utilise automatiquement Infrastructure Manager ou basculez vos déploiements existants dans Deployment Manager vers Infrastructure Manager en exécutant un outil de conversion. La conversion est un processus unique, après quoi vos systèmes commenceront à utiliser Infrastructure Manager. Reportez-vous à  https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/task-gcp-dm-im-conv.html["Configurer les déploiements Cloud Volumes ONTAP existants pour Google Cloud Infrastructure Manager"^] pour obtenir des instructions sur l'exécution de l'outil de conversion.
-
-Les systèmes Cloud Volumes ONTAP qui utilisent Infrastructure Manager utilisent des buckets Google Cloud Storage pour stocker les données et les enregistrements dans la zone du premier déploiement afin de conserver les enregistrements de déploiement, qui sont réutilisés pour les déploiements suivants. Des frais supplémentaires peuvent s’appliquer pour ces compartiments, mais ne modifiez pas et ne supprimez pas les compartiments ni leur contenu :
-
-* `gs://netapp-cvo-infrastructure-manager-<project id>` : pour les versions ONTAP et les modèles Terraform SVM utilisés pour les nouveaux déploiements Cloud Volumes ONTAP. À l'intérieur, le compartiment  `dm-to-im-convert` contient les fichiers Terraform de Cloud Volumes ONTAP.
-* `<gcp project number>-<region>-blueprint-config`: pour stocker les artefacts Google Cloud Terraform.
-
-
-.Liens associés
-* https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/task-getting-started-gcp.html["Premiers pas avec Cloud Volumes ONTAP dans Google Cloud"^]
-* https://docs.netapp.com/us-en/console-setup-admin/whats-new.html#console-agent-4-2-0["NetApp Console Agent 4.2.0 Notes de version"^]
-* https://docs.netapp.com/us-en/console-setup-admin/reference-permissions-gcp.html#gcp-permissions-change-log["Autorisations requises pour Google Cloud Infrastructure Manager"^]
-
-
-
-
-=== Amazon FSX pour ONTAP
-
-
-
-==== Prise en charge de la réplication des données entre Cloud Volumes ONTAP et FSx for ONTAP
-
-La réplication des données est désormais disponible entre un système Cloud Volumes ONTAP et un système de fichiers FSx for ONTAP depuis la NetApp Console.
-
-link:https://docs.netapp.com/us-en/storage-management-fsx-ontap/use/task-replicate-data.html["Répliquer les données"]
