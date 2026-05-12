@@ -402,6 +402,16 @@ Les informations relatives aux incidents de violation de données sont désormai
 
 Pour plus d'informations, voir link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/concept-user-behavior.html["Découvrez la détection de l'activité des utilisateurs"^].
 
+Réplication :leveloffset: +1
+
+
+
+=== Gestion de la réplication pour les relations existantes avec FSx pour ONTAP
+
+La gestion des relations de réplication pour les systèmes de fichiers FSx for ONTAP, en tant que source ou cible, est désormais disponible dans NetApp Workload Factory.
+
+link:https://docs.netapp.com/us-en/data-services-replication/task-managing-replication.html["Gérer la réplication des données"]
+
 
 
 === Cloud Volumes ONTAP
