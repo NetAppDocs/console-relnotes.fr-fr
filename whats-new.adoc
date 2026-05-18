@@ -30,6 +30,20 @@ Assainissement:: Le service de remédiation a été supprimé le 22 avril 2024.
 ====
 
 
+== 18 mai 2026
+
+
+
+=== Conseiller numérique
+
+
+
+==== Revue de bien-être
+
+À compter de juillet 2026, la fonctionnalité « Bilan bien-être » ne sera plus disponible dans Digital Advisor. Pour toute question, veuillez envoyer un courriel à mailto:ng-activeiq-feedback@netapp.com[[.underline]#ng-activeiq-feedback@netapp.com#].
+
+
+
 == 12 mai 2026
 
 
@@ -973,135 +987,3 @@ Vous pouvez désormais déployer Cloud Volumes ONTAP 9.12.1 GA et versions ulté
 
 
 Pour obtenir la liste de toutes les régions, veuillez vous référer à  https://bluexp.netapp.com/cloud-volumes-global-regions["Carte des régions mondiales sous Azure"^].
-
-
-
-== 17 février 2026
-
-
-
-=== Configuration et administration de la console
-
-
-
-==== Agent Console 4.4.1
-
-La version 4.4.1 prend en charge à la fois le mode standard et le mode restreint.
-
-Cette version de l'agent Console inclut des améliorations de sécurité et des corrections de bugs.
-
-
-
-==== Administration de la NetApp Console
-
-Cette version comprend les éléments suivants :
-
-
-
-==== Administration de la NetApp Console
-
-Cette version comprend les éléments suivants :
-
-.Accédez à NetApp Data Infrastructure Insights depuis la NetApp Console
-Vous pouvez accéder à un essai gratuit de NetApp Data Infrastructure Insights depuis NetApp Console. Allez dans *Governance* > *Data Infrastructure Insights* pour vous inscrire et explorer des insights et des analyses sur votre environnement de données.
-
-
-
-=== Cloud Volumes ONTAP
-
-
-
-==== Prise en charge de Cloud Volumes ONTAP pour les machines virtuelles Google Cloud de nouvelle génération
-
-Avec la version 9.18.1, NetApp fait passer les nouveaux déploiements Cloud Volumes ONTAP des machines virtuelles N2 à la nouvelle génération de machines virtuelles Google Cloud série C3 pour une expérience plus rapide et plus évolutive. Vous pouvez désormais tirer parti des machines virtuelles série C3 lors du déploiement de Cloud Volumes ONTAP 9.18.1 et versions ultérieures sur Google Cloud. Les machines de la série C3 offrent des performances améliorées et des limites de capacité plus élevées grâce à l'utilisation de Google Virtual NIC (gVNIC) et de disques Hyperdisk Balanced, garantissant des performances dynamiques pour les charges de travail intensives.
-
-
-NOTE: Pour le moment, Cloud Volumes ONTAP prend en charge la série C3 uniquement dans les déploiements à nœud unique.
-
-Si votre système Cloud Volumes ONTAP exécute la version 9.18.1 ou ultérieure, les packages préconfigurés que vous utilisez pour des déploiements sur un seul nœud utilisent automatiquement des machines virtuelles C3, tout en vous permettant de personnaliser les paramètres d'IOPS et de débit en fonction des besoins de votre charge de travail. De même, lors de la création d'agrégats, vous pouvez ajouter des disques Hyperdisk Balanced pour obtenir de meilleures performances et une meilleure évolutivité dans Google Cloud. De plus, vous pouvez sélectionner les variantes LSSD des machines de la série C3 pour une prise en charge par défaut du Flash Cache.
-
-Il est impossible de modifier le type de disque des machines virtuelles C3 lors de l'ajout de volumes aux agrégats, car C3 ne prend en charge que les disques Hyperdisk Balanced. De même, lors de la réplication d'un système avec des machines virtuelles N2 vers une machine virtuelle C3, le type de disque est défini par défaut sur Hyperdisk Balanced.
-
-https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/reference-configs-gcp.html["Configurations prises en charge pour Cloud Volumes ONTAP dans Google Cloud"^]
-
-https://docs.cloud.google.com/compute/docs/general-purpose-machines#c3_series["Google documents : série de machines C3"^]
-
-
-
-==== Sécurité VNet pour Cloud Volumes ONTAP dans Azure
-
-Les déploiements Cloud Volumes ONTAP 9.18.1 et ultérieurs dans les zones de disponibilité uniques et multiples d'Azure prennent en charge le chiffrement Azure Virtual Network (VNet) dans le cadre de leur stratégie de sécurité multicouche afin de protéger les données en transit. Cloud Volumes ONTAP exploite le protocole Datagram Transport Layer Security (DTLS) natif d'Azure pour sécuriser la communication entre les nœuds ONTAP, les interfaces de gestion et les autres services Azure, empêchant l'interception et l'accès non autorisé. Ce chiffrement au niveau du réseau complète les protections intégrées d'ONTAP pour le stockage et les données au repos afin d'assurer la sécurité de bout en bout de vos données.
-
-https://review.docs.netapp.com/us-en/storage-management-cloud-volumes-ontap_gcp-sn-c3-support/reference-networking-azure.html#networking-for-azure-vnet-encryption["Mise en réseau pour le chiffrement Azure VNet"^]
-
-
-
-== 16 février 2026
-
-
-
-=== Reprise après sinistre
-
-
-
-==== Interface utilisateur améliorée
-
-L'interface utilisateur de Disaster Recovery a été actualisée pour améliorer les performances et l'expérience utilisateur selon les retours.
-
-
-
-==== Documentation Swagger de l'API
-
-La documentation Swagger de l'API de reprise après sinistre est désormais accessible depuis un navigateur classique ; le mode navigation privée n'est plus nécessaire. Pour accéder à la documentation de l'API, accédez au tableau de bord de reprise après sinistre, sélectionnez le menu contextuel en haut à droite image:../media/use/icon-vertical-dots.png["Icône d'action"] puis **Documentation API** pour ouvrir la documentation Swagger. Vous pouvez également link:https://api.bluexp.netapp.com/v1/services/draas/api/api-doc/draas["Ajoutez l'URL à vos favoris"^].
-
-
-
-=== Résilience aux ransomwares
-
-
-
-==== Prise en charge d'Azure NetApp Files
-
-Ransomware Resilience prend désormais en charge les systèmes Azure NetApp Files, vous permettant de détecter et de contrer efficacement les menaces de ransomware dans Azure NetApp Files. Lorsque vous découvrez des charges de travail, Ransomware Resilience présente désormais Azure NetApp Files et les affiche dans le tableau de bord de protection. La prise en charge de Ransomware Resilience pour Azure NetApp Files inclut des stratégies de détection et de protection uniquement avec des instantanés. La prise en charge d’Azure NetApp Files est actuellement en préversion.
-
-Pour plus d'informations, consultez link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/concept-ransomware-resilience.html["Découvrez la résilience face aux ransomwares"^].
-
-
-
-==== Exclure les utilisateurs des alertes de comportement utilisateur
-
-Ransomware Resilience permet désormais d'exclure des utilisateurs spécifiques des alertes de comportement utilisateur. Exclure des utilisateurs de confiance peut éviter les faux positifs et les alertes inutiles.
-
-Pour plus d'informations, consultez le lien : Pour plus d'informations, consultez link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/suspicious-user-activity.html#exclude-users-from-alerts["Exclure les utilisateurs des alertes"^].
-
-
-
-==== Prise en charge des groupes de protection pour l'activité des comportements des utilisateurs
-
-Les groupes de protection Ransomware Resilience prennent désormais en charge les politiques de détection des comportements suspects des utilisateurs. Lorsque vous appliquez une stratégie de protection contre les ransomwares à un groupe de protection, elle applique une politique à l'ensemble des charges de travail, simplifiant la gestion de votre posture de cybersécurité.
-
-Pour plus d'informations, consultez link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-use-protect.html#create-a-protection-group["Créer un groupe de protection"^].
-
-
-
-=== Amazon FSX pour ONTAP
-
-
-
-==== Prise en charge de la migration des VM de stockage
-
-NetApp Workload Factory prend désormais en charge la migration des machines virtuelles de stockage. Cette fonctionnalité permet la migration des données et des configurations des systèmes de stockage ONTAP depuis des systèmes ONTAP sur site ou des systèmes de fichiers FSx for ONTAP de première génération vers des systèmes de fichiers FSx for ONTAP de deuxième génération. Vous pouvez répliquer les données et les paramètres de configuration des machines virtuelles de stockage vers le nouveau système de fichiers avec une interruption minimale et une perturbation réduite pour les utilisateurs et les applications.
-
-Pour utiliser cette fonctionnalité, link:https://docs.netapp.com/us-en/storage-management-fsx-ontap/use/task-replicate-data.html["créer une relation de réplication"] et sélectionnez *Migration* comme cas d'utilisation. Pour mener à bien le processus de migration, vous devez link:https://docs.netapp.com/us-en/storage-management-fsx-ontap/use/task-replicate-data.html#cut-over-replication-for-migration-use-cases["basculer la machine virtuelle de stockage et ses volumes répliqués"] immédiatement pour migrer définitivement les données et les paramètres de configuration de la machine virtuelle de stockage vers le système de fichiers FSx for ONTAP cible.
-
-
-
-=== Keystone
-
-Nouvelles améliorations dans le tableau de bord Keystone dans la NetApp Console:
-
-
-
-==== Affichage de la consommation des modules complémentaires DII
-
-La consommation du module complémentaire Data Infrastructure Insights (DII) s'affiche désormais dans les onglets *Consommation actuelle* et *Tendance de la consommation*. Pour en savoir plus, consultez link:./concepts/data-infra-insights.html#view-dii-consumption["Voir la consommation de DII"].
