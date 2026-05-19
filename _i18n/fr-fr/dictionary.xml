@@ -508,7 +508,6 @@
   <block id="dc778a1e9a5cca347a8492c869a90dc5" category="paragraph">Lors de l'installation de Data Classification, vous devez disposer d'un rôle d'administrateur de la plateforme Console ou du rôle d'administrateur de conformité.</block>
   <block id="0d1a008033e3d9d27f9dd95b4127ec91" category="paragraph">Si vous êtes déjà utilisateur, votre accès devrait continuer normalement. Par exemple, un rôle de plateforme qui possède un rôle d'administrateur de dossier ou de projet dispose d'un accès existant.</block>
   <block id="eeeb9dcaeb66c431b51b12eff19105f3" category="inline-link-macro">Rôles de la classification des données</block>
-  <block id="31228a8fb4b495437a73c890178a5d10" category="paragraph">Pour plus d'informations, voir <block ref="2470dbb8f361be9555feba4c3093f332" category="inline-link-macro-rx"></block>.</block>
   <block id="ba0619dd0f47665766133e60320fb439" category="doc">Revue de bien-être</block>
   <block id="56f8cfced748e051e690ccedbe4b5d60" category="paragraph">À compter de juillet 2026, la fonctionnalité « Bilan bien-être » ne sera plus disponible dans Digital Advisor. Pour toute question, veuillez envoyer un courriel à mailto:ng-activeiq-feedback@netapp.com[[.underline]#ng-activeiq-feedback@netapp.com#].</block>
   <block id="3bfca6a430fa87d8630a8459fe8a4aa1" category="section-title">18 mai 2026</block>
@@ -527,4 +526,5 @@
   <block id="8928e512cc17b6dd2c97fcb7dff5a06a" category="list-text"><block ref="8928e512cc17b6dd2c97fcb7dff5a06a" category="inline-link-rx"></block></block>
   <block id="6d1c2cdb212ea73452146a3edb82fe12" category="inline-link">Déployez Cloud Volumes ONTAP à l'aide des options avancées dans Azure</block>
   <block id="3cf666a1e5ff2ecf85c4a0bcf868d65f" category="list-text"><block ref="3cf666a1e5ff2ecf85c4a0bcf868d65f" category="inline-link-rx"></block></block>
+  <block id="c105c16486992d9ad71af50fd3100019" category="paragraph">Pour plus d'informations, consultez <block ref="96736731356e89817dd51fb3ef396df7" category="inline-link-macro-rx"></block>.</block>
 </blocks>
