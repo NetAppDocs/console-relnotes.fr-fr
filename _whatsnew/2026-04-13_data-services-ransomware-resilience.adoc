@@ -20,7 +20,7 @@ Pour plus d'informations, voir link:https://docs.netapp.com/us-en/data-services-
 
 
 
-=== Amélioration de l'activité des utilisateurs
+=== Amélioration de la détection du comportement des utilisateurs
 
 Les informations relatives aux incidents de violation de données sont désormais conservées pendant 13 mois après un incident, ce qui permet une conservation des données plus longue pour vos besoins de reporting.
 
