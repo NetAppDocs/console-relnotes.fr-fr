@@ -994,29 +994,3 @@ Dans les déploiements en mode privé, vous devez effectuer quelques modificatio
 * https://docs.netapp.com/us-en/console-setup-admin/whats-new.html#console-agent-4-2-0["NetApp Console Agent 4.2.0 Notes de version"^]
 * https://docs.netapp.com/us-en/console-setup-admin/reference-permissions-gcp.html#gcp-permissions-change-log["Autorisations requises pour Google Cloud Infrastructure Manager"^]
 
-
-
-
-== 23 février 2026
-
-
-
-=== Sauvegarde et récupération
-
-
-
-==== Charges de travail KVM prises en charge en General Availability (GA)
-
-La prise en charge des charges de travail KVM est désormais généralement disponible (GA) dans NetApp Backup and Recovery.
-
-Pour plus de détails sur la protection des charges de travail KVM, reportez-vous à https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kvm-protect-overview.html["Présentation de la protection des charges de travail KVM"] .
-
-
-
-==== Charges de travail Kubernetes prises en charge en General Availability (GA)
-
-La prise en charge des charges de travail Kubernetes est désormais disponible (GA) dans NetApp Backup and Recovery. Cette version des charges de travail Kubernetes introduit également les fonctionnalités améliorées suivantes :
-
-*Prise en charge des rapports* : Vous pouvez désormais générer des rapports d’activité de protection pour les clusters Kubernetes et les applications protégées par NetApp Backup and Recovery.
-
-Pour plus de détails sur la protection des charges de travail Kubernetes, consultez  https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kubernetes-protect-overview.html["Vue d'ensemble de la protection des workloads Kubernetes"].
