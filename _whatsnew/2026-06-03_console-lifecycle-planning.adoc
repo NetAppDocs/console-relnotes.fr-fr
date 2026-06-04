@@ -1,0 +1,14 @@
+= Mises à jour du nom de la fonctionnalité de planification du cycle de vie
+:allow-uri-read: 
+
+
+
+
+=== Mises à jour du nom de la fonctionnalité de planification du cycle de vie
+
+Les fonctionnalités de planification du cycle de vie suivantes ont vu leur nom modifié :
+
+* La fonction de mise à jour technique s'appelle désormais *Actualisation du système*. Découvrez comment link:../use/tech-refresh.html["évaluer une mise à jour du système"].
+* La fonctionnalité d'ajout de capacité s'appelle désormais *Extension de stockage*. Découvrez comment link:../use/capacity-add.html["étendre le stockage"].
+* La fonctionnalité Renouvellements s'appelle désormais *Renouvellements d'assistance*. Découvrez comment link:../support/task-support-registration.html["s'inscrire pour obtenir de l'aide"].
+

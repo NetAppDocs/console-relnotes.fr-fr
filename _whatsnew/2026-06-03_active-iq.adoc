@@ -1,0 +1,14 @@
+= Mises à jour du nom du widget Digital Advisor
+:allow-uri-read: 
+
+
+
+
+=== Mises à jour du nom du widget Digital Advisor
+
+Les fonctionnalités suivantes de Digital Advisor ont changé de nom :
+
+* La fonction « Actualisation technique » s’appelle désormais « Actualisation du système ». Découvrez comment link:https://docs.netapp.com/us-en/active-iq/evaluate-tech-refresh.html["évaluer une mise à jour du système"].
+* La fonctionnalité « Ajout de capacité » s’appelle désormais « Extension de stockage ». En savoir plus link:https://docs.netapp.com/us-en/active-iq/concept_getting_started_2.html["Widgets Digital Advisor"].
+* La fonctionnalité Renouvellements s'appelle désormais Renouvellements d'assistance. En savoir plus link:https://docs.netapp.com/us-en/active-iq/concept_getting_started_2.html["Widgets Digital Advisor"].
+

@@ -30,6 +30,40 @@ Assainissement:: Le service de remédiation a été supprimé le 22 avril 2024.
 ====
 
 
+== 03 juin 2026
+
+
+
+=== Planification du cycle de vie
+
+
+
+==== Mises à jour du nom de la fonctionnalité de planification du cycle de vie
+
+Les fonctionnalités de planification du cycle de vie suivantes ont vu leur nom modifié :
+
+* La fonction de mise à jour technique s'appelle désormais *Actualisation du système*. Découvrez comment link:../use/tech-refresh.html["évaluer une mise à jour du système"].
+* La fonctionnalité d'ajout de capacité s'appelle désormais *Extension de stockage*. Découvrez comment link:../use/capacity-add.html["étendre le stockage"].
+* La fonctionnalité Renouvellements s'appelle désormais *Renouvellements d'assistance*. Découvrez comment link:../support/task-support-registration.html["s'inscrire pour obtenir de l'aide"].
+
+
+
+
+=== Conseiller numérique
+
+
+
+==== Mises à jour du nom du widget Digital Advisor
+
+Les fonctionnalités suivantes de Digital Advisor ont changé de nom :
+
+* La fonction « Actualisation technique » s’appelle désormais « Actualisation du système ». Découvrez comment link:https://docs.netapp.com/us-en/active-iq/evaluate-tech-refresh.html["évaluer une mise à jour du système"].
+* La fonctionnalité « Ajout de capacité » s’appelle désormais « Extension de stockage ». En savoir plus link:https://docs.netapp.com/us-en/active-iq/concept_getting_started_2.html["Widgets Digital Advisor"].
+* La fonctionnalité Renouvellements s'appelle désormais Renouvellements d'assistance. En savoir plus link:https://docs.netapp.com/us-en/active-iq/concept_getting_started_2.html["Widgets Digital Advisor"].
+
+
+
+
 == 26 mai 2026
 
 
