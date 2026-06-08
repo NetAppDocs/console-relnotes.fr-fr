@@ -391,4 +391,5 @@
   <block id="6a46064fa3e0cc88fd5d8f1799eb5b66" category="paragraph">*Prise en charge du stockage cloud compatible S3* : NetApp Backup and Recovery pour les charges de travail Volumes prend désormais en charge la sauvegarde vers un stockage cloud compatible S3.</block>
   <block id="860b17c21dae4758109cd6109bb92be4" category="list-text">*Améliorations concernant la restauration de fichiers et de dossiers sur une machine virtuelle invitée* : Vous pouvez désormais restaurer des fichiers et des dossiers à partir d’un instantané sur un stockage principal ou secondaire vers une machine virtuelle Windows invitée. Cette fonctionnalité est désormais prise en charge pour les VM CIFS et SAN.</block>
   <block id="3e323562bd488e4cbd90a025b9424181" category="section-title">08 juin 2026</block>
+  <block id="2c230f06afd3e4f3ed09632a70041ab6" category="paragraph">Cette version de Data Classification inclut des améliorations de sécurité et de performances.</block>
 </blocks>
