@@ -138,13 +138,8 @@
   <block id="c54d53d5c9b9527bb4d1e1020b2a04ec" category="paragraph">Pour plus de détails sur la protection des charges de travail VMware, consultez <block ref="81bdea79654f29d88dbffb87457fe1f5" category="inline-link-rx"></block>.</block>
   <block id="8d40f2642d0505b33483f580f9515a11" category="paragraph">Cette version de l'agent Console inclut des améliorations de sécurité et des corrections de bugs, ainsi que la fonctionnalité nouvelle suivante.</block>
   <block id="d78202f5dede249577567c1012878352" category="paragraph">Pour plus d'informations, consultez <block ref="d50b16a5274f0acc6be171c51d532ef9" category="inline-link-macro-rx"></block>.</block>
-  <block id="70c542a285cfdf5cc22587e58fc3fcbb" category="doc">Playbooks SOAR pour Microsoft Sentinel et Splunk</block>
-  <block id="11759e65f10609550e1a85679db960a9" category="inline-link-macro">Microsoft Sentinel</block>
-  <block id="2f9304fe9b427489507405bef9a0bb9f" category="inline-link-macro">Splunk</block>
   <block id="c75f115758f26a9b54a9d51601b66cf9" category="inline-link-macro">Intégrer les playbooks SOAR</block>
   <block id="b8b94feeaf531f391629f42d138991ba" category="paragraph">Pour plus d'informations, consultez <block ref="ea7002ba1a528c89bfc86119082f1178" category="inline-link-macro-rx"></block>.</block>
-  <block id="462a6e98fbd2a13cda63645b676477e3" category="section-title">12 mars 2026</block>
-  <block id="cb4ae29d8762239c8dfdfc76bdb65d37" category="paragraph">Ransomware Resilience propose désormais des playbooks d'orchestration, d'automatisation et de réponse en matière de sécurité (SOAR) pour <block ref="8ab0c1a60a7c0ca7e1eee721cf8a8924" category="inline-link-macro-rx"></block> et <block ref="4655146bfbabab7fd679c2d1ca7a8d15" category="inline-link-macro-rx"></block>. Les playbooks permettent une gestion plus facile des réponses aux menaces, automatisant les tests des tâches et les efforts essentiels de réponse aux ransomwares, y compris la création de snapshots et la mise hors ligne d'un volume.</block>
   <block id="e0ec2dc076093e707f6f4a129c330a5e" category="paragraph">Dans cette version, VMware workloads introduit les améliorations suivantes :</block>
   <block id="c951c234678bc7ac8d60ec274364552c" category="paragraph">*Prise en charge de la cohérence des machines virtuelles par niveau de planification* : Vous pouvez désormais activer les sauvegardes cohérentes au niveau des machines virtuelles et des applications pour des niveaux de planification spécifiques lors de la configuration des stratégies de protection pour les charges de travail VMware. Les niveaux annuels, mensuels et hebdomadaires sont pris en charge.</block>
   <block id="69b1a964078d5301a2aa9822cb2304f2" category="section-title">16 mars 2026</block>
@@ -434,4 +429,9 @@
   <block id="e63830ec714a620621135f51c7c84114" category="paragraph">La reprise après sinistre a amélioré les performances de basculement des banques de données VMFS. Les opérations de réanalyse de l'adaptateur de bus hôte (HBA) et de montage de la banque de données sont désormais exécutées en parallèle, ce qui réduit les temps de basculement globaux et minimise l'interruption pendant les opérations de récupération.</block>
   <block id="69aa1f50c340d05c0f749dc51b5d5737" category="inline-link-macro">Basculement avec reprise après sinistre</block>
   <block id="bda5d94c4f296d65baa89f57187dafbd" category="paragraph">Pour plus d'informations sur les basculements, voir <block ref="6f81e5aa1c9b02c34c5ec309d5755115" category="inline-link-macro-rx"></block>.</block>
+  <block id="f1e8426ee8789bca46b26081b788d901" category="doc">Prise en charge d'une nouvelle région Azure dans Cloud Volumes ONTAP</block>
+  <block id="58c64fbe360d29edfbfa0f1e30f23980" category="paragraph">Vous pouvez désormais déployer Cloud Volumes ONTAP 9.12.1 GA et versions ultérieures dans une ou plusieurs zones de disponibilité dans Azure dans la région Malaysia West (malaysiawest). Cela inclut la prise en charge des déploiements à nœud unique et à haute disponibilité (HA).</block>
+  <block id="1453deb356953584c888fcae0040c1c6" category="inline-link">Carte des régions mondiales sous Azure</block>
+  <block id="91aba3afcaafb3ecbed8f358c30b8a7a" category="paragraph">Pour obtenir la liste de toutes les régions, veuillez vous référer à <block ref="0f1c2d6a84741595f86a459e46c2a400" category="inline-link-rx"></block>.</block>
+  <block id="13a1b8a317b4b6dbe05a3757a911ea12" category="section-title">11 juin 2026</block>
 </blocks>
