@@ -1,0 +1,37 @@
+= Améliorations de la migration GraphQL et de la précision des données pour le Health Check
+:allow-uri-read: 
+
+
+
+
+=== Améliorations de la migration GraphQL et de la précision des données pour le Health Check
+
+Le module de vérification de l'état a été amélioré grâce à une meilleure précision des données et à des recommandations de version conformes aux normes de mise à jour. Dans le cadre de cette version, il a été migré de l'API publique vers GraphQL, offrant de meilleures performances, une flexibilité accrue dans les requêtes et un support à long terme.
+
+
+
+==== Logiciels recommandés
+
+Les améliorations logicielles recommandées dans le module Health Check fournissent désormais des données plus précises et cohérentes.
+
+* Le nombre de baies et de disques affiché sous la version actuelle du firmware correspond aux valeurs précises par système et n'inclut plus le nombre de paires HA.
+* Les recommandations de version minimale et de dernière version sont désormais calculées au niveau du cluster en fonction de la version effective du cluster, conformément aux normes en vigueur ; auparavant, ces recommandations étaient calculées au niveau du nœud.
+
+
+
+
+==== AutoSupport dépendance des données
+
+En raison des améliorations apportées au système, les vues d'adoption et de logiciels recommandés AutoSupport s'appuient sur les données AutoSupport les plus récentes. Cela pourrait affecter votre vue actuelle de la manière suivante :
+
+[cols="30,70"]
+|===
+| Scénario | Systèmes affectés 
+
+
+| Aucune donnée affichée | Systèmes n'ayant pas envoyé un AutoSupport depuis octobre 2025 
+
+
+| Valeurs obsolètes | Les systèmes qui n'ont pas envoyé de AutoSupport au cours des 30 derniers jours 
+|===
+Redéclenchez AutoSupport sur les systèmes concernés listés ci-dessus pour restaurer les données actuelles dans les vues de contrôle d'intégrité.
