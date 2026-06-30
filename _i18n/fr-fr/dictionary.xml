@@ -455,4 +455,8 @@
   <block id="e20432694f9004583c0756c875ad9910" category="cell">Les systèmes qui n'ont pas envoyé de AutoSupport au cours des 30 derniers jours</block>
   <block id="17666cbe1713f97c57ab98489a603022" category="paragraph">Redéclenchez AutoSupport sur les systèmes concernés listés ci-dessus pour restaurer les données actuelles dans les vues de contrôle d'intégrité.</block>
   <block id="f210e90dbf694c894759f78cc6d8b222" category="section-title">29 juin 2026</block>
+  <block id="fb9721f24a420ba827ac36665b13797e" category="doc">Réponses automatisées aux alertes d'activité des utilisateurs</block>
+  <block id="5b29c2b1307b96a1557ab05a56715041" category="paragraph">NetApp Ransomware Resilience prend désormais en charge l'automatisation de la création de snapshots et le blocage des utilisateurs lorsqu'une alerte d'activité utilisateur est générée. Avec des réponses automatisées, vous pouvez bloquer un utilisateur dès qu'un avertissement est généré et créer un snapshot pour la restauration, ce qui permet une réaction plus rapide sans intervention manuelle.</block>
+  <block id="709c9c15efe20baf89cd9c0bc4da8ba3" category="inline-link-macro">Automatisez les réponses aux alertes d'activité des utilisateurs</block>
+  <block id="1683df33985dedfe87b3e10a6e28374e" category="paragraph">Pour plus d'informations, consultez <block ref="af4a7ce82e0454100b9537cefe9d85c8" category="inline-link-macro-rx"></block>.</block>
 </blocks>
