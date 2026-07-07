@@ -473,4 +473,9 @@
   <block id="8a46b64d28b84f6e9e9f3b9872e38cee" category="paragraph">Concernant l'utilisation de la capacité, le seuil d'alerte de saturation est désormais basé sur le pourcentage de saturation garanti de votre abonnement, et non plus sur un montant fixe de 20 %. Par exemple, si votre saturation garantie est de 40 %, l'alerte critique se déclenche à 140 % de l'utilisation de la capacité garantie.</block>
   <block id="06dace1d8d4bcbb149776f29c2ecb1c6" category="inline-link-macro">Consultez et créez des moniteurs d'alerte pour les abonnements Keystone</block>
   <block id="e3d24640551dafdb75a00b4fd537dff8" category="paragraph">Pour en savoir plus, consultez <block ref="cbab6f28009066f6897c1b7fa4cf2447" category="inline-link-macro-rx"></block>.</block>
+  <block id="ddebb8e31f83ddb3bde0b3a0292845dc" category="doc">Exclure les chemins de fichiers des alertes de comportement utilisateur</block>
+  <block id="33239db9e04a3b1473f3468fd2d9d99b" category="paragraph">Ransomware Resilience permet d'exclure certains chemins d'accès aux fichiers des alertes de surveillance du comportement des utilisateurs. Vous pouvez exclure des chemins d'accès si vous savez qu'ils ne sont pas à risque ou si vous effectuez des opérations sur des fichiers dans un volume susceptible de déclencher des alertes.</block>
+  <block id="f1780a3dd9362a514caa277752b942f2" category="inline-link-macro">Exclure les chemins de fichiers des alertes</block>
+  <block id="4cbd1bb5d6b8178b77b88be565a35c9b" category="paragraph">Pour plus d'informations, voir <block ref="8c33118b4350e89c06a1a557095207c2" category="inline-link-macro-rx"></block>.</block>
+  <block id="ea1fca7315926f55d77bcab3ed051982" category="section-title">07 juillet 2026</block>
 </blocks>
