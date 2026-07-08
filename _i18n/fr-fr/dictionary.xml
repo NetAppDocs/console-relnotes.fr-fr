@@ -476,6 +476,9 @@
   <block id="ddebb8e31f83ddb3bde0b3a0292845dc" category="doc">Exclure les chemins de fichiers des alertes de comportement utilisateur</block>
   <block id="33239db9e04a3b1473f3468fd2d9d99b" category="paragraph">Ransomware Resilience permet d'exclure certains chemins d'accès aux fichiers des alertes de surveillance du comportement des utilisateurs. Vous pouvez exclure des chemins d'accès si vous savez qu'ils ne sont pas à risque ou si vous effectuez des opérations sur des fichiers dans un volume susceptible de déclencher des alertes.</block>
   <block id="f1780a3dd9362a514caa277752b942f2" category="inline-link-macro">Exclure les chemins de fichiers des alertes</block>
-  <block id="4cbd1bb5d6b8178b77b88be565a35c9b" category="paragraph">Pour plus d'informations, voir <block ref="8c33118b4350e89c06a1a557095207c2" category="inline-link-macro-rx"></block>.</block>
   <block id="ea1fca7315926f55d77bcab3ed051982" category="section-title">07 juillet 2026</block>
+  <block id="cc77cf98baa64437ba1852257c81c7a1" category="doc">Agent Console 4.8.0</block>
+  <block id="c352b7fbc4bc73fdf6c2e56c32996413" category="paragraph">La version 4.8.0 prend en charge à la fois le mode standard et le mode restreint.</block>
+  <block id="179021adb01b0c7bf08f12ed1f7e4cea" category="paragraph">Cette version inclut des améliorations de sécurité et des corrections de bugs.</block>
+  <block id="5f2a57952e65084ab1bcb535d4662440" category="paragraph">Pour plus d'informations, consultez <block ref="8c33118b4350e89c06a1a557095207c2" category="inline-link-macro-rx"></block>.</block>
 </blocks>
