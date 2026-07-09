@@ -8,7 +8,7 @@
 
 Les fonctionnalités de planification du cycle de vie suivantes ont vu leur nom modifié :
 
-* La fonction de mise à jour technique s'appelle désormais *Actualisation du système*. Découvrez comment link:../use/tech-refresh.html["évaluer une mise à jour du système"].
-* La fonctionnalité d'ajout de capacité s'appelle désormais *Extension de stockage*. Découvrez comment link:../use/capacity-add.html["étendre le stockage"].
-* La fonctionnalité Renouvellements s'appelle désormais *Renouvellements d'assistance*. Découvrez comment link:../support/task-support-registration.html["s'inscrire pour obtenir de l'aide"].
+* La fonction de mise à jour technique s'appelle désormais *Actualisation du système*. Découvrez comment https://docs.netapp.com/us-en/console-lifecycle-planning/use/tech-refresh.html["évaluer une mise à jour du système"].
+* La fonctionnalité d'ajout de capacité s'appelle désormais *Storage Expansion*. Découvrez comment https://docs.netapp.com/us-en/console-lifecycle-planning/use/capacity-add.html["étendre le stockage"].
+* La fonctionnalité Renouvellements s'appelle désormais *Renouvellements d'assistance*. Découvrez comment https://docs.netapp.com/us-en/console-lifecycle-planning/support/task-support-registration.html["s'inscrire pour obtenir de l'aide"].
 
