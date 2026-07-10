@@ -4,6 +4,7 @@
 
 
 
+[[netapp-cloud-tiering-no-longer-offered]]
 === NetApp Cloud Tiering n'est plus proposé
 
 NetApp Cloud Tiering n'est plus disponible à l'achat ni au renouvellement de licence depuis le 26 avril 2026.

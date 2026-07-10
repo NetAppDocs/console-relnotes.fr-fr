@@ -4,6 +4,7 @@
 
 
 
+[[health-check-graphql-migration-and-data-accuracy-improvements]]
 === Améliorations de la migration GraphQL et de la précision des données pour le Health Check
 
 Le module de vérification de l'état a été amélioré grâce à une meilleure précision des données et à des recommandations de version conformes aux normes de mise à jour. Dans le cadre de cette version, il a été migré de l'API publique vers GraphQL, offrant de meilleures performances, une flexibilité accrue dans les requêtes et un support à long terme.
