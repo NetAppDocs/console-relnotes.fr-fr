@@ -30,6 +30,64 @@ Assainissement:: Le service de remédiation a été supprimé le 22 avril 2024.
 ====
 
 
+[[13-july-2026]]
+== 13 juillet 2026
+
+
+
+[[disaster-recovery]]
+=== Reprise après sinistre
+
+
+
+==== Mises à jour Kubernetes
+
+La reprise après sinistre a introduit les modifications suivantes pour les charges de travail basées sur Kubernetes :
+
+
+
+===== Gérez Trident Protect depuis le menu Sites
+
+La solution de reprise après sinistre prend désormais en charge la gestion de Trident Protect directement depuis le menu Sites de l'interface utilisateur de la solution de reprise après sinistre. Vous pouvez mettre à niveau Trident Protect ou le supprimer de la solution de reprise après sinistre, ce qui simplifie la gestion de vos ressources Kubernetes.
+
+Pour plus d'informations, consultez link:https://docs.netapp.com/us-en/data-services-disaster-recovery/use/manage.html["Gérer les sites"^].
+
+
+
+==== Mises à jour VMware
+
+La reprise après sinistre a introduit les modifications suivantes pour les charges de travail basées sur VMware :
+
+
+
+===== Basculement des datastores vides
+
+Les plans de réplication incluant des banques de données vides peuvent désormais être basculés avec succès sans qu'il soit nécessaire de les exclure du plan ni de forcer le basculement. Lors du basculement, la reprise après sinistre monte automatiquement la banque de données vide sur le site de reprise après sinistre, permettant d'ajouter des machines virtuelles et de les protéger pour les opérations de retour arrière.
+
+Pour plus d'informations, consultez link:https://docs.netapp.com/us-en/data-services-disaster-recovery/use/failover.html["Basculement vers un site distant"^].
+
+
+
+===== Mappage automatique des réseaux vCenter
+
+Vous pouvez désormais configurer les relations de mappage réseau au niveau de vCenter (c’est-à-dire en dehors de la boîte de dialogue du plan de réplication). Une fois configuré, Disaster Recovery applique automatiquement ces mappages réseau lorsque vous ajoutez ou modifiez un plan de réplication, ce qui simplifie la gestion des plans de réplication.
+
+La reprise après sinistre continue de prendre en charge les modifications par plan. Les mappages réseau existants définis dans un plan de réplication peuvent toujours être modifiés réseau par réseau ; ces mappages prévalent sur les définitions au niveau vCenter.
+
+
+
+==== Restriction du rôle du spectateur en cas de reprise après sinistre
+
+La possibilité de consulter l'onglet « Mise à niveau du système » a été supprimée du rôle de visionneur de reprise après sinistre. Cette modification aligne le rôle sur une expérience plus adaptée aux utilisateurs en lecture seule. link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-disaster-rec-roles.html["Découvrez les rôles et les autorisations des utilisateurs dans NetApp Disaster Recovery"^].
+
+
+
+==== Améliorations des performances du système
+
+La stratégie de reprise après sinistre a introduit des modifications visant à réduire la consommation des ressources système et à améliorer les performances opérationnelles.
+
+
+
 [[07-july-2026]]
 == 07 juillet 2026
 
@@ -819,213 +877,3 @@ Dans cette version, les charges de travail VMware introduisent l'amélioration s
 *ASA r2 prise en charge SAN* : Les charges de travail VMware prennent désormais en charge la protection des machines virtuelles sur des banques de données VMFS hébergées par des environnements NetApp ASA r2 SAN uniquement.
 
 Pour plus de détails sur la protection des charges de travail VMware, consultez  https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-protect-overview.html["Vue d'ensemble de la protection des workloads VMware"].
-
-
-
-[[13-april-2026]]
-== 13 avril 2026
-
-
-
-[[console-setup-and-administration]]
-=== Configuration et administration de la console
-
-
-
-==== Agent Console 4.6.0
-
-La version 4.6.0 prend en charge à la fois le mode standard et le mode restreint.
-
-Cette version de l'agent Console inclut des améliorations de sécurité et des corrections de bugs, ainsi que la fonctionnalité nouvelle suivante.
-
-.Prise en charge des vérifications de configuration de l'espace disque
-Vous pouvez vérifier que l'espace disque requis pour l'agent Console est disponible à l'aide des contrôles de configuration. Vous pouvez effectuer des contrôles de configuration depuis la Console ou la console de maintenance de l'agent. link:https://docs.netapp.com/us-en/console-setup-admin/task-troubleshoot-agent.html["En savoir plus sur l'exécution des vérifications de configuration sur l'agent Console"^]
-
-.Mettre à niveau un agent Console déployé par vCenter à l'aide d'une image ISO
-Si vous avez déployé un agent Console dans vCenter à l'aide d'un fichier OVA, vous pouvez désormais le mettre à niveau vers une nouvelle version en montant une image ISO sur la machine virtuelle et en exécutant la mise à niveau depuis la console de maintenance de la machine virtuelle. link:https://docs.netapp.com/us-en/console-setup-admin/task-upgrade-agent.html["Découvrez comment mettre à niveau un agent Console déployé par vCenter"^]
-
-
-
-[[backup-and-recovery]]
-=== Sauvegarde et récupération
-
-
-
-==== Améliorations des charges de travail des volumes ONTAP
-
-Dans cette version, les charges de travail ONTAP Volumes introduisent l'amélioration suivante :
-
-*NetApp MetroCluster configurations actives/actives prises en charge* : NetApp Backup and Recovery for Volumes workloads prend désormais en charge MetroCluster dans la configuration active-active.
-
-Pour plus de détails sur la protection des charges de travail ONTAP Volumes, reportez-vous à https://docs.netapp.com/us-en/data-services-backup-recovery/prev-ontap-protect-overview.html["Présentation de la protection des charges de travail ONTAP Volumes"].
-
-
-
-==== Améliorations des charges de travail Kubernetes
-
-Dans cette version, les charges de travail Kubernetes introduisent les améliorations suivantes en matière de politique de protection :
-
-* *Modifier les politiques de protection* : Vous pouvez désormais modifier les politiques de protection des charges de travail Kubernetes si vous devez les modifier.
-* *Prise en charge des sauvegardes disque à disque* : Vous pouvez désormais configurer les politiques de protection Kubernetes avec une architecture de sauvegarde disque à disque.
-* *Prise en charge des buckets de stockage Google Cloud Platform* : Vous pouvez désormais configurer les politiques de protection Kubernetes pour effectuer des sauvegardes sur des buckets de stockage Google Cloud Platform.
-
-
-Pour plus d'informations sur les politiques de protection, consultez  https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-policies-create.html["Créez et gérez des politiques de protection dans NetApp Backup and Recovery"].
-
-Pour plus de détails sur la protection des charges de travail Kubernetes, consultez  https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kubernetes-protect-overview.html["Vue d'ensemble de la protection des workloads Kubernetes"].
-
-
-
-==== Améliorations des charges de travail Hyper-V
-
-Dans cette version, les charges de travail Hyper-V introduisent les améliorations suivantes :
-
-* *Gestion des tâches améliorée* : NetApp Backup and Recovery gère désormais plusieurs tâches simultanées plus efficacement.
-* *Prise en charge SAN (aperçu)* : NetApp Backup and Recovery prend désormais en charge la protection des machines virtuelles Hyper-V stockées sur un stockage SAN.
-
-
-Pour plus de détails sur la protection des charges de travail Hyper-V, reportez-vous à https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-hyperv-protect-overview.html["Vue d'ensemble de la protection des charges de travail Hyper-V"].
-
-
-
-==== Améliorations des charges de travail KVM
-
-Dans cette version, les charges de travail KVM introduisent les améliorations suivantes :
-
-* *Gestion des tâches améliorée* : NetApp Backup and Recovery gère désormais plusieurs tâches simultanées plus efficacement.
-* *Restauration vers un autre emplacement (aperçu)* : Vous pouvez désormais restaurer les machines virtuelles KVM vers un autre emplacement. Pour plus d'informations, consultez https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kvm-restore.html["Restaurez les machines virtuelles KVM avec NetApp Backup and Recovery"].
-
-
-Pour plus de détails sur la protection des charges de travail KVM, reportez-vous à https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-kvm-protect-overview.html["Présentation de la protection des charges de travail KVM"] .
-
-
-
-==== Améliorations des charges de travail VMware
-
-Dans cette version, VMware workloads introduit les améliorations suivantes :
-
-* *Protection basée sur les étiquettes* : Backup and Recovery for VMware workloads prend désormais en charge la protection basée sur les étiquettes pour les machines virtuelles stockées sur des volumes NFS et VMFS, ce qui vous permet de créer des groupes de protection à partir des étiquettes vCenter au lieu de machines virtuelles ou de datastores individuels. Lorsque vous étiquetez des machines virtuelles et des datastores dans vCenter, Backup and Recovery les découvre et les inclut automatiquement dans les sauvegardes futures sans aucune maintenance manuelle des groupes. Pour plus d'informations, consultez https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-protection-groups.html["Créer et gérer des groupes de protection"].
-* *Restauration sur un système de stockage alternatif* : Vous pouvez désormais restaurer des machines virtuelles sur un système de stockage alternatif même si le système de stockage principal est totalement indisponible. Pour plus d'informations, consultez https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-restore.html["Restaurer les charges de travail VMware"].
-* *Restauration de fichiers sur des machines virtuelles Linux* : Vous pouvez désormais restaurer des fichiers et des dossiers de machines virtuelles sur des machines virtuelles Linux. Pour plus d'informations, consultez https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-restore-guest-files-and-folders-from-vmdks.html["Restaurer les fichiers et les dossiers"].
-* *Prise en charge des machines virtuelles proxy lors de la restauration de fichiers et de dossiers* - Vous pouvez désormais restaurer des fichiers et des dossiers à partir de disques virtuels à l'aide d'une machine virtuelle proxy lorsque vous préférez ne pas attacher le disque virtuel à la machine virtuelle d'origine. Pour plus d'informations, consultez  https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-restore-guest-files-and-folders-from-vmdks.html["Restaurer les fichiers et les dossiers"].
-* *Recherche récursive de fichiers et de dossiers* - Vous pouvez désormais rechercher un fichier ou un dossier spécifique sur l'ensemble d'un disque virtuel. Pour plus d'informations, consultez  https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-restore-guest-files-and-folders-from-vmdks.html["Restaurer les fichiers et les dossiers"].
-* *Gestion des tâches améliorée* : NetApp Backup and Recovery gère désormais plusieurs tâches simultanées plus efficacement.
-
-
-Pour plus de détails sur la protection des charges de travail VMware, consultez  https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-protect-overview.html["Vue d'ensemble de la protection des workloads VMware"].
-
-
-
-[[data-classification]]
-=== Classification des données
-
-
-
-==== Améliorations générales
-
-Cette version de Data Classification inclut des correctifs de bogues, des améliorations de sécurité et des optimisations de performances.
-
-
-
-[[cloud-tiering]]
-=== Hiérarchisation du cloud
-
-
-
-==== NetApp Cloud Tiering n'est plus proposé
-
-NetApp Cloud Tiering n'est plus disponible à l'achat ni au renouvellement de licence depuis le 26 avril 2026.
-
-Les clients existants peuvent continuer à utiliser et à bénéficier du support pour NetApp Cloud Tiering jusqu'à l'expiration de leur abonnement ou de leur contrat de licence. Après l'expiration de l'abonnement, les clients n'auront plus accès aux fonctionnalités ou au support de NetApp Cloud Tiering.
-
-NetApp recommande aux clients de travailler avec leur représentant NetApp pour migrer leurs licences de hiérarchisation existantes vers des licences ONTAP FabricPool, qui offrent la fonctionnalité de hiérarchisation des données dans ONTAP. Voir link:https://docs.netapp.com/us-en/ontap/fabricpool/install-license-aws-azure-ibm-task.html["Installez une licence FabricPool sur un cluster ONTAP"] pour plus d'informations sur la configuration de la hiérarchisation des données dans ONTAP à l'aide de FabricPool.
-
-* link:https://go.digital.netapp.com/rs/683-HWH-936/images/Cloud-Tiering-EOA-Notice2.pdf?version=0&mkt_tok=NjgzLUhXSC05MzYAAAGgvTOT_9L2PauNXYE0fOs0RIz8KK2q5Jb6sg8Yv-97NNJ53ceAab9UAqpKOrAvByxsOWqhIQHNCHgFfM0q3TI["NetApp Cloud Tiering Avis de fin de disponibilité"]
-* link:https://go.digital.netapp.com/rs/683-HWH-936/images/Cloud-Tiering-EOA-FAQ-v3.pdf?version=0&mkt_tok=NjgzLUhXSC05MzYAAAGgvTOT_rplJe_ZtlY4PQAQRQlewsDa0W4JR55muT0KCThR46zI7-uOhIYfVsxODDKFrnYYvy5uZzvhEKHOwBI["NetApp Cloud Tiering FAQ sur la fin de disponibilité"]
-
-
-
-
-[[disaster-recovery]]
-=== Reprise après sinistre
-
-
-
-==== La prise en charge de Google Cloud VMware Engine (GCVE) est désormais généralement disponible (GA)
-
-NetApp Disaster Recovery pour GCVE est désormais disponible en disponibilité générale (GA). Avec la prise en charge GA, Disaster Recovery pour GCVE prend désormais en charge :
-
-* *Instantanés gérés par la plateforme :* Gérez les sauvegardes et les politiques de rétention de manière transparente via ONTAP ou Google Cloud Platform (GCP).
-* *Plusieurs banques de données par plan de réplication :* Simplifiez vos plans de reprise après sinistre en consolidant plusieurs banques de données dans une seule stratégie de réplication.
-* *Forcer le basculement en cas d'indisponibilité du site source :* Basculer vers un site de reprise après sinistre si la source est indisponible.
-* *Différer la resynchronisation SnapMirror et restaurer la réplication à la demande :* Différez les resynchronisations SnapMirror pour éviter tout impact sur les charges de travail de production pendant les périodes de pointe grâce à l’option « skip protect », puis restaurez la réplication à la demande ultérieurement avec l’option « re-protect ».
-
-
-Pour plus d'informations sur la prise en charge de GCVE, découvrez link:https://docs.netapp.com/us-en/data-services-disaster-recovery/release-notes/dr-limitations.html["Configurations prises en charge pour NetApp Disaster Recovery"^].
-
-
-
-[[ransomware-resilience]]
-=== Résilience aux ransomwares
-
-
-
-==== Restauration propre
-
-Ransomware Resilience prend désormais en charge les restaurations propres, une nouvelle option de récupération qui vous aide à vous remettre rapidement et facilement des attaques de ransomware. Les restaurations propres offrent des flux de travail guidés qui identifient les points de restauration optimaux pour remettre vos charges de travail en service tout en minimisant l'interruption. Les flux de travail dans la restauration propre fournissent également des informations au niveau fichier sur vos données, garantissant que vous pouvez restaurer des charges de travail exemptes de logiciels malveillants, ce qui empêche toute réinfection et minimise la perte de données.
-
-Pour en savoir plus sur les configurations prises en charge et sur la manière de configurer votre système pour une restauration complète, consultez link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-clean-restore.html["Créer un environnement de récupération isolé"^]. Pour en savoir plus sur la procédure de restauration complète, consultez link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-clean-restore-recover.html["Récupérez les charges de travail avec une restauration propre"^].
-
-
-
-==== Prise en charge SIEM pour Splunk Enterprise
-
-Ransomware Resilience offre désormais une prise en charge de la gestion des informations et des événements de sécurité (SIEM) pour Splunk Enterprise, vous permettant de centraliser les données de journalisation et d'événements et de rationaliser l'analyse et la détection des menaces.
-
-Pour plus d'informations, voir link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-siem.html["Connectez NetApp Ransomware Resilience à un SIEM"^].
-
-
-
-==== Amélioration de la détection du comportement des utilisateurs
-
-Les informations relatives aux incidents de violation de données sont désormais conservées pendant 13 mois après un incident, ce qui permet une conservation des données plus longue pour vos besoins de reporting.
-
-Pour plus d'informations, voir link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/concept-user-behavior.html["Découvrez la détection du comportement des utilisateurs"^].
-
-Réplication :leveloffset: +1
-
-
-
-[[replication-management-for-existing-relationships-with-fsx-for-ontap]]
-=== Gestion de la réplication pour les relations existantes avec FSx pour ONTAP
-
-La gestion des relations de réplication pour les systèmes de fichiers FSx for ONTAP, en tant que source ou cible, est désormais disponible dans NetApp Workload Factory.
-
-link:https://docs.netapp.com/us-en/data-services-replication/task-managing-replication.html["Gérer la réplication des données"]
-
-
-
-[[cloud-volumes-ontap]]
-=== Cloud Volumes ONTAP
-
-
-
-==== Prise en charge améliorée de Cloud Volumes ONTAP avec les machines virtuelles Google Cloud C3
-
-Cloud Volumes ONTAP prend désormais en charge de manière améliorée les machines virtuelles de la série Google Cloud C3, ce qui permet d'activer les fonctionnalités supplémentaires suivantes :
-
-* Dans vos déploiements Cloud Volumes ONTAP, vous pouvez basculer entre différents types d'instances au sein de la famille C3.
-* Lors du changement de type d'instance, si vous sélectionnez c3-standard-44 ou c3-standard-88 et leurs variantes LSSD comme machine virtuelle cible, le service réseau Google applique automatiquement le niveau de réseau de sortie Tier-1. Si vous choisissez une autre variante C3, le niveau de réseau de sortie est défini sur Standard.
-+
-
-NOTE: Le passage au niveau 1 du réseau de sortie engendre des coûts supplémentaires. Prévoyez le déploiement et la mise à niveau en conséquence.
-
-* Si vous sélectionnez les variantes SSD locales (LSSD) de C3, le cache Flash est activé par défaut. Vous ne pouvez pas changer de variante LSSD de C3 dans votre déploiement Cloud Volumes ONTAP, même si la variante cible prend en charge le cache Flash.
-* Sur vos machines virtuelles C3, vous pouvez désormais ajouter des volumes aux agrégats nouveaux et existants.
-* Vous pouvez modifier les paramètres IOPS et de débit lors de l’ajout de volumes via la NetApp Console ou en utilisant l’ `PUT /gcp/vsa/aggregates/{workingEnvironmentId}/{aggregateName}` API.
-
-
-.Liens associés
-* https://docs.netapp.com/us-en/cloud-volumes-ontap-relnotes/reference-configs-gcp.html["Configurations prises en charge pour Cloud Volumes ONTAP dans Google Cloud"^]
-* https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/whats-new.html#cloud-volumes-ontap-support-for-next-generation-google-cloud-vms["Prise en charge de Cloud Volumes ONTAP pour les machines virtuelles Google Cloud de nouvelle génération"^]
-
