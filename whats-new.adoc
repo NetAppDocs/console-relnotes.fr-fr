@@ -30,6 +30,33 @@ Assainissement:: Le service de remédiation a été supprimé le 22 avril 2024.
 ====
 
 
+[[15-july-2026]]
+== 15 juillet 2026
+
+
+
+[[console-setup-and-administration]]
+=== Configuration et administration de la console
+
+
+
+==== Agent Console 4.9.0
+
+La version 4.9.0 prend en charge à la fois le mode standard et le mode restreint.
+
+Cette version de l'agent Console inclut des améliorations de sécurité et des corrections de bugs.
+
+
+
+==== Administration de la NetApp Console
+
+.Prise en charge du contrôle d'accès basé sur les rôles pour Cloud Volumes ONTAP
+La console prend en charge le contrôle d'accès basé sur les rôles pour Cloud Volumes ONTAP.
+
+link:https://docs.netapp.com/us-en/console-setup-admin/reference-iam-cvo-roles.html["En savoir plus sur le contrôle d'accès basé sur les rôles pour Cloud Volumes ONTAP"^].
+
+
+
 [[14-july-2026]]
 == 14 juillet 2026
 
