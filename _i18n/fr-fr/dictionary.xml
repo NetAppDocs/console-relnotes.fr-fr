@@ -477,4 +477,5 @@
   <block id="593b7503b2bb0ab3939f80c599e28d01" category="section-title">15 juillet 2026</block>
   <block id="7c33460ede710e45d063c1062b0cacba" category="doc">Suppression de la charge de travail GenAI des charges de travail dans la NetApp Console</block>
   <block id="ef8dda25d49364e8cb6cea8ce87a605c" category="paragraph">La charge de travail GenAI a été supprimée de la section Charges de travail dans la NetApp Console.</block>
+  <block id="59ff3234d92baf85ab9719aa478962eb" category="paragraph">*Prise en charge améliorée de plusieurs compartiments* : À partir de ONTAP 9.19.1 et versions ultérieures, vous pouvez désormais protéger les volumes d’un système avec jusqu’à 100 compartiments par système auprès de différents fournisseurs de cloud.</block>
 </blocks>
