@@ -1005,23 +1005,3 @@ L'intitulé *Capacité provisionnée* est renommé *Capacité volumique provisio
 ==== Basculement des prévisions pour la rafale accumulée
 
 Vous pouvez désormais utiliser le bouton *Prévisions* dans la vue *Consommation cumulée des pics* de l’onglet *Tendance de consommation* pour projeter la consommation cumulée des pics pour les 120 prochains jours à compter de la date actuelle. Pour en savoir plus, consultez  https://docs.netapp.com/us-en/keystone-staas/integrations/consumption-tab.html#view-forecast-data["Consulter les données prévisionnelles"].
-
-
-
-[[20-april-2026]]
-== 20 avril 2026
-
-
-
-[[backup-and-recovery]]
-=== Sauvegarde et récupération
-
-
-
-==== Améliorations des charges de travail VMware
-
-Dans cette version, les charges de travail VMware introduisent l'amélioration suivante :
-
-*ASA r2 prise en charge SAN* : Les charges de travail VMware prennent désormais en charge la protection des machines virtuelles sur des banques de données VMFS hébergées par des environnements NetApp ASA r2 SAN uniquement.
-
-Pour plus de détails sur la protection des charges de travail VMware, consultez  https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-vmware-protect-overview.html["Vue d'ensemble de la protection des workloads VMware"].
