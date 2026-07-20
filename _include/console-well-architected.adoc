@@ -1,0 +1,8 @@
+= Tableau de bord bien conçu
+:allow-uri-read: 
+
+
+
+
+[[well-architected-dashboard]]
+=== Tableau de bord bien conçu
