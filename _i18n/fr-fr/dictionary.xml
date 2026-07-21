@@ -520,4 +520,10 @@
   <block id="b5b841825c6795b46db86f189bb6b292" category="paragraph">La fonctionnalité « Bilan bien-être » a été supprimée et n'est plus disponible dans Digital Advisor depuis juillet 2026.</block>
   <block id="8bf92def06a2ea580eaed76255b63119" category="paragraph">Pour toute question ou pour partager des commentaires, mailto:ng-activeiq-feedback@netapp.com[contactez l'équipe Active IQ].</block>
   <block id="08df05ffdf3909a71845f2f74f5f0192" category="paragraph"><block ref="08df05ffdf3909a71845f2f74f5f0192" category="inline-link-rx"></block></block>
+  <block id="59ad121b0ef1b561c2f96f9b5fbd50f8" category="doc">Configurer le SIEM via des webhooks</block>
+  <block id="43a14127ca7c560502e3232122f8748a" category="paragraph">Ransomware Resilience prend désormais en charge la configuration d'un système de gestion des informations et des événements de sécurité (SIEM) via des webhooks dans l'interface utilisateur de Ransomware Resilience. Grâce aux webhooks, vous pouvez utiliser votre système SIEM préféré pour organiser la surveillance de vos ransomwares.</block>
+  <block id="777ce6dfcc1db686d2520e63a7141ce2" category="inline-link-macro">Configurer un système SIEM</block>
+  <block id="31c6c885ce60b20eae4e9be492057a12" category="paragraph">Pour plus d'informations, consultez <block ref="b6174b83c6a16df05a0ab6131828d421" category="inline-link-macro-rx"></block>.</block>
+  <block id="bb52269a2ff950398b1909638550daa9" category="section-title">Alertes par e-mail pour les réponses automatisées aux événements d'activité des utilisateurs</block>
+  <block id="631a554bd5f4de62ab009d76aaf76846" category="paragraph">Ransomware Resilience envoie désormais des notifications par e-mail lorsque des réponses automatisées sont déclenchées par des événements d'activité des utilisateurs, ce qui améliore la clarté et la visibilité sur Ransomware Resilience et les activités liées aux ransomwares.</block>
 </blocks>
