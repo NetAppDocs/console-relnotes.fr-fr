@@ -146,6 +146,19 @@ La charge de travail GenAI a été supprimée de la section Charges de travail d
 
 
 
+[[digital-advisor]]
+=== Conseiller numérique
+
+
+
+==== Avis de dépréciation pour Wellness Review
+
+La fonctionnalité « Bilan bien-être » a été supprimée et n'est plus disponible dans Digital Advisor depuis juillet 2026.
+
+Pour toute question ou pour partager des commentaires, mailto:ng-activeiq-feedback@netapp.com[contactez l'équipe Active IQ].
+
+
+
 [[14-july-2026]]
 == 14 juillet 2026
 
