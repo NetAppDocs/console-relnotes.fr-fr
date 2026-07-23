@@ -30,6 +30,29 @@ Assainissement:: Le service de remédiation a été supprimé le 22 avril 2024.
 ====
 
 
+[[23-july-2026]]
+== 23 juillet 2026
+
+
+
+[[cloud-volumes-ontap]]
+=== Cloud Volumes ONTAP
+
+
+
+==== Prise en charge de la région Chile Central dans Azure
+
+Vous pouvez désormais déployer Cloud Volumes ONTAP 9.12.1 GA et versions ultérieures dans la région Chile Central (chilecentral) dans Azure. Les types de déploiement suivants sont pris en charge :
+
+* Nœud unique
+* Haute disponibilité dans une seule zone de disponibilité utilisant un stockage localement redondant (LRS)
+* HA dans plusieurs zones de disponibilité utilisant un stockage redondant de zone (ZRS)
+
+
+Pour obtenir la liste de toutes les régions prises en charge, veuillez vous référer au https://bluexp.netapp.com/cloud-volumes-global-regions["Carte des régions mondiales sous Azure"^].
+
+
+
 [[20-july-2026]]
 == 20 juillet 2026
 
