@@ -151,10 +151,6 @@
   <block id="c58a3e421744f0b78f692f20d074d1f6" category="paragraph">NetApp Data Classification prend désormais en charge le déploiement avec VMware Open Virtual Appliance (OVA), offrant une stratégie de déploiement simplifiée pour les environnements VMware vSphere sur site.</block>
   <block id="1a4ea23de9d17b2e28a82a012795f402" category="paragraph">Pour plus d'informations, consultez <block ref="671ddfd34f6defdc139134bff6f63dc9" category="inline-link-macro-rx"></block>.</block>
   <block id="23a8c2c2f00449fb258432bb555df792" category="paragraph">Cette version introduit les améliorations suivantes pour les charges de travail Kubernetes :</block>
-  <block id="fa4bdb2a7b9d92b88314f56020b6233b" category="list-text">*Prise en charge native de la protection des machines virtuelles* : Vous pouvez désormais créer des applications basées sur des machines virtuelles, ce qui vous permet de protéger ces dernières de la même manière que n’importe quelle autre application.</block>
-  <block id="26941edb78c4dbe9ef9eecfa96d0effe" category="list-text">*Transformations des ressources* : Vous pouvez désormais utiliser des transformations de ressources et des modèles de transformation de ressources pour ajouter, supprimer et modifier les attributs des ressources pendant le processus de restauration.</block>
-  <block id="2473cfa7d58a8b216d39f3987c07594f" category="list-text">*Afficher les ressources protégées* : Vous pouvez désormais consulter les ressources incluses dans chaque point de récupération d’une application et télécharger un rapport JSON détaillé. Vous bénéficiez ainsi d’une visibilité complète sur vos points de récupération et simplifiez la conformité aux audits.</block>
-  <block id="2966006d3447f3363606a7ddf7d88713" category="section-title">5 mai 2026</block>
   <block id="08940f555ee07e4993dba0f9d919b955" category="doc">Prise en charge des charges de travail basées sur Kubernetes (aperçu)</block>
   <block id="6d2babe4a7d28b244ea0243157a67baf" category="inline-link-macro">toute version de Kubernetes actuellement prise en charge par Trident Protect</block>
   <block id="f273ad1ac40fd6066b516be98e8466b7" category="paragraph">NetApp Disaster Recovery inclut désormais la prise en charge des charges de travail basées sur Kubernetes. Avec la prise en charge de Kubernetes, vous pouvez protéger les applications exécutées sur des clusters Kubernetes, y compris les environnements de virtualisation OpenShift. Disaster Recovery prend en charge <block ref="ee3b2775270ba891227fbdcc3618242b" category="inline-link-macro-rx"></block>, assurant une intégration transparente et des capacités de reprise après sinistre robustes pour les applications conteneurisées.</block>
@@ -247,8 +243,6 @@
   <block id="6d1c2cdb212ea73452146a3edb82fe12" category="inline-link">Déployez Cloud Volumes ONTAP à l'aide des options avancées dans Azure</block>
   <block id="3cf666a1e5ff2ecf85c4a0bcf868d65f" category="list-text"><block ref="3cf666a1e5ff2ecf85c4a0bcf868d65f" category="inline-link-rx"></block></block>
   <block id="c105c16486992d9ad71af50fd3100019" category="paragraph">Pour plus d'informations, consultez <block ref="96736731356e89817dd51fb3ef396df7" category="inline-link-macro-rx"></block>.</block>
-  <block id="529ee13269734b9af20d3b6447ab6b9f" category="list-text">*Trident Protect 26.05* : Cette version inclut Trident Protect 26.05.</block>
-  <block id="54f8a7826ae5101b3374158dadb22dbe" category="list-text">*Mise à niveau de Trident Protect depuis Backup and Recovery* : Si votre cluster Kubernetes exécute Trident Protect 26.05 ou une version plus récente, vous pouvez désormais mettre à niveau Trident Protect directement depuis Backup and Recovery.</block>
   <block id="482d8dda04ea30da4fa480c529cb09b0" category="list-text">*Trident Protect 26.05.1*: Cette version inclut Trident Protect 26.05.1.</block>
   <block id="d0426b89e832dc9c7bd7771552d69499" category="list-text">*Restauration sur place pour les applications basées sur des machines virtuelles* : Vous pouvez désormais restaurer les applications basées sur des machines virtuelles dans l’espace de noms et le cluster d’origine.</block>
   <block id="090499247beb18776ed4674afbd7c45d" category="paragraph">NetApp propose des options de facturation améliorées pour vos abonnements Cloud Volumes ONTAP dans AWS, vous offrant un meilleur contrôle sur la façon dont vous payez la capacité Cloud Volumes ONTAP et les services de données NetApp, tels que NetApp Backup and Recovery. Auparavant, toute l’utilisation de Cloud Volumes ONTAP et des services de données était facturée ensemble via l’offre NetApp Intelligent Services (NIS) sur la place de marché AWS.</block>
@@ -546,4 +540,49 @@
   <block id="90c6a30d04a39029a6e718b3311fb6ab" category="inline-link-macro">Désactiver un système SIEM</block>
   <block id="904e41b296efab284eaa1062cf1e6a27" category="paragraph">Pour plus d'informations, consultez <block ref="1d48f23238788ac75029406ac49f8f92" category="inline-link-macro-rx"></block>.</block>
   <block id="24cebcb9541a6a3a7ee2888a734c6961" category="section-title">27 juillet 2026</block>
+  <block id="e2ebd09935add1884e0a1760dbc09e25" category="doc">Noms de configuration mis à jour pour FSx for ONTAP dans le tableau de bord bien architecturé</block>
+  <block id="032088baae45e30e8391672094b24e52" category="paragraph">Le tableau de bord bien conçu dans la NetApp Console présente désormais des noms de configuration de stockage mis à jour pour FSx for ONTAP afin d'améliorer la clarté et la cohérence.</block>
+  <block id="621e6224bbf11b1ac6b5f87473e435f3" category="paragraph">Le tableau suivant répertorie les anciens noms de configuration et leurs nouveaux noms de configuration correspondants dans le tableau de bord bien architected.</block>
+  <block id="a146b5f65d0f760a564be35477bfc75d" category="cell">Ancien nom de configuration</block>
+  <block id="12d6467c8f43573f715aed485545d3e9" category="cell">Nouveau nom de configuration</block>
+  <block id="903362563951f197b003dcc5e085f6af" category="cell">Planifier les sauvegardes des volumes</block>
+  <block id="236cb64067292409b71f3255e98656ec" category="cell">Sauvegardes de volumes</block>
+  <block id="9d0e9f5c0aa1e38cfaa8e64e155bc5a8" category="cell">Seuil de capacité SSD</block>
+  <block id="6f5cf50fa90f8d99bf50f65e676c6cba" category="cell">marge de capacité SSD</block>
+  <block id="33b83fba92abc7b8587ce85f370cccd9" category="cell">Seuil de capacité des fichiers</block>
+  <block id="15163a77b6307ce8f1d8bd1cbf7a6cd4" category="cell">Marge de capacité des fichiers</block>
+  <block id="9bc968c7a7fb78050d3076a90e4467f3" category="cell">Fiabilité des données de conservation à long terme</block>
+  <block id="f9f9d1f00c978cfa77ad3dcbff84556f" category="cell">Étiquettes de politique de réplication</block>
+  <block id="aff279b636a9024db3b44375d88e80eb" category="cell">Instantanés locaux programmés</block>
+  <block id="4c0abf2d4c54820b8d33061abaf30759" category="cell">Stratégie de snapshot</block>
+  <block id="1fd07c2c7cd7507d0210720bf2df7ff6" category="cell">Supprimez les sauvegardes inutiles</block>
+  <block id="01cbe155039c742db3896b9035645b36" category="cell">Expiration de la sauvegarde</block>
+  <block id="550b0142e01d6b38f02a6b97265b556f" category="cell">Supprimez les instantanés inutiles</block>
+  <block id="d84a194032e3c50774cb6b396ce9dc40" category="cell">Expiration de l'instantané</block>
+  <block id="d7caefb46c5a6173b05919091553daa7" category="cell">Capacité SSD sous-utilisée</block>
+  <block id="f2be0a28c695a5089b4046f22076c338" category="cell">Capacité SSD surdimensionnée</block>
+  <block id="dd1488cd022a3092a136ebc9da3e9fe7" category="cell">Périphériques de blocs inactifs</block>
+  <block id="1951894078f3de8ca78fd73263ce1157" category="cell">Périphériques de blocs inactifs (LUN)</block>
+  <block id="754d35c272ac188c16d1e8ecadd3a4e9" category="cell">Optimisez le TCO en hiérarchisant les données froides</block>
+  <block id="0ab265b548fdc40b21483e61ffde3aba" category="cell">Hiérarchisation des données froides</block>
+  <block id="373606d37d348aab2b92921ccd42cff6" category="cell">Rapport de capacité logique de volume</block>
+  <block id="fb98d5426e98926f645d90cd612abb55" category="cell">Rapports de capacité visibles par l’hôte</block>
+  <block id="f552bec70b627829570b2811ef2abeaf" category="cell">Rééquilibrage des volumes FlexGroup</block>
+  <block id="de86f1900d1389562924dab590f1c54b" category="cell">Rééquilibrer les volumes FlexGroup</block>
+  <block id="8c88443c0d2ca0582a66db0631948d4f" category="cell">Rééquilibrage des volumes FlexVol</block>
+  <block id="7bac915f83e068ef1efc39ae5b1417fa" category="cell">Rééquilibrer les volumes FlexVol</block>
+  <block id="e64c3fb252960e226830fb49bf513992" category="cell">Mode d'écriture de la relation de cache</block>
+  <block id="f415a433abd1a63e1e6645ce5f72289f" category="cell">FlexCache mode d'écriture</block>
+  <block id="a9ac5841a812cdf71b3574e2998bafd4" category="cell">Optimiser la taille du volume de cache</block>
+  <block id="5161fb1808cb1162babdbde5565ef1ad" category="cell">FlexCache taille de la réplique</block>
+  <block id="c18bcbffca9b6549dbf4c1113b6caa46" category="cell">Accès non autorisé au volume</block>
+  <block id="cc5065c9785f355774b0462bc72597ed" category="cell">Accès non autorisé au volume iSCSI</block>
+  <block id="97cbff5fe2b08c67e69334a1f6bb2a8a" category="cell">ARP/AI désactivé</block>
+  <block id="56137b68eb5832ccdd9138b8c5138148" category="cell">Protection contre les ransomwares (ARP/IA)</block>
+  <block id="25a7621f5136df7ea1f50ee60bab4529" category="section-title">Corrigez, ignorez et réactivez les configurations pour Cloud Volumes ONTAP dans Microsoft Azure</block>
+  <block id="3f2d6026e86cfc3a3e872a2f3cd8f989" category="paragraph">Le tableau de bord bien conçu dans la NetApp Console vous permet désormais de corriger les recommandations de configuration pour vos systèmes Cloud Volumes ONTAP.</block>
+  <block id="e4eac83bd4922d84fdd323f4afe1066b" category="paragraph">Vous pouvez également exclure une ou plusieurs configurations de l'analyse d'architecture. Cela vous permet d'ignorer les configurations qui ne s'appliquent pas à votre environnement.</block>
+  <block id="d45ddb9ce602eba8b90aee11b1ee25cf" category="paragraph">Si vous souhaitez réintégrer ultérieurement une configuration rejetée, vous pouvez la réactiver dans le tableau de bord bien architecturé. Cela rétablit la configuration dans l'analyse et vous permet d'obtenir des recommandations et des correctifs pour celle-ci.</block>
+  <block id="cda40a00113c322adbbd074032606bfe" category="paragraph"><block ref="cda40a00113c322adbbd074032606bfe" category="inline-link-macro-rx"></block></block>
+  <block id="91d90ea5487ed9ed44e834f42f272ccb" category="section-title">03 août 2026</block>
 </blocks>
