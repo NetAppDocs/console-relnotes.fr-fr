@@ -598,4 +598,14 @@
   <block id="a4bbb449ad6bcfc9df369b041d7730ed" category="inline-link">Intégration de Cloud Volumes ONTAP avec Microsoft OneLake - Note technique</block>
   <block id="4271db1842db28d08bc52fe3025bc7b1" category="list-text"><block ref="4271db1842db28d08bc52fe3025bc7b1" category="inline-link-rx"></block></block>
   <block id="37c159a88b5bcfaeea126c1581ba5f53" category="list-text"><block ref="37c159a88b5bcfaeea126c1581ba5f53" category="inline-link-macro-rx"></block></block>
+  <block id="ae5d941662c7f934b5502d0e4416f1af" category="doc">Prise en charge SAN pour Google Cloud NetApp Volumes (aperçu)</block>
+  <block id="6d44daef9f0109d0d9941a1214218bd6" category="paragraph">Ransomware Resilience prend désormais en charge les charges de travail SAN de Google Cloud NetApp Volumes, ce qui vous permet de détecter les attaques de ransomware basées sur le chiffrement pour les charges de travail SAN. La prise en charge de SAN dans Google Cloud NetApp Volumes est actuellement en préversion.</block>
+  <block id="b49d323c627c43fecd97c8db6ea7f66c" category="inline-link-macro">systèmes pris en charge</block>
+  <block id="fa83a4a163069ca1ab2dcb9be3c41063" category="inline-link-macro">Stockage SAN dans la résilience aux ransomwares</block>
+  <block id="2f244f2c363848263100f25323c23895" category="paragraph">Pour plus d'informations, voir <block ref="3a3cd00a16a1bca6c18ece5051fc5ba1" category="inline-link-macro-rx"></block> et <block ref="740b3aa4325052238b6cf8ff4cb1a868" category="inline-link-macro-rx"></block>.</block>
+  <block id="053cc8d4a507db8f7d33d7c9eb844923" category="section-title">Interface simplifiée pour le blocage des utilisateurs</block>
+  <block id="f94e6cd450a12c55223329be07d15575" category="inline-link-macro">détection de l'activité de l'utilisateur</block>
+  <block id="16d39f5d27761daa66696ada0758791c" category="paragraph">Ransomware Resilience offre désormais une expérience utilisateur simplifiée pour bloquer des utilisateurs et gérer les utilisateurs bloqués. Avec cette mise à jour, vous pouvez facilement consulter et modifier les utilisateurs que vous avez bloqués. Vous devez avoir configuré <block ref="0a9171a9aac1e029e209b0c543045273" category="inline-link-macro-rx"></block> pour bloquer des utilisateurs.</block>
+  <block id="21d100db43907eec54cab4e115af7c6b" category="inline-link-macro">Utilisateurs bloqués gérés</block>
+  <block id="9d82773616a9fd5b52190dd3b03a9d0d" category="paragraph">Pour plus d'informations, consultez <block ref="c715c16e5dd5464a8f58103938ef0f46" category="inline-link-macro-rx"></block>.</block>
 </blocks>
