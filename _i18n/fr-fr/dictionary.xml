@@ -522,4 +522,24 @@
   <block id="5594c2174d528fb9d5b9250acc4fb0b3" category="doc">Cloud Volumes ONTAP 9.19.1</block>
   <block id="a504c964d28135033096219100cd2752" category="paragraph">La version Release Candidate (RC) de Cloud Volumes ONTAP 9.19.1 est disponible uniquement sur Google Cloud pour la mise à niveau vers la version 9.19.1 General Availability (GA).</block>
   <block id="5289c2eccb07f2de1b015934c3e3c499" category="paragraph"><block ref="a12e21b39ac968ec668c91e1c7ce7228" category="inline-link-rx"></block>.</block>
+  <block id="63459ccd5f56d025aab8953dda2cac89" category="doc">Tableau de bord amélioré</block>
+  <block id="f682318aec1bd156e47f27a6821a89a5" category="paragraph">Le tableau de bord de NetApp Disaster Recovery a été mis à jour pour offrir une expérience améliorée et une vue d'ensemble complète de l'ensemble de votre infrastructure NetApp Disaster Recovery. Le nouveau tableau de bord comprend :</block>
+  <block id="9823d8b117c3e7a42545ab50cbf51e42" category="list-text">*Visibilité unifiée des charges de travail* — Surveillez les charges de travail VMware et Kubernetes ainsi que l’état de santé de l’infrastructure sous-jacente à partir d’une interface unique.</block>
+  <block id="cb6d28fda9538aed2308a2a41da8fef6" category="list-text">*Détection proactive des problèmes* — Le tableau de bord met désormais automatiquement en évidence les problèmes environnementaux, permettant un diagnostic plus rapide et un délai de résolution réduit.</block>
+  <block id="4682c01fd7e04d919efdbb898660b551" category="list-text">*Utilisation des capacités* — Les indicateurs de capacité sont désormais présentés directement dans le tableau de bord, ce qui permet de mieux comprendre la consommation des ressources.</block>
+  <block id="d1a664c22b47275444c9a34501c2aac2" category="inline-link-macro">Consultez l'état de vos plans de reprise après sinistre NetApp sur le tableau de bord</block>
+  <block id="83ffc188b91ae4a820fc973dcb4f2932" category="paragraph">Pour plus d'informations, consultez <block ref="8f765f2bdeedf185243a86837c41ce64" category="inline-link-macro-rx"></block>.</block>
+  <block id="1b89eeafa349152b4736736033fd9afa" category="section-title">Rapports améliorés</block>
+  <block id="0dc7dafa2af4e7002cfea0adec9f9574" category="paragraph">Les fonctionnalités de reporting ont été étendues afin de fournir une analyse plus approfondie des activités de NetApp Disaster Recovery au sein de votre environnement :</block>
+  <block id="7f09e48950606d1acab05c889751f513" category="list-text">Générez des rapports adaptés aux charges de travail VMware, aux charges de travail Kubernetes ou aux deux, ce qui vous offre la flexibilité de personnaliser les rapports pour votre public.</block>
+  <block id="7a778b01d59bf3ae1ff3f2feb2d289b6" category="list-text">Chaque rapport fournit un résumé complet des activités pour une période spécifiée, assurant une visibilité totale sur les événements dans votre environnement NetApp Disaster Recovery.</block>
+  <block id="a82244df08ebf8974422f7646e0239a4" category="inline-link-macro">Créer des rapports de reprise après sinistre NetApp</block>
+  <block id="fd5ba3d3711dc4d9c0e25f25fe06d680" category="paragraph">Pour plus d'informations, consultez <block ref="39a309d4a05fe8ce442631f7b813f522" category="inline-link-macro-rx"></block>.</block>
+  <block id="2c06591fa7a638998ecf07caf020e711" category="section-title">Journalisation des tâches utilisateur</block>
+  <block id="c021095f262d283ec8653a39f95e447d" category="paragraph">NetApp Disaster Recovery a amélioré la responsabilité et l'auditabilité des tâches grâce à la journalisation des tâches au niveau utilisateur. Chaque tâche exécutée enregistre désormais l'utilisateur qui l'a lancée, fournissant une piste d'audit claire à des fins de conformité et de dépannage. Les tâches déclenchées automatiquement par NetApp Disaster Recovery sont identifiées comme « système », ce qui permet de distinguer facilement les activités initiées par l'utilisateur de celles initiées par le service.</block>
+  <block id="45b443b335251cfe162de8423d5b2021" category="inline-link-macro">Surveiller les tâches de reprise après sinistre NetApp</block>
+  <block id="42ed5c1343751a7af21890f24cd3c64e" category="paragraph">Pour plus d'informations, consultez <block ref="40b7771ffeffc9237f3cc63a2ebdb5c0" category="inline-link-macro-rx"></block>.</block>
+  <block id="00d2a24b32e6b20b963007b68cdb131f" category="section-title">Optimisation des performances et des ressources</block>
+  <block id="30f4219e3688914aa51c7df386e1780b" category="paragraph">Diverses améliorations internes ont été apportées afin de réduire la consommation globale des ressources système et d'améliorer les performances des opérations de NetApp Disaster Recovery.</block>
+  <block id="6ffc226d668d783acc3c710ae22bd61d" category="section-title">10 août 2026</block>
 </blocks>
