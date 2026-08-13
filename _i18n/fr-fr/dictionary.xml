@@ -562,4 +562,7 @@
   <block id="d04e4287a3b42a9890f48390e8193dc1" category="paragraph">Le service traite désormais les mises à jour d'état du cluster plus efficacement, réduisant ainsi les délais d'attente intermittents et les interruptions, et renforçant la médiation automatique du basculement non planifié pour les relations SMaS.</block>
   <block id="8e185da70c606c7dcf3a854773e5a5fd" category="paragraph">NetApp Console 4.10.0 administration inclut des correctifs de sécurité et de bogues.</block>
   <block id="01b8b50c6af6a26d04385207f4b3c02e" category="section-title">13 août 2026</block>
+  <block id="61a1f03c40b54edaef7c992ca33db97f" category="doc">Supprimer un collecteur de données</block>
+  <block id="dcc73e49045e1c557fb3cbaef4605c9d" category="paragraph">Ransomware Resilience permet désormais de supprimer un collecteur de données. Le collecteur de données est créé automatiquement lorsque vous activez la détection d'activité utilisateur sur les charges de travail ; s'il devient obsolète, vous pouvez maintenant le supprimer manuellement.</block>
+  <block id="c40d1e2441a0d8d08a33243495f09b1b" category="paragraph">Pour plus d'informations, voir <block ref="c87d949190b597f950465163c66d9dc2" category="inline-link-macro-rx"></block>.</block>
 </blocks>
