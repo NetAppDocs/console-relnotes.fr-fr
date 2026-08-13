@@ -556,4 +556,10 @@
   <block id="a0cea6bf19dc575d443135e2757e9433" category="paragraph">La classification des données propose désormais un onglet *Analyses actives* dans le menu Configuration, offrant une expérience améliorée pour la gestion des analyses. L’onglet Analyses actives fournit une vue d’ensemble de tous les volumes que vous avez activés pour l’analyse, avec des filtres familiers pour trier vos ressources. L’onglet offre également un emplacement central pour prioriser les analyses, les mettre en pause et consulter les erreurs.</block>
   <block id="3a5a93243a84be3819139aaa12091950" category="inline-link-macro">Gérer les analyses</block>
   <block id="4654bf4010ded28801b1ead2622546bd" category="paragraph">Pour plus d'informations, voir <block ref="baaf78fc7ed88d18ef7a900963d01435" category="inline-link-macro-rx"></block>.</block>
+  <block id="b56346a21533cb3c02f75ab5cc7c59a8" category="doc">Agent Console 4.10.0</block>
+  <block id="e25811fd33a54b98aaedd7e6a9ea664b" category="paragraph">La version 4.10.0 prend en charge à la fois le mode standard et le mode restreint.</block>
+  <block id="657b18a162285732ef5f46d679b05663" category="section-title">Amélioration de la réactivité et de la fiabilité du Cloud Mediator</block>
+  <block id="d04e4287a3b42a9890f48390e8193dc1" category="paragraph">Le service traite désormais les mises à jour d'état du cluster plus efficacement, réduisant ainsi les délais d'attente intermittents et les interruptions, et renforçant la médiation automatique du basculement non planifié pour les relations SMaS.</block>
+  <block id="8e185da70c606c7dcf3a854773e5a5fd" category="paragraph">NetApp Console 4.10.0 administration inclut des correctifs de sécurité et de bogues.</block>
+  <block id="01b8b50c6af6a26d04385207f4b3c02e" category="section-title">13 août 2026</block>
 </blocks>

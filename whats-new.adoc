@@ -30,6 +30,36 @@ Assainissement:: Le service de remédiation a été supprimé le 22 avril 2024.
 ====
 
 
+[[13-august-2026]]
+== 13 août 2026
+
+
+
+[[console-setup-and-administration]]
+=== Configuration et administration de la console
+
+
+
+==== Agent Console 4.10.0
+
+La version 4.10.0 prend en charge à la fois le mode standard et le mode restreint.
+
+Cette version de l'agent Console inclut des améliorations de sécurité et des corrections de bugs.
+
+
+
+===== Amélioration de la réactivité et de la fiabilité du Cloud Mediator
+
+Le service traite désormais les mises à jour d'état du cluster plus efficacement, réduisant ainsi les délais d'attente intermittents et les interruptions, et renforçant la médiation automatique du basculement non planifié pour les relations SMaS.
+
+
+
+==== Administration de la NetApp Console
+
+NetApp Console 4.10.0 administration inclut des correctifs de sécurité et de bogues.
+
+
+
 [[10-august-2026]]
 == 10 août 2026
 
