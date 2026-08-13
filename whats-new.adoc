@@ -73,6 +73,24 @@ Pour plus d'informations, voir link:https://docs.netapp.com/us-en/data-services-
 
 
 
+[[12-august-2026]]
+== 12 août 2026
+
+
+
+[[digital-advisor]]
+=== Conseiller numérique
+
+
+
+==== Avis de dépréciation pour Config Drift
+
+La fonctionnalité Config Drift sera dépréciée dans Digital Advisor en septembre 2026.
+
+Pour toute question ou pour partager des commentaires, mailto:ng-activeiq-feedback@netapp.com[contactez l'équipe Active IQ].
+
+
+
 [[10-august-2026]]
 == 10 août 2026
 

@@ -1,0 +1,12 @@
+= Avis de dépréciation pour Config Drift
+:allow-uri-read: 
+
+
+
+
+[[deprecation-notice-for-config-drift]]
+=== Avis de dépréciation pour Config Drift
+
+La fonctionnalité Config Drift sera dépréciée dans Digital Advisor en septembre 2026.
+
+Pour toute question ou pour partager des commentaires, mailto:ng-activeiq-feedback@netapp.com[contactez l'équipe Active IQ].
