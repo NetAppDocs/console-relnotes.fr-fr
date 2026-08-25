@@ -577,4 +577,7 @@
   <block id="9a707d77cf426a13d6626ab2d67f565d" category="doc">Prise en charge des régions Austria East et Belgium Central dans Azure</block>
   <block id="44e833213a99257d69192896111996f4" category="paragraph">Vous pouvez désormais déployer Cloud Volumes ONTAP 9.12.1 GA et versions ultérieures dans les régions Austria East (austriaeast) et Belgium Central (belgiumcentral) dans Azure. Les types de déploiement suivants sont pris en charge :</block>
   <block id="f6bbe5efd3f2141104f822ac01ed3102" category="section-title">25 août 2026</block>
+  <block id="aa1680de6fa426cea529c4dfecdc015e" category="doc">Diffusion des événements SIEM via l'agent de la Console</block>
+  <block id="64cbd2542074b8251a3a9a4207763f2a" category="paragraph">Ransomware Resilience prend désormais en charge la diffusion des événements SIEM via l'agent Console, en plus de l'option existante de diffusion des événements via NetApp Console.</block>
+  <block id="bb6efadd7c4367d935879bb3d0cb1872" category="paragraph">Lorsque vous diffusez des événements SIEM via l'agent Console, vous pouvez maintenir la diffusion des événements SIEM à l'intérieur des limites de votre réseau. Cela simplifie le déploiement dans les environnements sur site dotés de listes d'adresses IP autorisées strictes et peut mieux s'aligner avec les contrôles de sécurité existants. Pour utiliser cette option, assurez-vous que l'agent Console puisse résoudre et se connecter à votre point de terminaison SIEM sur le port requis à travers tout contrôle de pare-feu ou de proxy.</block>
 </blocks>
