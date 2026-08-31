@@ -580,4 +580,13 @@
   <block id="aa1680de6fa426cea529c4dfecdc015e" category="doc">Diffusion des événements SIEM via l'agent de la Console</block>
   <block id="64cbd2542074b8251a3a9a4207763f2a" category="paragraph">Ransomware Resilience prend désormais en charge la diffusion des événements SIEM via l'agent Console, en plus de l'option existante de diffusion des événements via NetApp Console.</block>
   <block id="bb6efadd7c4367d935879bb3d0cb1872" category="paragraph">Lorsque vous diffusez des événements SIEM via l'agent Console, vous pouvez maintenir la diffusion des événements SIEM à l'intérieur des limites de votre réseau. Cela simplifie le déploiement dans les environnements sur site dotés de listes d'adresses IP autorisées strictes et peut mieux s'aligner avec les contrôles de sécurité existants. Pour utiliser cette option, assurez-vous que l'agent Console puisse résoudre et se connecter à votre point de terminaison SIEM sur le port requis à travers tout contrôle de pare-feu ou de proxy.</block>
+  <block id="e10cb273323f88df11fadb5507d738a0" category="doc">Gestion améliorée des instantanés SnapMirror</block>
+  <block id="f0503ae9f824deb7b1d7d923eccde6cf" category="paragraph">Vous pouvez désormais déclencher un basculement à l'aide du dernier instantané, ce qui est la méthode privilégiée lorsque vous ne prenez pas de nouvel instantané.</block>
+  <block id="904ad73a93f80a63956690821d3e7583" category="paragraph">Lors de la sélection d'une ligne de base de snapshot spécifique, les snapshots de transfert SnapMirror sont masqués par défaut. En effet, ils peuvent être supprimés pendant un basculement, ce qui empêche de reprotéger la charge de travail après le basculement en raison d'une erreur « no common snapshot found ». Vous pouvez toujours utiliser ces snapshots, mais vous devrez compléter une confirmation supplémentaire pour reconnaître le risque.</block>
+  <block id="2652fb9c2d661c6e545a590071ac6a1f" category="inline-link-macro">Basculement vers un site distant</block>
+  <block id="b55121c9a6dfee22377b715103e30d54" category="paragraph">Pour plus d'informations, voir <block ref="0659d04a54310aa1f4f7b2818a7e8b7d" category="inline-link-macro-rx"></block>.</block>
+  <block id="e2725f83c9b13c105b305f08c1ae5aa3" category="section-title">Autres améliorations</block>
+  <block id="c228cd16d1f14f9ba8606b879f59e931" category="list-text">Des améliorations mineures ont été apportées pour accroître la résilience du workflow de test de basculement.</block>
+  <block id="afb89ab075bef1d8e9fa1a1124a73a26" category="list-text">Une erreur de validation lors de l'ajout d'un script a été corrigée.</block>
+  <block id="91b0db938f6511dad8ea423304795a3a" category="section-title">31 août 2026</block>
 </blocks>
