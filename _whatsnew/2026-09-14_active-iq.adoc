@@ -1,0 +1,12 @@
+= Avis de dépréciation pour la machine virtuelle
+:allow-uri-read: 
+
+
+
+
+[[deprecation-notice-for-virtual-machine]]
+=== Avis de dépréciation pour la machine virtuelle
+
+La fonctionnalité de machine virtuelle sera obsolète dans Digital Advisor en octobre 2026.
+
+Pour toute question ou pour partager des commentaires, mailto:ng-activeiq-feedback@netapp.com[contactez l'équipe Active IQ].

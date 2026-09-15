@@ -30,6 +30,24 @@ Assainissement:: Le service de remédiation a été supprimé le 22 avril 2024.
 ====
 
 
+[[14-september-2026]]
+== 14 septembre 2026
+
+
+
+[[digital-advisor]]
+=== Conseiller numérique
+
+
+
+==== Avis de dépréciation pour la machine virtuelle
+
+La fonctionnalité de machine virtuelle sera obsolète dans Digital Advisor en octobre 2026.
+
+Pour toute question ou pour partager des commentaires, mailto:ng-activeiq-feedback@netapp.com[contactez l'équipe Active IQ].
+
+
+
 [[02-september-2026]]
 == 02 septembre 2026
 
