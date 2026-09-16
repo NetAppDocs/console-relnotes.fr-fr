@@ -510,4 +510,7 @@
   <block id="10433629017cbf8327181fb1ebfec31e" category="paragraph">La fonctionnalité de machine virtuelle sera obsolète dans Digital Advisor en octobre 2026.</block>
   <block id="84de9715d135be833103283dc9df0296" category="section-title">14 septembre 2026</block>
   <block id="b476893dc5d9404e756affcf8c5c5abf" category="paragraph">Cloud Volumes ONTAP prend désormais en charge l'intégration avec <block ref="06dad0286aae23111863bb1a79b17a4a" category="inline-link-macro-rx"></block> en préversion publique. Vous pouvez intégrer Cloud Volumes ONTAP avec <block ref="ed504e51b6e034ace3c2f13f8d46981b" category="inline-link-macro-rx"></block> en utilisant <block ref="06dad0286aae23111863bb1a79b17a4a" category="inline-link-macro-rx"></block> pour rendre les données NAS Cloud Volumes ONTAP existantes accessibles aux services d’analyse et d’IA de Microsoft, tels que Power BI, Azure AI Search, OpenAI et Microsoft Copilot. L’intégration ne nécessite aucun déplacement des données ni duplication. L’intégration utilise un accès <block ref="aac36380121b9387ae99c37cf81e3144" category="inline-link-macro-rx"></block> pour connecter Cloud Volumes ONTAP à un Microsoft Fabric lakehouse existant.</block>
+  <block id="e4c84482ee4555ae482d96b91322224c" category="doc">Améliorations générales</block>
+  <block id="2c230f06afd3e4f3ed09632a70041ab6" category="paragraph">Cette version de Data Classification inclut des améliorations de sécurité et de performances.</block>
+  <block id="9d26347bf9049c082d482aa87b79d702" category="section-title">16 septembre 2026</block>
 </blocks>
