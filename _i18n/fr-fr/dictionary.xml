@@ -553,4 +553,29 @@
   <block id="c334239a4338073665306baf11363bc2" category="list-text"><block ref="c334239a4338073665306baf11363bc2" category="inline-link-rx"></block></block>
   <block id="d9862ed1f24a79da571ce975d43849ac" category="inline-link">Déployez Cloud Volumes ONTAP avec Quick create dans AWS</block>
   <block id="a8756e706557440388ef829ae5f6fe1f" category="list-text"><block ref="a8756e706557440388ef829ae5f6fe1f" category="inline-link-rx"></block></block>
+  <block id="b6b21e530c678e5cd4c26f8b75ff76e8" category="doc">Agent de console 4.11.0</block>
+  <block id="734697dbdbd312c3dd63c9c68317e6e9" category="paragraph">La version 4.11.0 prend en charge à la fois le mode standard et le mode restreint.</block>
+  <block id="60fd42d7efe4262e8d79051a1c47bc4f" category="section-title">Flux de déploiement d'agents simplifié pour les abonnés Cloud Volumes ONTAP dans AWS Marketplace</block>
+  <block id="8bc5216f012502c8f371bc0ccb7e4b58" category="inline-link-macro">Abonnement Cloud Volumes ONTAP autonome sur AWS Marketplace</block>
+  <block id="7f5d42097032ab5af27aa2c77a23c33b" category="paragraph">Si vous êtes un nouvel abonné à un <block ref="f4efe2873d568d07f96208e96f91d863" category="inline-link-macro-rx"></block>, la NetApp Console simplifie désormais le déploiement de l’agent. Vous pouvez configurer les rôles, les stratégies et les informations d’identification AWS en moins d’étapes, utiliser automatiquement les valeurs par défaut sur une seule page et accélérer la configuration.</block>
+  <block id="b889961c81eec2cb76cc8efad7794a80" category="doc">Publication du mode privé (4.10.0)</block>
+  <block id="9d2169c1c2855b78a7aeaa4f42d27dc7" category="inline-link">Site de support NetApp</block>
+  <block id="d9d2db6c6792de5c6f6f1c11280bd993" category="paragraph">Une nouvelle version en mode privé est désormais disponible au téléchargement depuis le<block ref="d2aa03057485a1ee4125d2121e05288d" category="inline-link-rx"></block></block>
+  <block id="a22ba5cede201b398675ddfd63c9864d" category="paragraph">La version 4.10.0 inclut des mises à jour des composants et services suivants de la NetApp Console.</block>
+  <block id="394b364c6ed61ed167a4f14316ef5ffc" category="cell">Composant ou service</block>
+  <block id="2f9dd95401f68032a97298d35b87f433" category="cell">Version incluse dans cette release</block>
+  <block id="5431c829b8b64da3908e102d64527909" category="cell">Modifications depuis la version précédente du mode privé</block>
+  <block id="e76758412e5a64841b8710e5fb81ab0c" category="cell">Agent de console</block>
+  <block id="c1b9fde9363d4906a9e67eb0862e9fc7" category="cell">4.10.0</block>
+  <block id="a0f66fdbde042599d314470228f3ca6d" category="inline-link">Nouveautés de la page NetApp Console</block>
+  <block id="5ff195749703fc07b830e8ce460f4513" category="cell">Rendez-vous sur le <block ref="9d354d50c04a9174ec71f0d3d8410a23" category="inline-link-rx"></block> et consultez les modifications incluses pour les versions 4.10.0.</block>
+  <block id="cc6088539286339733631d73fb51774b" category="cell">NetApp Backup and Recovery</block>
+  <block id="c87dd127a9f46f1b24fd3cf0f74c6588" category="cell">5.6.2 (17 août 2026)</block>
+  <block id="582b607a608891f3c15d7fc69b83ace3" category="inline-link">Nouveautés de la page NetApp Backup and Recovery</block>
+  <block id="b14e5d1e5d257d38ef28ffaa5bff5da4" category="cell">Allez à la<block ref="a02d6bb1505d3b564f4ec7078c34d1ba" category="inline-link-rx"></block>.</block>
+  <block id="91d5470ff0de1d64ddb0c8c3bef0b246" category="cell">NetApp Data Classification</block>
+  <block id="669d8c7c23d7c1df9de525a93369bb8f" category="cell">1.546.0 (10 août 2026)</block>
+  <block id="1197f67ce4773f97d566627f2af97b74" category="inline-link">Nouveautés de la page Classification NetApp</block>
+  <block id="c1c74cf0737facb2879b7e9d70e13707" category="cell">Allez à la<block ref="f887ca45067fd52c2ee2854f67f70a25" category="inline-link-rx"></block>.</block>
+  <block id="1e464951e7ffdbf5ba8f20ee5038f44f" category="section-title">17 septembre 2026</block>
 </blocks>
