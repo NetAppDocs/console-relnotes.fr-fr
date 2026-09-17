@@ -217,8 +217,6 @@
   <block id="51f6395b88f3891175360eb16ab814d6" category="paragraph"><block ref="51f6395b88f3891175360eb16ab814d6" category="inline-link-rx"></block></block>
   <block id="2d6c818daeac263c2afd4036d7f74e1e" category="section-title">Déploiement simplifié de Cloud Volumes ONTAP dans Google Cloud</block>
   <block id="cb811eee80c50a73b0cadcc740ccb6e0" category="paragraph">Vous pouvez désormais utiliser l'assistant *Quick create* pour déployer Cloud Volumes ONTAP sur Google Cloud, aussi bien pour les configurations à nœud unique que pour les configurations à haute disponibilité (paire haute disponibilité). Ce processus simplifié réduit le nombre d'étapes, définit automatiquement les valeurs par défaut sur une seule page et minimise la navigation pour un déploiement plus rapide et plus facile.</block>
-  <block id="66ac7407a9c84ca6778fae23ed993062" category="inline-link">Déployez Cloud Volumes ONTAP dans Google Cloud avec Quick create</block>
-  <block id="0dfb1e2c47e659e01c54c2e333c51aab" category="list-text"><block ref="0dfb1e2c47e659e01c54c2e333c51aab" category="inline-link-rx"></block></block>
   <block id="2ac8bb0efb00600c2a41354a94948174" category="inline-link">Déployez Cloud Volumes ONTAP à l'aide des options avancées dans Google Cloud</block>
   <block id="6c9068df44f8a14533034d80a58ea324" category="list-text"><block ref="6c9068df44f8a14533034d80a58ea324" category="inline-link-rx"></block></block>
   <block id="12d92330947695a8724da477e7db5baa" category="section-title">Introduction des rôles d'accès pour Cloud Volumes ONTAP</block>
@@ -256,8 +254,6 @@
   <block id="3545b8b6c97019ee16382e1e9f1566d6" category="list-text">Association de votre abonnement : Vous pouvez associer automatiquement votre abonnement à la Console, évitant ainsi les étapes manuelles de liaison.</block>
   <block id="7fe500a5c571cd7ec037fadddeb65e6d" category="list-text">Déploiement de l'agent Console avec configuration des identifiants AWS : vous pouvez créer automatiquement les rôles AWS requis. Le processus déploie une pile CloudFormation dans votre compte AWS avec les rôles et politiques nécessaires pour que vous puissiez les examiner, puis les associe à la NetApp Console, éliminant ainsi la configuration manuelle d'IAM. Vous poursuivez ensuite la configuration de l’agent, du réseau et des paramètres du groupe de sécurité pour commencer le déploiement de l’agent.</block>
   <block id="1dc23a84b7e2b375289ce6857c758408" category="list-text">Déployez un nouveau système Cloud Volumes ONTAP sur AWS : vous accédez directement à l’<block ref="956eaa6186169471a13345860cad0757" prefix=" " category="inline-code"></block>assistant pour un déploiement Cloud Volumes ONTAP plus rapide et simplifié.</block>
-  <block id="5308f0957f4f665b7b8a7a70e7f26dbb" category="inline-link">Déployez Cloud Volumes ONTAP avec Quick create</block>
-  <block id="92818173e0caa5fc0e16c368b850e85b" category="list-text"><block ref="92818173e0caa5fc0e16c368b850e85b" category="inline-link-rx"></block></block>
   <block id="45155a6d96a264e24647f30ebb774e4f" category="list-text"><block ref="45155a6d96a264e24647f30ebb774e4f" category="inline-link-rx"></block></block>
   <block id="e8f7f517a7c22ec0466a4d916c974b67" category="section-title">Analyse de configuration bien architecturée pour Cloud Volumes ONTAP dans Azure</block>
   <block id="8579a865aaeb9e025994731e2e5b4b7b" category="paragraph">La NetApp Console prend désormais en charge l'analyse de configuration bien architecturée pour les systèmes Cloud Volumes ONTAP exécutés dans Microsoft Azure. La Console analyse quotidiennement vos déploiements et fournit un état bien architecturé, des informations et des recommandations pour vous aider à maintenir des systèmes alignés sur les meilleures pratiques NetApp et le cadre bien architecturé.</block>
@@ -553,4 +549,8 @@
   <block id="5cec02b4d4793bc47a228462c7e78bcc" category="section-title">Prise en charge SAN pour Google Cloud NetApp Volumes</block>
   <block id="3f6e186b29c5d97616e385dd05ee9106" category="paragraph">Ransomware Resilience prend désormais en charge les charges de travail SAN de Google Cloud NetApp Volumes, vous permettant de détecter les attaques de ransomware basées sur le chiffrement pour les charges de travail SAN. La prise en charge de SAN dans Google Cloud NetApp Volumes est désormais généralement disponible.</block>
   <block id="c1e0bcf11a7a6fe71bc50ede69765bc4" category="paragraph">Pour plus d'informations, voir <block ref="3a3cd00a16a1bca6c18ece5051fc5ba1" category="inline-link-macro-rx"></block> et <block ref="f8dd47dc9ffb08466a0ec3298a516926" category="inline-link-macro-rx"></block>.</block>
+  <block id="fa64a8ba43091dc1f18b40ede22ba208" category="inline-link">Déployez Cloud Volumes ONTAP avec Quick create dans Google Cloud</block>
+  <block id="c334239a4338073665306baf11363bc2" category="list-text"><block ref="c334239a4338073665306baf11363bc2" category="inline-link-rx"></block></block>
+  <block id="d9862ed1f24a79da571ce975d43849ac" category="inline-link">Déployez Cloud Volumes ONTAP avec Quick create dans AWS</block>
+  <block id="a8756e706557440388ef829ae5f6fe1f" category="list-text"><block ref="a8756e706557440388ef829ae5f6fe1f" category="inline-link-rx"></block></block>
 </blocks>
