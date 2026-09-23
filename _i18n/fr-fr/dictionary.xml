@@ -506,7 +506,6 @@
   <block id="2c230f06afd3e4f3ed09632a70041ab6" category="paragraph">Cette version de Data Classification inclut des améliorations de sécurité et de performances.</block>
   <block id="9d26347bf9049c082d482aa87b79d702" category="section-title">16 septembre 2026</block>
   <block id="6c302dca9120d9212ecda9d1ad1f74c9" category="paragraph">Dans cette version, les charges de travail KVM, Hyper-V et VMware introduisent l'amélioration suivante :</block>
-  <block id="0898522d58ded515e98cbdbeae0b2894" category="paragraph">*Sélection d'identifiant lors de la découverte de l'hôte de machine virtuelle* : Lorsque vous enregistrez un hôte KVM, Hyper-V ou VMware, vous pouvez désormais utiliser les identifiants que vous avez déjà ajoutés à NetApp Backup and Recovery.</block>
   <block id="51b1f28526e9e7dfdb39548a8b5d4ac0" category="paragraph">Protection étendue des disques pour les machines virtuelles : pour les configurations CIFS, NetApp Backup and Recovery prend désormais en charge la protection de chaque disque attaché à chaque machine virtuelle d'un groupe de protection. Cela inclut les fichiers répartis sur plusieurs volumes ONTAP ou systèmes de stockage ONTAP (disques étendus) ainsi que les fichiers limités à un seul emplacement.</block>
   <block id="1e62d1b5255654e86ebb8b223345252a" category="section-title">Amélioration des charges de travail des volumes ONTAP</block>
   <block id="705eb27960b89edebb2b2269e939009b" category="paragraph">Dans cette version, les charges de travail ONTAP Volumes introduisent l'amélioration suivante en avant-première :</block>
@@ -593,4 +592,7 @@
   <block id="ea28c9c5fe52c02582257ee9cbb68800" category="paragraph">Pour plus d'informations, consultez <block ref="cce646080339a60235fee54607cba507" category="inline-link-macro-rx"></block>.</block>
   <block id="35570c3243db0c0d71d78abb1f6e6919" category="inline-link-macro">Configurer un système SIEM avec des webhooks</block>
   <block id="cbf348e886347898a9486dafd1eb6e46" category="paragraph">Pour plus d'informations, consultez <block ref="265b7e6be1de65b8f921a636f449fd2b" category="inline-link-macro-rx"></block>.</block>
+  <block id="1f5228fb8e4d751814a84ea17a1c4929" category="doc">Amélioration générale de la sauvegarde et de la restauration NetApp</block>
+  <block id="36d329847d8e5ae441cfdb0f4e5f6e2f" category="paragraph">*Sélection des informations d'identification lors de la découverte de l'hôte de machine virtuelle* : Lorsque vous découvrez un hôte KVM, Hyper-V ou VMware, vous pouvez désormais utiliser les informations d'identification que vous avez déjà ajoutées à Backup and Recovery.</block>
+  <block id="ffe23fba63447ec89bcdd7bc0c48257f" category="section-title">Amélioration des charges de travail Hyper-V</block>
 </blocks>
