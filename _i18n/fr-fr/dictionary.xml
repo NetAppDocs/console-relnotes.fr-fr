@@ -592,4 +592,5 @@
   <block id="7df807bf87ff5ba814d9683805deb113" category="inline-link-macro">Apprenez à gérer les règles personnalisées</block>
   <block id="cccdb28b7d4bae85993e333d16900a95" category="paragraph"><block ref="cccdb28b7d4bae85993e333d16900a95" category="inline-link-macro-rx"></block></block>
   <block id="6cd19393862a5a23e39bb63b43a86baa" category="section-title">04 octobre 2026</block>
+  <block id="389c52d9a18d68d9dd6a3eb24bc88982" category="list-text">*Prise en charge de Azure Entra ID pour Cloud Volumes ONTAP* : vous pouvez désormais utiliser l'authentification Microsoft Entra ID pour les configurations de compartiments de stockage objet Azure si vous ne souhaitez pas utiliser la clé d'accès du compte de stockage pour l'authentification Azure. Cette option est prise en charge pour Cloud Volumes ONTAP sur les systèmes Azure exécutant ONTAP 9.16.1 ou version ultérieure.</block>
 </blocks>
