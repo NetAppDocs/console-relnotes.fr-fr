@@ -598,5 +598,7 @@
   <block id="8ec5e57a8f9316371a1188f5b7603afe" category="paragraph">La version initiale d'OCI NetApp Storage Service (OCI NSS) pour Workload Factory propose l'intégration, la découverte du système, la gestion des identifiants, ainsi que la création et l'association de liens. Pour demander l'accès à OCI NSS, veuillez ouvrir un ticket de support auprès d'Oracle.</block>
   <block id="e63ff59d9a78b3ee1929f551e0299980" category="section-title">Documentation de Workload Factory pour les utilisateurs de NetApp Console</block>
   <block id="bc5e01fb2f3491722d00201d5965ffaf" category="paragraph">Vous trouverez une documentation détaillée sur Workload Factory dans la NetApp Console, notamment des guides sur l'intégration, la découverte du système, la gestion des identifiants, ainsi que la création et l'association de liens.</block>
-  <block id="ba7c815c95cbac0acd31d7dafb91c974" category="paragraph">Directive non résolue dans &lt;stdin&gt; - include::_include/data-services-workloads.adoc[] :leveloffset: +1</block>
+  <block id="22e5a7336ebe77138f0282cedcb069ab" category="doc">Workload Factory</block>
+  <block id="1df7d27de080cb3c4560fbfcb9b950a2" category="inline-link-macro">Documentation de Workload Factory pour NetApp Console</block>
+  <block id="865cb26d81d670b59ffd115deff750d1" category="paragraph"><block ref="865cb26d81d670b59ffd115deff750d1" category="inline-link-macro-rx"></block></block>
 </blocks>
