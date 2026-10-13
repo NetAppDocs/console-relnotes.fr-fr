@@ -105,6 +105,25 @@ Disaster Recovery a ajouté des contrôles de conformité pour identifier les en
 
 
 
+[[keystone]]
+=== Keystone
+
+Cette version de Keystone STaaS inclut les mises à jour suivantes du tableau de bord Keystone dans la console NetApp.
+
+
+
+==== Générer des informations sur l’état de santé des abonnements Keystone
+
+Vous pouvez télécharger des rapports PowerPoint à la demande ou programmer un envoi unique, hebdomadaire, mensuel ou trimestriel depuis *Storage > Keystone > Monitoring > Health reports* dans la NetApp Console. Chaque rapport combine l'utilisation des abonnements, l'état opérationnel, les risques et les vulnérabilités des abonnements sélectionnés, vous aidant ainsi à identifier les problèmes et à partager des informations exploitables avec les destinataires. Pour en savoir plus, consultez https://docs.netapp.com/us-en/keystone-staas/integrations/health-assessment-reports.html["Générer et planifier des rapports de santé pour les abonnements Keystone"].
+
+
+
+==== Afficher la capacité du cluster ONTAP et de l’agrégat
+
+Vous pouvez consulter la capacité physique, la capacité logique et l'efficacité du stockage des clusters ONTAP et de leurs agrégats dans *Assets > Clusters and aggregates*. Cette fonctionnalité est disponible uniquement pour les abonnements Keystone STaaS facturés sur la capacité physique. Pour en savoir plus, consultez https://docs.netapp.com/us-en/keystone-staas/integrations/assets.html["Consultez les ressources de vos abonnements Keystone"] et https://docs.netapp.com/us-en/keystone-staas/integrations/assets-tab.html["Afficher les ressources associées à un abonnement Keystone"].
+
+
+
 [[04-october-2026]]
 == 04 octobre 2026
 
