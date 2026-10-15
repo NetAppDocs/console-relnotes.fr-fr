@@ -584,4 +584,5 @@
   <block id="d76461728409bdd7d106249c2bbd279c" category="inline-link">Évitez les interruptions lors de la maintenance d’Azure pour les paires haute disponibilité Cloud Volumes ONTAP</block>
   <block id="d95952cb789c981f49c06e8b4c6698fc" category="paragraph"><block ref="d95952cb789c981f49c06e8b4c6698fc" category="inline-link-rx"></block></block>
   <block id="f535eb1278ad100b4d323539a7942781" category="section-title">14 octobre 2026</block>
+  <block id="54ea8878308d39d6d78a01f24a278aa1" category="list-text">*Filtrage personnalisé par plage de dates dans Job Monitor* : Vous pouvez désormais rechercher des tâches des 90 derniers jours en sélectionnant une date de début et une date de fin personnalisées à partir d’un calendrier dans Job Monitor.</block>
 </blocks>
