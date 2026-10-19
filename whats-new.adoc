@@ -30,6 +30,26 @@ Assainissement:: Le service de remédiation a été supprimé le 22 avril 2024.
 ====
 
 
+[[19-october-2026]]
+== 19 octobre 2026
+
+
+
+[[backup-and-recovery]]
+=== Sauvegarde et récupération
+
+
+
+==== Amélioration des charges de travail Oracle Database
+
+Cette version introduit l'amélioration suivante pour les charges de travail Oracle Database :
+
+*Prise en charge d'Oracle Data Guard* : NetApp Backup and Recovery prend désormais en charge l'utilisation de groupes de protection pour protéger les bases de données principales et de secours qui utilisent Oracle Data Guard pour une haute disponibilité.
+
+Pour plus de détails sur la protection des charges de travail Oracle Database, consultez https://docs.netapp.com/us-en/data-services-backup-recovery/br-use-oracle-protect-overview.html["Découvrez comment protéger les charges de travail Oracle Database avec NetApp Backup and Recovery"].
+
+
+
 [[15-october-2026]]
 == 15 octobre 2026
 
@@ -1007,91 +1027,3 @@ Vous pouvez désormais déployer Cloud Volumes ONTAP 9.12.1 GA et versions ulté
 
 
 Pour obtenir la liste de toutes les régions prises en charge, veuillez vous référer au https://www.netapp.com/cloud-volumes-ontap/supported-regions/["Carte des régions mondiales sous Azure"^].
-
-
-
-[[20-july-2026]]
-== 20 juillet 2026
-
-
-
-[[ransomware-resilience]]
-=== Résilience aux ransomwares
-
-
-
-==== Configurer le SIEM via des webhooks
-
-Ransomware Resilience prend désormais en charge la configuration d'un système de gestion des informations et des événements de sécurité (SIEM) via des webhooks dans l'interface utilisateur de Ransomware Resilience. Grâce aux webhooks, vous pouvez utiliser votre système SIEM préféré pour organiser la surveillance de vos ransomwares.
-
-Pour plus d'informations, consultez link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-siem-webhook.html["Configurer un système SIEM avec des webhooks"^].
-
-
-
-==== Alertes par e-mail pour les réponses automatisées aux événements d'activité des utilisateurs
-
-Ransomware Resilience envoie désormais des notifications par e-mail lorsque des réponses automatisées sont déclenchées par des événements d'activité des utilisateurs, ce qui améliore la clarté et la visibilité sur Ransomware Resilience et les activités liées aux ransomwares.
-
-Pour plus d'informations, consultez link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-automate-user-activity.html["Automatisez les réponses aux alertes d'activité des utilisateurs"^].
-
-
-
-[[cloud-volumes-ontap]]
-=== Cloud Volumes ONTAP
-
-
-
-==== Présentation de l'intégration simplifiée de Cloud Volumes ONTAP depuis AWS Marketplace
-
-NetApp introduit un flux d'intégration simplifié pour Cloud Volumes ONTAP depuis AWS Marketplace, réduisant les étapes manuelles et les frictions liées à l'intégration.
-
-Auparavant, le déploiement Cloud Volumes ONTAP depuis AWS Marketplace nécessitait de naviguer entre plusieurs écrans et de configurer manuellement les rôles, les politiques et les informations d'identification. Cela rendait la prise en main lente et sujette aux erreurs.
-
-Le nouveau processus d'intégration simplifie votre transition d'un abonnement à la place de marché vers un environnement Cloud Volumes ONTAP entièrement opérationnel grâce aux fonctionnalités suivantes :
-
-. Abonnement à la fiche dédiée Cloud Volumes ONTAP sur AWS Marketplace : vous vous abonnez à la fiche autonome Cloud Volumes ONTAP sur AWS Marketplace, achetez un abonnement et configurez votre compte AWS (si vous n’en avez pas déjà un).
-. Parcours guidé sur la NetApp Console : Vous configurez votre compte dans la NetApp Console, et la Console vous accompagne automatiquement tout au long du processus de déploiement en affichant le parcours guidé sur le côté droit. Si vous devez quitter la Console, vous pouvez reprendre le parcours guidé ultérieurement.
-. Association de votre abonnement : Vous pouvez associer automatiquement votre abonnement à la Console, évitant ainsi les étapes manuelles de liaison.
-. Déploiement de l'agent Console avec configuration des identifiants AWS : vous pouvez créer automatiquement les rôles AWS requis. Le processus déploie une pile CloudFormation dans votre compte AWS avec les rôles et politiques nécessaires pour que vous puissiez les examiner, puis les associe à la NetApp Console, éliminant ainsi la configuration manuelle d'IAM. Vous poursuivez ensuite la configuration de l’agent, du réseau et des paramètres du groupe de sécurité pour commencer le déploiement de l’agent.
-. Déployez un nouveau système Cloud Volumes ONTAP sur AWS : vous accédez directement à l’ `Quick create`assistant pour un déploiement Cloud Volumes ONTAP plus rapide et simplifié.
-
-
-.Liens associés
-* https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/task-onboard-cvo-aws-marketplace.html["Intégrez Cloud Volumes ONTAP depuis AWS Marketplace"^]
-* https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/task-quick-deploy-aws.html["Déployez Cloud Volumes ONTAP avec Quick create dans AWS"^]
-* https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/whats-new.html#flexible-billing-for-cloud-volumes-ontap-and-data-services-in-aws["Facturation flexible pour Cloud Volumes ONTAP et les services de données dans AWS"^]
-
-
-
-
-==== Analyse de configuration bien architecturée pour Cloud Volumes ONTAP dans Azure
-
-La NetApp Console prend désormais en charge l'analyse de configuration bien architecturée pour les systèmes Cloud Volumes ONTAP exécutés dans Microsoft Azure. La Console analyse quotidiennement vos déploiements et fournit un état bien architecturé, des informations et des recommandations pour vous aider à maintenir des systèmes alignés sur les meilleures pratiques NetApp et le cadre bien architecturé.
-
-Le tableau de bord bien architecturé affiche le nombre total de systèmes analysés et catégorise leurs ressources par configuration et niveau de gravité. Si vous êtes administrateur système, vous pouvez consulter les recommandations pour tout problème de configuration au sein de votre organisation directement depuis le tableau de bord de la Console et télécharger un rapport CSV de toutes les recommandations. Les configurations sont catégorisées selon :
-
-* *Fiabilité* : Garantit le bon fonctionnement et la constance des charges de travail, même en cas de perturbations.
-* *Sécurité* : Protège les données, les systèmes et les actifs grâce à des évaluations des risques et à leur atténuation.
-* *Excellence opérationnelle* : Optimise l'architecture pour maximiser la valeur commerciale.
-* *Optimisation des coûts* : Réduit et optimise les coûts pour une plus grande valeur commerciale.
-
-
-.Liens associés
-* https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/concept-configuration-analysis-cvo.html["Analyse de configuration pour Cloud Volumes ONTAP"^]
-* https://docs.netapp.com/us-en/storage-management-cloud-volumes-ontap/task-improve-configurations-cvo.html["Améliorez les configurations Cloud Volumes ONTAP dans Azure à l'aide de Workload Factory"^]
-
-
-
-
-[[keystone]]
-=== Keystone
-
-Nouvelles améliorations dans le tableau de bord Keystone dans la NetApp Console:
-
-
-
-==== Consultez l’état d’expiration et de renouvellement automatique de l’abonnement
-
-La colonne « Jours restants avant l'expiration de l'abonnement » du tableau des abonnements (*Stockage > Keystone > Abonnements*) affiche désormais une icône à côté de la date d'expiration. La couleur de l'icône indique la proximité de l'expiration lorsque le renouvellement automatique est désactivé : vert (>120 jours), orange (91–120 jours), rouge (<90 jours) ou gris (expiré). Pour les abonnements avec renouvellement automatique activé, une icône de renouvellement automatique s'affiche, indiquant que l'abonnement sera renouvelé automatiquement à la fin de la période en cours. Ce statut est en lecture seule et reflète les conditions de votre contrat. Une fois que vous ouvrez un abonnement, ces icônes apparaissent dans l'en-tête des détails de l'abonnement, dans les onglets *Consommation actuelle*, *Tendance de consommation*, *Chronologie de l'abonnement* et *Actifs*, vous donnant ainsi une visibilité sur le statut d'expiration et de renouvellement lors de votre navigation.
-
-Pour en savoir plus, consultez  https://docs.netapp.com/us-en/keystone-staas/integrations/subscriptions-tab.html["Consultez les détails de vos abonnements Keystone"].

@@ -113,7 +113,6 @@
   <block id="e799d8365a87a3e0c67cefd2d91a902d" category="doc">Amazon FSX pour ONTAP</block>
   <block id="6c253a8aff5dfa835a77545b3006abc8" category="doc">Clusters ONTAP sur site</block>
   <block id="f3cecd4ee9830dec85b22d80cd95ba07" category="list-text"><block ref="f3cecd4ee9830dec85b22d80cd95ba07" category="inline-link-rx"></block></block>
-  <block id="d272e1753b82039c96c37cf7d7f1dcce" category="paragraph">Nouvelles améliorations dans le tableau de bord Keystone dans la NetApp Console:</block>
   <block id="2749b80160d80f9500fa8b5d5b4da1ba" category="section-title">Administration de la NetApp Console</block>
   <block id="1417c75bd92954a0e383fd49de457f16" category="sidebar">Ces notes de version décrivent les améliorations récentes apportées à la NetApp Console et aux services de données qu'elle prend en charge. Liens vers l'ensemble des notes de version pour chaque service.</block>
   <block id="d695b94e28d0e3417c365a5d120430d6" category="sidebar">Découvrez les modifications les plus récentes apportées aux fonctionnalités et aux services de données qui font partie de la NetApp Console. Pour consulter l'historique complet des versions, rendez-vous dans les notes de version complètes de chaque service.</block>
@@ -131,49 +130,11 @@
   <block id="cb64e7530a451b6a29edd3427495ec90" category="paragraph">Pour plus de détails sur la protection des charges de travail ONTAP Volumes, reportez-vous à<block ref="c12abefe1b46a590752410462324e2ee" category="inline-link-rx"></block>.</block>
   <block id="c1389306eef9d4289001dc6323eecb0c" category="section-title">Améliorations des charges de travail Hyper-V</block>
   <block id="23a8c2c2f00449fb258432bb555df792" category="paragraph">Cette version introduit les améliorations suivantes pour les charges de travail Kubernetes :</block>
-  <block id="66f0f207e553b92ff141bcd4fe27ad0f" category="doc">Facturation flexible pour Cloud Volumes ONTAP et les services de données dans AWS</block>
   <block id="1453deb356953584c888fcae0040c1c6" category="inline-link">Carte des régions mondiales sous Azure</block>
-  <block id="709c9c15efe20baf89cd9c0bc4da8ba3" category="inline-link-macro">Automatisez les réponses aux alertes d'activité des utilisateurs</block>
-  <block id="1683df33985dedfe87b3e10a6e28374e" category="paragraph">Pour plus d'informations, consultez <block ref="af4a7ce82e0454100b9537cefe9d85c8" category="inline-link-macro-rx"></block>.</block>
-  <block id="63a331b4a7ef8ade5f4d0df6929fdd39" category="doc">Présentation de l'intégration simplifiée de Cloud Volumes ONTAP depuis AWS Marketplace</block>
-  <block id="3c7e14792d1bfe3f0ac2972bb2b2b283" category="paragraph">NetApp introduit un flux d'intégration simplifié pour Cloud Volumes ONTAP depuis AWS Marketplace, réduisant les étapes manuelles et les frictions liées à l'intégration.</block>
-  <block id="07de933840f509439b88a42c1b5a81f8" category="paragraph">Auparavant, le déploiement Cloud Volumes ONTAP depuis AWS Marketplace nécessitait de naviguer entre plusieurs écrans et de configurer manuellement les rôles, les politiques et les informations d'identification. Cela rendait la prise en main lente et sujette aux erreurs.</block>
-  <block id="7b0a4d96333ac82141b9bf7031a4427c" category="paragraph">Le nouveau processus d'intégration simplifie votre transition d'un abonnement à la place de marché vers un environnement Cloud Volumes ONTAP entièrement opérationnel grâce aux fonctionnalités suivantes :</block>
-  <block id="d8a801d58e75e021f2941c09a13ac4cc" category="list-text">Abonnement à la fiche dédiée Cloud Volumes ONTAP sur AWS Marketplace : vous vous abonnez à la fiche autonome Cloud Volumes ONTAP sur AWS Marketplace, achetez un abonnement et configurez votre compte AWS (si vous n’en avez pas déjà un).</block>
-  <block id="2beff62713d0ca26e8bbeb26d118da72" category="list-text">Parcours guidé sur la NetApp Console : Vous configurez votre compte dans la NetApp Console, et la Console vous accompagne automatiquement tout au long du processus de déploiement en affichant le parcours guidé sur le côté droit. Si vous devez quitter la Console, vous pouvez reprendre le parcours guidé ultérieurement.</block>
-  <block id="3545b8b6c97019ee16382e1e9f1566d6" category="list-text">Association de votre abonnement : Vous pouvez associer automatiquement votre abonnement à la Console, évitant ainsi les étapes manuelles de liaison.</block>
-  <block id="7fe500a5c571cd7ec037fadddeb65e6d" category="list-text">Déploiement de l'agent Console avec configuration des identifiants AWS : vous pouvez créer automatiquement les rôles AWS requis. Le processus déploie une pile CloudFormation dans votre compte AWS avec les rôles et politiques nécessaires pour que vous puissiez les examiner, puis les associe à la NetApp Console, éliminant ainsi la configuration manuelle d'IAM. Vous poursuivez ensuite la configuration de l’agent, du réseau et des paramètres du groupe de sécurité pour commencer le déploiement de l’agent.</block>
-  <block id="1dc23a84b7e2b375289ce6857c758408" category="list-text">Déployez un nouveau système Cloud Volumes ONTAP sur AWS : vous accédez directement à l’<block ref="956eaa6186169471a13345860cad0757" prefix=" " category="inline-code"></block>assistant pour un déploiement Cloud Volumes ONTAP plus rapide et simplifié.</block>
-  <block id="45155a6d96a264e24647f30ebb774e4f" category="list-text"><block ref="45155a6d96a264e24647f30ebb774e4f" category="inline-link-rx"></block></block>
-  <block id="e8f7f517a7c22ec0466a4d916c974b67" category="section-title">Analyse de configuration bien architecturée pour Cloud Volumes ONTAP dans Azure</block>
-  <block id="8579a865aaeb9e025994731e2e5b4b7b" category="paragraph">La NetApp Console prend désormais en charge l'analyse de configuration bien architecturée pour les systèmes Cloud Volumes ONTAP exécutés dans Microsoft Azure. La Console analyse quotidiennement vos déploiements et fournit un état bien architecturé, des informations et des recommandations pour vous aider à maintenir des systèmes alignés sur les meilleures pratiques NetApp et le cadre bien architecturé.</block>
-  <block id="7be0ecfd06a37dfa6ce465eeee7e76b0" category="paragraph">Le tableau de bord bien architecturé affiche le nombre total de systèmes analysés et catégorise leurs ressources par configuration et niveau de gravité. Si vous êtes administrateur système, vous pouvez consulter les recommandations pour tout problème de configuration au sein de votre organisation directement depuis le tableau de bord de la Console et télécharger un rapport CSV de toutes les recommandations. Les configurations sont catégorisées selon :</block>
-  <block id="d1288590d0a85a5033a8db4112eab3bf" category="list-text">*Fiabilité* : Garantit le bon fonctionnement et la constance des charges de travail, même en cas de perturbations.</block>
-  <block id="f9a9871ceb0b0b6106ac0c3761f8ccd5" category="list-text">*Sécurité* : Protège les données, les systèmes et les actifs grâce à des évaluations des risques et à leur atténuation.</block>
-  <block id="3e21d0873324d070ffd9f5112b99ce4d" category="list-text">*Excellence opérationnelle* : Optimise l'architecture pour maximiser la valeur commerciale.</block>
-  <block id="886863730bd12cb56f89bdf0ee2221be" category="list-text">*Optimisation des coûts* : Réduit et optimise les coûts pour une plus grande valeur commerciale.</block>
-  <block id="109cdb23e41e8df9e7f4319a28a800c9" category="inline-link">Analyse de configuration pour Cloud Volumes ONTAP</block>
-  <block id="ac750267020c9b3c0e32de825d9b57fc" category="section-title">20 juillet 2026</block>
   <block id="1f669523a45bf910651af3583e944a20" category="doc">Tableau de bord bien conçu</block>
-  <block id="81193c598a9c172a3b1a1fd4ae48283f" category="doc">Présentation du tableau de bord bien conçu dans NetApp Console</block>
-  <block id="92b6fed6ba9205d1ef1ae0e1d186dfa8" category="paragraph">Le tableau de bord bien architecturé dans la NetApp Console offre une vue unique de vos systèmes de stockage et de leurs configurations, tous comptes et régions confondus. Le tableau de bord fournit des informations et des recommandations pour vous aider à atteindre l'excellence opérationnelle. Vous pouvez consulter l'état bien architecturé de vos configurations, les problèmes de configuration organisés selon les piliers du cadre bien architecturé pour le type de stockage que vous utilisez, ainsi qu'une liste des problèmes de configuration et des recommandations.</block>
-  <block id="5525eb13e3a89cfcd9f9c5e55aa357a4" category="inline-link-macro">tableau de bord bien conçu</block>
-  <block id="6e2cc6111df032359200840287f3c08f" category="paragraph">Apprenez-en davantage sur le <block ref="5f27d98a28d7d5cdbad5c60f254e5b36" category="inline-link-macro-rx"></block>.</block>
-  <block id="95be701b55d8162269ca03772d2761bc" category="section-title">Créez vos propres règles personnalisées</block>
-  <block id="6b0f72e83c27494413b50e62a79dac44" category="paragraph">Rédigez des règles personnalisées en langage clair pour garantir que vos systèmes respectent les normes de votre organisation et les bonnes pratiques NetApp. Testez les règles avec une exécution à blanc, puis planifiez leur exécution dans vos environnements.</block>
-  <block id="8817b0c6f0795c52cab62044416eee8a" category="inline-link">En savoir plus sur les règles personnalisées</block>
   <block id="8bf92def06a2ea580eaed76255b63119" category="paragraph">Pour toute question ou pour partager des commentaires, mailto:ng-activeiq-feedback@netapp.com[contactez l'équipe Active IQ].</block>
-  <block id="08df05ffdf3909a71845f2f74f5f0192" category="paragraph"><block ref="08df05ffdf3909a71845f2f74f5f0192" category="inline-link-rx"></block></block>
-  <block id="59ad121b0ef1b561c2f96f9b5fbd50f8" category="doc">Configurer le SIEM via des webhooks</block>
-  <block id="43a14127ca7c560502e3232122f8748a" category="paragraph">Ransomware Resilience prend désormais en charge la configuration d'un système de gestion des informations et des événements de sécurité (SIEM) via des webhooks dans l'interface utilisateur de Ransomware Resilience. Grâce aux webhooks, vous pouvez utiliser votre système SIEM préféré pour organiser la surveillance de vos ransomwares.</block>
   <block id="777ce6dfcc1db686d2520e63a7141ce2" category="inline-link-macro">Configurer un système SIEM</block>
   <block id="31c6c885ce60b20eae4e9be492057a12" category="paragraph">Pour plus d'informations, consultez <block ref="b6174b83c6a16df05a0ab6131828d421" category="inline-link-macro-rx"></block>.</block>
-  <block id="bb52269a2ff950398b1909638550daa9" category="section-title">Alertes par e-mail pour les réponses automatisées aux événements d'activité des utilisateurs</block>
-  <block id="631a554bd5f4de62ab009d76aaf76846" category="paragraph">Ransomware Resilience envoie désormais des notifications par e-mail lorsque des réponses automatisées sont déclenchées par des événements d'activité des utilisateurs, ce qui améliore la clarté et la visibilité sur Ransomware Resilience et les activités liées aux ransomwares.</block>
-  <block id="74cf60fbdf1e9979b4bc96c9e0974a6b" category="doc">Consultez l’état d’expiration et de renouvellement automatique de l’abonnement</block>
-  <block id="495b22b0bc55d3822a5ffc86d03d07c9" category="paragraph">La colonne « Jours restants avant l'expiration de l'abonnement » du tableau des abonnements (*Stockage &gt; Keystone &gt; Abonnements*) affiche désormais une icône à côté de la date d'expiration. La couleur de l'icône indique la proximité de l'expiration lorsque le renouvellement automatique est désactivé : vert (&gt;120 jours), orange (91–120 jours), rouge (&lt;90 jours) ou gris (expiré). Pour les abonnements avec renouvellement automatique activé, une icône de renouvellement automatique s'affiche, indiquant que l'abonnement sera renouvelé automatiquement à la fin de la période en cours. Ce statut est en lecture seule et reflète les conditions de votre contrat. Une fois que vous ouvrez un abonnement, ces icônes apparaissent dans l'en-tête des détails de l'abonnement, dans les onglets *Consommation actuelle*, *Tendance de consommation*, *Chronologie de l'abonnement* et *Actifs*, vous donnant ainsi une visibilité sur le statut d'expiration et de renouvellement lors de votre navigation.</block>
-  <block id="6e665113a95f128bda94a45125d034c0" category="inline-link">Consultez les détails de vos abonnements Keystone</block>
-  <block id="ba93540c77434b5a45f562c939e84d30" category="paragraph">Pour en savoir plus, consultez <block ref="97b83a5c42cc5367f46b598d7c9e65ca" category="inline-link-rx"></block>.</block>
   <block id="a085284f5224dbc53fb00943e5efc79a" category="doc">Prise en charge de la région Chile Central dans Azure</block>
   <block id="b8f489089455a848257f3e898316d7b6" category="paragraph">Vous pouvez désormais déployer Cloud Volumes ONTAP 9.12.1 GA et versions ultérieures dans la région Chile Central (chilecentral) dans Azure. Les types de déploiement suivants sont pris en charge :</block>
   <block id="3d1317b428299aa3785275ff6eb8e119" category="list-text">Nœud unique</block>
@@ -193,48 +154,10 @@
   <block id="90c6a30d04a39029a6e718b3311fb6ab" category="inline-link-macro">Désactiver un système SIEM</block>
   <block id="904e41b296efab284eaa1062cf1e6a27" category="paragraph">Pour plus d'informations, consultez <block ref="1d48f23238788ac75029406ac49f8f92" category="inline-link-macro-rx"></block>.</block>
   <block id="24cebcb9541a6a3a7ee2888a734c6961" category="section-title">27 juillet 2026</block>
-  <block id="621e6224bbf11b1ac6b5f87473e435f3" category="paragraph">Le tableau suivant répertorie les anciens noms de configuration et leurs nouveaux noms de configuration correspondants dans le tableau de bord bien architected.</block>
-  <block id="a146b5f65d0f760a564be35477bfc75d" category="cell">Ancien nom de configuration</block>
-  <block id="12d6467c8f43573f715aed485545d3e9" category="cell">Nouveau nom de configuration</block>
-  <block id="903362563951f197b003dcc5e085f6af" category="cell">Planifier les sauvegardes des volumes</block>
-  <block id="236cb64067292409b71f3255e98656ec" category="cell">Sauvegardes de volumes</block>
-  <block id="9d0e9f5c0aa1e38cfaa8e64e155bc5a8" category="cell">Seuil de capacité SSD</block>
-  <block id="6f5cf50fa90f8d99bf50f65e676c6cba" category="cell">marge de capacité SSD</block>
-  <block id="33b83fba92abc7b8587ce85f370cccd9" category="cell">Seuil de capacité des fichiers</block>
-  <block id="15163a77b6307ce8f1d8bd1cbf7a6cd4" category="cell">Marge de capacité des fichiers</block>
-  <block id="9bc968c7a7fb78050d3076a90e4467f3" category="cell">Fiabilité des données de conservation à long terme</block>
-  <block id="f9f9d1f00c978cfa77ad3dcbff84556f" category="cell">Étiquettes de politique de réplication</block>
-  <block id="aff279b636a9024db3b44375d88e80eb" category="cell">Instantanés locaux programmés</block>
-  <block id="4c0abf2d4c54820b8d33061abaf30759" category="cell">Stratégie de snapshot</block>
-  <block id="1fd07c2c7cd7507d0210720bf2df7ff6" category="cell">Supprimez les sauvegardes inutiles</block>
-  <block id="01cbe155039c742db3896b9035645b36" category="cell">Expiration de la sauvegarde</block>
-  <block id="550b0142e01d6b38f02a6b97265b556f" category="cell">Supprimez les instantanés inutiles</block>
-  <block id="d84a194032e3c50774cb6b396ce9dc40" category="cell">Expiration de l'instantané</block>
-  <block id="d7caefb46c5a6173b05919091553daa7" category="cell">Capacité SSD sous-utilisée</block>
-  <block id="f2be0a28c695a5089b4046f22076c338" category="cell">Capacité SSD surdimensionnée</block>
-  <block id="dd1488cd022a3092a136ebc9da3e9fe7" category="cell">Périphériques de blocs inactifs</block>
-  <block id="1951894078f3de8ca78fd73263ce1157" category="cell">Périphériques de blocs inactifs (LUN)</block>
-  <block id="754d35c272ac188c16d1e8ecadd3a4e9" category="cell">Optimisez le TCO en hiérarchisant les données froides</block>
-  <block id="0ab265b548fdc40b21483e61ffde3aba" category="cell">Hiérarchisation des données froides</block>
-  <block id="373606d37d348aab2b92921ccd42cff6" category="cell">Rapport de capacité logique de volume</block>
-  <block id="fb98d5426e98926f645d90cd612abb55" category="cell">Rapports de capacité visibles par l’hôte</block>
-  <block id="f552bec70b627829570b2811ef2abeaf" category="cell">Rééquilibrage des volumes FlexGroup</block>
-  <block id="de86f1900d1389562924dab590f1c54b" category="cell">Rééquilibrer les volumes FlexGroup</block>
-  <block id="8c88443c0d2ca0582a66db0631948d4f" category="cell">Rééquilibrage des volumes FlexVol</block>
-  <block id="7bac915f83e068ef1efc39ae5b1417fa" category="cell">Rééquilibrer les volumes FlexVol</block>
-  <block id="e64c3fb252960e226830fb49bf513992" category="cell">Mode d'écriture de la relation de cache</block>
-  <block id="f415a433abd1a63e1e6645ce5f72289f" category="cell">FlexCache mode d'écriture</block>
-  <block id="a9ac5841a812cdf71b3574e2998bafd4" category="cell">Optimiser la taille du volume de cache</block>
-  <block id="5161fb1808cb1162babdbde5565ef1ad" category="cell">FlexCache taille de la réplique</block>
-  <block id="c18bcbffca9b6549dbf4c1113b6caa46" category="cell">Accès non autorisé au volume</block>
-  <block id="cc5065c9785f355774b0462bc72597ed" category="cell">Accès non autorisé au volume iSCSI</block>
-  <block id="97cbff5fe2b08c67e69334a1f6bb2a8a" category="cell">ARP/AI désactivé</block>
-  <block id="56137b68eb5832ccdd9138b8c5138148" category="cell">Protection contre les ransomwares (ARP/IA)</block>
   <block id="25a7621f5136df7ea1f50ee60bab4529" category="section-title">Corrigez, ignorez et réactivez les configurations pour Cloud Volumes ONTAP dans Microsoft Azure</block>
   <block id="3f2d6026e86cfc3a3e872a2f3cd8f989" category="paragraph">Le tableau de bord bien conçu dans la NetApp Console vous permet désormais de corriger les recommandations de configuration pour vos systèmes Cloud Volumes ONTAP.</block>
   <block id="e4eac83bd4922d84fdd323f4afe1066b" category="paragraph">Vous pouvez également exclure une ou plusieurs configurations de l'analyse d'architecture. Cela vous permet d'ignorer les configurations qui ne s'appliquent pas à votre environnement.</block>
   <block id="d45ddb9ce602eba8b90aee11b1ee25cf" category="paragraph">Si vous souhaitez réintégrer ultérieurement une configuration rejetée, vous pouvez la réactiver dans le tableau de bord bien architecturé. Cela rétablit la configuration dans l'analyse et vous permet d'obtenir des recommandations et des correctifs pour celle-ci.</block>
-  <block id="cda40a00113c322adbbd074032606bfe" category="paragraph"><block ref="cda40a00113c322adbbd074032606bfe" category="inline-link-macro-rx"></block></block>
   <block id="91d90ea5487ed9ed44e834f42f272ccb" category="section-title">03 août 2026</block>
   <block id="aafe22f0aac02cfc773f108471a387c4" category="doc">Intégration de Cloud Volumes ONTAP avec Microsoft OneLake</block>
   <block id="41aa5ef466861e25c87ddbb36de43edd" category="inline-link">Microsoft OneLake</block>
@@ -321,28 +244,12 @@
   <block id="76665439cf119912213e2021a654bd03" category="inline-link">Découvrez comment protéger les charges de travail Oracle Database avec NetApp Backup and Recovery</block>
   <block id="883ef32320e466646eafa77fe6544695" category="paragraph">Pour plus de détails sur la protection des charges de travail Oracle Database, consultez<block ref="ceba14b704f10c1caedce91a9e3962ca" category="inline-link-rx"></block>.</block>
   <block id="7c3780c8bbc09e634d77ec9249acfb5c" category="section-title">17 août 2026</block>
-  <block id="411510101e0d2ef6d81ff08c0e3c361c" category="doc">Prise en charge de Google Cloud NetApp Volumes dans le tableau de bord bien architecturé</block>
-  <block id="d34de5f33d744d45edd40a05562254f8" category="paragraph">Le tableau de bord de la NetApp Console prend désormais en charge Google Cloud NetApp Volumes. Les administrateurs de stockage peuvent consulter l’état de leurs pools de stockage et de leurs configurations, obtenir des recommandations pour améliorer l’efficacité, le coût, les performances, la fiabilité et la sécurité, et prendre des mesures pour optimiser les opérations et suivre les bonnes pratiques.</block>
-  <block id="9734fa1668ca0b65477c528e1024d6a1" category="inline-link-macro">Analyse de configuration pour Google Cloud NetApp Volumes</block>
-  <block id="63703f359f410e2c981eed9b102fdf93" category="paragraph">En savoir plus sur <block ref="a1a9e128c0fafd7c1526a7b783f92760" category="inline-link-macro-rx"></block>.</block>
-  <block id="f2085e6c9159e77c1694598931a78c54" category="inline-link-macro">Cloud Volumes ONTAP dans Microsoft Azure.</block>
-  <block id="af60dd6d4748d367317db02ecf8412df" category="paragraph">Le tableau de bord bien conçu de la Console est disponible pour <block ref="a6a029d1bfbb017a404644ee02b0b284" category="inline-link-macro-rx"></block></block>
-  <block id="9816127c5ba6e54118e083fdec8ad3df" category="doc">Prise en charge de FSx for ONTAP dans le tableau de bord bien conçu de la NetApp Console</block>
-  <block id="1629fd97bdf4fe6ac821be71ca871779" category="paragraph">Le tableau de bord bien conçu dans la NetApp Console est disponible pour Amazon FSx for NetApp ONTAP.</block>
-  <block id="5b7d5195e94ffd4ac888acf6fbbccf7e" category="inline-link-macro">Découvrez l'analyse de configuration pour FSx for ONTAP</block>
-  <block id="587f2f386400c1dc23a9fd0e1cd944c2" category="list-text"><block ref="587f2f386400c1dc23a9fd0e1cd944c2" category="inline-link-macro-rx"></block></block>
-  <block id="ad733bbe9d89c9e20092c270243f6841" category="section-title">Problèmes bien architecturés affichés sur la page Systèmes de NetApp Console</block>
-  <block id="a86f2b5144564ef122dbd0daa8abbeda" category="paragraph">Les notifications relatives aux problèmes d'architecture sont disponibles pour Cloud Volumes ONTAP dans Microsoft Azure depuis la page Systèmes de gestion du stockage dans la NetApp Console. Cette fonctionnalité vous aide à identifier rapidement les problèmes de configuration dans vos systèmes Cloud Volumes ONTAP dans Azure et à accéder au tableau de bord bien architecturé des charges de travail directement depuis la notification.</block>
-  <block id="33f99db970bd78e039b488318b97f37e" category="section-title">Noms de configuration mis à jour dans le tableau de bord bien architected</block>
-  <block id="f757183a2ec8b22ec352eea98a6e4f53" category="paragraph">Le tableau de bord bien conçu de NetApp Console inclut désormais de nouveaux noms de configuration de stockage.</block>
   <block id="8f24b7f6865330e0469a323257c15e3e" category="doc">Présentation de Value Insights</block>
   <block id="6452c5c2797e19754a12693289884cfc" category="paragraph">La fonctionnalité Value Insights centralise les informations relatives à l'état général, aux économies, à la stabilité et à la sécurité des systèmes ONTAP. Vous pouvez utiliser ces informations pour améliorer l'état et les performances de votre système ONTAP grâce à une vision continue et basée sur les données de votre environnement ONTAP.</block>
   <block id="581e60c850c8a18ee458ccadb49ea628" category="admonition">Value Insights est uniquement disponible pour les systèmes ONTAP.</block>
   <block id="4818a68f374e0754b0e7babe3b943331" category="inline-link-macro">Perspectives sur la valeur</block>
   <block id="0f040cc490eb4ad3366e4020a72ff0c2" category="paragraph">En savoir plus sur <block ref="d7e943b7b795a7bed90e4ce411daf4a9" category="inline-link-macro-rx"></block>.</block>
   <block id="f1c51501659d7bb0b0146707e6fe220c" category="section-title">20 août 2026</block>
-  <block id="03646431a428b1129a0642a9e9a930d6" category="inline-link">Intégrez Cloud Volumes ONTAP depuis AWS Marketplace</block>
-  <block id="22b14536778a26fb341e73c9dfc20414" category="list-text"><block ref="22b14536778a26fb341e73c9dfc20414" category="inline-link-rx"></block></block>
   <block id="9a707d77cf426a13d6626ab2d67f565d" category="doc">Prise en charge des régions Austria East et Belgium Central dans Azure</block>
   <block id="44e833213a99257d69192896111996f4" category="paragraph">Vous pouvez désormais déployer Cloud Volumes ONTAP 9.12.1 GA et versions ultérieures dans les régions Austria East (austriaeast) et Belgium Central (belgiumcentral) dans Azure. Les types de déploiement suivants sont pris en charge :</block>
   <block id="f6bbe5efd3f2141104f822ac01ed3102" category="section-title">25 août 2026</block>
@@ -358,14 +265,6 @@
   <block id="c228cd16d1f14f9ba8606b879f59e931" category="list-text">Des améliorations mineures ont été apportées pour accroître la résilience du workflow de test de basculement.</block>
   <block id="afb89ab075bef1d8e9fa1a1124a73a26" category="list-text">Une erreur de validation lors de l'ajout d'un script a été corrigée.</block>
   <block id="91b0db938f6511dad8ea423304795a3a" category="section-title">31 août 2026</block>
-  <block id="986c0b89e6f7ad596953e7ac2424db26" category="doc">Évaluation de la réplication des données à distance pour Cloud Volumes ONTAP</block>
-  <block id="dfcd41b313833d05496197a786d2d2af" category="paragraph">Un nouvel outil d'évaluation est disponible pour vérifier si les données Cloud Volumes ONTAP sont protégées par la réplication à distance. Il vous aide à garantir que votre plan de protection des données suit les meilleures pratiques en matière de reprise après sinistre et de continuité d'activité.</block>
-  <block id="1e3316df3b456fee5d47d971c9bc6ca7" category="inline-link-macro">Découvrez l'analyse de configuration pour Cloud Volumes ONTAP</block>
-  <block id="120d2b8bb50127766f119c5df258a5a7" category="paragraph"><block ref="120d2b8bb50127766f119c5df258a5a7" category="inline-link-macro-rx"></block></block>
-  <block id="83eb7ae79829b538266050d3f5c9fb61" category="section-title">Rejeter toutes les configurations bien architecturées</block>
-  <block id="e392235686146a792505661ee5217957" category="paragraph">Vous pouvez désormais ignorer une configuration recommandée entière depuis votre tableau de bord. Vous disposez ainsi d'un meilleur contrôle sur les recommandations et les évaluations affichées pour votre environnement.</block>
-  <block id="a2478a7b8d2f8aade20d9381c210a4ad" category="section-title">Recommandations de charge de travail de base de données dans le tableau de bord bien architecturé</block>
-  <block id="5f71f327ec034d4f4c3d749b221ebc26" category="paragraph">Les recommandations pour les charges de travail de bases de données utilisant FSx for ONTAP sont désormais disponibles dans le tableau de bord bien architecturé de la NetApp Console. Vous pouvez voir l’état de vos ressources de stockage ainsi que des charges de travail de bases de données en un seul endroit, ce qui vous donne une vue complète de l’état de santé de votre infrastructure.</block>
   <block id="ba08a463d06739f442d7b83ca5021909" category="section-title">01 septembre 2026</block>
   <block id="9775ec01b640ec37d790fc80fcd304fa" category="doc">Prise en charge de Cloud Volumes ONTAP dans les régions Azure Secret et Top Secret (aperçu privé)</block>
   <block id="71220dfc0ef52806d7063323e20a8d01" category="paragraph">Cloud Volumes ONTAP prend désormais en charge le déploiement dans les régions Azure Government Secret et Top Secret en préversion privée. Cette fonctionnalité étend Cloud Volumes ONTAP aux environnements Azure classifiés de Microsoft, permettant ainsi aux clients gouvernementaux et de défense d'utiliser ONTAP pour la gestion des données, la protection et la reprise après sinistre, afin de prendre en charge les charges de travail liées à la sécurité nationale. Contactez votre équipe NetApp pour participer.</block>
@@ -417,8 +316,6 @@
   <block id="172d1622c102d2a3f2038156f02696fb" category="paragraph">Les restaurations propres sont désormais disponibles pour la récupération après un comportement utilisateur suspect et des attaques par chiffrement basées sur l'utilisateur. Cette amélioration vient s’ajouter à la prise en charge existante des attaques basées sur le chiffrement (entropie). Cette capacité améliorée vous permet de tirer parti de l’approche guidée de la restauration propre, en identifiant les points de restauration optimaux afin de minimiser la perte de données et d’accélérer la récupération.</block>
   <block id="c67951798c697d04f7da1518cc49d789" category="inline-link-macro">Créez un environnement de récupération isolé pour une restauration propre</block>
   <block id="00fb2a4960c9f2eed3f3d4165ea6d95a" category="paragraph">Pour plus d'informations, consultez <block ref="d2e686618a401b494c34aa9b2103f129" category="inline-link-macro-rx"></block>.</block>
-  <block id="d9862ed1f24a79da571ce975d43849ac" category="inline-link">Déployez Cloud Volumes ONTAP avec Quick create dans AWS</block>
-  <block id="a8756e706557440388ef829ae5f6fe1f" category="list-text"><block ref="a8756e706557440388ef829ae5f6fe1f" category="inline-link-rx"></block></block>
   <block id="b6b21e530c678e5cd4c26f8b75ff76e8" category="doc">Agent de console 4.11.0</block>
   <block id="734697dbdbd312c3dd63c9c68317e6e9" category="paragraph">La version 4.11.0 prend en charge à la fois le mode standard et le mode restreint.</block>
   <block id="60fd42d7efe4262e8d79051a1c47bc4f" category="section-title">Flux de déploiement d'agents simplifié pour les abonnés Cloud Volumes ONTAP dans AWS Marketplace</block>
@@ -460,8 +357,6 @@
   <block id="6aa44f095b485d103684660cbb7f9328" category="section-title">21 septembre 2026</block>
   <block id="200e15de6a3939fa4dda17a8836f5233" category="list-text">*Trident Protect 26.09* : Cette version inclut Trident Protect 26.09.</block>
   <block id="bc9e0a0c6dd42dbca705164e269a3b81" category="list-text">*Restauration de fichiers et de dossiers* : Vous pouvez désormais restaurer ou télécharger des fichiers et des dossiers spécifiques à partir des sauvegardes d'applications basées sur des machines virtuelles Kubernetes.</block>
-  <block id="35570c3243db0c0d71d78abb1f6e6919" category="inline-link-macro">Configurer un système SIEM avec des webhooks</block>
-  <block id="cbf348e886347898a9486dafd1eb6e46" category="paragraph">Pour plus d'informations, consultez <block ref="265b7e6be1de65b8f921a636f449fd2b" category="inline-link-macro-rx"></block>.</block>
   <block id="1f5228fb8e4d751814a84ea17a1c4929" category="doc">Amélioration générale de la sauvegarde et de la restauration NetApp</block>
   <block id="36d329847d8e5ae441cfdb0f4e5f6e2f" category="paragraph">*Sélection des informations d'identification lors de la découverte de l'hôte de machine virtuelle* : Lorsque vous découvrez un hôte KVM, Hyper-V ou VMware, vous pouvez désormais utiliser les informations d'identification que vous avez déjà ajoutées à Backup and Recovery.</block>
   <block id="ffe23fba63447ec89bcdd7bc0c48257f" category="section-title">Amélioration des charges de travail Hyper-V</block>
@@ -488,29 +383,12 @@
   <block id="030639c6688cdf5be783da65b9a42cde" category="paragraph">Pour obtenir la liste de toutes les régions prises en charge, veuillez vous référer au<block ref="085eda4cd9d5efc52830e9b3586a231f" category="inline-link-rx"></block>.</block>
   <block id="2c35e19e5a880895a1f3f6748fe75e56" category="inline-link">Le cloud pour les missions du gouvernement américain</block>
   <block id="28426dd827c38f71cac9fa79f418b6f0" category="list-text"><block ref="28426dd827c38f71cac9fa79f418b6f0" category="inline-link-rx"></block></block>
-  <block id="19d5fea6cca3df1f610ffd920f1e30b2" category="doc">Découvrez les ressources Flex Unified dans Workload Factory</block>
-  <block id="61822363118e61bff0df1e874d2e7497" category="paragraph">Workload Factory peut désormais détecter les pools de stockage et les volumes Google Cloud NetApp Volumes Flex Unified en mode par défaut et en mode ONTAP via le point de terminaison proxy de l'API ONTAP. Ces ressources apparaissent dans l'inventaire et sont incluses dans les évaluations et recommandations well-architected.</block>
-  <block id="5fb7119ce8f0dab345a73e06727b5f5c" category="inline-link-macro">Découvrez l'analyse de configuration pour Google Cloud NetApp Volumes</block>
-  <block id="ea078abe6abe4c4449bf21e417cc9323" category="paragraph"><block ref="ea078abe6abe4c4449bf21e417cc9323" category="inline-link-macro-rx"></block></block>
-  <block id="eba97ed9f5ee5fe9de4cc6c142ab99f3" category="section-title">Accédez aux systèmes Flex Unified depuis la console Canvas de NetApp</block>
-  <block id="75d6eeccb13e55d1719bbc0e46902abb" category="paragraph">Vous pouvez désormais sélectionner *Accéder au système* pour les systèmes Google Cloud NetApp Volumes Flex Unified détectés depuis le Canvas de NetApp Console. Cela ouvre la page Ressources du système sélectionné afin que vous puissiez consulter les pools de stockage et les volumes associés en suivant le même workflow que pour les systèmes en mode par défaut.</block>
-  <block id="64e5c3133fd54a90590f9f70820b19f0" category="section-title">Évaluations bien conçues pour les ressources Flex Unified</block>
-  <block id="2e6ad7053e4127c0f03d51b577942483" category="paragraph">Le tableau de bord optimisé évalue désormais les pools et volumes de stockage unifiés Flex de Google Cloud NetApp Volumes en termes de marge de capacité SSD, de marge de capacité des volumes et de couverture des stratégies de snapshot. Les résultats s'affichent dans l'expérience optimisée de Google Cloud NetApp Volumes et identifient les ressources en mode Default ou en mode ONTAP.</block>
-  <block id="95ac346bcb6476c44c1697e358f23273" category="paragraph">Des notifications concernant les problèmes de bonne architecture sont disponibles pour Google Cloud NetApp Volumes depuis la page Systèmes de gestion du stockage dans la NetApp Console. Cette fonctionnalité vous aide à identifier rapidement les problèmes de configuration dans vos systèmes Google Cloud NetApp Volumes et à accéder au tableau de bord de bonne architecture des workloads depuis la notification.</block>
   <block id="74bc5d714652a3ae18c64ee93e4ba085" category="section-title">30 septembre 2026</block>
   <block id="935253a377b19143ee00ca184dec844f" category="paragraph">Dans cette version, les workloads ONTAP Volumes introduisent les améliorations en avant-première suivantes :</block>
   <block id="cd4f576093d5ac341dfcb0aaa95386df" category="list-text">*Annulation des tâches de restauration de volumes* : Vous pouvez désormais annuler les tâches de restauration de volumes ONTAP en cours depuis la page de surveillance des tâches, ce qui facilite la gestion des tâches longues ou lentes.</block>
   <block id="f280b51545cc9233bf1322ad4aa41fc1" category="list-text">*Amélioration du rapport sur l’état d’indexation des volumes* : Le tableau de bord ONTAP Volumes rapporte désormais l’état d’indexation avec plus de précision en introduisant le statut <block ref="6136261711c49bf0e8e1dcb22a2c524f" prefix=" " category="inline-code"></block> pour les volumes et les copies d’instantané qui ne sont pas éligibles à l’indexation. Le statut <block ref="838534d879f74e7af515a7de57e72b71" prefix=" " category="inline-code"></block> est désormais réservé aux volumes en attente d’indexation, et les détails du volume affichent maintenant l’état d’indexation de chaque instantané avec une infobulle expliquant pourquoi un volume ou une copie d’instantané ne sera pas indexé.</block>
   <block id="0ab4a270a7306aa53a9216568b919ddc" category="list-text">*Prise en charge de NetApp AFX* : Vous pouvez désormais protéger les volumes hébergés sur des clusters NetApp AFX à 2 et 4 nœuds.</block>
-  <block id="675e5c95b67dc978d87e55c19d5da7e8" category="list-text"><block ref="675e5c95b67dc978d87e55c19d5da7e8" category="inline-link-rx"></block></block>
-  <block id="b27aa3c0e44a53b3c16b5a2e40086669" category="inline-link">Améliorez les configurations Cloud Volumes ONTAP dans Azure à l'aide de Workload Factory</block>
-  <block id="f436c99a1822c57781e57709a1694485" category="list-text"><block ref="f436c99a1822c57781e57709a1694485" category="inline-link-rx"></block></block>
   <block id="21b943021728acb873fd80e1597c6721" category="list-text"><block ref="21b943021728acb873fd80e1597c6721" category="inline-link-macro-rx"></block></block>
-  <block id="e7747671a3237b3e54edff6b14b82ec7" category="doc">Modifier et gérer les règles personnalisées</block>
-  <block id="9a28538fc6f24d40e290259e6e4618ef" category="paragraph">Vous pouvez désormais modifier les règles personnalisées dans le catalogue des règles. Vous pouvez mettre à jour les noms et les paramètres des règles, consulter les modifications dans le chat, valider les modifications et supprimer les règles dont vous n’avez plus besoin.</block>
-  <block id="7df807bf87ff5ba814d9683805deb113" category="inline-link-macro">Apprenez à gérer les règles personnalisées</block>
-  <block id="cccdb28b7d4bae85993e333d16900a95" category="paragraph"><block ref="cccdb28b7d4bae85993e333d16900a95" category="inline-link-macro-rx"></block></block>
-  <block id="6cd19393862a5a23e39bb63b43a86baa" category="section-title">04 octobre 2026</block>
   <block id="389c52d9a18d68d9dd6a3eb24bc88982" category="list-text">*Prise en charge de Azure Entra ID pour Cloud Volumes ONTAP* : vous pouvez désormais utiliser l'authentification Microsoft Entra ID pour les configurations de compartiments de stockage objet Azure si vous ne souhaitez pas utiliser la clé d'accès du compte de stockage pour l'authentification Azure. Cette option est prise en charge pour Cloud Volumes ONTAP sur les systèmes Azure exécutant ONTAP 9.16.1 ou version ultérieure.</block>
   <block id="82d1d9da33b9c6cae173365156457fff" category="section-title">Amélioration des charges de travail VMware</block>
   <block id="a634d68af0dcef53e5b8e038814f60cc" category="doc">Version initiale de Oracle Cloud Infrastructure NetApp Storage Service for Workload Factory</block>
@@ -590,4 +468,6 @@
   <block id="f633c86b0317ff4aa3fa992245e2b77a" category="section-title">15 octobre 2026</block>
   <block id="f06295aec82b8045d499f988d711565d" category="list-text">HA dans une seule zone de disponibilité avec un stockage localement redondant (LRS)</block>
   <block id="145afd276d37daec187001af80160d51" category="paragraph">Avant de déployer Cloud Volumes ONTAP dans Azure, assurez-vous que votre environnement répond aux prérequis suivants :</block>
+  <block id="b81cecd98ea4b4f80df7b99bd8f7480e" category="paragraph">*Prise en charge d'Oracle Data Guard* : NetApp Backup and Recovery prend désormais en charge l'utilisation de groupes de protection pour protéger les bases de données principales et de secours qui utilisent Oracle Data Guard pour une haute disponibilité.</block>
+  <block id="5d3eb6919efa937c33d95e081b5ac2fc" category="section-title">19 octobre 2026</block>
 </blocks>
