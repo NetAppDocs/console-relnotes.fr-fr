@@ -27,7 +27,7 @@ Les transformations de ressources sont appliquées lors de la création d'un pla
 
 Il est désormais possible d'intégrer des scripts personnalisés au processus de basculement afin de coordonner la mise en veille et la reprise des applications. Cette fonctionnalité permet de garantir que les applications sont correctement préparées avant qu'un instantané ne soit répliqué et restauré de manière appropriée, afin que les opérations puissent reprendre sans interruption après un basculement.
 
-Pour savoir comment injecter un script personnalisé, consultez link:https://docs.netapp.com/us-en/data-services-disaster-recovery/use/drplan-create.html["Créez un plan de réplication"^].
+Pour savoir comment injecter un script personnalisé, consultez link:https://docs.netapp.com/us-en/data-services-disaster-recovery/use/task-replication-plan-kubernetes.html["Créez un plan de réplication"^].
 
 
 
