@@ -4,7 +4,7 @@ permalink: release-notes-index.html
 keywords: release notes 
 summary: Consultez l’ensemble complet des notes de publication pour les fonctionnalités d’administration et de stockage de la NetApp Console et les services de données NetApp . 
 ---
-= Index des notes de version
+= Index des notes de version pour NetApp Console
 :hardbreaks:
 :allow-uri-read: 
 :nofooter: 
