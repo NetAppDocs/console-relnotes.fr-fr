@@ -61,6 +61,7 @@ Consultez l’ensemble complet des notes de publication pour les fonctionnalité
 [[data-services]]
 == Services de données
 
+* https://docs.netapp.com/us-en/ai-data-engine/release-notes/whats-new.html["AI Data Engine"^]
 * https://docs.netapp.com/us-en/data-services-backup-recovery/whats-new.html["Sauvegarde et récupération"^]
 * https://docs.netapp.com/us-en/data-services-data-classification/whats-new.html["Classification des données"^]
 * https://docs.netapp.com/us-en/data-services-copy-sync/whats-new.html["Copier et synchroniser"^]
