@@ -35,6 +35,48 @@ Assainissement:: Le service de remédiation a été supprimé le 22 avril 2024.
 
 
 
+[[ai-data-engine]]
+=== AI Data Engine
+
+
+
+==== AI Data Engine 1.3
+
+AI Data Engine est un service d'intelligence des métadonnées, géré via NetApp Console, qui analyse vos systèmes connectés, crée un catalogue de métadonnées et vous offre la visibilité et les outils nécessaires pour optimiser le stockage et gouverner les données à grande échelle. Vous pouvez déployer AI Data Engine en tant qu' https://docs.netapp.com/us-en/ai-data-engine/deploy/deployment-overview.html["Déploiement AIDE sur un seul nœud"^], ou comme déploiement AIDE multi-nœuds si votre environnement nécessite une haute disponibilité basée sur Kubernetes à grande échelle.
+
+AI Data Engine 1.3 est la première version en disponibilité générale (GA).
+
+.Déployez et connectez vos données
+https://docs.netapp.com/us-en/ai-data-engine/deploy/deployment-overview.html["Déployez à l’échelle requise par votre environnement"^]:: Choisissez un déploiement AIDE mono-nœud pour un démarrage rapide sur une seule machine virtuelle, ou un déploiement AIDE multi-nœuds sur votre propre cluster Kubernetes pour une haute disponibilité et une plus grande évolutivité. Si votre environnement nécessite un proxy pour accéder à internet, https://docs.netapp.com/us-en/ai-data-engine/deploy/configure-proxy.html["en savoir plus sur les proxys pour AIDE"^] déployez avec un proxy.
+https://docs.netapp.com/us-en/ai-data-engine/data-sources/connect-data-source.html["Intégrez vos données dans le périmètre"^]:: Connectez les partages de fichiers, les serveurs de base de données et les systèmes StorageGRID, puis choisissez les ressources de données à analyser.
+https://docs.netapp.com/us-en/ai-data-engine/administer/monitor-deployment-health.html["Maintenez l’analyse en bon état"^]:: Surveillez l'état de votre déploiement pour identifier les problèmes susceptibles d'interrompre l'analyse et recueillir les informations nécessaires à leur résolution.
+
+
+.Optimisez le stockage et analysez vos données
+https://docs.netapp.com/us-en/ai-data-engine/investigate/understand-dashboard.html["Récupérer la capacité de stockage"^]:: Identifiez les données froides, obsolètes et en double dans vos systèmes connectés en fonction des seuils que vous avez configurés, et voyez quels systèmes et propriétaires des données présentent les plus fortes concentrations de ces données.
+https://docs.netapp.com/us-en/ai-data-engine/administer/configure-settings.html["Définissez les données froides et obsolètes pour votre organisation"^]:: Définissez les seuils qui déterminent quelles données sont classées comme froides ou obsolètes afin qu'elles correspondent à vos politiques de conservation.
+https://docs.netapp.com/us-en/ai-data-engine/investigate/understand-dashboard.html["Identifier les personnes à contacter concernant les données"^]:: Identifiez les propriétaires des données qui détiennent les plus fortes concentrations de données froides, obsolètes ou dupliquées sur le tableau de bord. Filtrez ensuite par propriétaire ou par groupe dans la vue d'investigation pour examiner les résultats et déterminer les personnes à contacter.
+https://docs.netapp.com/us-en/ai-data-engine/investigate/investigate-data.html["Réduisez les coûts et les risques"^]:: Filtrez dans tous les systèmes connectés selon le temps d'accès, la date de modification, la date de création, la taille du fichier, le statut de doublon et d'autres critères afin de trouver les fichiers qui répondent aux objectifs de gestion des données de votre organisation. Agissez directement sur les résultats ou enregistrez les critères comme stratégie.
+https://docs.netapp.com/us-en/ai-data-engine/investigate/investigate-data.html["Éliminer les données en double"^]:: Recherchez les fichiers qui ont des copies en double sur vos systèmes connectés. Filtrez par l’attribut « Doublons » ou par hachage de fichier pour examiner les groupes de doublons, puis supprimez les copies en double.
+https://docs.netapp.com/us-en/ai-data-engine/investigate/investigate-directories.html["Identifier les risques d'accès"^]:: Identifiez les répertoires dont les autorisations sont ouvertes afin de pouvoir les classer par priorité pour un examen des autorisations.
+https://docs.netapp.com/us-en/ai-data-engine/investigate/investigate-structured.html["Analyser les données structurées"^]:: Trouvez les tables de base de données surdimensionnées ou inutilisées sur vos serveurs de base de données connectés.
+
+
+.Exploitez les données et assurez un suivi dans le temps
+https://docs.netapp.com/us-en/ai-data-engine/investigate/take-actions.html["Réduisez les coûts de stockage"^]:: Appliquez les politiques de cycle de vie des données de votre organisation en copiant et en archivant les fichiers vers des destinations NFS ou SMB, en étiquetant les éléments pour le suivi ou en supprimant définitivement les fichiers conformément à vos exigences de conservation.
+https://docs.netapp.com/us-en/ai-data-engine/policies/create-policy.html["Surveiller en continu les conditions des données"^]:: Enregistrez les critères de filtrage sous forme de stratégies nommées pour suivre les conditions récurrentes des données au fil du temps, telles que les fichiers froids ou surdimensionnés, et recevez des notifications lorsque le nombre de fichiers affectés change.
+
+
+.Accès gouverné à l'IA
+https://docs.netapp.com/us-en/ai-data-engine/mcp/learn-about-mcp.html["Donnez aux clients d'IA un accès gouverné à vos métadonnées"^]:: Connectez Claude Code, Claude Desktop, Cursor ou OpenCode à AI Data Engine via le protocole Model Context Protocol (MCP). Activez les collections que les clients d’IA peuvent rechercher et utilisez les portées Microsoft Entra ID pour contrôler qui peut rechercher dans chaque collection. Les clients d’IA peuvent rechercher des métadonnées et des fichiers de balises.
+
+
+.Administration
+https://docs.netapp.com/us-en/ai-data-engine/administer/manage-users-roles.html["Attribuer les rôles d'administrateur et de lecteur"^]:: Contrôlez qui peut analyser les données et prendre des mesures en attribuant aux utilisateurs de votre organisation le rôle d’administrateur ou de lecteur AI Data Engine.
+
+
+
+
 [[backup-and-recovery]]
 === Sauvegarde et récupération
 
