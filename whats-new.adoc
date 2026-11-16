@@ -935,17 +935,6 @@ Pour plus de détails sur la protection des charges de travail ONTAP Volumes, re
 
 
 
-[[data-classification]]
-=== Classification des données
-
-
-
-==== Améliorations générales
-
-Cette version de Data Classification inclut des améliorations de sécurité et de performances.
-
-
-
 [[disaster-recovery]]
 === Reprise après sinistre
 
