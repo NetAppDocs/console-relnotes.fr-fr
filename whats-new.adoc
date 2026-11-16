@@ -30,6 +30,57 @@ Assainissement:: Le service de remédiation a été supprimé le 22 avril 2024.
 ====
 
 
+[[16-november-2026]]
+== 16 novembre 2026
+
+
+
+[[ransomware-resilience]]
+=== Résilience aux ransomwares
+
+
+
+==== prise en charge de MetroCluster
+
+Ransomware Resilience prend désormais en charge MetroCluster, ce qui permet la protection, la détection et la récupération contre les ransomwares pour les configurations MetroCluster en miroir. Lors de l’activation de la protection contre les ransomwares sur des configurations MetroCluster, les deux systèmes de la paire MetroCluster doivent être ajoutés à la Console. Lorsque vous découvrez et activez la protection sur un côté de la paire, elle est automatiquement activée de l’autre côté.
+
+Lors de la récupération après une attaque par ransomware sur un MetroCluster workload, vous ne pouvez actuellement utiliser qu'une restauration personnalisée.
+
+Pour plus d’informations, voir link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/rp-start-discover.html#metrocluster-discovery["MetroCluster découverte"].
+
+
+
+[[09-november-2026]]
+== 09 novembre 2026
+
+
+
+[[disaster-recovery]]
+=== Reprise après sinistre
+
+
+
+==== Amélioration de la surveillance des tâches lors de leur réexécution
+
+Si vous relancez certaines opérations ayant échoué, été annulées ou expiré, NetApp Disaster Recovery enregistre désormais ces opérations comme de nouvelles tâches et identifie l’utilisateur à l’origine de l’action. Auparavant, Disaster Recovery listait les nouvelles tâches sous la tâche initiale. Cette amélioration crée une piste d’audit plus visible pour les tâches dans Disaster Recovery tant que la demande n’a pas été caviardée. Elle s’applique uniquement aux tâches de découverte, de resynchronisation, de conformité, de protection, de plan de réplication et de conservation des sauvegardes. Les opérations de relance de failback, de failover et de migration ne sont pas listées comme de nouvelles tâches. Seule la tâche la plus récente d’une chaîne de relance est admissible, et une seule relance au maximum peut être mise en file d’attente derrière une tâche en cours d’exécution.
+
+Pour plus d’informations, voir link:https://docs.netapp.com/us-en/data-services-disaster-recovery/use/monitor-jobs.html["Surveiller les tâches dans Disaster Recovery"^].
+
+
+
+[[ransomware-resilience]]
+=== Résilience aux ransomwares
+
+
+
+==== Gestion des extensions de fichiers bloquées
+
+Ransomware Resilience permet désormais de personnaliser la liste des extensions de fichiers autorisées ou bloquées sur un workload lorsque vous avez activé l’option de protection *Block suspicious file extensions*. Grâce à cette amélioration, vous pouvez configurer le workload pour n’autoriser que certains types de fichiers sur la storage VM (SVM) ou pour bloquer certaines extensions de fichiers. Si vous migrez un workload existant utilisant FPolicy pour bloquer les extensions de fichiers suspectes vers Ransomware Resilience, il utilise par défaut une liste d’extensions plus ciblée, bien que vous puissiez personnaliser cette liste. Cette amélioration offre un contrôle plus granulaire sur l’option des extensions de fichiers et vous permet également de créer différentes listes pour différentes SVM.
+
+Pour plus d’informations, voir link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-file-extensions.html["Gérer les extensions de fichiers bloquées dans Ransomware Resilience"].
+
+
+
 [[02-november-2026]]
 == 02 novembre 2026
 
