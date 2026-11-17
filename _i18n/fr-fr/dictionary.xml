@@ -227,7 +227,6 @@
   <block id="582b607a608891f3c15d7fc69b83ace3" category="inline-link">Nouveautés de la page NetApp Backup and Recovery</block>
   <block id="b14e5d1e5d257d38ef28ffaa5bff5da4" category="cell">Allez à la<block ref="a02d6bb1505d3b564f4ec7078c34d1ba" category="inline-link-rx"></block>.</block>
   <block id="91d5470ff0de1d64ddb0c8c3bef0b246" category="cell">NetApp Data Classification</block>
-  <block id="669d8c7c23d7c1df9de525a93369bb8f" category="cell">1.546.0 (10 août 2026)</block>
   <block id="1197f67ce4773f97d566627f2af97b74" category="inline-link">Nouveautés de la page Classification NetApp</block>
   <block id="c1c74cf0737facb2879b7e9d70e13707" category="cell">Allez à la<block ref="f887ca45067fd52c2ee2854f67f70a25" category="inline-link-rx"></block>.</block>
   <block id="1e464951e7ffdbf5ba8f20ee5038f44f" category="section-title">17 septembre 2026</block>
@@ -601,9 +600,15 @@
   <block id="e370f8f4d5db9e4f93257ac02adddec3" category="section-title">09 novembre 2026</block>
   <block id="9bdb3ee516d1e515bfeeccf1df40576e" category="doc">Agent Console 4.13.0</block>
   <block id="d3b38c9d33046f2e3c185918b58a83ca" category="paragraph">La version 4.13.0 prend en charge à la fois le mode standard et le mode restreint.</block>
-  <block id="8d40f2642d0505b33483f580f9515a11" category="paragraph">Cette version de l'agent Console inclut des améliorations de sécurité et des corrections de bugs, ainsi que la fonctionnalité nouvelle suivante.</block>
   <block id="6ca1b90cd272b2a7ade71c2fc662e45c" category="paragraph-title">Créez automatiquement le rôle de déploiement AWS lors du déploiement d’un agent Console</block>
   <block id="d6591183e410cea7db23b6baa5d1dea3" category="inline-link-macro">Découvrez comment déployer un agent Console dans AWS depuis la Console</block>
   <block id="71567bfcfb6d698d6ccd52f047c0bbf4" category="paragraph">Vous n'avez plus besoin de créer le rôle IAM pour déployer un Console agent dans AWS avant de commencer. La NetApp Console peut créer ce rôle pour vous. <block ref="64e2803082978c21df13de1f40aff9c6" category="inline-link-macro-rx"></block></block>
   <block id="d8a7fd7644a3770509948debea790466" category="paragraph">Ransomware Resilience permet désormais de personnaliser la liste des extensions de fichiers autorisées ou bloquées sur un workload lorsque vous avez activé l’option de protection *Block suspicious file extensions*. Grâce à cette amélioration, vous pouvez configurer le workload pour n’autoriser que certains types de fichiers sur la storage VM (SVM) ou pour bloquer certaines extensions de fichiers. Cette amélioration offre un contrôle plus granulaire sur l’option des extensions de fichiers et vous permet également de créer différentes listes pour différentes SVM.</block>
+  <block id="daa04540ede89ebe21aa75e4bb91c101" category="cell">1.56.0 (10 août 2026)</block>
+  <block id="d68cd763bb6443bb6e7c8aa2306f8ef4" category="paragraph">Cette version de l’agent Console inclut des améliorations de sécurité et des corrections de bogues, ainsi que la nouvelle fonctionnalité suivante. Lorsque vous mettez à niveau un agent Console déployé sur vCenter vers la version 4.13.0 à l’aide d’une image ISO, assurez-vous que la machine virtuelle redémarre une fois la mise à niveau terminée. La machine virtuelle peut redémarrer automatiquement.</block>
+  <block id="fb37b2b6fa74940a30d42aec5c20c8f5" category="paragraph">Cette version inclut des améliorations de sécurité et des corrections de bugs, ainsi que la nouvelle fonctionnalité suivante.</block>
+  <block id="d2033ec1ec99f494b181d63a27d56e2d" category="section-title">Attribuez le rôle de contributeur Cloud Volumes ONTAP</block>
+  <block id="a849f909985995e89c42154f270a1245" category="inline-link-macro">En savoir plus sur le contrôle d'accès basé sur les rôles pour Cloud Volumes ONTAP</block>
+  <block id="cd27e9569393bf08fe35ccdf2583e61b" category="paragraph">Vous pouvez désormais attribuer le rôle de contributeur Cloud Volumes ONTAP afin d’offrir aux membres un large accès à la gestion des systèmes Cloud Volumes ONTAP sans leur permettre de supprimer des systèmes, des volumes, des agrégats ou des relations de réplication. <block ref="8c5db5921f383526df21d84d3b1bfd83" category="inline-link-macro-rx"></block>.</block>
+  <block id="3cc38715797be469f39edd81c803bf02" category="section-title">17 novembre 2026</block>
 </blocks>
