@@ -55,6 +55,28 @@ Pour plus d’informations, voir link:https://docs.netapp.com/us-en/data-service
 
 
 
+[[console-setup-and-administration]]
+=== Configuration et administration de la console
+
+
+
+==== Agent Console 4.13.0
+
+La version 4.13.0 prend en charge à la fois le mode standard et le mode restreint.
+
+Cette version de l'agent Console inclut des améliorations de sécurité et des corrections de bugs, ainsi que la fonctionnalité nouvelle suivante.
+
+.Créez automatiquement le rôle de déploiement AWS lors du déploiement d’un agent Console
+Vous n'avez plus besoin de créer le rôle IAM pour déployer un Console agent dans AWS avant de commencer. La NetApp Console peut créer ce rôle pour vous. link:https://docs.netapp.com/us-en/console-setup-admin/task-install-agent-aws-console.html["Découvrez comment déployer un agent Console dans AWS depuis la Console"^]
+
+
+
+==== Administration de la NetApp Console
+
+Cette version inclut des améliorations de sécurité et des corrections de bugs.
+
+
+
 [[disaster-recovery]]
 === Reprise après sinistre
 
@@ -75,7 +97,7 @@ Pour plus d’informations, voir link:https://docs.netapp.com/us-en/data-service
 
 ==== Gestion des extensions de fichiers bloquées
 
-Ransomware Resilience permet désormais de personnaliser la liste des extensions de fichiers autorisées ou bloquées sur un workload lorsque vous avez activé l’option de protection *Block suspicious file extensions*. Grâce à cette amélioration, vous pouvez configurer le workload pour n’autoriser que certains types de fichiers sur la storage VM (SVM) ou pour bloquer certaines extensions de fichiers. Si vous migrez un workload existant utilisant FPolicy pour bloquer les extensions de fichiers suspectes vers Ransomware Resilience, il utilise par défaut une liste d’extensions plus ciblée, bien que vous puissiez personnaliser cette liste. Cette amélioration offre un contrôle plus granulaire sur l’option des extensions de fichiers et vous permet également de créer différentes listes pour différentes SVM.
+Ransomware Resilience permet désormais de personnaliser la liste des extensions de fichiers autorisées ou bloquées sur un workload lorsque vous avez activé l’option de protection *Block suspicious file extensions*. Grâce à cette amélioration, vous pouvez configurer le workload pour n’autoriser que certains types de fichiers sur la storage VM (SVM) ou pour bloquer certaines extensions de fichiers. Cette amélioration offre un contrôle plus granulaire sur l’option des extensions de fichiers et vous permet également de créer différentes listes pour différentes SVM.
 
 Pour plus d’informations, voir link:https://docs.netapp.com/us-en/data-services-ransomware-resilience/task-file-extensions.html["Gérer les extensions de fichiers bloquées dans Ransomware Resilience"].
 
