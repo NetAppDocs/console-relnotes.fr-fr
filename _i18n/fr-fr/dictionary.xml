@@ -633,4 +633,11 @@
   <block id="00a970696886f2596c6dc19470a99b67" category="paragraph">Cette fonctionnalité est disponible en avant-première publique. La configuration est prise en charge uniquement via ONTAP CLI. L'intégration à NetApp Console n'est pas encore disponible.</block>
   <block id="840c0d6ab3aac46cebc73c413bcb3de2" category="inline-link">Configurer l'authentification Microsoft Entra ID pour SMB</block>
   <block id="4751d6cb0ce22c95620735a0f455e8e4" category="paragraph"><block ref="4751d6cb0ce22c95620735a0f455e8e4" category="inline-link-rx"></block></block>
+  <block id="8e185e7635097d7251137556c4d7b148" category="doc">Offre PAYGO distincte pour Cloud Volumes ONTAP dans AWS Marketplace</block>
+  <block id="e22492ae15b7a204416f84c3bc5e2d1e" category="paragraph">NetApp propose désormais une offre distincte de paiement à l’usage (PAYGO) pour Cloud Volumes ONTAP dans AWS Marketplace via NetApp Standalone Listing (NSL). NetApp a précédemment présenté l’abonnement autonome Cloud Volumes ONTAP pour s’adapter aux modifications apportées au AWS Enterprise Discount Program (EDP). L’offre PAYGO est désormais disponible dans la même offre NSL que le contrat annuel Cloud Volumes ONTAP, ce qui facilite le suivi de l’utilisation PAYGO, la surveillance des frais de dépassement et la gestion des coûts de consommation.</block>
+  <block id="76d4be3bca7251e78e8b9d340a9e88e6" category="paragraph">Le contrat annuel Cloud Volumes ONTAP et l’offre PAYGO restent tous deux distincts du contrat annuel et des offres PAYGO de NetApp Intelligence Services (NIS), ce qui permet une facturation séparée pour la capacité Cloud Volumes ONTAP et les services de données.</block>
+  <block id="79ef9f61ccfcabc1d70e24a061eef1a5" category="inline-link">En savoir plus sur les préférences de facturation</block>
+  <block id="90354e46cc101991e55370e682628f58" category="inline-link">Déployez Cloud Volumes ONTAP à l'aide de l'offre autonome disponible sur AWS Marketplace</block>
+  <block id="464804aa8527c7a5675dd4c8d2b5f2b5" category="paragraph"><block ref="70563190697b86d4b7fef9663334a2c7" category="inline-link-rx"></block> <block ref="2d3a44ea7e8ca99b971ec5f419723d79" category="inline-link-rx"></block></block>
+  <block id="bc2dc85706f0ec1cefd21d3f849eb1e9" category="section-title">18 novembre 2026</block>
 </blocks>
