@@ -139,12 +139,6 @@
   <block id="c85cd7cc7711f70f8bc51d35495063e2" category="section-title">Amélioration des charges de travail Oracle Database</block>
   <block id="76665439cf119912213e2021a654bd03" category="inline-link">Découvrez comment protéger les charges de travail Oracle Database avec NetApp Backup and Recovery</block>
   <block id="883ef32320e466646eafa77fe6544695" category="paragraph">Pour plus de détails sur la protection des charges de travail Oracle Database, consultez<block ref="ceba14b704f10c1caedce91a9e3962ca" category="inline-link-rx"></block>.</block>
-  <block id="8f24b7f6865330e0469a323257c15e3e" category="doc">Présentation de Value Insights</block>
-  <block id="6452c5c2797e19754a12693289884cfc" category="paragraph">La fonctionnalité Value Insights centralise les informations relatives à l'état général, aux économies, à la stabilité et à la sécurité des systèmes ONTAP. Vous pouvez utiliser ces informations pour améliorer l'état et les performances de votre système ONTAP grâce à une vision continue et basée sur les données de votre environnement ONTAP.</block>
-  <block id="581e60c850c8a18ee458ccadb49ea628" category="admonition">Value Insights est uniquement disponible pour les systèmes ONTAP.</block>
-  <block id="4818a68f374e0754b0e7babe3b943331" category="inline-link-macro">Perspectives sur la valeur</block>
-  <block id="0f040cc490eb4ad3366e4020a72ff0c2" category="paragraph">En savoir plus sur <block ref="d7e943b7b795a7bed90e4ce411daf4a9" category="inline-link-macro-rx"></block>.</block>
-  <block id="f1c51501659d7bb0b0146707e6fe220c" category="section-title">20 août 2026</block>
   <block id="9a707d77cf426a13d6626ab2d67f565d" category="doc">Prise en charge des régions Austria East et Belgium Central dans Azure</block>
   <block id="44e833213a99257d69192896111996f4" category="paragraph">Vous pouvez désormais déployer Cloud Volumes ONTAP 9.12.1 GA et versions ultérieures dans les régions Austria East (austriaeast) et Belgium Central (belgiumcentral) dans Azure. Les types de déploiement suivants sont pris en charge :</block>
   <block id="f6bbe5efd3f2141104f822ac01ed3102" category="section-title">25 août 2026</block>
@@ -611,4 +605,32 @@
   <block id="a849f909985995e89c42154f270a1245" category="inline-link-macro">En savoir plus sur le contrôle d'accès basé sur les rôles pour Cloud Volumes ONTAP</block>
   <block id="cd27e9569393bf08fe35ccdf2583e61b" category="paragraph">Vous pouvez désormais attribuer le rôle de contributeur Cloud Volumes ONTAP afin d’offrir aux membres un large accès à la gestion des systèmes Cloud Volumes ONTAP sans leur permettre de supprimer des systèmes, des volumes, des agrégats ou des relations de réplication. <block ref="8c5db5921f383526df21d84d3b1bfd83" category="inline-link-macro-rx"></block>.</block>
   <block id="3cc38715797be469f39edd81c803bf02" category="section-title">17 novembre 2026</block>
+  <block id="0826142964deaae8afd3cda87c05f9f5" category="doc">Nouveau rôle de contributeur Cloud Volumes ONTAP</block>
+  <block id="14332acd533c12a2fdcddeb8adea61b3" category="paragraph">NetApp ajoute le rôle *contributeur Cloud Volumes ONTAP*, qui dispose de plus d'autorisations que le rôle d'opérateur, mais de moins que le rôle d'administrateur. Un utilisateur ayant le rôle d'opérateur peut effectuer plusieurs flux de travail quotidiens, y compris des tâches de réplication SnapMirror. Le rôle d'administrateur couvre ces flux de travail, mais il permet également aux administrateurs de supprimer des systèmes Cloud Volumes ONTAP, ce que de nombreuses organisations ne souhaitent pas pour les utilisateurs opérationnels. Ce rôle est important, car la Console ne prend actuellement pas en charge la vérification multi-administrateur (MAV), sans laquelle un administrateur peut effectuer des opérations sensibles, comme la suppression de systèmes, sans seconde approbation. Le rôle de contributeur permet aux utilisateurs d'effectuer la plupart des opérations critiques, comme la création de systèmes, la gestion de la réplication et la gestion du stockage, tout en empêchant la suppression de systèmes.</block>
+  <block id="0fba01d9b0e41b7d0de97f3cfdb7dcec" category="paragraph">Le rôle de contributeur inclut toutes les autorisations d'opérateur, y compris des fonctionnalités supplémentaires permettant de :</block>
+  <block id="535581d758075804b4cc52814e262a35" category="list-text">Créer des systèmes Cloud Volumes ONTAP</block>
+  <block id="31252110f902a9c33dd1668a2ddf9d60" category="list-text">Mettez à jour les paramètres système, par exemple en modifiant le type d'instance ou en mettant à niveau la version d'ONTAP</block>
+  <block id="1c755f1ffdbed31cec4887edbc313b67" category="list-text">Gérer la réplication, notamment la rupture, la resynchronisation, la resynchronisation inverse et la modification des planifications de réplication et des débits de transfert</block>
+  <block id="caa47e3dc29de6679c6dde1ec5cda5ca" category="list-text">Gérer le stockage, notamment en ajoutant des agrégats et en augmentant la capacité</block>
+  <block id="105df9d41da1a27f8246ba8df705efc9" category="paragraph">Un utilisateur ayant le rôle de contributeur ne peut pas effectuer ces tâches :</block>
+  <block id="75bfd853ccf811b5f9e995e9b420f0ee" category="list-text">Supprimer les systèmes, les volumes, les agrégats ou les relations de réplication</block>
+  <block id="26539d0b254897846cdbf2f9df3a2da2" category="list-text">Allumer ou éteindre les systèmes</block>
+  <block id="cc940bf2667209e4d71ddc12d8f2e5ed" category="list-text">Définir un mot de passe</block>
+  <block id="c8764bac128bda390f467bc548de68a5" category="list-text">Accédez à ONTAP System Manager</block>
+  <block id="2ece167d1d26caae4635d1e5a4d74785" category="paragraph">Vous attribuez le rôle de contributeur depuis *Administration &gt; Identité*, de la même manière que vous attribuez aux utilisateurs les autres rôles Cloud Volumes ONTAP.</block>
+  <block id="38231d7ab948e14954505c434dbc3406" category="inline-link">Rôles d'accès Cloud Volumes ONTAP dans la NetApp Console</block>
+  <block id="ad25b993a54c0c353ed1957e95a74d22" category="list-text"><block ref="ad25b993a54c0c353ed1957e95a74d22" category="inline-link-rx"></block></block>
+  <block id="07ee22b21ec2682df904eeff73509ddc" category="inline-link">Configurez l'accès basé sur les rôles pour Cloud Volumes ONTAP dans la NetApp Console</block>
+  <block id="c1fb6aa9d061f2b296f150910042d1d2" category="list-text"><block ref="c1fb6aa9d061f2b296f150910042d1d2" category="inline-link-rx"></block></block>
+  <block id="f50849d7a51a2af22661c16f98df65ff" category="inline-link">NetApp Console rôles d'accès</block>
+  <block id="7d8c2cdcdb7f43c46c64f18123f8002b" category="list-text"><block ref="7d8c2cdcdb7f43c46c64f18123f8002b" category="inline-link-rx"></block></block>
+  <block id="ef4dbf81033bbcf56fd22e4eb2c913da" category="section-title">Authentification hybride des utilisateurs Microsoft Entra ID pour SMB (aperçu public)</block>
+  <block id="4df90909cc2d04997870c4949a39d14b" category="inline-link">Microsoft Entra ID</block>
+  <block id="dd462d22f562824f1314114fe0506920" category="paragraph">Cloud Volumes ONTAP 9.19.1 et versions ultérieures prennent en charge l'authentification hybride des utilisateurs avec<block ref="c92d60eae0a0d9ece702070bd9116954" category="inline-link-rx"></block> pour accéder aux partages SMB.</block>
+  <block id="56ed7687386c4ddd3c49ce19fe20121e" category="paragraph">Auparavant, Cloud Volumes ONTAP ne prenait en charge l'authentification SMB que pour les utilisateurs de domaine, ce qui nécessitait une configuration Active Directory (AD) locale. Grâce à l'authentification hybride des utilisateurs, vous pouvez étendre l'authentification SMB au cloud via Microsoft Entra ID, tout en continuant à utiliser votre infrastructure AD locale existante.</block>
+  <block id="66b8d64c32b9c85c4b6e1af3b9d47224" category="inline-link">Microsoft Entra Connect</block>
+  <block id="b733c58ccb9be823aebceeba2e6d6c49" category="paragraph">Avec l'authentification hybride des utilisateurs, les utilisateurs sont créés dans l'Active Directory local et synchronisés avec Microsoft Entra ID à l'aide de <block ref="98031aa8f0e636ad4eef034480e4f6c2" category="inline-link-rx"></block>. ONTAP authentifie les utilisateurs qui accèdent aux partages SMB en communiquant à la fois avec l'Active Directory local et Microsoft Entra ID.</block>
+  <block id="00a970696886f2596c6dc19470a99b67" category="paragraph">Cette fonctionnalité est disponible en avant-première publique. La configuration est prise en charge uniquement via ONTAP CLI. L'intégration à NetApp Console n'est pas encore disponible.</block>
+  <block id="840c0d6ab3aac46cebc73c413bcb3de2" category="inline-link">Configurer l'authentification Microsoft Entra ID pour SMB</block>
+  <block id="4751d6cb0ce22c95620735a0f455e8e4" category="paragraph"><block ref="4751d6cb0ce22c95620735a0f455e8e4" category="inline-link-rx"></block></block>
 </blocks>
