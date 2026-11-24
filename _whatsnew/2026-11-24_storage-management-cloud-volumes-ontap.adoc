@@ -1,0 +1,17 @@
+= Prise en charge des régions Danemark Est et Inde Centre-Sud dans Azure
+:allow-uri-read: 
+
+
+
+
+[[support-for-denmark-east-and-india-south-central-regions-in-azure]]
+=== Prise en charge des régions Danemark Est et Inde Centre-Sud dans Azure
+
+Vous pouvez désormais déployer Cloud Volumes ONTAP 9.12.1 GA et les versions ultérieures dans les régions Danemark Est (denmarkeast) et Inde Centre-Sud (indiasouthcentral) d'Azure. Les types de déploiement suivants sont pris en charge :
+
+* Nœud unique
+* HA dans une seule zone de disponibilité avec un stockage localement redondant (LRS)
+* HA dans plusieurs zones de disponibilité utilisant le stockage redondant interzone (ZRS) - Uniquement pour India South Central
+
+
+Pour obtenir la liste de toutes les régions prises en charge, veuillez vous référer au https://www.netapp.com/cloud-volumes-ontap/supported-regions/["Carte des régions mondiales sous Azure"^].

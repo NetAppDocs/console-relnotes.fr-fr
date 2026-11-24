@@ -30,6 +30,29 @@ Assainissement:: Le service de remédiation a été supprimé le 22 avril 2024.
 ====
 
 
+[[24-november-2026]]
+== 24 novembre 2026
+
+
+
+[[cloud-volumes-ontap]]
+=== Cloud Volumes ONTAP
+
+
+
+==== Prise en charge des régions Danemark Est et Inde Centre-Sud dans Azure
+
+Vous pouvez désormais déployer Cloud Volumes ONTAP 9.12.1 GA et les versions ultérieures dans les régions Danemark Est (denmarkeast) et Inde Centre-Sud (indiasouthcentral) d'Azure. Les types de déploiement suivants sont pris en charge :
+
+* Nœud unique
+* HA dans une seule zone de disponibilité avec un stockage localement redondant (LRS)
+* HA dans plusieurs zones de disponibilité utilisant le stockage redondant interzone (ZRS) - Uniquement pour India South Central
+
+
+Pour obtenir la liste de toutes les régions prises en charge, veuillez vous référer au https://www.netapp.com/cloud-volumes-ontap/supported-regions/["Carte des régions mondiales sous Azure"^].
+
+
+
 [[23-november-2026]]
 == 23 novembre 2026
 
